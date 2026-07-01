@@ -292,5 +292,19 @@
     "summary": "恋愛を体験する前と後で、同じ曲が違って聞こえる理由をたどる。あの頃に戻りたい気持ちの曲。",
     "status": "published",
     "featured_order": 21
+  },
+  {
+    "id": "makihara-noriyuki-002",
+    "title": "もう恋なんてしない",
+    "artist": "槇原敬之",
+    "release_year": 1992,
+    "decade": "1990年代",
+    "article_url": "/articles/makihara-noriyuki-002.html",
+    "youtube_url": "https://youtu.be/naz0-szzYXk?si=QDZlzETotjFtuONk",
+    "source_owner": "Warner Music Japan公式YouTubeチャンネル",
+    "created_at": "2026-07-02",
+    "summary": "私の中の槇原さんといえばこの曲。失恋の後に残る生活、強がり、寂しさをたどる。",
+    "status": "published",
+    "featured_order": 22
   }
 ]
