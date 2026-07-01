@@ -128,5 +128,18 @@
     "created_at": "2026-07-01",
     "summary": "古典的なビートが、古いのに新しく響く曲。東京の記憶と磐田の古い家や土地を重ねる。",
     "status": "published"
+  },
+  {
+    "id": "kirinji-001",
+    "title": "エイリアンズ",
+    "artist": "キリンジ",
+    "release_year": 2000,
+    "decade": "2000年代",
+    "article_url": "/articles/kirinji-001.html",
+    "youtube_url": "https://youtu.be/w05Q_aZKkFw",
+    "source_owner": "Warner Music Japan公式YouTubeチャンネル",
+    "created_at": "2026-07-01",
+    "summary": "同じ街にいても、少しだけよそ者でいる夜の曲。東京の孤独と磐田の帰属感をたどる。",
+    "status": "published"
   }
 ]
