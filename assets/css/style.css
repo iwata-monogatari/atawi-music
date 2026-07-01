@@ -29,3 +29,5 @@
 .hero #site-title{max-width:14em}
 .hero .lead{max-width:43em}
 .card a{overflow-wrap:anywhere}
+.card-ready{text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:118px}
+.card-wide{grid-column:1/-1}
