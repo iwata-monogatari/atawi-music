@@ -1,74 +1,36 @@
-# ATAWI MUSIC
+# ATAWI MUSIC Complete Package
 
-**ATAWI MUSIC｜大石浩之の、過去をさかのぼり、今を聴く音楽考察**
+作成日：2026-07-01
 
-> 過去をさかのぼるほど、今が大事になる。
+## 内容
 
-好きだった曲を、もう一度さかのぼって聴く。あの頃の街や、若い頃の自分の記憶とともに、一曲ずつ考えていく音楽考察サイトです。
+- `docs/atawi_music_site_design_complete.md`  
+  DB設計まで組み込んだ完全版サイト設計書
 
-Presented by Hiroyuki Oishi
+- `docs/one_shot_implementation_prompt.md`  
+  Codex / Claude Code / Antigravity へそのまま渡す一括実装プロンプト
 
----
+- `docs/atawi_music_youtube_song_analysis_skill_text_only.md`  
+  YouTubeリンクから曲分析・WEBページ化する文字主体版スキル
 
-## 構成
+- `data/songs.json`  
+  初期2曲を登録した音楽台帳
 
-```
-/
-├── index.html              トップ（トップコピー・テーマ・最近の一曲）
-├── about.html              プロフィール
-├── home-and-memory.html    家と記憶（本業との接続）
-├── contact.html            お問い合わせ
-├── articles/
-│   ├── index.html          記事一覧（songs.json を読み込み表示）
-│   ├── somewhere-in-tokyo.html
-│   └── nulbarich-tokyo.html
-├── themes/                 テーマ別一覧（songs.json をフィルタ表示）
-│   ├── tokyo.html          東京で頑張っていた頃
-│   ├── night.html          夜に残る曲
-│   ├── city.html           街を思い出す曲
-│   ├── work.html           仕事帰りに効く曲
-│   └── adult.html          大人になって分かる曲
-├── assets/
-│   ├── css/style.css       黒・チャコール基調＋控えめゴールド
-│   ├── js/main.js          songs.json を読み込み曲一覧を描画
-│   └── images/
-│       ├── logo/           ロゴと favicon.png を配置
-│       └── profile/        大石浩之の顔写真を配置
-├── data/
-│   ├── songs.json          曲データベース（表示の元データ）
-│   ├── artists.json
-│   ├── genres.json
-│   └── themes.json
-├── robots.txt
-├── sitemap.xml
-└── README.md
-```
+- `data/artists.json` / `data/genres.json` / `data/themes.json`  
+  将来拡張用の分類台帳
 
-## 曲の追加方法
+- `assets/images/logo/atawi-music-logo-reference.png`  
+  ロゴ参考画像
 
-`data/songs.json` の `songs` 配列に1件追加し、`articles/` に記事HTMLを1枚置くだけで、
-記事一覧・該当テーマページに自動で表示されます（main.js が読み込み）。
+- `assets/images/profile/oishi.jpg`  
+  大石浩之プロフィール写真
 
-各曲は id / title / artist / artist_kana / release_year / decade / genre /
-songwriters / youtube_url / article_url / themes / mood / personal_context / status を持ちます。
+## 方針
 
-## 記事方針
+曲が主役。  
+文章が軸。  
+顔写真は署名。  
+ロゴは看板。  
+画像素材は不要。
 
-- 歌詞の全文転載・長い引用は禁止
-- 公式 YouTube リンク（または埋め込み）を使用
-- 本文は大石浩之自身の解釈・記憶・人生との接続を中心に
-- 画像素材は不要（ロゴと本人の顔写真のみ）
-
-## 公開（Cloudflare Pages）
-
-- Framework preset: **None**
-- Build command: **（空欄）**
-- Build output directory: **/**
-
-ビルド不要の静的サイトです。リポジトリ直下をそのまま公開できます。
-
-## 画像の差し替え
-
-- `assets/images/logo/favicon.png` … サイトアイコン（正方形）
-- `assets/images/logo/logo.png` … 横長ロゴ（任意）
-- `assets/images/profile/` … 大石浩之の顔写真（about.html のプレースホルダーと差し替え）
+静的HTML/CSS/JS + data/songs.json で開始し、GitHub → Cloudflare Pagesで公開する。

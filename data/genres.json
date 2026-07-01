@@ -1,8 +1,7 @@
-{
-  "genres": [
-    { "id": "j-pop", "name": "J-POP" },
-    { "id": "city-pop", "name": "シティポップ" },
-    { "id": "aor", "name": "AOR" },
-    { "id": "neo-soul", "name": "ネオソウル" }
-  ]
-}
+[
+  "J-POP",
+  "大人のポップス",
+  "シティポップ",
+  "R&B",
+  "オルタナティブ"
+]
