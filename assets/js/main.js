@@ -68,7 +68,10 @@
   function pager(meta) {
     if (meta.totalPages <= 1) return "";
     var html = '<nav class="pagination" aria-label="記事ページ">';
-    if (kind !== "home") html += '<a class="btn-gold" href="' + e(bp() || "./") + '">1ページ目</a>';
+    if (kind === "home") {
+      return html + '<a class="btn-gold" href="' + e(pageHref(2)) + '">11件目以降を読む</a></nav>';
+    }
+    html += '<a class="btn-gold" href="' + e(bp() || "./") + '">トップの10件へ</a>';
     for (var i = 2; i <= meta.totalPages; i++) {
       html += '<a class="btn-gold' + (i === meta.page ? " is-active" : "") + '" href="' + e(pageHref(i)) + '">' + i + "ページ目</a>";
     }
