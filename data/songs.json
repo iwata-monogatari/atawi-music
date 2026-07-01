@@ -76,5 +76,18 @@
     "created_at": "2026-07-01",
     "summary": "働いて、帰って、なお残るものを見つめる曲。東京の記憶と磐田の現在をつなぎ直す。",
     "status": "published"
+  },
+  {
+    "id": "shiina-ringo-001",
+    "title": "茎（STEM）〜大名遊ビ編〜",
+    "artist": "椎名林檎",
+    "release_year": 2003,
+    "decade": "2000年代",
+    "article_url": "/articles/shiina-ringo-001.html",
+    "youtube_url": "https://youtu.be/fVCCe2tuL20",
+    "source_owner": "SheenaRingoVEVO公式YouTubeチャンネル",
+    "created_at": "2026-07-01",
+    "summary": "根を持つことと、揺れながら立つことを思い出す曲。東京の記憶と家や土地の時間をたどる。",
+    "status": "published"
   }
 ]
