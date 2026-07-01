@@ -3,111 +3,105 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ATAWI MUSIC｜大石浩之の、過去をさかのぼり、今を聴く音楽考察</title>
-<meta name="description" content="ATAWI MUSIC｜大石浩之の、過去をさかのぼり、今を聴く音楽考察">
-<meta property="og:title" content="ATAWI MUSIC｜大石浩之の、過去をさかのぼり、今を聴く音楽考察">
-<meta property="og:description" content="ATAWI MUSIC｜大石浩之の、過去をさかのぼり、今を聴く音楽考察">
+<title>ATAWI MUSIC | 大石浩之の、過去をさかのぼり、今を聴く音楽日記</title>
+<meta name="description" content="ATAWI MUSICは、大石浩之が音楽と記憶を静かに書き残す場所です。曲、歌手、年代から読む曲を選べます。">
+<meta property="og:title" content="ATAWI MUSIC">
+<meta property="og:description" content="大石浩之が音楽と記憶を静かに書き残す場所。曲、歌手、年代から選べます。">
 <meta property="og:type" content="website">
-<link rel="icon" href="assets/images/logo/favicon.png">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 <header class="site-header">
-  <div class="wrap">
-    <div class="brand">
-      <a href="index.html">
-        <span class="logo-text">ATAWI MUSIC</span>
-        <span class="logo-sub">Presented by Hiroyuki Oishi</span>
-      </a>
-    </div>
-    <nav class="main-nav">
-      <ul>
-        <li><a href="index.html" aria-current="page">ホーム</a></li>
-        <li><a href="articles/index.html">記事一覧</a></li>
-        <li><a href="home-and-memory.html">家と記憶</a></li>
-        <li><a href="about.html">プロフィール</a></li>
-        <li><a href="contact.html">お問い合わせ</a></li>
-      </ul>
-    </nav>
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="ATAWI MUSIC トップ">
+      <img class="brand-logo" src="assets/images/logo/atawi-music-logo-reference.png" alt="ATAWI MUSIC">
+      <span class="brand-sub">Presented by Hiroyuki Oishi</span>
+    </a>
   </div>
 </header>
+
 <main>
-  <section class="hero">
-    <div class="wrap">
-      <p class="copy">過去をさかのぼるほど、<span class="accent">今が大事になる。</span></p>
-      <p class="lead">好きだった曲を、もう一度さかのぼって聴く。あの頃の街や、若い頃の自分の記憶とともに、一曲ずつ考えていく音楽考察の場所です。</p>
-      <p class="presented">Presented by Hiroyuki Oishi</p>
-    </div>
-  </section>
-
-  <section>
-    <div class="wrap">
-      <h2 class="section-title"><span class="en">Themes</span>テーマから探す</h2>
-      <p class="section-desc">その日の気分や、思い出したい時間に合わせて。</p>
-      <div class="theme-grid">
-      <div class="theme-card">
-        <a href="themes/tokyo.html">
-          <h3>東京で頑張っていた頃</h3>
-          <p>あの街で過ごした日々を思い出させてくれる曲。</p>
-        </a>
+  <section class="hero" aria-labelledby="site-title">
+    <div class="wrap hero-inner">
+      <div class="hero-photo-wrap">
+        <img class="hero-photo" src="assets/images/profile/oishi.jpg" alt="大石浩之">
       </div>
-      <div class="theme-card">
-        <a href="themes/night.html">
-          <h3>夜に残る曲</h3>
-          <p>一日の終わり、夜に静かに沁みてくる曲。</p>
-        </a>
-      </div>
-      <div class="theme-card">
-        <a href="themes/work.html">
-          <h3>仕事帰りに効く曲</h3>
-          <p>仕事を終えた帰り道に、ふと寄り添ってくれる曲。</p>
-        </a>
-      </div>
-      <div class="theme-card">
-        <a href="themes/adult.html">
-          <h3>大人になって分かる曲</h3>
-          <p>歳を重ねてから、ようやく意味が分かる曲。</p>
-        </a>
-      </div>
-      <div class="theme-card">
-        <a href="themes/city.html">
-          <h3>街を思い出す曲</h3>
-          <p>かつて暮らした街や、通り過ぎた風景を呼び起こす曲。</p>
-        </a>
-      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">ATAWI MUSIC</p>
+        <h1 id="site-title">大石浩之の、過去をさかのぼり、今を聴く音楽日記</h1>
+        <p class="lead">夜に聴いた一曲が、昔の街や、若い頃の自分を連れてくる。ATAWI MUSICは、大石浩之が音楽と記憶を静かに書き残す場所です。</p>
       </div>
     </div>
   </section>
 
-  <section>
+  <section class="song-entry" aria-labelledby="songs-title">
     <div class="wrap">
-      <h2 class="section-title"><span class="en">Latest</span>最近の一曲</h2>
-      <div data-song-list></div>
-      <p style="margin-top:22px;"><a href="articles/index.html">すべての記事を見る →</a></p>
+      <div class="section-head">
+        <h2 id="songs-title">紹介している曲</h2>
+        <p>曲名、歌手、年代から選べます。</p>
+      </div>
+
+      <div class="filters" aria-label="曲の絞り込み">
+        <div class="filter-group">
+          <h3>歌手別で選ぶ</h3>
+          <div class="chip-row" data-artist-filters>
+            <button class="chip is-active" type="button" data-filter-type="all" data-filter-value="all">すべて</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <h3>年代別で選ぶ</h3>
+          <div class="chip-row" data-era-filters>
+            <button class="chip is-active" type="button" data-filter-type="all" data-filter-value="all">すべて</button>
+          </div>
+        </div>
+      </div>
+
+      <div data-status class="status" role="status" aria-live="polite"></div>
+
+      <div data-song-list>
+        <ul class="song-list">
+          <li class="song-item" data-artist="Nulbarich" data-era="2020年代">
+            <a class="song-link" href="articles/nulbarich-tokyo.html">
+              <span class="song-title">TOKYO</span>
+              <span class="song-detail">2020年代 / Nulbarich</span>
+              <span class="song-note">東京で揺れながら働いていた頃の自分を思い出す曲</span>
+              <span class="read-label">読む</span>
+            </a>
+          </li>
+          <li class="song-item" data-artist="古内東子" data-era="2000年代">
+            <a class="song-link" href="articles/somewhere-in-tokyo.html">
+              <span class="song-title">somewhere in TOKYO</span>
+              <span class="song-detail">2000年代 / 古内東子</span>
+              <span class="song-note">夜の東京で、置いてきた気持ちを静かに思い出す曲</span>
+              <span class="read-label">読む</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="quiet-note" aria-label="大石浩之の紹介">
+    <div class="wrap">
+      <p>大石浩之は、静岡県磐田市で介護と不動産の仕事をしています。音楽、街、家、地域に残る記憶を大切にしながら書いています。</p>
+      <a href="home-and-memory.html">家・土地・空き家の整理について相談する</a>
     </div>
   </section>
 </main>
+
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="brand">
-      <span class="logo-text">ATAWI MUSIC</span><br>
-      <span class="logo-sub">Presented by Hiroyuki Oishi</span>
+  <div class="wrap footer-inner">
+    <div>
+      <strong>ATAWI MUSIC</strong>
+      <span>Presented by Hiroyuki Oishi</span>
     </div>
-    <nav class="footer-nav">
-      <a href="index.html">ホーム</a>
-      <a href="articles/index.html">記事一覧</a>
-      <a href="home-and-memory.html">家と記憶</a>
+    <nav aria-label="関連ページ">
       <a href="about.html">プロフィール</a>
       <a href="contact.html">お問い合わせ</a>
+      <a href="articles/index.html">記事一覧</a>
     </nav>
-    <div class="footer-biz">
-      本サイトの筆者・大石浩之は、<strong>富士ヶ丘サービス株式会社</strong>（静岡県磐田市見付5789番地1）の代表を務めています。<br>
-      磐田市周辺で、相続した実家・空き家・土地建物の整理や売却について、地域密着でご相談を承っています。<br>
-      TEL：0538-31-3308／静岡県知事 (2) 第14083号／<a href="http://www.fujigaoka-service.co.jp/">http://www.fujigaoka-service.co.jp/</a>
-    </div>
-    <div class="copyright">© 2026 ATAWI MUSIC / Hiroyuki Oishi</div>
   </div>
 </footer>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
-<script src="assets/js/main.js"></script>
