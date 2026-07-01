@@ -89,5 +89,18 @@
     "created_at": "2026-07-01",
     "summary": "根を持つことと、揺れながら立つことを思い出す曲。東京の記憶と家や土地の時間をたどる。",
     "status": "published"
+  },
+  {
+    "id": "shiina-ringo-002",
+    "title": "ありあまる富",
+    "artist": "椎名林檎",
+    "release_year": 2009,
+    "decade": "2000年代",
+    "article_url": "/articles/shiina-ringo-002.html",
+    "youtube_url": "https://youtu.be/GvHmMv2JHDk",
+    "source_owner": "SheenaRingoVEVO公式YouTubeチャンネル",
+    "created_at": "2026-07-01",
+    "summary": "持っているものではなく、失えないものを思い出す曲。家や土地に残る見えない富をたどる。",
+    "status": "published"
   }
 ]
