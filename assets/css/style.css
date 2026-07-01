@@ -29,4 +29,3 @@
 .hero #site-title{max-width:14em}
 .hero .lead{max-width:43em}
 .card a{overflow-wrap:anywhere}
-@media(max-width:720px){.contact-spacer{display:none}}
