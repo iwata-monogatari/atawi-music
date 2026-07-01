@@ -180,5 +180,19 @@
     "summary": "違法すれすれの映像で知っていた名曲を、公式の本人映像で聴き直す。記憶との向き合い方を整える曲。",
     "status": "published",
     "featured_order": 13
+  },
+  {
+    "id": "jeremy-quartus-001",
+    "title": "Back To Paradise",
+    "artist": "Jeremy Quartus",
+    "release_year": 2025,
+    "decade": "2020年代",
+    "article_url": "/articles/jeremy-quartus-001.html",
+    "youtube_url": "https://youtu.be/jvjoNfuuN7c",
+    "source_owner": "Jeremy Quartus公式YouTubeチャンネル",
+    "created_at": "2026-07-01",
+    "summary": "Nulbarichの活動休止を知ったあとで聴く、喪失感から戻れる場所を探す曲。",
+    "status": "published",
+    "featured_order": 14
   }
 ]

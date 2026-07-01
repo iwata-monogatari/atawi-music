@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://atawimusic.link/</loc><priority>1.0</priority></url>
-  <url><loc>https://atawimusic.link/about.html</loc><priority>0.7</priority></url>
-  <url><loc>https://atawimusic.link/home-and-memory.html</loc><priority>0.7</priority></url>
+  <url><loc>https://atawimusic.link/about.html</loc><priority>0.6</priority></url>
   <url><loc>https://atawimusic.link/contact.html</loc><priority>0.6</priority></url>
+  <url><loc>https://atawimusic.link/home-and-memory.html</loc><priority>0.7</priority></url>
   <url><loc>https://atawimusic.link/articles/</loc><priority>0.9</priority></url>
   <url><loc>https://atawimusic.link/articles/furuuchi-toko-001.html</loc><priority>0.8</priority></url>
   <url><loc>https://atawimusic.link/articles/nulbarich-001.html</loc><priority>0.8</priority></url>
@@ -18,4 +18,5 @@
   <url><loc>https://atawimusic.link/articles/kirinji-001.html</loc><priority>0.8</priority></url>
   <url><loc>https://atawimusic.link/articles/shiina-ringo-003.html</loc><priority>0.8</priority></url>
   <url><loc>https://atawimusic.link/articles/matsuda-seiko-001.html</loc><priority>0.8</priority></url>
+  <url><loc>https://atawimusic.link/articles/jeremy-quartus-001.html</loc><priority>0.8</priority></url>
 </urlset>
