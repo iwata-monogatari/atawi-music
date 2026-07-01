@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://atawi-music.pages.dev/</loc><priority>1.0</priority></url>
-  <url><loc>https://atawi-music.pages.dev/about.html</loc><priority>0.7</priority></url>
-  <url><loc>https://atawi-music.pages.dev/home-and-memory.html</loc><priority>0.7</priority></url>
-  <url><loc>https://atawi-music.pages.dev/contact.html</loc><priority>0.6</priority></url>
-  <url><loc>https://atawi-music.pages.dev/articles/index.html</loc><priority>0.9</priority></url>
-  <url><loc>https://atawi-music.pages.dev/articles/somewhere-in-tokyo.html</loc><priority>0.8</priority></url>
-  <url><loc>https://atawi-music.pages.dev/articles/nulbarich-tokyo.html</loc><priority>0.8</priority></url>
-  <url><loc>https://atawi-music.pages.dev/themes/tokyo.html</loc><priority>0.6</priority></url>
-  <url><loc>https://atawi-music.pages.dev/themes/night.html</loc><priority>0.6</priority></url>
-  <url><loc>https://atawi-music.pages.dev/themes/city.html</loc><priority>0.6</priority></url>
-  <url><loc>https://atawi-music.pages.dev/themes/work.html</loc><priority>0.6</priority></url>
-  <url><loc>https://atawi-music.pages.dev/themes/adult.html</loc><priority>0.6</priority></url>
+  <url><loc>https://atawimusic.link/</loc><priority>1.0</priority></url>
+  <url><loc>https://atawimusic.link/about.html</loc><priority>0.7</priority></url>
+  <url><loc>https://atawimusic.link/home-and-memory.html</loc><priority>0.7</priority></url>
+  <url><loc>https://atawimusic.link/contact.html</loc><priority>0.6</priority></url>
+  <url><loc>https://atawimusic.link/articles/</loc><priority>0.9</priority></url>
+  <url><loc>https://atawimusic.link/articles/furuuchi-toko-001.html</loc><priority>0.8</priority></url>
 </urlset>
