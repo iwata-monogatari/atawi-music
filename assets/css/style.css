@@ -12,3 +12,12 @@
 .pagination{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 .pagination .is-active{background:var(--accent-soft);color:var(--text)}
 @media(max-width:860px){.song-main{grid-template-columns:1fr}.hero-inner{grid-template-columns:1fr}.hero-photo-wrap{width:min(220px,70vw)}}
+.header-inner{min-height:82px}
+.brand-logo{width:156px}
+.brand-sub{font-size:.8rem}
+.main-nav{gap:1.15em;white-space:nowrap;overflow-x:auto}
+.main-nav a{font-size:.95rem}
+.section-head h2{font-size:1.58rem}
+.footer-compact{font-size:.74rem}
+.footer-title strong{font-size:.82rem}
+@media(max-width:720px){.brand-logo{width:142px}.main-nav a{font-size:.9rem}.footer-compact{font-size:.72rem}}
