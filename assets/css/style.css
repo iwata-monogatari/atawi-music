@@ -25,3 +25,6 @@
 .footer-title strong{font-size:.82rem}
 @media(max-width:720px){.brand-logo{width:170px}.main-nav a{font-size:1.025rem}.footer-compact{font-size:.72rem}}
 #site-title{font-size:clamp(1.725rem,calc(4.5vw - 2px),3.025rem)}
+.hero .wrap{width:min(100% - 36px,var(--maxw))}
+.hero #site-title{max-width:14em}
+.hero .lead{max-width:43em}
