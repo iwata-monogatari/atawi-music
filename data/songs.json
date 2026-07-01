@@ -166,5 +166,19 @@
     "summary": "松田聖子の名曲を椎名林檎の声で聴き直す。甘い記憶が、東京と磐田の時間をつなぐ。",
     "status": "published",
     "featured_order": 12
+  },
+  {
+    "id": "matsuda-seiko-001",
+    "title": "SWEET MEMORIES〜甘い記憶〜",
+    "artist": "松田聖子",
+    "release_year": 2020,
+    "decade": "2020年代",
+    "article_url": "/articles/matsuda-seiko-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=nz-ZAXac5Fk",
+    "source_owner": "松田聖子オフィシャルYouTubeチャンネル",
+    "created_at": "2026-07-01",
+    "summary": "違法すれすれの映像で知っていた名曲を、公式の本人映像で聴き直す。記憶との向き合い方を整える曲。",
+    "status": "published",
+    "featured_order": 13
   }
 ]
