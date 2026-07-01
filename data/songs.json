@@ -208,5 +208,19 @@
     "summary": "リアルタイムで聴いていなくても、自分の夜に残る曲。都会的な余韻と止めたい時間をたどる。",
     "status": "published",
     "featured_order": 15
+  },
+  {
+    "id": "kick-the-can-crew-001",
+    "title": "住所 feat. 岡村靖幸",
+    "artist": "KICK THE CAN CREW",
+    "release_year": 2018,
+    "decade": "2010年代",
+    "article_url": "/articles/kick-the-can-crew-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=eCfRRm-yyMY",
+    "source_owner": "Victor Entertainment公式YouTubeチャンネル",
+    "created_at": "2026-07-01",
+    "summary": "KICK THE CAN CREWを好きになった入口の曲。岡村靖幸の存在感と、住所から始め直す感覚をたどる。",
+    "status": "published",
+    "featured_order": 16
   }
 ]
