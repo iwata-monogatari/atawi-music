@@ -6,8 +6,9 @@
 
   var af = document.querySelector("[data-artist-filters]");
   var ef = document.querySelector("[data-era-filters]");
+  var sf = document.querySelector("[data-sort-control]");
   var st = document.querySelector("[data-status]");
-  var active = { artist: "all", era: "all" };
+  var active = { artist: "all", era: "all", sort: "featured" };
   var kind = c.getAttribute("data-page-kind") || "archive";
 
   function bp() {
@@ -47,6 +48,31 @@
     return x.youtube_url ? '<a href="' + e(x.youtube_url) + '" target="_blank" rel="noopener">YouTube</a>' : "<span>公式リンク確認中</span>";
   }
 
+  function compareText(a, b) {
+    return String(a || "").localeCompare(String(b || ""), "ja");
+  }
+
+  function compareFeatured(a, b) {
+    var ao = Number(a.featured_order) || 9999;
+    var bo = Number(b.featured_order) || 9999;
+    if (ao !== bo) return ao - bo;
+    return compareText(a.title, b.title);
+  }
+
+  function sortSongs(s) {
+    var v = s.slice();
+    if (active.sort === "release_desc") {
+      return v.sort(function(a, b) { return (Number(b.release_year) || 0) - (Number(a.release_year) || 0) || compareFeatured(a, b); });
+    }
+    if (active.sort === "release_asc") {
+      return v.sort(function(a, b) { return (Number(a.release_year) || 0) - (Number(b.release_year) || 0) || compareFeatured(a, b); });
+    }
+    if (active.sort === "artist") {
+      return v.sort(function(a, b) { return compareText(a.artist, b.artist) || compareText(a.title, b.title); });
+    }
+    return v.sort(compareFeatured);
+  }
+
   function pageNumber() {
     var q = new URLSearchParams(location.search);
     var n = Number(q.get("page") || 2);
@@ -82,6 +108,7 @@
     var v = s.filter(function(x) {
       return x.status === "published" && (active.artist === "all" || x.artist === active.artist) && (active.era === "all" || era(x) === active.era);
     });
+    v = sortSongs(v);
     var meta = paginate(v);
     var end = Math.min(meta.start + meta.items.length, v.length);
     if (st) st.textContent = kind === "home" ? v.length + "件中" + meta.items.length + "件を表示" : v.length + "件中" + (meta.items.length ? meta.start + 1 : 0) + "-" + end + "件を表示";
@@ -111,6 +138,13 @@
       }
       render(s);
     });
+    if (sf) {
+      active.sort = sf.value || active.sort;
+      sf.addEventListener("change", function() {
+        active.sort = sf.value || "featured";
+        render(s);
+      });
+    }
   }
 
   fetch(bp() + "data/songs.json", { cache: "no-cache" }).then(function(r) {
@@ -118,7 +152,7 @@
     return r.json();
   }).then(function(d) {
     var s = (Array.isArray(d) ? d : d.songs || []).filter(function(x) { return x.status === "published"; });
-    s.sort(function(a, b) { return (Number(b.release_year) || 0) - (Number(a.release_year) || 0); });
+    s = sortSongs(s);
     filters(s);
     bind(s);
     render(s);

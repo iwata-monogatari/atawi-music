@@ -10,7 +10,8 @@
     "source_owner": "制作メモに公式系YouTubeリンクとして記録",
     "created_at": "2026-07-01",
     "summary": "同じ街にいるのに遠い人を思い出す曲。東京で暮らした時間の距離感をたどる。",
-    "status": "published"
+    "status": "published",
+    "featured_order": 1
   },
   {
     "id": "nulbarich-001",
@@ -23,7 +24,8 @@
     "source_owner": "Nulbarich公式YouTubeチャンネル",
     "created_at": "2026-07-01",
     "summary": "東京で折れなかった自分を思い出す曲。都会の孤独と踏ん張っていた時間をたどる。",
-    "status": "published"
+    "status": "published",
+    "featured_order": 2
   },
   {
     "id": "go-hiromi-001",
@@ -36,7 +38,8 @@
     "source_owner": "郷ひろみ公式YouTubeチャンネル",
     "created_at": "2026-07-01",
     "summary": "届かなかった思いが、時間を越えて胸に刺さる曲。家や土地に残る言えなかった記憶にも重なる。",
-    "status": "published"
+    "status": "published",
+    "featured_order": 3
   },
   {
     "id": "bruno-mars-001",
@@ -49,7 +52,8 @@
     "source_owner": "Bruno Mars公式YouTubeチャンネル",
     "created_at": "2026-07-01",
     "summary": "歌詞を追い切れなくても、声と音が心に届く曲。分からないまま響く感情をたどる。",
-    "status": "published"
+    "status": "published",
+    "featured_order": 4
   },
   {
     "id": "official-hige-dandism-001",
@@ -62,7 +66,8 @@
     "source_owner": "Official髭男dism公式YouTubeチャンネル",
     "created_at": "2026-07-01",
     "summary": "初めて聴いた時、若い世代にはもう勝てないと思った曲。渡していく側の役割を考え直す。",
-    "status": "published"
+    "status": "published",
+    "featured_order": 5
   },
   {
     "id": "tokyo-jihen-001",
@@ -75,7 +80,8 @@
     "source_owner": "東京事変公式YouTubeチャンネル",
     "created_at": "2026-07-01",
     "summary": "働いて、帰って、なお残るものを見つめる曲。東京の記憶と磐田の現在をつなぎ直す。",
-    "status": "published"
+    "status": "published",
+    "featured_order": 6
   },
   {
     "id": "shiina-ringo-001",
@@ -88,7 +94,8 @@
     "source_owner": "SheenaRingoVEVO公式YouTubeチャンネル",
     "created_at": "2026-07-01",
     "summary": "根を持つことと、揺れながら立つことを思い出す曲。東京の記憶と家や土地の時間をたどる。",
-    "status": "published"
+    "status": "published",
+    "featured_order": 7
   },
   {
     "id": "shiina-ringo-002",
@@ -101,7 +108,8 @@
     "source_owner": "SheenaRingoVEVO公式YouTubeチャンネル",
     "created_at": "2026-07-01",
     "summary": "持っているものではなく、失えないものを思い出す曲。家や土地に残る見えない富をたどる。",
-    "status": "published"
+    "status": "published",
+    "featured_order": 8
   },
   {
     "id": "tokyo-jihen-002",
@@ -114,7 +122,8 @@
     "source_owner": "TokyoIncidentsVEVO公式YouTubeチャンネル",
     "created_at": "2026-07-01",
     "summary": "三分という短い時間を、ただ待つだけで終わらせない曲。東京の速度と磐田の待つ時間をたどる。",
-    "status": "published"
+    "status": "published",
+    "featured_order": 9
   },
   {
     "id": "vaundy-001",
@@ -127,7 +136,8 @@
     "source_owner": "Vaundy公式YouTubeチャンネル",
     "created_at": "2026-07-01",
     "summary": "古典的なビートが、古いのに新しく響く曲。東京の記憶と磐田の古い家や土地を重ねる。",
-    "status": "published"
+    "status": "published",
+    "featured_order": 10
   },
   {
     "id": "kirinji-001",
@@ -140,6 +150,7 @@
     "source_owner": "Warner Music Japan公式YouTubeチャンネル",
     "created_at": "2026-07-01",
     "summary": "同じ街にいても、少しだけよそ者でいる夜の曲。東京の孤独と磐田の帰属感をたどる。",
-    "status": "published"
+    "status": "published",
+    "featured_order": 11
   }
 ]
