@@ -6,7 +6,6 @@
 
   var af = document.querySelector("[data-artist-filters]");
   var ef = document.querySelector("[data-era-filters]");
-  var sf = document.querySelector("[data-sort-control]");
   var st = document.querySelector("[data-status]");
   var active = { artist: "all", era: "all", sort: "featured" };
   var kind = c.getAttribute("data-page-kind") || "archive";
@@ -67,8 +66,14 @@
     if (active.sort === "release_asc") {
       return v.sort(function(a, b) { return (Number(a.release_year) || 0) - (Number(b.release_year) || 0) || compareFeatured(a, b); });
     }
+    if (active.sort === "created_desc") {
+      return v.sort(function(a, b) { return compareText(b.created_at, a.created_at) || compareFeatured(a, b); });
+    }
     if (active.sort === "artist") {
       return v.sort(function(a, b) { return compareText(a.artist, b.artist) || compareText(a.title, b.title); });
+    }
+    if (active.sort === "title") {
+      return v.sort(function(a, b) { return compareText(a.title, b.title) || compareText(a.artist, b.artist); });
     }
     return v.sort(compareFeatured);
   }
@@ -134,17 +139,14 @@
         document.querySelectorAll("[data-filter-type]").forEach(function(b) { b.classList.toggle("is-active", b.getAttribute("data-filter-value") === "all"); });
       } else {
         active[type] = val;
-        document.querySelectorAll('[data-filter-type="' + type + '"]').forEach(function(b) { b.classList.toggle("is-active", b === t); });
+        document.querySelectorAll('[data-filter-type="' + type + '"]').forEach(function(b) {
+          var isActive = b === t;
+          b.classList.toggle("is-active", isActive);
+          if (type === "sort") b.setAttribute("aria-pressed", isActive ? "true" : "false");
+        });
       }
       render(s);
     });
-    if (sf) {
-      active.sort = sf.value || active.sort;
-      sf.addEventListener("change", function() {
-        active.sort = sf.value || "featured";
-        render(s);
-      });
-    }
   }
 
   fetch(bp() + "data/songs.json", { cache: "no-cache" }).then(function(r) {
