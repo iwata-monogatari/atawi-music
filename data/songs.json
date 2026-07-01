@@ -264,5 +264,19 @@
     "summary": "若い日の歌が、長く暮らした家の時間に戻ってくる曲。部屋、家族、仕事、地域の記憶をたどる。",
     "status": "published",
     "featured_order": 19
+  },
+  {
+    "id": "princess-princess-001",
+    "title": "M",
+    "artist": "プリンセス プリンセス",
+    "release_year": 1989,
+    "decade": "1980年代",
+    "article_url": "/articles/princess-princess-001.html",
+    "youtube_url": "https://youtu.be/rzfLx6TVCv0?si=wUP9jpGR_S62919U",
+    "source_owner": "プリンセス プリンセス official YouTube channel",
+    "created_at": "2026-07-02",
+    "summary": "子供のころに聞いた曲が、今まさに心に刺さる理由をたどる。戻らない時間と名前の記憶の曲。",
+    "status": "published",
+    "featured_order": 20
   }
 ]
