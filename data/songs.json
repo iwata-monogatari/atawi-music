@@ -63,5 +63,18 @@
     "created_at": "2026-07-01",
     "summary": "初めて聴いた時、若い世代にはもう勝てないと思った曲。渡していく側の役割を考え直す。",
     "status": "published"
+  },
+  {
+    "id": "tokyo-jihen-001",
+    "title": "緑酒",
+    "artist": "東京事変",
+    "release_year": 2021,
+    "decade": "2020年代",
+    "article_url": "/articles/tokyo-jihen-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=OS45uTF_8P0",
+    "source_owner": "東京事変公式YouTubeチャンネル",
+    "created_at": "2026-07-01",
+    "summary": "働いて、帰って、なお残るものを見つめる曲。東京の記憶と磐田の現在をつなぎ直す。",
+    "status": "published"
   }
 ]
