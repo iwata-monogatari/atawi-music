@@ -222,5 +222,19 @@
     "summary": "KICK THE CAN CREWを好きになった入口の曲。岡村靖幸の存在感と、住所から始め直す感覚をたどる。",
     "status": "published",
     "featured_order": 16
+  },
+  {
+    "id": "girls-generation-001",
+    "title": "Genie",
+    "artist": "少女時代",
+    "release_year": 2010,
+    "decade": "2010年代",
+    "article_url": "/articles/girls-generation-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=fYP_3QEb5Yk",
+    "source_owner": "SMTOWN公式YouTubeチャンネル",
+    "created_at": "2026-07-02",
+    "summary": "K-POPが日本の街に入ってきた時代の衝撃を思い出す曲。完成度と時代の移動をたどる。",
+    "status": "published",
+    "featured_order": 17
   }
 ]
