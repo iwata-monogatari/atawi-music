@@ -9,4 +9,6 @@
 .song-youtube{border-top:1px solid var(--line);padding:10px 18px;color:var(--muted);font-size:.82rem}
 .song-youtube strong{color:rgba(245,240,234,.7);font-weight:700}
 .song-youtube span{color:rgba(245,240,234,.48)}
+.pagination{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.pagination .is-active{background:var(--accent-soft);color:var(--text)}
 @media(max-width:860px){.song-main{grid-template-columns:1fr}.hero-inner{grid-template-columns:1fr}.hero-photo-wrap{width:min(220px,70vw)}}
