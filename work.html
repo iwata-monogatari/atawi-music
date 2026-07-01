@@ -1,146 +1,326 @@
 /* =========================================================
-   ATAWI MUSIC — main.js
-   data/songs.json を読み込み、曲一覧を描画する。
-   - articles/index.html : 全曲一覧
-   - themes/*.html        : data-theme 属性でフィルタした一覧
+   ATAWI MUSIC — style.css
+   黒・チャコール基調 / 控えめなゴールド / 文字中心
    ========================================================= */
 
-(function () {
-  "use strict";
+:root {
+  --bg:            #0e0e10;   /* ほぼ黒 */
+  --bg-elev:       #16161a;   /* チャコール（一段明るい面）*/
+  --bg-elev-2:     #1d1d22;   /* カード面 */
+  --line:          #2a2a30;   /* 罫線 */
+  --text:          #e8e6e1;   /* 本文（やや温かい白）*/
+  --text-dim:      #a7a49c;   /* 補助テキスト */
+  --text-faint:    #6f6c66;   /* さらに控えめ */
+  --gold:          #c9a24b;   /* 控えめなゴールド */
+  --gold-soft:     #b9974a;
+  --gold-faint:    rgba(201,162,75,0.14);
+  --maxw:          760px;
+  --radius:        4px;
+  --serif:         "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", "Noto Serif JP", serif;
+  --sans:          "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", system-ui, sans-serif;
+}
 
-  // ルート相対でJSONを解決する。GitHub Pages/Cloudflare Pのサブパスにも耐えるよう
-  // 現在ページの階層から data/ への相対パスを算出する。
-  function dataPath() {
-    // 現在のパスの深さを見て ../ を積む
-    var path = window.location.pathname;
-    // 末尾がスラッシュ or ファイル名を除いたセグメント数
-    var segs = path.split("/").filter(Boolean);
-    // ファイル名（.html等）を除く
-    if (segs.length && /\.[a-z]+$/i.test(segs[segs.length - 1])) {
-      segs.pop();
-    }
-    var up = "";
-    for (var i = 0; i < segs.length; i++) up += "../";
-    return up + "data/songs.json";
-  }
+* { box-sizing: border-box; }
 
-  function el(tag, cls, html) {
-    var e = document.createElement(tag);
-    if (cls) e.className = cls;
-    if (html != null) e.innerHTML = html;
-    return e;
-  }
+html { scroll-behavior: smooth; }
 
-  function esc(s) {
-    return String(s == null ? "" : s)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;");
-  }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
 
-  // 曲1件をリスト項目として描画
-  function renderSong(song, baseUp) {
-    var li = el("li", "song-item");
+.wrap {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 22px;
+}
 
-    var articleHref = song.article_url
-      ? baseUp + song.article_url.replace(/^\//, "")
-      : null;
+a { color: var(--gold); text-decoration: none; }
+a:hover { color: #ddb968; text-decoration: underline; text-underline-offset: 3px; }
 
-    var inner =
-      '<div class="song-title">' +
-      esc(song.title) +
-      (song.release_year ? ' <span class="yr">' + esc(song.release_year) + "</span>" : "") +
-      "</div>" +
-      '<div class="song-artist">' + esc(song.artist) +
-      (song.artist_kana ? "（" + esc(song.artist_kana) + "）" : "") +
-      "</div>";
+/* ---------- Header ---------- */
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: rgba(14,14,16,0.92);
+  backdrop-filter: blur(6px);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.site-header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.brand { display: flex; flex-direction: column; line-height: 1.3; }
+.brand .logo-text {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  letter-spacing: 0.14em;
+  color: var(--text);
+}
+.brand .logo-sub {
+  font-size: 0.66rem;
+  letter-spacing: 0.22em;
+  color: var(--text-faint);
+  text-transform: uppercase;
+}
+.brand a { color: inherit; }
+.brand a:hover { text-decoration: none; color: inherit; }
 
-    if (song.mood && song.mood.length) {
-      inner += '<div class="song-meta">';
-      song.mood.forEach(function (m) {
-        inner += '<span class="tag">' + esc(m) + "</span>";
-      });
-      inner += "</div>";
-    }
+nav.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0; padding: 0;
+  flex-wrap: wrap;
+}
+nav.main-nav a {
+  color: var(--text-dim);
+  font-size: 0.86rem;
+  letter-spacing: 0.06em;
+}
+nav.main-nav a:hover { color: var(--gold); text-decoration: none; }
 
-    if (song.personal_context) {
-      inner += '<div class="song-context">' + esc(song.personal_context) + "</div>";
-    }
+/* ---------- Hero ---------- */
+.hero {
+  padding: 84px 0 66px;
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+}
+.hero .copy {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 4.4vw, 2.35rem);
+  line-height: 1.7;
+  color: var(--text);
+  margin: 0 0 20px;
+}
+.hero .copy .accent { color: var(--gold); }
+.hero .lead {
+  color: var(--text-dim);
+  font-size: 0.98rem;
+  max-width: 34em;
+  margin: 0 auto;
+}
+.hero .presented {
+  margin-top: 30px;
+  font-size: 0.7rem;
+  letter-spacing: 0.24em;
+  color: var(--text-faint);
+  text-transform: uppercase;
+}
 
-    if (articleHref) {
-      var a = el("a", "song-link");
-      a.href = articleHref;
-      a.innerHTML = inner;
-      li.appendChild(a);
-    } else {
-      li.innerHTML = inner;
-    }
-    return li;
-  }
+/* ---------- Sections ---------- */
+section { padding: 54px 0; }
+.section-title {
+  font-family: var(--serif);
+  font-size: 1.28rem;
+  letter-spacing: 0.08em;
+  color: var(--text);
+  margin: 0 0 6px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.section-title .en {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.64rem;
+  letter-spacing: 0.24em;
+  color: var(--gold-soft);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.section-desc { color: var(--text-dim); font-size: 0.92rem; margin: 14px 0 26px; }
 
-  function baseUpFromPath() {
-    var path = window.location.pathname;
-    var segs = path.split("/").filter(Boolean);
-    if (segs.length && /\.[a-z]+$/i.test(segs[segs.length - 1])) segs.pop();
-    var up = "";
-    for (var i = 0; i < segs.length; i++) up += "../";
-    return up;
-  }
+/* ---------- Song list ---------- */
+.song-list { list-style: none; margin: 0; padding: 0; }
+.song-item {
+  border: 1px solid var(--line);
+  background: var(--bg-elev);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  margin-bottom: 14px;
+  transition: border-color .2s ease, background .2s ease;
+}
+.song-item:hover { border-color: var(--gold-soft); background: var(--bg-elev-2); }
+.song-item a.song-link { color: inherit; display: block; }
+.song-item a.song-link:hover { text-decoration: none; }
+.song-title {
+  font-family: var(--serif);
+  font-size: 1.16rem;
+  color: var(--text);
+  margin: 0 0 4px;
+}
+.song-title .yr { color: var(--gold); font-size: 0.82rem; margin-left: 8px; letter-spacing: 0.08em; }
+.song-artist { color: var(--text-dim); font-size: 0.9rem; }
+.song-meta { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+.tag {
+  font-size: 0.7rem;
+  color: var(--gold);
+  background: var(--gold-faint);
+  border: 1px solid rgba(201,162,75,0.3);
+  border-radius: 999px;
+  padding: 2px 10px;
+  letter-spacing: 0.04em;
+}
+.song-context { margin-top: 10px; color: var(--text-faint); font-size: 0.85rem; }
 
-  function mount() {
-    var container = document.querySelector("[data-song-list]");
-    if (!container) return;
+/* ---------- Theme cards ---------- */
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+.theme-card {
+  border: 1px solid var(--line);
+  background: var(--bg-elev);
+  border-radius: var(--radius);
+  padding: 22px 20px;
+  transition: border-color .2s ease, transform .2s ease;
+}
+.theme-card:hover { border-color: var(--gold-soft); transform: translateY(-2px); }
+.theme-card a { color: inherit; }
+.theme-card a:hover { text-decoration: none; }
+.theme-card h3 { font-family: var(--serif); font-size: 1.05rem; margin: 0 0 8px; color: var(--text); }
+.theme-card p { color: var(--text-dim); font-size: 0.84rem; margin: 0; }
 
-    var theme = container.getAttribute("data-theme") || null; // フィルタ用
-    var loading = el("div", "loading", "曲を読み込んでいます…");
-    container.appendChild(loading);
+/* ---------- Article ---------- */
+.article-header { padding: 66px 0 34px; border-bottom: 1px solid var(--line); }
+.article-header h1 {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 4vw, 2.1rem);
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+.article-header .sub { color: var(--text-dim); font-size: 0.95rem; }
+.article-body { padding: 40px 0; font-size: 1.02rem; }
+.article-body p { margin: 0 0 1.6em; }
+.article-body h2 {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  margin: 2.2em 0 0.9em;
+  padding-left: 14px;
+  border-left: 3px solid var(--gold);
+  color: var(--text);
+}
+.article-body blockquote {
+  margin: 1.6em 0;
+  padding: 4px 20px;
+  border-left: 2px solid var(--line);
+  color: var(--text-dim);
+  font-style: italic;
+}
+.video-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin: 2em 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #000;
+}
+.video-embed iframe { position: absolute; top:0; left:0; width:100%; height:100%; border:0; }
+.video-fallback {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  margin: 2em 0;
+  font-size: 0.9rem;
+}
 
-    fetch(dataPath(), { cache: "no-cache" })
-      .then(function (r) {
-        if (!r.ok) throw new Error("HTTP " + r.status);
-        return r.json();
-      })
-      .then(function (data) {
-        container.innerHTML = "";
-        var songs = (data && data.songs) || [];
+/* ---------- CTA ---------- */
+.cta {
+  margin: 48px 0 10px;
+  padding: 30px 26px;
+  border: 1px solid var(--line);
+  border-top: 2px solid var(--gold);
+  background: var(--bg-elev);
+  border-radius: var(--radius);
+}
+.cta p { color: var(--text-dim); font-size: 0.94rem; margin: 0 0 18px; }
+.btn-gold {
+  display: inline-block;
+  background: transparent;
+  color: var(--gold);
+  border: 1px solid var(--gold-soft);
+  border-radius: var(--radius);
+  padding: 12px 26px;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  transition: background .2s ease, color .2s ease;
+}
+.btn-gold:hover { background: var(--gold); color: #14120c; text-decoration: none; }
 
-        if (theme) {
-          songs = songs.filter(function (s) {
-            return s.themes && s.themes.indexOf(theme) !== -1;
-          });
-        }
+/* ---------- Profile ---------- */
+.profile { display: flex; gap: 26px; align-items: flex-start; flex-wrap: wrap; }
+.profile .photo {
+  width: 128px; height: 128px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  background: var(--bg-elev-2);
+  flex-shrink: 0;
+}
+.profile .photo-placeholder {
+  width: 128px; height: 128px;
+  border-radius: 50%;
+  border: 1px dashed var(--line);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-faint); font-size: 0.7rem; text-align: center;
+  background: var(--bg-elev-2); flex-shrink: 0;
+}
+.profile .bio { flex: 1; min-width: 240px; }
 
-        // published を優先し、新しい順（release_year 降順）に
-        songs = songs.filter(function (s) { return s.status !== "hidden"; });
-        songs.sort(function (a, b) {
-          return (b.release_year || 0) - (a.release_year || 0);
-        });
+/* ---------- Footer ---------- */
+.site-footer {
+  border-top: 1px solid var(--line);
+  background: var(--bg-elev);
+  padding: 44px 0 56px;
+  margin-top: 40px;
+}
+.site-footer .logo-text {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  letter-spacing: 0.14em;
+  color: var(--text);
+}
+.site-footer .logo-sub { font-size: 0.62rem; letter-spacing: 0.22em; color: var(--text-faint); text-transform: uppercase; }
+.footer-biz {
+  margin-top: 22px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  color: var(--text-dim);
+  font-size: 0.82rem;
+  line-height: 1.9;
+}
+.footer-biz strong { color: var(--text); font-weight: 600; }
+.footer-nav { margin-top: 20px; display: flex; gap: 18px; flex-wrap: wrap; }
+.footer-nav a { color: var(--text-dim); font-size: 0.8rem; }
+.copyright { margin-top: 26px; color: var(--text-faint); font-size: 0.72rem; letter-spacing: 0.06em; }
 
-        if (!songs.length) {
-          container.appendChild(
-            el("p", "muted", "この分類の曲はまだ登録されていません。")
-          );
-          return;
-        }
+/* ---------- Utility ---------- */
+.muted { color: var(--text-dim); }
+.center { text-align: center; }
+.loading { color: var(--text-faint); font-size: 0.9rem; padding: 20px 0; }
+.breadcrumb { font-size: 0.78rem; color: var(--text-faint); padding: 20px 0 0; }
+.breadcrumb a { color: var(--text-dim); }
 
-        var ul = el("ul", "song-list");
-        var baseUp = baseUpFromPath();
-        songs.forEach(function (s) {
-          ul.appendChild(renderSong(s, baseUp));
-        });
-        container.appendChild(ul);
-      })
-      .catch(function (err) {
-        container.innerHTML = "";
-        container.appendChild(
-          el("p", "muted", "曲データの読み込みに失敗しました。（" + esc(err.message) + "）")
-        );
-      });
-  }
-
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", mount);
-  } else {
-    mount();
-  }
-})();
+@media (max-width: 560px) {
+  body { font-size: 16px; }
+  .site-header .wrap { flex-direction: column; align-items: flex-start; }
+  .hero { padding: 60px 0 46px; }
+}

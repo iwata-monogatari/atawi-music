@@ -1,74 +1,72 @@
-# ATAWI MUSIC
-
-**ATAWI MUSIC｜大石浩之の、過去をさかのぼり、今を聴く音楽考察**
-
-> 過去をさかのぼるほど、今が大事になる。
-
-好きだった曲を、もう一度さかのぼって聴く。あの頃の街や、若い頃の自分の記憶とともに、一曲ずつ考えていく音楽考察サイトです。
-
-Presented by Hiroyuki Oishi
-
----
-
-## 構成
-
-```
-/
-├── index.html              トップ（トップコピー・テーマ・最近の一曲）
-├── about.html              プロフィール
-├── home-and-memory.html    家と記憶（本業との接続）
-├── contact.html            お問い合わせ
-├── articles/
-│   ├── index.html          記事一覧（songs.json を読み込み表示）
-│   ├── somewhere-in-tokyo.html
-│   └── nulbarich-tokyo.html
-├── themes/                 テーマ別一覧（songs.json をフィルタ表示）
-│   ├── tokyo.html          東京で頑張っていた頃
-│   ├── night.html          夜に残る曲
-│   ├── city.html           街を思い出す曲
-│   ├── work.html           仕事帰りに効く曲
-│   └── adult.html          大人になって分かる曲
-├── assets/
-│   ├── css/style.css       黒・チャコール基調＋控えめゴールド
-│   ├── js/main.js          songs.json を読み込み曲一覧を描画
-│   └── images/
-│       ├── logo/           ロゴと favicon.png を配置
-│       └── profile/        大石浩之の顔写真を配置
-├── data/
-│   ├── songs.json          曲データベース（表示の元データ）
-│   ├── artists.json
-│   ├── genres.json
-│   └── themes.json
-├── robots.txt
-├── sitemap.xml
-└── README.md
-```
-
-## 曲の追加方法
-
-`data/songs.json` の `songs` 配列に1件追加し、`articles/` に記事HTMLを1枚置くだけで、
-記事一覧・該当テーマページに自動で表示されます（main.js が読み込み）。
-
-各曲は id / title / artist / artist_kana / release_year / decade / genre /
-songwriters / youtube_url / article_url / themes / mood / personal_context / status を持ちます。
-
-## 記事方針
-
-- 歌詞の全文転載・長い引用は禁止
-- 公式 YouTube リンク（または埋め込み）を使用
-- 本文は大石浩之自身の解釈・記憶・人生との接続を中心に
-- 画像素材は不要（ロゴと本人の顔写真のみ）
-
-## 公開（Cloudflare Pages）
-
-- Framework preset: **None**
-- Build command: **（空欄）**
-- Build output directory: **/**
-
-ビルド不要の静的サイトです。リポジトリ直下をそのまま公開できます。
-
-## 画像の差し替え
-
-- `assets/images/logo/favicon.png` … サイトアイコン（正方形）
-- `assets/images/logo/logo.png` … 横長ロゴ（任意）
-- `assets/images/profile/` … 大石浩之の顔写真（about.html のプレースホルダーと差し替え）
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>仕事帰りに効く曲｜ATAWI MUSIC</title>
+<meta name="description" content="仕事を終えた帰り道に、ふと寄り添ってくれる曲。">
+<meta property="og:title" content="仕事帰りに効く曲｜ATAWI MUSIC">
+<meta property="og:description" content="仕事を終えた帰り道に、ふと寄り添ってくれる曲。">
+<meta property="og:type" content="website">
+<link rel="icon" href="../assets/images/logo/favicon.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <a href="../index.html">
+        <span class="logo-text">ATAWI MUSIC</span>
+        <span class="logo-sub">Presented by Hiroyuki Oishi</span>
+      </a>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="../index.html">ホーム</a></li>
+        <li><a href="../articles/index.html">記事一覧</a></li>
+        <li><a href="../home-and-memory.html">家と記憶</a></li>
+        <li><a href="../about.html">プロフィール</a></li>
+        <li><a href="../contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="article-header">
+    <div class="wrap">
+      <p class="breadcrumb"><a href="../index.html">ホーム</a> ／ テーマ</p>
+      <h1>仕事帰りに効く曲</h1>
+      <p class="sub">仕事を終えた帰り道に、ふと寄り添ってくれる曲。</p>
+    </div>
+  </div>
+  <section>
+    <div class="wrap">
+      <div data-song-list data-theme="work"></div>
+      <p style="margin-top:22px;"><a href="../articles/index.html">すべての記事を見る →</a></p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="brand">
+      <span class="logo-text">ATAWI MUSIC</span><br>
+      <span class="logo-sub">Presented by Hiroyuki Oishi</span>
+    </div>
+    <nav class="footer-nav">
+      <a href="../index.html">ホーム</a>
+      <a href="../articles/index.html">記事一覧</a>
+      <a href="../home-and-memory.html">家と記憶</a>
+      <a href="../about.html">プロフィール</a>
+      <a href="../contact.html">お問い合わせ</a>
+    </nav>
+    <div class="footer-biz">
+      本サイトの筆者・大石浩之は、<strong>富士ヶ丘サービス株式会社</strong>（静岡県磐田市見付5789番地1）の代表を務めています。<br>
+      磐田市周辺で、相続した実家・空き家・土地建物の整理や売却について、地域密着でご相談を承っています。<br>
+      TEL：0538-31-3308／静岡県知事 (2) 第14083号／<a href="http://www.fujigaoka-service.co.jp/">http://www.fujigaoka-service.co.jp/</a>
+    </div>
+    <div class="copyright">© 2026 ATAWI MUSIC / Hiroyuki Oishi</div>
+  </div>
+</footer>
+</body>
+</html>
+<script src="../assets/js/main.js"></script>
