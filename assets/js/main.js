@@ -9,6 +9,7 @@
   var st = document.querySelector("[data-status]");
   var active = { artist: "all", era: "all", sort: "featured" };
   var kind = c.getAttribute("data-page-kind") || "archive";
+  var artistKana = {};
 
   function bp() {
     var p = location.pathname.split("/").filter(Boolean);
@@ -32,9 +33,27 @@
     return a.filter(function(v, i, r) { return v && r.indexOf(v) === i; });
   }
 
+  function nameGroup(v) {
+    var c = String(v || "").charAt(0);
+    if (/[0-9]/.test(c)) return 2;
+    if (/[A-Za-z]/.test(c)) return 1;
+    return 0;
+  }
+
+  function artistKey(v) {
+    return nameGroup(v) === 0 ? (artistKana[v] || v) : v;
+  }
+
+  function sortArtistNames(a) {
+    return a.slice().sort(function(x, y) {
+      var gx = nameGroup(x), gy = nameGroup(y);
+      return gx !== gy ? gx - gy : compareText(artistKey(x), artistKey(y));
+    });
+  }
+
   function filters(s) {
     if (af) {
-      var as = uniq(s.map(function(x) { return x.artist; })).sort();
+      var as = sortArtistNames(uniq(s.map(function(x) { return x.artist; })));
       af.innerHTML = btn("すべて", "artist", "all", true) + as.map(function(a) { return btn(a, "artist", a, false); }).join("");
     }
     if (ef) {
@@ -70,7 +89,11 @@
       return v.sort(function(a, b) { return compareText(b.created_at, a.created_at) || compareFeatured(a, b); });
     }
     if (active.sort === "artist") {
-      return v.sort(function(a, b) { return compareText(a.artist, b.artist) || compareText(a.title, b.title); });
+      return v.sort(function(a, b) {
+        var ga = nameGroup(a.artist), gb = nameGroup(b.artist);
+        if (ga !== gb) return ga - gb;
+        return compareText(artistKey(a.artist), artistKey(b.artist)) || compareText(a.title, b.title);
+      });
     }
     if (active.sort === "title") {
       return v.sort(function(a, b) { return compareText(a.title, b.title) || compareText(a.artist, b.artist); });
@@ -166,10 +189,17 @@
     });
   }
 
-  fetch(bp() + "data/songs.json", { cache: "no-cache" }).then(function(r) {
-    if (!r.ok) throw Error("HTTP " + r.status);
-    return r.json();
-  }).then(function(d) {
+  Promise.all([
+    fetch(bp() + "data/songs.json", { cache: "no-cache" }).then(function(r) {
+      if (!r.ok) throw Error("HTTP " + r.status);
+      return r.json();
+    }),
+    fetch(bp() + "data/artists.json", { cache: "no-cache" }).then(function(r) {
+      return r.ok ? r.json() : [];
+    }).catch(function() { return []; })
+  ]).then(function(results) {
+    var d = results[0];
+    (results[1] || []).forEach(function(a) { if (a.name && a.kana) artistKana[a.name] = a.kana; });
     var s = (Array.isArray(d) ? d : d.songs || []).filter(function(x) { return x.status === "published"; });
     s = sortSongs(s);
     filters(s);
