@@ -59,3 +59,11 @@
 .main-nav{justify-content:flex-start;gap:0 10px}
 .main-nav a{font-size:.76rem}
 }
+.site-header .brand{order:0}
+.site-header .header-links{order:1}
+@media(max-width:600px){
+.site-header .header-inner{flex-direction:row;align-items:center;justify-content:center}
+.site-header .brand{order:0;align-self:center}
+.site-header .header-links{order:1}
+.site-header .main-nav{flex-direction:column;align-items:flex-start;gap:0}
+}
