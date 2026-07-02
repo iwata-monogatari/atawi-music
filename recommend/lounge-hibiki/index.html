@@ -10,7 +10,8 @@
   <meta property="og:description" content="磐田市森下で、歌える夜へ。カラオケ中心のラウンジ、Lounge HIBIKIをATAWI MUSIC推薦のお店として紹介します。">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://atawimusic.link/recommend/lounge-hibiki/">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://atawimusic.link/assets/images/hibiki/hibiki-hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <style>
     :root {
       --bg: #111317;
@@ -73,6 +74,13 @@
       border-bottom: 1px solid var(--line);
     }
 
+    .hibiki-hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, .88fr) minmax(320px, 1.12fr);
+      gap: 34px;
+      align-items: center;
+    }
+
     h1 {
       max-width: 11em;
       margin: 10px 0 0;
@@ -88,12 +96,44 @@
       font-size: 1.04rem;
     }
 
-    .hibiki-no-photo {
+    .hibiki-logo-card {
       margin: 30px 0 0;
       border: 1px solid rgba(208, 168, 95, .36);
       background: rgba(208, 168, 95, .08);
       padding: 18px 20px;
       color: rgba(245, 240, 234, .78);
+    }
+
+    .hibiki-logo-card img {
+      width: min(100%, 520px);
+      height: auto;
+      display: block;
+      border: 1px solid rgba(255, 255, 255, .14);
+      box-shadow: 0 14px 36px rgba(0, 0, 0, .34);
+    }
+
+    .hibiki-logo-card p {
+      margin: 12px 0 0;
+      font-size: .86rem;
+      color: rgba(245, 240, 234, .68);
+    }
+
+    .hibiki-hero-photo {
+      margin: 0;
+    }
+
+    .hibiki-hero-photo img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid rgba(255, 255, 255, .14);
+      box-shadow: 0 22px 56px rgba(0, 0, 0, .48);
+    }
+
+    .hibiki-hero-photo figcaption {
+      margin-top: 10px;
+      color: rgba(245, 240, 234, .52);
+      font-size: .78rem;
     }
 
     main section {
@@ -166,6 +206,7 @@
 
     @media (max-width: 680px) {
       .hibiki-hero { padding-top: 42px; }
+      .hibiki-hero-grid { grid-template-columns: 1fr; }
       .hibiki-info { grid-template-columns: 1fr; gap: 4px 0; }
       .hibiki-info dd { margin-bottom: 10px; }
     }
@@ -182,13 +223,20 @@
 
   <main>
     <section class="hibiki-hero">
-      <div class="hibiki-wrap">
-        <p class="hibiki-area">静岡県磐田市森下</p>
-        <h1>磐田市森下で、歌える夜へ。</h1>
-        <p class="hibiki-lead">Lounge HIBIKI（ラウンジ響）は、カラオケを中心に、会話と音楽を楽しめるラウンジです。</p>
-        <div class="hibiki-no-photo">
-          <p>写真はまだ掲載していません。外観や店内の雰囲気は、公式Instagramでご確認ください。このページでは、ATAWI MUSICの言葉で、歌える夜の空気をお伝えします。</p>
+      <div class="hibiki-wrap hibiki-hero-grid">
+        <div>
+          <p class="hibiki-area">静岡県磐田市森下</p>
+          <h1>磐田市森下で、歌える夜へ。</h1>
+          <p class="hibiki-lead">Lounge HIBIKI（ラウンジ響）は、カラオケを中心に、会話と音楽を楽しめるラウンジです。</p>
+          <div class="hibiki-logo-card">
+            <img src="/assets/images/hibiki/hibiki-run-logo.jpg" alt="有限会社RunとLounge HIBIKI ラウンジ響のロゴ">
+            <p>有限会社RUNとLounge HIBIKI。音楽と仕事が、磐田市森下の夜につながる場所として紹介します。</p>
+          </div>
         </div>
+        <figure class="hibiki-hero-photo">
+          <img src="/assets/images/hibiki/hibiki-hero.jpg" alt="Lounge HIBIKI ラウンジ響の店内でグラス越しに夜の雰囲気が伝わる写真">
+          <figcaption>この一枚で、ラウンジ響の夜の空気を伝えます。</figcaption>
+        </figure>
       </div>
     </section>
 
@@ -249,6 +297,7 @@
             <dt>カラオケ</dt><dd>あり（カラオケ中心）</dd>
             <dt>喫煙</dt><dd>可</dd>
             <dt>席</dt><dd>カウンター、ボックス席3組</dd>
+            <dt>グループ会社</dt><dd>有限会社RUN</dd>
           </dl>
           <a href="https://www.instagram.com/morishita.ginza.h/" target="_blank" rel="noopener noreferrer" class="hibiki-button">公式Instagramを見る</a>
         </div>
@@ -268,6 +317,7 @@
   <footer class="hibiki-page-footer">
     <div class="hibiki-wrap">
       <p>本ページはATAWI MUSICによる推薦紹介ページです。店舗公式情報・最新情報は、店舗または公式Instagramをご確認ください。</p>
+      <p>グループ会社：有限会社RUN</p>
     </div>
   </footer>
 </body>
