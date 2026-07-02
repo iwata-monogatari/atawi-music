@@ -3,7 +3,7 @@
 .hero-inner{grid-template-columns:minmax(0,1fr) 220px;gap:42px}
 .hero-copy,h1,.lead{max-width:none}
 .hero-photo-wrap{width:220px}
-.song-card{display:flex;flex-direction:column;height:100%}
+.song-card{display:flex;flex-direction:column;height:100%;width:100%}
 .song-list{grid-template-columns:1fr}
 .song-item{display:flex}
 .song-main{display:flex;flex-direction:row;align-items:stretch;padding:0;color:var(--text);flex:1;gap:16px}
