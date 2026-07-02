@@ -334,5 +334,19 @@
     "summary": "定まらない自分と、それでも隣にいてくれた誰かを思い出す曲。ふたりの漂流をたどる。",
     "status": "published",
     "featured_order": 24
+  },
+  {
+    "id": "sakiya-kenjiro-002",
+    "title": "涙が君を忘れない",
+    "artist": "崎谷健次郎",
+    "release_year": 1991,
+    "decade": "1990年代",
+    "article_url": "/articles/sakiya-kenjiro-002.html",
+    "youtube_url": "https://www.youtube.com/watch?v=5gLD8P4Omgk",
+    "source_owner": "崎谷健次郎公式チャンネルimpression",
+    "created_at": "2026-07-02",
+    "summary": "言葉より先に声が届く曲。海を越えて歌い継がれる歌と、家に残る声の記憶をたどる。",
+    "status": "published",
+    "featured_order": 25
   }
 ]
