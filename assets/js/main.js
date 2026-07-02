@@ -80,16 +80,27 @@
 
   function pageNumber() {
     var q = new URLSearchParams(location.search);
+    if (active.sort !== "featured") {
+      var n0 = Number(q.get("page"));
+      return n0 >= 1 ? Math.floor(n0) : 1;
+    }
     var n = Number(q.get("page") || 2);
     return n >= 2 ? Math.floor(n) : 2;
   }
 
   function pageHref(n) {
+    if (active.sort !== "featured") return bp() + "articles/index.html" + (n > 1 ? "?page=" + n : "");
     return bp() + "articles/index.html" + (n > 2 ? "?page=" + n : "");
   }
 
   function paginate(v) {
     if (kind === "home") return { items: v.slice(0, 10), start: 0, page: 1, totalPages: Math.max(1, Math.ceil(Math.max(0, v.length - 10) / 20) + 1) };
+    if (active.sort !== "featured") {
+      if (v.length <= 20) return { items: v, start: 0, page: 1, totalPages: 1 };
+      var p1 = pageNumber();
+      var start1 = (p1 - 1) * 20;
+      return { items: v.slice(start1, start1 + 20), start: start1, page: p1, totalPages: Math.max(1, Math.ceil(v.length / 20)) };
+    }
     if (v.length <= 10) return { items: v, start: 0, page: 1, totalPages: 1 };
     var p = pageNumber();
     var start = 10 + (p - 2) * 20;
@@ -100,7 +111,13 @@
     if (meta.totalPages <= 1) return "";
     var html = '<nav class="pagination" aria-label="記事ページ">';
     if (kind === "home") {
-      return html + '<a class="btn-gold" href="' + e(pageHref(2)) + '">11件目以降を読む</a></nav>';
+      return html + '<a class="btn-gold" href="' + e(pageHref(active.sort !== "featured" ? 1 : 2)) + '">11件目以降を読む</a></nav>';
+    }
+    if (active.sort !== "featured") {
+      for (var j = 1; j <= meta.totalPages; j++) {
+        html += '<a class="btn-gold' + (j === meta.page ? " is-active" : "") + '" href="' + e(pageHref(j)) + '">' + j + "ページ目</a>";
+      }
+      return html + "</nav>";
     }
     html += '<a class="btn-gold" href="' + e(bp() || "./") + '">トップの10件へ</a>';
     for (var i = 2; i <= meta.totalPages; i++) {

@@ -306,33 +306,5 @@
     "summary": "私の中の槇原さんといえばこの曲。失恋の後に残る生活、強がり、寂しさをたどる。",
     "status": "published",
     "featured_order": 22
-  },
-  {
-    "id": "furuuchi-toko-002",
-    "title": "誰より好きなのに",
-    "artist": "古内東子",
-    "release_year": 1996,
-    "decade": "1990年代",
-    "article_url": "/articles/furuuchi-toko-002.html",
-    "youtube_url": "https://www.youtube.com/watch?v=8yLxSLweyIs",
-    "source_owner": "TOKO FURUUCHI Official YouTube Channel",
-    "created_at": "2026-07-02",
-    "summary": "一番近くにいながら言えなかった気持ちを思い出す曲。友人でいることを選んだ時間をたどる。",
-    "status": "published",
-    "featured_order": 23
-  },
-  {
-    "id": "kirinji-002",
-    "title": "Drifter",
-    "artist": "キリンジ",
-    "release_year": 2001,
-    "decade": "2000年代",
-    "article_url": "/articles/kirinji-002.html",
-    "youtube_url": "https://youtu.be/LHF_mFLeEJc",
-    "source_owner": "Warner Music Japan公式YouTubeチャンネル",
-    "created_at": "2026-07-02",
-    "summary": "定まらない自分と、それでも隣にいてくれた誰かを思い出す曲。ふたりの漂流をたどる。",
-    "status": "published",
-    "featured_order": 24
   }
 ]
