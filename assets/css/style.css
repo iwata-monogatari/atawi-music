@@ -3,9 +3,18 @@
 .hero-inner{grid-template-columns:minmax(0,1fr) 220px;gap:42px}
 .hero-copy,h1,.lead{max-width:none}
 .hero-photo-wrap{width:220px}
-.song-card{display:grid;gap:0}
-.song-main{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.9fr) minmax(0,1.25fr) auto;gap:12px;align-items:center;padding:18px;color:var(--text)}
+.song-card{display:flex;flex-direction:column;height:100%}
+.song-list{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.song-item{display:flex}
+.song-main{display:flex;flex-direction:column;padding:0;color:var(--text);flex:1}
 .song-main:hover{text-decoration:none;background:rgba(255,255,255,.025)}
+.song-thumb{display:block;aspect-ratio:16/9;background:#050608;overflow:hidden}
+.song-thumb img{width:100%;height:100%;object-fit:cover;transition:transform .3s ease}
+.song-main:hover .song-thumb img{transform:scale(1.05)}
+.song-thumb-empty{background:linear-gradient(135deg,var(--panel-soft),var(--panel))}
+.song-body{display:flex;flex-direction:column;gap:6px;padding:16px 18px;flex:1}
+.song-body .song-note{flex:1}
+.song-body .read-label{width:fit-content}
 .song-youtube{border-top:1px solid var(--line);padding:10px 18px;color:var(--muted);font-size:.82rem}
 .song-youtube strong{color:rgba(245,240,234,.7);font-weight:700}
 .song-youtube span{color:rgba(245,240,234,.48)}

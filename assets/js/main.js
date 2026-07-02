@@ -66,6 +66,17 @@
     return x.youtube_url ? '<a href="' + e(x.youtube_url) + '" target="_blank" rel="noopener">YouTube</a>' : "<span>公式リンク確認中</span>";
   }
 
+  function ytId(url) {
+    var m = String(url || "").match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|shorts\/|embed\/))([\w-]{6,})/);
+    return m ? m[1] : "";
+  }
+
+  function thumbBlock(x) {
+    var id = ytId(x.youtube_url);
+    if (!id) return '<span class="song-thumb song-thumb-empty" aria-hidden="true"></span>';
+    return '<span class="song-thumb"><img src="https://i.ytimg.com/vi/' + e(id) + '/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"></span>';
+  }
+
   function compareText(a, b) {
     return String(a || "").localeCompare(String(b || ""), "ja");
   }
@@ -163,7 +174,7 @@
     }
     c.innerHTML = '<ul class="song-list">' + meta.items.map(function(x) {
       var href = bp() + String(x.article_url || "#").replace(/^\//, "");
-      return '<li class="song-item"><div class="song-card"><a class="song-main" href="' + e(href) + '"><span class="song-title">' + e(x.title) + '</span><span class="song-detail">' + e(era(x)) + (x.release_year ? " / " + e(x.release_year) : "") + " / " + e(x.artist) + '</span><span class="song-note">' + e(x.summary || "") + '</span><span class="read-label">読む</span></a><div class="song-youtube"><strong>YouTube:</strong> ' + youtubeLine(x) + "</div></div></li>";
+      return '<li class="song-item"><div class="song-card"><a class="song-main" href="' + e(href) + '">' + thumbBlock(x) + '<span class="song-body"><span class="song-title">' + e(x.title) + '</span><span class="song-detail">' + e(era(x)) + (x.release_year ? " / " + e(x.release_year) : "") + " / " + e(x.artist) + '</span><span class="song-note">' + e(x.summary || "") + '</span><span class="read-label">読む</span></span></a><div class="song-youtube"><strong>YouTube:</strong> ' + youtubeLine(x) + "</div></div></li>";
     }).join("") + "</ul>" + pager(meta);
   }
 
