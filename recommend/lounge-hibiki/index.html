@@ -74,15 +74,7 @@
       border-bottom: 1px solid var(--line);
     }
 
-    .hibiki-hero-grid {
-      display: grid;
-      grid-template-columns: minmax(0, .88fr) minmax(320px, 1.12fr);
-      gap: 34px;
-      align-items: center;
-    }
-
     h1 {
-      max-width: 11em;
       margin: 10px 0 0;
       font-size: clamp(2.2rem, 6vw, 4.2rem);
       line-height: 1.22;
@@ -90,24 +82,35 @@
     }
 
     .hibiki-lead {
-      max-width: 42em;
       margin: 20px 0 0;
       color: var(--muted);
       font-size: 1.04rem;
     }
 
-    .hibiki-logo-card {
+    .hibiki-hero-photo {
       margin: 30px 0 0;
+    }
+
+    .hibiki-logo-section {
+      padding: 38px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .hibiki-logo-card {
+      max-width: 520px;
+      margin: 0 auto;
       border: 1px solid rgba(208, 168, 95, .36);
       background: rgba(208, 168, 95, .08);
-      padding: 18px 20px;
+      padding: 24px 26px;
       color: rgba(245, 240, 234, .78);
+      text-align: center;
     }
 
     .hibiki-logo-card img {
-      width: min(100%, 520px);
+      width: 100%;
       height: auto;
       display: block;
+      margin: 0 auto;
       border: 1px solid rgba(255, 255, 255, .14);
       box-shadow: 0 14px 36px rgba(0, 0, 0, .34);
     }
@@ -116,10 +119,6 @@
       margin: 12px 0 0;
       font-size: .86rem;
       color: rgba(245, 240, 234, .68);
-    }
-
-    .hibiki-hero-photo {
-      margin: 0;
     }
 
     .hibiki-hero-photo img {
@@ -206,7 +205,6 @@
 
     @media (max-width: 680px) {
       .hibiki-hero { padding-top: 42px; }
-      .hibiki-hero-grid { grid-template-columns: 1fr; }
       .hibiki-info { grid-template-columns: 1fr; gap: 4px 0; }
       .hibiki-info dd { margin-bottom: 10px; }
     }
@@ -223,19 +221,13 @@
 
   <main>
     <section class="hibiki-hero">
-      <div class="hibiki-wrap hibiki-hero-grid">
-        <div>
-          <p class="hibiki-area">静岡県磐田市森下</p>
-          <h1>磐田市森下で、歌える夜へ。</h1>
-          <p class="hibiki-lead">Lounge HIBIKI（ラウンジ響）は、カラオケを中心に、会話と音楽を楽しめるラウンジです。</p>
-          <div class="hibiki-logo-card">
-            <img src="/assets/images/hibiki/hibiki-run-logo.jpg" alt="有限会社RunとLounge HIBIKI ラウンジ響のロゴ">
-            <p>有限会社RUNとLounge HIBIKI。音楽と仕事が、磐田市森下の夜につながる場所として紹介します。</p>
-          </div>
-        </div>
+      <div class="hibiki-wrap">
+        <p class="hibiki-area">静岡県磐田市森下</p>
+        <h1>磐田市森下で、歌える夜へ。</h1>
+        <p class="hibiki-lead">Lounge HIBIKI（ラウンジ響）は、カラオケを中心に、会話と音楽を楽しめるラウンジです。磐田市森下は、古くから「森下銀座」と呼ばれ親しまれてきた通り。ラウンジ響は、その一角で夜ごと灯りをともし、常連さんも初めての方も自然と顔なじみになっていく、地域のコミュニティの中心のようなお店です。仕事帰りの一杯、誰かとの語らい、一曲の歌。そのひとときが、森下の夜をあたたかくしています。</p>
         <figure class="hibiki-hero-photo">
           <img src="/assets/images/hibiki/hibiki-hero.jpg" alt="Lounge HIBIKI ラウンジ響の店内でグラス越しに夜の雰囲気が伝わる写真">
-          <figcaption>この一枚で、ラウンジ響の夜の空気を伝えます。</figcaption>
+          <figcaption>おいしいお酒と音楽、やさしいママのお店です。</figcaption>
         </figure>
       </div>
     </section>
@@ -309,6 +301,15 @@
         <div class="hibiki-notice">
           <h2>お酒を飲まれる方へ</h2>
           <p>飲酒運転は絶対に禁止です。お車でお越しの場合は、代行運転またはタクシーをご利用ください。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="hibiki-logo-section">
+      <div class="hibiki-wrap">
+        <div class="hibiki-logo-card">
+          <img src="/assets/images/hibiki/hibiki-run-logo.jpg" alt="有限会社RunとLounge HIBIKI ラウンジ響のロゴ">
+          <p>有限会社RUNとLounge HIBIKI。音楽と仕事が、磐田市森下の夜につながる場所として紹介します。</p>
         </div>
       </div>
     </section>
