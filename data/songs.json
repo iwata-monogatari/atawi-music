@@ -3044,5 +3044,47 @@
     "summary": "デビュー間もない頃から、何度も録り直されてきた愛され曲。",
     "status": "published",
     "featured_order": 215
+  },
+  {
+    "id": "okuda-tamio-001",
+    "title": "さすらい",
+    "artist": "奥田民生",
+    "release_year": 1998,
+    "decade": "1990年代",
+    "article_url": "/articles/okuda-tamio-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=pdbSLpBgQ2I",
+    "source_owner": "奥田民生(RAMEN CURRY MUSIC RECORDS)公式",
+    "created_at": "2026-07-04T03:00:00",
+    "summary": "四半世紀を経て、まったく新しい世代に見つけ出された曲。",
+    "status": "published",
+    "featured_order": 216
+  },
+  {
+    "id": "ulfuls-004",
+    "title": "バンザイ〜好きでよかった〜",
+    "artist": "ウルフルズ",
+    "release_year": 1996,
+    "decade": "1990年代",
+    "article_url": "/articles/ulfuls-004.html",
+    "youtube_url": "https://www.youtube.com/watch?v=GdSg_NdtGbc",
+    "source_owner": "UlfulsVEVO公式",
+    "created_at": "2026-07-04T03:02:00",
+    "summary": "結ばれるかどうかより、好きになれたこと自体を祝おう。",
+    "status": "published",
+    "featured_order": 217
+  },
+  {
+    "id": "ulfuls-005",
+    "title": "ええねん",
+    "artist": "ウルフルズ",
+    "release_year": 2003,
+    "decade": "2000年代",
+    "article_url": "/articles/ulfuls-005.html",
+    "youtube_url": "https://www.youtube.com/watch?v=bssK6prrHrQ",
+    "source_owner": "UlfulsVEVO公式",
+    "created_at": "2026-07-04T03:04:00",
+    "summary": "結果がどうであれ、それでええねん。",
+    "status": "published",
+    "featured_order": 218
   }
 ]
