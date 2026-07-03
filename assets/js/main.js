@@ -10,7 +10,7 @@
   var active = { artist: "all", era: "all", sort: "featured" };
   var kind = c.getAttribute("data-page-kind") || "archive";
   var artistKana = {};
-  var FEATURED_ARTISTS = ["Nulbarich", "KICK THE CAN CREW", "椎名林檎", "東京事変", "ぷにぷに電機"];
+  var ARTIST_VISIBLE_ROWS = 6;
   var artistExpanded = false;
 
   (function initFromQuery() {
@@ -64,17 +64,41 @@
     });
   }
 
+  function layoutArtistRows() {
+    if (!af) return;
+    var chips = Array.prototype.slice.call(af.querySelectorAll(".chip"));
+    var tops = [];
+    chips.forEach(function(c) {
+      if (tops.indexOf(c.offsetTop) === -1) tops.push(c.offsetTop);
+    });
+    tops.sort(function(a, b) { return a - b; });
+    if (tops.length <= ARTIST_VISIBLE_ROWS) return;
+
+    var cutoffTop = tops[ARTIST_VISIBLE_ROWS];
+    var activeChip = af.querySelector(".chip.is-active");
+    var activeHidden = !!activeChip && activeChip.offsetTop >= cutoffTop;
+    var moreBtn = document.createElement("button");
+    moreBtn.className = "chip chip-more";
+    moreBtn.type = "button";
+
+    if (artistExpanded || activeHidden) {
+      moreBtn.setAttribute("data-action", "collapse-artists");
+      moreBtn.textContent = "閉じる";
+    } else {
+      chips.forEach(function(c) {
+        if (c.offsetTop >= cutoffTop) c.classList.add("chip-hidden");
+      });
+      moreBtn.setAttribute("data-action", "expand-artists");
+      moreBtn.textContent = "もっと見る";
+    }
+    af.appendChild(moreBtn);
+  }
+
   function filters(s) {
     if (af) {
       var as = sortArtistNames(uniq(s.reduce(function(acc, x) { return acc.concat(artistList(x)); }, [])));
-      var forceExpand = active.artist !== "all" && FEATURED_ARTISTS.indexOf(active.artist) === -1;
-      var expanded = artistExpanded || forceExpand;
-      var visible = expanded ? as : as.filter(function(a) { return FEATURED_ARTISTS.indexOf(a) !== -1; });
-      var html = btn("すべて", "artist", "all", active.artist === "all") + visible.map(function(a) { return btn(a, "artist", a, a === active.artist); }).join("");
-      if (as.length > FEATURED_ARTISTS.length) {
-        html += '<button class="chip chip-more" type="button" data-action="' + (expanded ? "collapse-artists" : "expand-artists") + '">' + (expanded ? "閉じる" : "もっと見る") + "</button>";
-      }
-      af.innerHTML = html;
+      af.innerHTML = btn("すべて", "artist", "all", active.artist === "all") + as.map(function(a) { return btn(a, "artist", a, a === active.artist); }).join("");
+      layoutArtistRows();
     }
     if (ef) {
       var es = uniq(s.map(era)).sort();
