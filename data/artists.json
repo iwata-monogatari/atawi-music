@@ -283,5 +283,40 @@
     "id": "mr-children",
     "name": "Mr.Children",
     "kana": "ミスターチルドレン"
+  },
+  {
+    "id": "m-flo",
+    "name": "m-flo",
+    "kana": "エムフロー"
+  },
+  {
+    "id": "tokyo-ska",
+    "name": "東京スカパラダイスオーケストラ",
+    "kana": "とうきょうすかぱらだいすおーけすとら"
+  },
+  {
+    "id": "kuwata-keisuke",
+    "name": "桑田佳祐",
+    "kana": "くわたけいすけ"
+  },
+  {
+    "id": "yamazaki-masayoshi",
+    "name": "山崎まさよし",
+    "kana": "やまざきまさよし"
+  },
+  {
+    "id": "pizzicato-five",
+    "name": "PIZZICATO FIVE",
+    "kana": "ピチカートファイヴ"
+  },
+  {
+    "id": "saito-kazuyoshi",
+    "name": "斉藤和義",
+    "kana": "さいとうかずよし"
+  },
+  {
+    "id": "ulfuls",
+    "name": "ウルフルズ",
+    "kana": "うるふるず"
   }
 ]
