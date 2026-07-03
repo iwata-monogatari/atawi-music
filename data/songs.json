@@ -829,7 +829,10 @@
     "id": "nulbarich-006",
     "title": "DAY feat. PUNPEE",
     "artist": "Nulbarich",
-    "artists": ["Nulbarich", "PUNPEE"],
+    "artists": [
+      "Nulbarich",
+      "PUNPEE"
+    ],
     "release_year": 2023,
     "decade": "2020年代",
     "article_url": "/articles/nulbarich-006.html",
@@ -844,7 +847,10 @@
     "id": "nulbarich-007",
     "title": "ASH feat. Vaundy",
     "artist": "Nulbarich, Vaundy",
-    "artists": ["Nulbarich", "Vaundy"],
+    "artists": [
+      "Nulbarich",
+      "Vaundy"
+    ],
     "release_year": 2020,
     "decade": "2020年代",
     "article_url": "/articles/nulbarich-007.html",
@@ -1125,7 +1131,10 @@
     "id": "punpee-001",
     "title": "夢追人 feat. KREVA",
     "artist": "PUNPEE, KREVA",
-    "artists": ["PUNPEE", "KREVA"],
+    "artists": [
+      "PUNPEE",
+      "KREVA"
+    ],
     "release_year": 2020,
     "decade": "2020年代",
     "article_url": "/articles/punpee-001.html",
@@ -1154,7 +1163,10 @@
     "id": "stuts-001",
     "title": "夜を使いはたして feat. PUNPEE",
     "artist": "STUTS, PUNPEE",
-    "artists": ["STUTS", "PUNPEE"],
+    "artists": [
+      "STUTS",
+      "PUNPEE"
+    ],
     "release_year": 2016,
     "decade": "2010年代",
     "article_url": "/articles/stuts-001.html",
@@ -1169,7 +1181,10 @@
     "id": "skirt-001",
     "title": "ODDTAXI",
     "artist": "スカートとPUNPEE",
-    "artists": ["スカート", "PUNPEE"],
+    "artists": [
+      "スカート",
+      "PUNPEE"
+    ],
     "release_year": 2021,
     "decade": "2020年代",
     "article_url": "/articles/skirt-001.html",
@@ -1184,7 +1199,10 @@
     "id": "yano-001",
     "title": "My Name Is... feat. PUNPEE",
     "artist": "ヤノ, PUNPEE",
-    "artists": ["ヤノ", "PUNPEE"],
+    "artists": [
+      "ヤノ",
+      "PUNPEE"
+    ],
     "release_year": 2021,
     "decade": "2020年代",
     "article_url": "/articles/yano-001.html",
@@ -1241,7 +1259,10 @@
     "id": "punipuni-denki-002",
     "title": "ずるくない？",
     "artist": "ぷにぷに電機×Kan Sano",
-    "artists": ["ぷにぷに電機", "Kan Sano"],
+    "artists": [
+      "ぷにぷに電機",
+      "Kan Sano"
+    ],
     "release_year": 2021,
     "decade": "2020年代",
     "article_url": "/articles/punipuni-denki-002.html",
@@ -1466,7 +1487,10 @@
     "id": "hoshino-gen-008",
     "title": "さらしもの feat. PUNPEE",
     "artist": "星野源, PUNPEE",
-    "artists": ["星野源", "PUNPEE"],
+    "artists": [
+      "星野源",
+      "PUNPEE"
+    ],
     "release_year": 2019,
     "decade": "2010年代",
     "article_url": "/articles/hoshino-gen-008.html",
@@ -1523,7 +1547,10 @@
     "id": "original-love-002",
     "title": "接吻(2021 Ovallコラボ版)",
     "artist": "Original Love & Ovall",
-    "artists": ["Original Love", "Ovall"],
+    "artists": [
+      "Original Love",
+      "Ovall"
+    ],
     "release_year": 2021,
     "decade": "2020年代",
     "article_url": "/articles/original-love-002.html",
@@ -1701,5 +1728,117 @@
     "summary": "幾田りらさん版もいいですね。3人目の解釈が生む新しい景色をたどる。",
     "status": "published",
     "featured_order": 121
+  },
+  {
+    "id": "original-love-003",
+    "title": "プライマル",
+    "artist": "Original Love",
+    "release_year": 1996,
+    "decade": "1990年代",
+    "article_url": "/articles/original-love-003.html",
+    "youtube_url": "https://www.youtube.com/watch?v=lUGu2XM9mRI",
+    "source_owner": "ponycanyon公式",
+    "created_at": "2026-07-03T18:00:00",
+    "summary": "原初的な衝動こそが、いちばん遠くまで届く。自身最大のヒット曲の背景を読み直す。",
+    "status": "published",
+    "featured_order": 122
+  },
+  {
+    "id": "tokyo-jihen-003",
+    "title": "女の子は誰でも",
+    "artist": "東京事変",
+    "release_year": 2011,
+    "decade": "2010年代",
+    "article_url": "/articles/tokyo-jihen-003.html",
+    "youtube_url": "https://www.youtube.com/watch?v=8tTkCZzRx5Q",
+    "source_owner": "TokyoIncidentsVEVO公式",
+    "created_at": "2026-07-03T18:02:00",
+    "summary": "資生堂マキアージュCMソングという、小さな入口から始まった出会い。",
+    "status": "published",
+    "featured_order": 123
+  },
+  {
+    "id": "toki-asako-001",
+    "title": "Gift～あなたはマドンナ～",
+    "artist": "土岐麻子",
+    "release_year": 2011,
+    "decade": "2010年代",
+    "article_url": "/articles/toki-asako-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=vqJL6zIcx9E",
+    "source_owner": "avex公式",
+    "created_at": "2026-07-03T18:04:00",
+    "summary": "EPO書き下ろしのCMソング。誰かの言葉を自分の声で引き受ける仕事。",
+    "status": "published",
+    "featured_order": 124
+  },
+  {
+    "id": "toki-asako-002",
+    "title": "美しい顔",
+    "artist": "土岐麻子",
+    "release_year": 2019,
+    "decade": "2010年代",
+    "article_url": "/articles/toki-asako-002.html",
+    "youtube_url": "https://www.youtube.com/watch?v=H_soX_DpHKM",
+    "source_owner": "avex公式",
+    "created_at": "2026-07-03T18:06:00",
+    "summary": "美しい顔って(笑)いい曲です。シティポップ三部作の最終章。",
+    "status": "published",
+    "featured_order": 125
+  },
+  {
+    "id": "toki-asako-003",
+    "title": "エメラルド",
+    "artist": "土岐麻子",
+    "release_year": 2019,
+    "decade": "2010年代",
+    "article_url": "/articles/toki-asako-003.html",
+    "youtube_url": "https://www.youtube.com/watch?v=pGS3LVwl5bw",
+    "source_owner": "Toki Asako - Topic（公式系チャンネル）",
+    "created_at": "2026-07-03T18:08:00",
+    "summary": "派手さより、削られた末に残る硬い輝きを。",
+    "status": "published",
+    "featured_order": 126
+  },
+  {
+    "id": "toki-asako-004",
+    "title": "Ice Cream Talk feat. G.RINA",
+    "artist": "土岐麻子",
+    "release_year": 2019,
+    "decade": "2010年代",
+    "article_url": "/articles/toki-asako-004.html",
+    "youtube_url": "https://www.youtube.com/watch?v=NblnevC_gBw",
+    "source_owner": "Toki Asako - Topic（公式系チャンネル）",
+    "created_at": "2026-07-03T18:10:00",
+    "summary": "この曲よく聞いていました。日常に溶け込んでいた涼やかな1曲。",
+    "status": "published",
+    "featured_order": 127
+  },
+  {
+    "id": "fukumimi-001",
+    "title": "星のかけらを探しに行こう Again",
+    "artist": "福耳",
+    "release_year": 1999,
+    "decade": "1990年代",
+    "article_url": "/articles/fukumimi-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=E_v-VC2PEtY",
+    "source_owner": "OfficeAugusta公式",
+    "created_at": "2026-07-03T18:12:00",
+    "summary": "杏子・山崎まさよし・スガシカオ、3人が集まると曲は新しい命を得る。",
+    "status": "published",
+    "featured_order": 128
+  },
+  {
+    "id": "oe-senri-002",
+    "title": "Rain",
+    "artist": "大江千里",
+    "release_year": 1988,
+    "decade": "1980年代",
+    "article_url": "/articles/oe-senri-002.html",
+    "youtube_url": "https://www.youtube.com/watch?v=FuS9IGQXSiY",
+    "source_owner": "大江千里 YouTube Channel POPS-SIDE公式",
+    "created_at": "2026-07-03T18:14:00",
+    "summary": "降りてきた1曲が、世代を越えて降り注ぎ続ける。",
+    "status": "published",
+    "featured_order": 129
   }
 ]
