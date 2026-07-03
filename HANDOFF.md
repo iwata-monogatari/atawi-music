@@ -1,17 +1,17 @@
 # ATAWI MUSIC 全記事書き直し 引継ぎメモ
 
-作成日時: 2026-07-04T05:55:00+09:00 (作業中断時点)
+作成日時: 2026-07-04T06:03:00+09:00 (作業中断時点)
 
 ## 進捗状況
 
 - 対象記事総数: **221曲**
-- 書き直し完了: **196曲** (コミット＆プッシュ済み)
-- 残り: **25曲**
+- 書き直し完了: **201曲** (コミット＆プッシュ済み)
+- 残り: **20曲**
 
 ## 直近の状態
 
-- 直前のバッチ（7曲：GLAY『HOWEVER』『GREAT VACATION』、KIRINJI『Rainy Runway』『進水式』、野々村彩乃『Ave Maria(Schubert)』『坂の上の雲/Stand Alone』、MISIA『つつみ込むように…』）は**執筆・ファイル書き換え完了、フォント検証、デプロイ、コミット＆プッシュ完了**。
-- 直前のgit HEAD: `b8d8366` (7曲の書き直しおよびナビゲーションリンクの調整)
+- 直前のバッチ（5曲：KIRINJI『Almond Eyes feat. 鎮座DOPENESS』、坂本龍一『The Last Emperor (Theme)』、GLAY『グロリアス』、Mr.Children『抱きしめたい』『Tomorrow never knows』）は**執筆・ファイル書き換え完了、フォント検証、デプロイ、コミット＆プッシュ完了**。
+- 直前のgit HEAD: `8c16009` (5曲の記事の書き換え完了（第5弾バッチ）)
 
 ## 運用フロー(この後も継続する場合)
 
@@ -23,21 +23,16 @@
    - 4要素 (制作背景/チャート成績/音楽的特徴/惹きつける理由) を大石浩之の記憶 (東京・磐田・仕事・家・土地・家族) と半々に織り込む
    - 導入500〜1000字、h2 3〜5個、本文合計4500〜5500字、参考リンク欄、不要CTA・明朝体禁止
    - 既存記事や同一アーティスト of 他記事と切り口が重複しないよう指示する
-   - 明らかな事実誤り (前提の誤り) がある場合はWebSearchで正確な事実を確認し訂正する (これまで多数の事実誤りを発見・訂正済み)
+   - 明らかな事実誤り (前提の誤り) がある場合はWebSearchで正確な事実を確認し訂正する (これまで多数 of 事実誤りを発見・訂正済み)
 3. 全員完了後、`grep -lE "Mincho|YuMincho|Noto Serif|Hiragino Mincho|明朝"` でNGフォント混入チェック
 4. `C:\Users\fujig\tmp\atawi-music-public\articles\` に対象ファイルをコピー
 5. `npm.cmd exec wrangler@latest -- pages deploy "C:\Users\fujig\tmp\atawi-music-public" --project-name=atawi-music --commit-dirty=true`
 6. `git pull --ff-only` → `.wrangler/` 削除 → `git add` → `git commit` (バッチ内容を要約したメッセージ) → `git push`
 
-## 残り25曲リスト(featured_order順、未着手)
+## 残り20曲リスト(featured_order順、未着手)
 
 | id | アーティスト | 曲名 |
 |---|---|---|
-| kirinji-014 | KIRINJI | Almond Eyes feat. 鎮座DOPENESS |
-| ryuichi-sakamoto-002 | 坂本龍一 | The Last Emperor (Theme) |
-| glay-005 | GLAY | グロリアス |
-| mr-children-005 | Mr.Children | 抱きしめたい |
-| mr-children-006 | Mr.Children | Tomorrow never knows |
 | mr-children-007 | Mr.Children | himawari |
 | m-flo-001 | m-flo | come again |
 | tokyo-ska-001 | 東京スカパラダイスオーケストラ | 六本木純情派 |
@@ -80,4 +75,4 @@
 
 ## 再開方法
 
-このメモと `data/songs.json` を渡して「HANDOFF.mdの続きから、残り25曲の書き直しを再開してください」と依頼すれば、同じ手順で継続できる。
+このメモと `data/songs.json` を渡して「HANDOFF.mdの続きから、残り20曲の書き直しを再開してください」と依頼すれば、同じ手順で継続できる。
