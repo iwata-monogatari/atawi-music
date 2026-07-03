@@ -228,5 +228,40 @@
     "id": "glay",
     "name": "GLAY",
     "kana": "グレイ"
+  },
+  {
+    "id": "x-japan",
+    "name": "X JAPAN",
+    "kana": "エックスジャパン"
+  },
+  {
+    "id": "the-birthday",
+    "name": "The Birthday",
+    "kana": "ザバースデイ"
+  },
+  {
+    "id": "yoshiki",
+    "name": "YOSHIKI",
+    "kana": "よしき"
+  },
+  {
+    "id": "nonomura-ayano",
+    "name": "野々村彩乃",
+    "kana": "ののむらあやの"
+  },
+  {
+    "id": "ymo",
+    "name": "Yellow Magic Orchestra",
+    "kana": "イエローマジックオーケストラ"
+  },
+  {
+    "id": "ryuichi-sakamoto",
+    "name": "坂本龍一",
+    "kana": "さかもとりゅういち"
+  },
+  {
+    "id": "joe-hisaishi",
+    "name": "久石譲",
+    "kana": "ひさいしじょう"
   }
 ]
