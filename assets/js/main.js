@@ -10,6 +10,8 @@
   var active = { artist: "all", era: "all", sort: "featured" };
   var kind = c.getAttribute("data-page-kind") || "archive";
   var artistKana = {};
+  var FEATURED_ARTISTS = ["Nulbarich", "KICK THE CAN CREW", "椎名林檎", "東京事変", "ぷにぷに電機"];
+  var artistExpanded = false;
 
   (function initFromQuery() {
     var q = new URLSearchParams(location.search);
@@ -65,7 +67,14 @@
   function filters(s) {
     if (af) {
       var as = sortArtistNames(uniq(s.reduce(function(acc, x) { return acc.concat(artistList(x)); }, [])));
-      af.innerHTML = btn("すべて", "artist", "all", active.artist === "all") + as.map(function(a) { return btn(a, "artist", a, a === active.artist); }).join("");
+      var forceExpand = active.artist !== "all" && FEATURED_ARTISTS.indexOf(active.artist) === -1;
+      var expanded = artistExpanded || forceExpand;
+      var visible = expanded ? as : as.filter(function(a) { return FEATURED_ARTISTS.indexOf(a) !== -1; });
+      var html = btn("すべて", "artist", "all", active.artist === "all") + visible.map(function(a) { return btn(a, "artist", a, a === active.artist); }).join("");
+      if (as.length > FEATURED_ARTISTS.length) {
+        html += '<button class="chip chip-more" type="button" data-action="' + (expanded ? "collapse-artists" : "expand-artists") + '">' + (expanded ? "閉じる" : "もっと見る") + "</button>";
+      }
+      af.innerHTML = html;
     }
     if (ef) {
       var es = uniq(s.map(era)).sort();
@@ -225,6 +234,15 @@
 
   function bind(s) {
     document.addEventListener("click", function(ev) {
+      var toggle = ev.target.closest("[data-action]");
+      if (toggle) {
+        var action = toggle.getAttribute("data-action");
+        if (action === "expand-artists" || action === "collapse-artists") {
+          artistExpanded = action === "expand-artists";
+          filters(s);
+        }
+        return;
+      }
       var t = ev.target.closest("[data-filter-type]");
       if (!t) return;
       var type = t.getAttribute("data-filter-type");
