@@ -161,3 +161,22 @@
   .song-thumb{max-height:136px}
 }
 /* END_MOBILE_LAYOUT_GUARD */
+
+/* CLS_STABILITY_GUARD: JS???/???????????????????????????????????? */
+.brand-logo,.hero-photo{aspect-ratio:1/1}
+[data-artist-filters]{min-height:362px}
+[data-era-filters]{min-height:362px}
+[data-site-footer]{display:block;min-height:192px;border-top:1px solid var(--line);background:#15181d}
+.song-item{min-height:150px}
+.song-thumb{min-height:112px}
+.song-thumb img{aspect-ratio:16/9}
+@media(max-width:720px){
+  [data-artist-filters]{min-height:365px}
+  [data-era-filters]{min-height:134px}
+  [data-site-footer]{min-height:292px}
+}
+@media(max-width:600px){
+  .song-item{min-height:342px}
+  [data-site-footer]{min-height:316px}
+}
+/* END_CLS_STABILITY_GUARD */
