@@ -193,5 +193,25 @@
     "id": "kiki-vivi-lily",
     "name": "kiki vivi lily",
     "kana": "キキヴィヴィリリー"
+  },
+  {
+    "id": "chris-hart",
+    "name": "クリス・ハート",
+    "kana": "くりすはーと"
+  },
+  {
+    "id": "yakushimaru-hiroko",
+    "name": "薬師丸ひろ子",
+    "kana": "やくしまるひろこ"
+  },
+  {
+    "id": "nakashima-mika",
+    "name": "中島美嘉",
+    "kana": "なかしまみか"
+  },
+  {
+    "id": "shimizu-shota",
+    "name": "清水翔太",
+    "kana": "しみずしょうた"
   }
 ]
