@@ -263,7 +263,8 @@
     }
     c.innerHTML = '<ul class="song-list">' + meta.items.map(function(x) {
       var href = bp() + String(x.article_url || "#").replace(/^\//, "");
-      return '<li class="song-item"><div class="song-card"><a class="song-main" href="' + e(href) + '">' + thumbBlock(x) + '<span class="song-body"><span class="song-title">' + e(x.title) + '</span><span class="song-detail">' + e(era(x)) + (x.release_year ? " / " + e(x.release_year) : "") + " / " + e(x.artist) + '</span><span class="song-note">' + e(x.summary || "") + '</span><span class="read-label">読む</span></span></a><div class="song-youtube"><strong>YouTube:</strong> ' + youtubeLine(x) + "</div></div></li>";
+      var star = x.recommended ? '<span class="song-star" aria-hidden="true">★</span>' : "";
+      return '<li class="song-item"><div class="song-card"><a class="song-main" href="' + e(href) + '">' + thumbBlock(x) + '<span class="song-body"><span class="song-title">' + star + e(x.title) + '</span><span class="song-detail">' + e(era(x)) + (x.release_year ? " / " + e(x.release_year) : "") + " / " + e(x.artist) + '</span><span class="song-note">' + e(x.summary || "") + '</span><span class="read-label">読む</span></span></a><div class="song-youtube"><strong>YouTube:</strong> ' + youtubeLine(x) + "</div></div></li>";
     }).join("") + "</ul>" + pager(meta);
   }
 
