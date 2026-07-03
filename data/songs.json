@@ -3086,5 +3086,47 @@
     "summary": "結果がどうであれ、それでええねん。",
     "status": "published",
     "featured_order": 218
+  },
+  {
+    "id": "eikichi-yazawa-001",
+    "title": "A DAY〜時間よ止まれ",
+    "artist": "矢沢永吉",
+    "release_year": 1978,
+    "decade": "1970年代",
+    "article_url": "/articles/eikichi-yazawa-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=UGNysA3vgYo",
+    "source_owner": "矢沢永吉 Eikichi Yazawa Channel公式",
+    "created_at": "2026-07-04T04:00:00",
+    "summary": "時間よ止まれと歌い続けて、半世紀近くが過ぎた。",
+    "status": "published",
+    "featured_order": 219
+  },
+  {
+    "id": "yasuha-001",
+    "title": "Fly-day Chinatown",
+    "artist": "Yasuha",
+    "release_year": 1981,
+    "decade": "1980年代",
+    "article_url": "/articles/yasuha-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=g0p_jI6T2WQ",
+    "source_owner": "UNIVERSAL MUSIC JAPAN公式",
+    "created_at": "2026-07-04T04:02:00",
+    "summary": "当時69位だった曲が、40年後にシティポップの象徴になった。",
+    "status": "published",
+    "featured_order": 220
+  },
+  {
+    "id": "matsubara-miki-001",
+    "title": "真夜中のドア〜stay with me",
+    "artist": "松原みき",
+    "release_year": 1979,
+    "decade": "1970年代",
+    "article_url": "/articles/matsubara-miki-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=9YnxXEE-fvU",
+    "source_owner": "Miki Matsubara - Topic（公式系チャンネル）",
+    "created_at": "2026-07-04T04:04:00",
+    "summary": "インドネシアのユーチューバーが、41年前の扉を開いた。",
+    "status": "published",
+    "featured_order": 221
   }
 ]

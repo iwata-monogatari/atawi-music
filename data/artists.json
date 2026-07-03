@@ -323,5 +323,20 @@
     "id": "okuda-tamio",
     "name": "奥田民生",
     "kana": "おくだたみお"
+  },
+  {
+    "id": "eikichi-yazawa",
+    "name": "矢沢永吉",
+    "kana": "やざわえいきち"
+  },
+  {
+    "id": "yasuha",
+    "name": "Yasuha",
+    "kana": "やすは"
+  },
+  {
+    "id": "matsubara-miki",
+    "name": "松原みき",
+    "kana": "まつばらみき"
   }
 ]
