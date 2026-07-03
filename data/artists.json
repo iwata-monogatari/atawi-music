@@ -103,5 +103,30 @@
     "id": "oe-senri",
     "name": "大江千里",
     "kana": "おおえせんり"
+  },
+  {
+    "id": "umeda-cypher",
+    "name": "梅田サイファー",
+    "kana": "うめださいふぁー"
+  },
+  {
+    "id": "punipuni-denki",
+    "name": "ぷにぷに電機",
+    "kana": "ぷにぷにでんき"
+  },
+  {
+    "id": "utada-hikaru",
+    "name": "宇多田ヒカル",
+    "kana": "うただひかる"
+  },
+  {
+    "id": "skirt-punpee",
+    "name": "スカートとPUNPEE",
+    "kana": "スカートトパンピー"
+  },
+  {
+    "id": "yano-punpee",
+    "name": "ヤノ, PUNPEE",
+    "kana": "ヤノ"
   }
 ]
