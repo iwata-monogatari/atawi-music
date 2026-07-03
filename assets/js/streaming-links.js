@@ -55,9 +55,12 @@
     return r.json();
   }).then(function(d) {
     var songs = Array.isArray(d) ? d : d.songs || [];
-    var file = location.pathname.split("/").filter(Boolean).pop();
+    function baseName(p) {
+      return String(p || "").split("/").filter(Boolean).pop().replace(/\.html$/i, "");
+    }
+    var file = baseName(location.pathname);
     var song = songs.filter(function(s) {
-      return s.article_url && s.article_url.split("/").filter(Boolean).pop() === file;
+      return s.article_url && baseName(s.article_url) === file;
     })[0];
     if (!song) { mount.remove(); return; }
 
