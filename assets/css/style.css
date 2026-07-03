@@ -108,3 +108,56 @@
 .honorific-note{display:block;margin:4px 0 0;font-size:.68rem;line-height:1.45}
 }
 @media(max-width:720px){[data-era-filters]{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* MOBILE_LAYOUT_GUARD: ?????????????????????????????????/????/??????????????????????? */
+@media(max-width:600px){
+  body{font-size:15px;line-height:1.72}
+  .wrap{width:min(100% - 28px,var(--maxw))}
+  section{padding:28px 0}
+  .site-header .wrap{width:min(100% - 20px,860px)}
+  .site-header .header-inner{min-height:auto;padding:8px 0;gap:10px;align-items:center;justify-content:flex-start;flex-direction:row}
+  .site-header .brand{flex:0 0 auto;align-items:center;flex-direction:row;gap:8px;min-width:0}
+  .site-header .brand-logo{width:76px}
+  .site-header .brand-sub{display:none}
+  .site-header .header-links{flex:1;min-width:0;gap:2px}
+  .site-header .presented-link{font-size:.66rem;line-height:1.2;white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
+  .site-header .main-nav{display:grid;grid-template-columns:repeat(2,max-content);gap:1px 12px;align-items:center;width:auto;overflow:visible;white-space:normal}
+  .site-header .main-nav a{font-size:.73rem;line-height:1.34;white-space:nowrap}
+  .hero{padding:32px 0 28px}
+  .hero .wrap{width:min(100% - 28px,var(--maxw))}
+  .hero-inner{gap:22px}
+  .hero-photo-wrap{width:min(168px,58vw)}
+  .eyebrow{font-size:.74rem;margin-bottom:6px}
+  #site-title{font-size:clamp(1.55rem,7vw,2rem);line-height:1.34}
+  .lead{font-size:.94rem;line-height:1.74;margin-top:18px}
+  .page-header{padding:30px 0 22px}
+  .page-header h1{font-size:clamp(1.55rem,7vw,2rem)}
+  .sub{font-size:.92rem;line-height:1.7}
+  .section-head{gap:8px;padding-bottom:12px;margin-bottom:18px}
+  .section-head h2{font-size:1.18rem}
+  .section-head p{font-size:.82rem}
+  .filters{gap:14px;margin-bottom:20px}
+  .filter-group,.sort-group{padding:14px}
+  .filter-group h3{font-size:.82rem;line-height:1.45}
+  .search-input{min-height:44px;font-size:.94rem}
+  .sort-row{gap:8px}
+  .sort-row .chip{min-height:44px;font-size:.82rem;padding:6px 8px}
+  [data-era-filters]{gap:7px}
+  [data-era-filters] .chip{height:40px;min-height:40px;max-height:40px;font-size:.78rem;padding:6px}
+  .song-list{gap:10px}
+  .song-main{gap:0}
+  .song-thumb{width:100%;max-height:148px;aspect-ratio:16/9}
+  .song-body{padding:12px 14px;gap:5px}
+  .song-title{font-size:1rem;line-height:1.42}
+  .song-detail,.song-note{font-size:.82rem;line-height:1.55}
+  .song-youtube{padding:8px 14px;font-size:.78rem;line-height:1.5}
+  .read-label{padding:5px 9px;font-size:.78rem}
+}
+@media(max-width:380px){
+  .site-header .brand-logo{width:70px}
+  .site-header .main-nav{gap:0 9px}
+  .site-header .main-nav a{font-size:.7rem}
+  .hero-photo-wrap{width:min(154px,54vw)}
+  .song-thumb{max-height:136px}
+}
+/* END_MOBILE_LAYOUT_GUARD */
