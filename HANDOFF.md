@@ -1,17 +1,17 @@
 # ATAWI MUSIC 全記事書き直し 引継ぎメモ
 
-作成日時: 2026-07-03T21:34:00+09:00 (作業中断時点)
+作成日時: 2026-07-03T21:38:00+09:00 (作業中断時点)
 
 ## 進捗状況
 
 - 対象記事総数: **221曲**
-- 書き直し完了: **184曲** (コミット＆プッシュ済み)
-- 残り: **37曲**
+- 書き直し完了: **189曲** (コミット＆プッシュ済み)
+- 残り: **32曲**
 
 ## 直近の状態
 
-- 直前のバッチ（5曲：土岐麻子『Gift〜あなたはマドンナ〜』『美しい顔』『愛を手探り』『Bubble Gum Town』、ANRI『悲しみがとまらない』）は**執筆・ファイル書き換え完了、フォント検証、デプロイ、コミット＆プッシュ完了**。
-- 直前のgit HEAD: `b3cf1cf` (5曲の記事を一次情報に基づき書き直し)
+- 直前のバッチ（5曲：Vaundy『花占い』、竹内まりや『駅』『シングル・アゲイン』、松田聖子『チェリーブラッサム』『暮れのバルコニー』）は**執筆・ファイル書き換え完了、フォント検証、デプロイ、コミット＆プッシュ完了**。
+- 直前のgit HEAD: `e69a750` (5曲の記事を一次情報に基づき書き直し)
 
 ## 運用フロー(この後も継続する場合)
 
@@ -22,26 +22,21 @@
    - 確認済み事実は出典表記、未確認数字はヘッジ表現
    - 4要素 (制作背景/チャート成績/音楽的特徴/惹きつける理由) を大石浩之の記憶 (東京・磐田・仕事・家・土地・家族) と半々に織り込む
    - 導入500〜1000字、h2 3〜5個、本文合計4500〜5500字、参考リンク欄、不要CTA・明朝体禁止
-   - 既存記事や同一アーティストの他記事と切り口が重複しないよう指示する
+   - 既存記事や同一アーティスト of 他記事と切り口が重複しないよう指示する
    - 明らかな事実誤り (前提の誤り) がある場合はWebSearchで正確な事実を確認し訂正する (これまで多数の事実誤りを発見・訂正済み)
 3. 全員完了後、`grep -lE "Mincho|YuMincho|Noto Serif|Hiragino Mincho|明朝"` でNGフォント混入チェック
 4. `C:\Users\fujig\tmp\atawi-music-public\articles\` に対象ファイルをコピー
 5. `npm.cmd exec wrangler@latest -- pages deploy "C:\Users\fujig\tmp\atawi-music-public" --project-name=atawi-music --commit-dirty=true`
 6. `git pull --ff-only` → `.wrangler/` 削除 → `git add` → `git commit` (バッチ内容を要約したメッセージ) → `git push`
 
-## 残り37曲リスト(featured_order順、未着手)
+## 残り32曲リスト(featured_order順、未着手)
 
 | id | アーティスト | 曲名 |
 |---|---|---|
-| vaundy-007 | Vaundy | 花占い |
-| takeuchi-mariya-004 | 竹内まりや | 駅 |
-| takeuchi-mariya-005 | 竹内まりや | シングル・アゲイン |
-| matsuda-seiko-004 | 松田聖子 | チェリーブラッサム |
-| matsuda-seiko-005 | 松田聖子 | 暮れのバルコニー |
 | kirinji-011 | KIRINJI | Rainy Runway |
 | misia-003 | MISIA | つつみ込むように… |
 | glay-001 | GLAY | HOWEVER |
-| glay-002 | GLAY | GREAT vacation |
+| glay-002 | GLAY | GREAT VACATION |
 | nonomura-ayano-001 | 野々村彩乃 | Ave Maria(Schubert) |
 | nonomura-ayano-002 | 野々村彩乃 | 坂の上の雲/Stand Alone |
 | kirinji-013 | KIRINJI | 進水式 |
@@ -66,7 +61,7 @@
 | ulfuls-002 | ウルフルズ | (曲名要確認・文字化けあり) |
 | ulfuls-003 | ウルフルズ | (曲名要確認・文字化けあり) |
 | okuda-tamio-001 | 奥田民生 | (曲名要確認・文字化けあり) |
-| ulfuls-004 | ウルフルズ | (曲名要確認・文字化けあり) |
+| ulfuls-004 | ウルフルズ | (曲名要確認・文字化形あり) |
 | ulfuls-005 | ウルフルズ | (曲名要確認・文字化けあり) |
 | eikichi-yazawa-001 | 矢沢永吉 | A DAY〜あれから〜 |
 | yasuha-001 | Yasuha | Fly-day Chinatown |
@@ -92,4 +87,4 @@
 
 ## 再開方法
 
-このメモと `data/songs.json` を渡して「HANDOFF.mdの続きから、残り37曲の書き直しを再開してください」と依頼すれば、同じ手順で継続できる。
+このメモと `data/songs.json` を渡して「HANDOFF.mdの続きから、残り32曲の書き直しを再開してください」と依頼すれば、同じ手順で継続できる。
