@@ -25,6 +25,7 @@
 .mini-sort{display:flex;gap:6px;margin-left:auto}
 .chip-more{border-style:dashed;color:var(--accent);background:transparent}
 .chip-hidden{display:none}
+.honorific-note{display:inline-block;margin-left:8px;color:rgba(245,240,234,.4);font-size:.76rem;font-weight:400}
 .chip-mini{min-height:auto;padding:5px 10px;font-size:.78rem}
 .sort-group{grid-column:1/-1;padding:20px}.sort-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.sort-row .chip{min-height:54px;width:100%;font-size:1rem;font-weight:800;background:rgba(255,255,255,.025)}.sort-row .chip.is-active{background:var(--accent-soft);box-shadow:inset 0 0 0 1px rgba(208,168,95,.32)}.sort-row .chip:focus-visible{outline:2px solid rgba(208,168,95,.55);outline-offset:2px}
 @media(min-width:721px){.filters{grid-template-columns:minmax(0,1fr) 170px}.filters .filter-group:nth-child(2) .chip-row{display:grid;grid-template-columns:1fr}.filters .filter-group:nth-child(2) .chip{width:100%;padding-left:10px;padding-right:10px}}
