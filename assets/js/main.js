@@ -84,14 +84,25 @@
     if (artistExpanded || activeHidden) {
       moreBtn.setAttribute("data-action", "collapse-artists");
       moreBtn.textContent = "閉じる";
-    } else {
-      chips.forEach(function(c) {
-        if (c.offsetTop >= cutoffTop) c.classList.add("chip-hidden");
-      });
-      moreBtn.setAttribute("data-action", "expand-artists");
-      moreBtn.textContent = "もっと見る";
+      af.appendChild(moreBtn);
+      return;
     }
+
+    var visibleChips = [];
+    chips.forEach(function(c) {
+      if (c.offsetTop >= cutoffTop) c.classList.add("chip-hidden");
+      else visibleChips.push(c);
+    });
+    moreBtn.setAttribute("data-action", "expand-artists");
+    moreBtn.textContent = "もっと見る";
     af.appendChild(moreBtn);
+
+    var lastRowTop = tops[ARTIST_VISIBLE_ROWS - 1];
+    var guard = 0;
+    while (moreBtn.offsetTop > lastRowTop && visibleChips.length && guard < visibleChips.length) {
+      visibleChips.pop().classList.add("chip-hidden");
+      guard++;
+    }
   }
 
   function filters(s) {
