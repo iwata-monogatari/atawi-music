@@ -838,5 +838,20 @@
     "summary": "胸の中がどうであっても、1日はやってくる。感情と時間のズレをたどる。",
     "status": "published",
     "featured_order": 60
+  },
+  {
+    "id": "nulbarich-007",
+    "title": "ASH feat. Vaundy",
+    "artist": "Nulbarich, Vaundy",
+    "artists": ["Nulbarich", "Vaundy"],
+    "release_year": 2020,
+    "decade": "2020年代",
+    "article_url": "/articles/nulbarich-007.html",
+    "youtube_url": "https://www.youtube.com/watch?v=tYDP25hNaNY",
+    "source_owner": "Nulbarich公式",
+    "created_at": "2026-07-03T13:00:00",
+    "summary": "灰は、燃え尽きたあとに残る、次の始まりの印。距離を越えた共作をたどる。",
+    "status": "published",
+    "featured_order": 61
   }
 ]

@@ -40,6 +40,10 @@
     return a.filter(function(v, i, r) { return v && r.indexOf(v) === i; });
   }
 
+  function artistList(x) {
+    return (x.artists && x.artists.length) ? x.artists : [x.artist];
+  }
+
   function nameGroup(v) {
     var c = String(v || "").charAt(0);
     if (/[0-9]/.test(c)) return 2;
@@ -60,7 +64,7 @@
 
   function filters(s) {
     if (af) {
-      var as = sortArtistNames(uniq(s.map(function(x) { return x.artist; })));
+      var as = sortArtistNames(uniq(s.reduce(function(acc, x) { return acc.concat(artistList(x)); }, [])));
       af.innerHTML = btn("すべて", "artist", "all", active.artist === "all") + as.map(function(a) { return btn(a, "artist", a, a === active.artist); }).join("");
     }
     if (ef) {
@@ -203,7 +207,7 @@
 
   function render(s) {
     var v = s.filter(function(x) {
-      return x.status === "published" && (active.artist === "all" || x.artist === active.artist) && (active.era === "all" || era(x) === active.era);
+      return x.status === "published" && (active.artist === "all" || artistList(x).indexOf(active.artist) !== -1) && (active.era === "all" || era(x) === active.era);
     });
     v = sortSongs(v);
     var meta = paginate(v);
