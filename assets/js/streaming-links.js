@@ -3,7 +3,7 @@
 
   // Fill these in once each program is approved, then redeploy — every article picks it up automatically.
   var CONFIG = {
-    amazonAssociateTag: "", // e.g. "atawimusic-22"
+    amazonAssociateTag: "fujigaokaserv-22",
     appleAffiliateToken: "" // Apple Services Performance Partners token, e.g. "1000l3reua"
   };
 
