@@ -11,6 +11,13 @@
   var kind = c.getAttribute("data-page-kind") || "archive";
   var artistKana = {};
 
+  (function initFromQuery() {
+    var q = new URLSearchParams(location.search);
+    var a = q.get("artist"); if (a) active.artist = a;
+    var er = q.get("era"); if (er) active.era = er;
+    var so = q.get("sort"); if (so) active.sort = so;
+  })();
+
   function bp() {
     var p = location.pathname.split("/").filter(Boolean);
     if (p.length && /\.[a-z0-9]+$/i.test(p[p.length - 1])) p.pop();
@@ -54,12 +61,31 @@
   function filters(s) {
     if (af) {
       var as = sortArtistNames(uniq(s.map(function(x) { return x.artist; })));
-      af.innerHTML = btn("すべて", "artist", "all", true) + as.map(function(a) { return btn(a, "artist", a, false); }).join("");
+      af.innerHTML = btn("すべて", "artist", "all", active.artist === "all") + as.map(function(a) { return btn(a, "artist", a, a === active.artist); }).join("");
     }
     if (ef) {
       var es = uniq(s.map(era)).sort();
-      ef.innerHTML = btn("すべて", "era", "all", true) + es.map(function(a) { return btn(a, "era", a, false); }).join("");
+      ef.innerHTML = btn("すべて", "era", "all", active.era === "all") + es.map(function(a) { return btn(a, "era", a, a === active.era); }).join("");
     }
+    document.querySelectorAll('[data-filter-type="sort"]').forEach(function(b) {
+      var isActive = b.getAttribute("data-filter-value") === active.sort;
+      b.classList.toggle("is-active", isActive);
+      b.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+  }
+
+  function filterQueryParts() {
+    var parts = [];
+    if (active.artist !== "all") parts.push("artist=" + encodeURIComponent(active.artist));
+    if (active.era !== "all") parts.push("era=" + encodeURIComponent(active.era));
+    if (active.sort !== "featured") parts.push("sort=" + encodeURIComponent(active.sort));
+    return parts;
+  }
+
+  function syncUrl() {
+    var qs = filterQueryParts();
+    var url = location.pathname + (qs.length ? "?" + qs.join("&") : "");
+    history.replaceState(null, "", url);
   }
 
   function youtubeLine(x) {
@@ -123,8 +149,15 @@
   }
 
   function pageHref(n) {
-    if (active.sort !== "featured") return bp() + "articles/index.html" + (n > 1 ? "?page=" + n : "");
-    return bp() + "articles/index.html" + (n > 2 ? "?page=" + n : "");
+    var parts = filterQueryParts();
+    var needsPage = active.sort !== "featured" ? n > 1 : n > 2;
+    if (needsPage) parts.push("page=" + n);
+    return bp() + "articles/index.html" + (parts.length ? "?" + parts.join("&") : "");
+  }
+
+  function homeHref() {
+    var parts = filterQueryParts();
+    return (bp() || "./") + (parts.length ? "?" + parts.join("&") : "");
   }
 
   function paginate(v) {
@@ -153,7 +186,7 @@
       }
       return html + "</nav>";
     }
-    html += '<a class="btn-gold" href="' + e(bp() || "./") + '">トップの10件へ</a>';
+    html += '<a class="btn-gold" href="' + e(homeHref()) + '">トップの10件へ</a>';
     for (var i = 2; i <= meta.totalPages; i++) {
       html += '<a class="btn-gold' + (i === meta.page ? " is-active" : "") + '" href="' + e(pageHref(i)) + '">' + i + "ページ目</a>";
     }
@@ -196,6 +229,7 @@
           if (type === "sort") b.setAttribute("aria-pressed", isActive ? "true" : "false");
         });
       }
+      syncUrl();
       render(s);
     });
   }
