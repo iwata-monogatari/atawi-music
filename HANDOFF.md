@@ -1,17 +1,17 @@
 # ATAWI MUSIC 全記事書き直し 引継ぎメモ
 
-作成日時: 2026-07-04T06:08:00+09:00 (作業中断時点)
+作成日時: 2026-07-04T06:11:00+09:00 (作業中断時点)
 
 ## 進捗状況
 
 - 対象記事総数: **221曲**
-- 書き直し完了: **206曲** (コミット＆プッシュ済み)
-- 残り: **15曲**
+- 書き直し完了: **211曲** (コミット＆プッシュ済み)
+- 残り: **10曲**
 
 ## 直近の状態
 
-- 直前のバッチ（5曲：Mr.Children『himawari』、m-flo『come again』、東京スカパラダイスオーケストラ『美しく燃える森』、桑田佳祐『東京』『悪戯されて』）は**執筆・ファイル書き換え完了、フォント検証、デプロイ、コミット＆プッシュ完了**。
-- 直前のgit HEAD: `98c110e` (5曲の記事を一次情報に基づき書き直し)
+- 直前のバッチ（5曲：桑田佳祐『白い恋人達』、山崎まさよし『僕はここにいる』『セロリ』、PIZZICATO FIVE『きみみたいにきれいな女の子』『東京は夜の七時』）は**執筆・ファイル書き換え完了、フォント検証、デプロイ、コミット＆プッシュ完了**。
+- 直前のgit HEAD: `caeb184` (5曲の記事を一次情報に基づき書き直し)
 
 ## 運用フロー(この後も継続する場合)
 
@@ -29,15 +29,10 @@
 5. `npm.cmd exec wrangler@latest -- pages deploy "C:\Users\fujig\tmp\atawi-music-public" --project-name=atawi-music --commit-dirty=true`
 6. `git pull --ff-only` → `.wrangler/` 削除 → `git add` → `git commit` (バッチ内容を要約したメッセージ) → `git push`
 
-## 残り15曲リスト(featured_order順、未着手)
+## 残り10曲リスト(featured_order順、未着手)
 
 | id | アーティスト | 曲名 |
 |---|---|---|
-| kuwata-keisuke-003 | 桑田佳祐 | ヨシ子さん。 |
-| yamazaki-masayoshi-001 | 山崎まさよし | One more time, One more chance |
-| pizzicato-five-001 | PIZZICATO FIVE | (曲名要確認・文字化けあり) |
-| pizzicato-five-002 | PIZZICATO FIVE | (曲名要確認・文字化けあり) |
-| yamazaki-masayoshi-002 | 山崎まさよし | (曲名要確認・文字化けあり) |
 | saito-kazuyoshi-001 | 斉藤和義 | (曲名要確認・文字化けあり) |
 | saito-kazuyoshi-002 | 斉藤和義 | (曲名要確認・文字化けあり) |
 | ulfuls-001 | ウルフルズ | (曲名要確認・文字化けあり) |
@@ -50,7 +45,7 @@
 | yasuha-001 | Yasuha | Fly-day Chinatown |
 | matsubara-miki-001 | 松原みき | 真夜中のドア〜stay with me |
 
-※ 一部曲名がターミナル文字化けで再現できなかったものは「(曲名要確認)」としてある。実際の曲名は `data/songs.json` を `Read` ツールで直接読めば正しく取得できる(ターミナル経由のcatではなく、Readツールでの確認を推奨)。
+※ 実際の曲名は `data/songs.json` を `Read` ツールで直接読めば正しく取得できる(ターミナル経由のcatではなく、Readツールでの確認を推奨)。
 
 ## これまでに見つかった事実誤りの傾向(次回の参考)
 
@@ -70,4 +65,4 @@
 
 ## 再開方法
 
-このメモと `data/songs.json` を渡して「HANDOFF.mdの続きから、残り15曲の書き直しを再開してください」と依頼すれば、同じ手順で継続できる。
+このメモと `data/songs.json` を渡して「HANDOFF.mdの続きから、残り10曲の書き直しを再開してください」と依頼すれば、同じ手順で継続できる。
