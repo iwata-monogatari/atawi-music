@@ -3128,5 +3128,19 @@
     "summary": "インドネシアのユーチューバーが、41年前の扉を開いた。",
     "status": "published",
     "featured_order": 221
+  },
+  {
+    "id": "hirai-ken-001",
+    "title": "even if",
+    "artist": "平井堅",
+    "release_year": 2000,
+    "decade": "2000年代",
+    "article_url": "/articles/hirai-ken-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=6UZ9WZXLSC8",
+    "source_owner": "平井 堅 YouTube Official Channel",
+    "created_at": "2026-07-04T06:30:00",
+    "summary": "好きな女性をうまく連れ出したいと考えていた頃の記憶を、バーの灯りと声の余白からたどる。",
+    "status": "published",
+    "featured_order": 222
   }
 ]
