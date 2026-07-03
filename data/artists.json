@@ -263,5 +263,20 @@
     "id": "joe-hisaishi",
     "name": "久石譲",
     "kana": "ひさいしじょう"
+  },
+  {
+    "id": "nakayama-miho",
+    "name": "中山美穂",
+    "kana": "なかやまみほ"
+  },
+  {
+    "id": "mai-kuraki",
+    "name": "倉木麻衣",
+    "kana": "くらきまい"
+  },
+  {
+    "id": "stardust-revue",
+    "name": "スターダスト☆レビュー",
+    "kana": "スターダストレビュー"
   }
 ]
