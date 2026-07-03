@@ -47,6 +47,10 @@
 .card-ready{text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:118px}
 .card-wide{grid-column:1/-1}
 .card-single h2{margin:0}
+.streaming-links:empty{display:none}
+.streaming-buttons{display:inline-flex;flex-wrap:wrap;gap:8px;margin-left:6px}
+.btn-stream{min-height:auto;padding:6px 12px;font-size:.84rem}
+.streaming-disclosure{display:block;margin-top:6px;color:rgba(245,240,234,.42);font-size:.72rem}
 @media(max-width:600px){
 .header-inner{align-items:center;text-align:center;padding:12px 0;gap:6px}
 .brand{align-items:center}
