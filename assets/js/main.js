@@ -1,15 +1,15 @@
-(function() {
+﻿(function() {
   "use strict";
 
-  var c = document.querySelector("[data-song-list]");
-  if (!c) return;
+  var container = document.querySelector("[data-song-list]");
+  if (!container) return;
 
-  var af = document.querySelector("[data-artist-filters]");
-  var ef = document.querySelector("[data-era-filters]");
-  var st = document.querySelector("[data-status]");
-  var sb = document.querySelector("[data-search-box]");
+  var artistFilters = document.querySelector("[data-artist-filters]");
+  var eraFilters = document.querySelector("[data-era-filters]");
+  var status = document.querySelector("[data-status]");
+  var searchBox = document.querySelector("[data-search-box]");
+  var kind = container.getAttribute("data-page-kind") || "archive";
   var active = { artist: "all", era: "all", sort: "featured", q: "" };
-  var kind = c.getAttribute("data-page-kind") || "archive";
   var artistKana = {};
   var ARTIST_VISIBLE_ROWS = 7;
   var ARTIST_COLUMNS_DESKTOP = 6;
@@ -17,180 +17,57 @@
   var artistExpanded = false;
 
   (function initFromQuery() {
-    var q = new URLSearchParams(location.search);
-    var a = q.get("artist"); if (a) active.artist = a;
-    var er = q.get("era"); if (er) active.era = er;
-    var so = q.get("sort"); if (so) active.sort = so;
-    var kw = q.get("q"); if (kw) active.q = kw;
+    var query = new URLSearchParams(location.search);
+    active.artist = query.get("artist") || active.artist;
+    active.era = query.get("era") || active.era;
+    active.sort = query.get("sort") || active.sort;
+    active.q = query.get("q") || active.q;
   })();
 
-  function norm(v) {
-    var s = String(v == null ? "" : v);
-    if (s.normalize) s = s.normalize("NFKC");
-    s = s.toLowerCase();
+  function bp() {
+    var parts = location.pathname.split("/").filter(Boolean);
+    if (parts.length && /\.[a-z0-9]+$/i.test(parts[parts.length - 1])) parts.pop();
+    return parts.map(function() { return ".."; }).join("/") + (parts.length ? "/" : "");
+  }
+
+  function escapeHtml(value) {
+    return String(value == null ? "" : value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function normalize(value) {
+    var text = String(value == null ? "" : value);
+    if (text.normalize) text = text.normalize("NFKC");
+    text = text.toLowerCase();
     var out = "";
-    for (var i = 0; i < s.length; i++) {
-      var code = s.charCodeAt(i);
-      // カタカナ(ァ..ヶ)→ひらがなに寄せて同一視する
+    for (var i = 0; i < text.length; i++) {
+      var code = text.charCodeAt(i);
       if (code >= 0x30a1 && code <= 0x30f6) code -= 0x60;
       out += String.fromCharCode(code);
     }
     return out.replace(/[\s　]+/g, "");
   }
 
-  function haystack(x) {
-    if (!x._hay) {
-      var parts = [x.title, x.artist].concat(x.artists || [], x.kana || [], [artistKana[x.artist] || "", x.summary || "", x.release_year || ""]);
-      x._hay = norm(parts.join(" "));
-    }
-    return x._hay;
+  function artistList(song) {
+    return song.artists && song.artists.length ? song.artists : [song.artist];
   }
 
-  function matchesQuery(x) {
-    if (!active.q) return true;
-    var tokens = String(active.q).split(/[\s　]+/).filter(Boolean).map(norm);
-    if (!tokens.length) return true;
-    var hay = haystack(x);
-    return tokens.every(function(t) { return hay.indexOf(t) !== -1; });
+  function era(song) {
+    return song.decade || (song.release_year ? Math.floor(Number(song.release_year) / 10) * 10 + "年代" : "年代未設定");
   }
 
-  function bp() {
-    var p = location.pathname.split("/").filter(Boolean);
-    if (p.length && /\.[a-z0-9]+$/i.test(p[p.length - 1])) p.pop();
-    return p.map(function() { return ".."; }).join("/") + (p.length ? "/" : "");
-  }
-
-  function e(v) {
-    return String(v == null ? "" : v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-  }
-
-  function era(s) {
-    return s.decade || (s.release_year ? Math.floor(Number(s.release_year) / 10) * 10 + "年代" : "年代未設定");
-  }
-
-  function btn(l, t, v, a) {
-    return '<button class="chip' + (a ? " is-active" : "") + '" type="button" data-filter-type="' + e(t) + '" data-filter-value="' + e(v) + '">' + e(l) + "</button>";
-  }
-
-  function uniq(a) {
-    return a.filter(function(v, i, r) { return v && r.indexOf(v) === i; });
-  }
-
-  function artistList(x) {
-    return (x.artists && x.artists.length) ? x.artists : [x.artist];
-  }
-
-  function nameGroup(v) {
-    var c = String(v || "").charAt(0);
+  function nameGroup(value) {
+    var c = String(value || "").charAt(0);
     if (/[0-9]/.test(c)) return 2;
     if (/[A-Za-z]/.test(c)) return 1;
     return 0;
   }
 
-  function artistKey(v) {
-    return nameGroup(v) === 0 ? (artistKana[v] || v) : v;
-  }
-
-  function sortArtistNames(a) {
-    return a.slice().sort(function(x, y) {
-      var gx = nameGroup(x), gy = nameGroup(y);
-      return gx !== gy ? gx - gy : compareText(artistKey(x), artistKey(y));
-    });
-  }
-
-  function artistColumnCount() {
-    return window.matchMedia && window.matchMedia("(max-width: 720px)").matches ? ARTIST_COLUMNS_MOBILE : ARTIST_COLUMNS_DESKTOP;
-  }
-
-  function rowCount(el) {
-    if (!el) return 0;
-    var tops = [];
-    Array.prototype.slice.call(el.querySelectorAll(".chip")).forEach(function(c) {
-      if (getComputedStyle(c).display === "none") return;
-      if (tops.indexOf(c.offsetTop) === -1) tops.push(c.offsetTop);
-    });
-    return tops.length;
-  }
-
-  function artistVisibleRows() {
-    return Math.max(1, rowCount(ef) || ARTIST_VISIBLE_ROWS);
-  }
-
-  function layoutArtistRows() {
-    if (!af) return;
-    af.classList.add("artist-row");
-    var chips = Array.prototype.slice.call(af.querySelectorAll(".chip"));
-    var visibleLimit = (artistVisibleRows() * artistColumnCount()) - 1;
-    if (chips.length <= visibleLimit + 1) return;
-
-    var activeChip = af.querySelector(".chip.is-active");
-    var activeIndex = chips.indexOf(activeChip);
-    var activeHidden = activeIndex >= visibleLimit;
-    var moreBtn = document.createElement("button");
-    moreBtn.className = "chip chip-more";
-    moreBtn.type = "button";
-
-    if (artistExpanded || activeHidden) {
-      moreBtn.setAttribute("data-action", "collapse-artists");
-      moreBtn.textContent = "閉じる";
-      af.appendChild(moreBtn);
-      return;
-    }
-
-    chips.forEach(function(c, i) {
-      if (i >= visibleLimit) c.classList.add("chip-hidden");
-    });
-    moreBtn.setAttribute("data-action", "expand-artists");
-    moreBtn.textContent = "もっと見る";
-    af.appendChild(moreBtn);
-  }
-
-  function filters(s) {
-    var as = [];
-    if (af) {
-      as = sortArtistNames(uniq(s.reduce(function(acc, x) { return acc.concat(artistList(x)); }, [])));
-      af.innerHTML = btn("すべて", "artist", "all", active.artist === "all") + as.map(function(a) { return btn(a, "artist", a, a === active.artist); }).join("");
-    }
-    if (ef) {
-      var es = uniq(s.map(era)).sort();
-      ef.innerHTML = btn("すべて", "era", "all", active.era === "all") + es.map(function(a) { return btn(a, "era", a, a === active.era); }).join("");
-    }
-    layoutArtistRows();
-    document.querySelectorAll('[data-filter-type="sort"]').forEach(function(b) {
-      var isActive = b.getAttribute("data-filter-value") === active.sort;
-      b.classList.toggle("is-active", isActive);
-      b.setAttribute("aria-pressed", isActive ? "true" : "false");
-    });
-  }
-
-  function filterQueryParts() {
-    var parts = [];
-    if (active.q) parts.push("q=" + encodeURIComponent(active.q));
-    if (active.artist !== "all") parts.push("artist=" + encodeURIComponent(active.artist));
-    if (active.era !== "all") parts.push("era=" + encodeURIComponent(active.era));
-    if (active.sort !== "featured") parts.push("sort=" + encodeURIComponent(active.sort));
-    return parts;
-  }
-
-  function syncUrl() {
-    var qs = filterQueryParts();
-    var url = location.pathname + (qs.length ? "?" + qs.join("&") : "");
-    history.replaceState(null, "", url);
-  }
-
-  function youtubeLine(x) {
-    return x.youtube_url ? '<a href="' + e(x.youtube_url) + '" target="_blank" rel="noopener">YouTube</a>' : "<span>公式リンク確認中</span>";
-  }
-
-  function ytId(url) {
-    var m = String(url || "").match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|shorts\/|embed\/))([\w-]{6,})/);
-    return m ? m[1] : "";
-  }
-
-  function thumbBlock(x) {
-    var id = ytId(x.youtube_url);
-    if (!id) return '<span class="song-thumb song-thumb-empty" aria-hidden="true"></span>';
-    return '<span class="song-thumb"><img src="https://i.ytimg.com/vi/' + e(id) + '/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"></span>';
+  function artistKey(value) {
+    return nameGroup(value) === 0 ? (artistKana[value] || value) : value;
   }
 
   function compareText(a, b) {
@@ -204,199 +81,248 @@
     return compareText(a.title, b.title);
   }
 
-  function sortSongs(s) {
-    var v = s.slice();
+  function unique(values) {
+    return values.filter(function(value, index, array) {
+      return value && array.indexOf(value) === index;
+    });
+  }
+
+  function sortSongs(songs) {
+    var list = songs.slice();
     if (active.sort === "release_desc") {
-      return v.sort(function(a, b) { return (Number(b.release_year) || 0) - (Number(a.release_year) || 0) || compareFeatured(a, b); });
+      return list.sort(function(a, b) { return (Number(b.release_year) || 0) - (Number(a.release_year) || 0) || compareFeatured(a, b); });
     }
     if (active.sort === "release_asc") {
-      return v.sort(function(a, b) { return (Number(a.release_year) || 0) - (Number(b.release_year) || 0) || compareFeatured(a, b); });
+      return list.sort(function(a, b) { return (Number(a.release_year) || 0) - (Number(b.release_year) || 0) || compareFeatured(a, b); });
     }
     if (active.sort === "created_desc") {
-      return v.sort(function(a, b) { return compareText(b.created_at, a.created_at) || compareFeatured(a, b); });
+      return list.sort(function(a, b) { return compareText(b.created_at, a.created_at) || compareFeatured(a, b); });
     }
     if (active.sort === "artist") {
-      return v.sort(function(a, b) {
+      return list.sort(function(a, b) {
         var ga = nameGroup(a.artist), gb = nameGroup(b.artist);
         if (ga !== gb) return ga - gb;
         return compareText(artistKey(a.artist), artistKey(b.artist)) || compareText(a.title, b.title);
       });
     }
     if (active.sort === "title") {
-      return v.sort(function(a, b) { return compareText(a.title, b.title) || compareText(a.artist, b.artist); });
+      return list.sort(function(a, b) { return compareText(a.title, b.title) || compareText(a.artist, b.artist); });
     }
-    return v.sort(compareFeatured);
+    return list.sort(compareFeatured);
   }
 
-  function pageNumber() {
-    var q = new URLSearchParams(location.search);
-    if (active.sort !== "featured") {
-      var n0 = Number(q.get("page"));
-      return n0 >= 1 ? Math.floor(n0) : 1;
+  function artistColumnCount() {
+    return window.matchMedia && window.matchMedia("(max-width: 720px)").matches ? ARTIST_COLUMNS_MOBILE : ARTIST_COLUMNS_DESKTOP;
+  }
+
+  function layoutArtistRows() {
+    if (!artistFilters) return;
+    artistFilters.classList.add("artist-row");
+    var chips = Array.prototype.slice.call(artistFilters.querySelectorAll(".chip"));
+    var visibleLimit = (ARTIST_VISIBLE_ROWS * artistColumnCount()) - 1;
+    if (chips.length <= visibleLimit + 1) return;
+
+    var activeChip = artistFilters.querySelector(".chip.is-active");
+    var activeIndex = chips.indexOf(activeChip);
+    var activeHidden = activeIndex >= visibleLimit;
+    if (activeHidden) artistExpanded = true;
+
+    if (!artistExpanded) {
+      chips.forEach(function(chip, index) {
+        if (index >= visibleLimit) chip.classList.add("chip-hidden");
+      });
     }
-    var n = Number(q.get("page") || 2);
-    return n >= 2 ? Math.floor(n) : 2;
+
+    var moreButton = document.createElement("button");
+    moreButton.className = "chip chip-more";
+    moreButton.type = "button";
+    moreButton.setAttribute("data-action", artistExpanded ? "collapse-artists" : "expand-artists");
+    moreButton.textContent = artistExpanded ? "閉じる" : "もっと見る";
+    artistFilters.appendChild(moreButton);
   }
 
-  function pageHref(n) {
-    var parts = filterQueryParts();
-    var needsPage = active.sort !== "featured" ? n > 1 : n > 2;
-    if (needsPage) parts.push("page=" + n);
-    return bp() + "articles/index.html" + (parts.length ? "?" + parts.join("&") : "");
-  }
-
-  function homeHref() {
-    var parts = filterQueryParts();
-    return (bp() || "./") + (parts.length ? "?" + parts.join("&") : "");
-  }
-
-  function paginate(v) {
-    if (kind === "home") return { items: v.slice(0, 10), start: 0, page: 1, totalPages: Math.max(1, Math.ceil(Math.max(0, v.length - 10) / 20) + 1) };
-    if (active.sort !== "featured") {
-      if (v.length <= 20) return { items: v, start: 0, page: 1, totalPages: 1 };
-      var p1 = pageNumber();
-      var start1 = (p1 - 1) * 20;
-      return { items: v.slice(start1, start1 + 20), start: start1, page: p1, totalPages: Math.max(1, Math.ceil(v.length / 20)) };
+  function searchHaystack(song) {
+    if (!song._haystack) {
+      var parts = [song.title, song.artist, song.summary, song.release_year, artistKana[song.artist] || ""]
+        .concat(song.artists || [], song.kana || []);
+      song._haystack = normalize(parts.join(" "));
     }
-    if (v.length <= 10) return { items: v, start: 0, page: 1, totalPages: 1 };
-    var p = pageNumber();
-    var start = 10 + (p - 2) * 20;
-    return { items: v.slice(start, start + 20), start: start, page: p, totalPages: Math.max(2, Math.ceil((v.length - 10) / 20) + 1) };
+    return song._haystack;
   }
 
-  function miniSort() {
-    var opts = [["featured", "掲載順"], ["created_desc", "新着順"]];
-    return '<span class="mini-sort" role="group" aria-label="並び順(簡易)">' + opts.map(function(o) {
-      var isActive = active.sort === o[0];
-      return '<button class="chip chip-mini' + (isActive ? " is-active" : "") + '" type="button" data-filter-type="sort" data-filter-value="' + o[0] + '" aria-pressed="' + (isActive ? "true" : "false") + '">' + o[1] + "</button>";
-    }).join("") + "</span>";
+  function matchesSearch(song) {
+    if (!active.q) return true;
+    var tokens = String(active.q).split(/[\s　]+/).filter(Boolean).map(normalize);
+    if (!tokens.length) return true;
+    var haystack = searchHaystack(song);
+    return tokens.every(function(token) { return haystack.indexOf(token) !== -1; });
   }
 
-  function pager(meta) {
-    if (meta.totalPages <= 1) return "";
-    var links;
-    if (kind === "home") {
-      links = '<a class="btn-gold" href="' + e(pageHref(active.sort !== "featured" ? 1 : 2)) + '">11件目以降を読む</a>';
-    } else if (active.sort !== "featured") {
-      links = "";
-      for (var j = 1; j <= meta.totalPages; j++) {
-        links += '<a class="btn-gold' + (j === meta.page ? " is-active" : "") + '" href="' + e(pageHref(j)) + '">' + j + "ページ目</a>";
-      }
-    } else {
-      links = '<a class="btn-gold" href="' + e(homeHref()) + '">トップの10件へ</a>';
-      for (var i = 2; i <= meta.totalPages; i++) {
-        links += '<a class="btn-gold' + (i === meta.page ? " is-active" : "") + '" href="' + e(pageHref(i)) + '">' + i + "ページ目</a>";
-      }
+  function button(label, type, value, isActive) {
+    return '<button class="chip' + (isActive ? ' is-active' : '') + '" type="button" data-filter-type="' + escapeHtml(type) + '" data-filter-value="' + escapeHtml(value) + '"' + (type === "sort" ? ' aria-pressed="' + (isActive ? 'true' : 'false') + '"' : '') + '>' + escapeHtml(label) + '</button>';
+  }
+
+  function renderFilters(songs) {
+    if (artistFilters) {
+      var artists = unique(songs.reduce(function(acc, song) { return acc.concat(artistList(song)); }, []));
+      artists.sort(function(a, b) {
+        var ga = nameGroup(a), gb = nameGroup(b);
+        if (ga !== gb) return ga - gb;
+        return compareText(artistKey(a), artistKey(b));
+      });
+      artistFilters.innerHTML = button("すべて", "artist", "all", active.artist === "all") + artists.map(function(artist) {
+        return button(artist, "artist", artist, active.artist === artist);
+      }).join("");
+      layoutArtistRows();
     }
-    return '<nav class="pagination" aria-label="記事ページ"><span class="pagination-links">' + links + "</span>" + miniSort() + "</nav>";
-  }
-
-  function render(s) {
-    var v = s.filter(function(x) {
-      return (active.artist === "all" || artistList(x).indexOf(active.artist) !== -1) && (active.era === "all" || era(x) === active.era) && matchesQuery(x);
+    if (eraFilters) {
+      var eras = unique(songs.map(era)).sort();
+      eraFilters.innerHTML = button("すべて", "era", "all", active.era === "all") + eras.map(function(value) {
+        return button(value, "era", value, active.era === value);
+      }).join("");
+    }
+    document.querySelectorAll('[data-filter-type="sort"]').forEach(function(btn) {
+      var isActive = btn.getAttribute("data-filter-value") === active.sort;
+      btn.classList.toggle("is-active", isActive);
+      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
     });
-    v = sortSongs(v);
-    var meta = paginate(v);
-    var end = Math.min(meta.start + meta.items.length, v.length);
-    if (st) st.textContent = kind === "home" ? v.length + "件中" + meta.items.length + "件を表示" : v.length + "件中" + (meta.items.length ? meta.start + 1 : 0) + "-" + end + "件を表示";
-    if (!meta.items.length) {
-      c.innerHTML = '<p class="muted">該当する記事はまだありません。</p>' + pager(meta);
+  }
+
+  function queryParts() {
+    var parts = [];
+    if (active.q) parts.push("q=" + encodeURIComponent(active.q));
+    if (active.artist !== "all") parts.push("artist=" + encodeURIComponent(active.artist));
+    if (active.era !== "all") parts.push("era=" + encodeURIComponent(active.era));
+    if (active.sort !== "featured") parts.push("sort=" + encodeURIComponent(active.sort));
+    return parts;
+  }
+
+  function syncUrl() {
+    var parts = queryParts();
+    history.replaceState(null, "", location.pathname + (parts.length ? "?" + parts.join("&") : ""));
+  }
+
+  function pageHref() {
+    var parts = queryParts();
+    return bp() + "articles/" + (parts.length ? "?" + parts.join("&") : "");
+  }
+
+  function youtubeLine(song) {
+    return song.youtube_url ? '<a href="' + escapeHtml(song.youtube_url) + '" target="_blank" rel="noopener">YouTube</a>' : '<span>公式リンク確認中</span>';
+  }
+
+  function youtubeId(url) {
+    var match = String(url || "").match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|shorts\/|embed\/))([\w-]{6,})/);
+    return match ? match[1] : "";
+  }
+
+  function thumb(song) {
+    var id = youtubeId(song.youtube_url);
+    if (!id) return '<span class="song-thumb song-thumb-empty" aria-hidden="true"></span>';
+    return '<span class="song-thumb"><img src="https://i.ytimg.com/vi/' + escapeHtml(id) + '/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"></span>';
+  }
+
+  function card(song) {
+    var href = bp() + String(song.article_url || "#").replace(/^\//, "");
+    var star = song.recommended ? '<span class="song-star" aria-hidden="true">★</span>' : "";
+    return '<li class="song-item"><div class="song-card"><a class="song-main" href="' + escapeHtml(href) + '">' + thumb(song) + '<span class="song-body"><span class="song-title">' + star + escapeHtml(song.title) + '</span><span class="song-detail">' + escapeHtml(era(song)) + (song.release_year ? ' / ' + escapeHtml(song.release_year) : '') + ' / ' + escapeHtml(song.artist) + '</span><span class="song-note">' + escapeHtml(song.summary || '') + '</span><span class="read-label">読む</span></span></a><div class="song-youtube"><strong>YouTube:</strong> ' + youtubeLine(song) + '</div></div></li>';
+  }
+
+  function filterSongs(songs) {
+    return songs.filter(function(song) {
+      return (active.artist === "all" || artistList(song).indexOf(active.artist) !== -1) &&
+        (active.era === "all" || era(song) === active.era) &&
+        matchesSearch(song);
+    });
+  }
+
+  function render(songs) {
+    var filtered = sortSongs(filterSongs(songs));
+    var visible = kind === "home" ? filtered.slice(0, 10) : filtered;
+    if (status) {
+      status.textContent = kind === "home"
+        ? filtered.length + "件中" + visible.length + "件を表示"
+        : filtered.length + "件の記事を表示";
+    }
+    if (!visible.length) {
+      container.innerHTML = '<p class="muted">該当する記事はまだありません。</p>';
       return;
     }
-    c.innerHTML = '<ul class="song-list">' + meta.items.map(function(x) {
-      var href = bp() + String(x.article_url || "#").replace(/^\//, "");
-      var star = x.recommended ? '<span class="song-star" aria-hidden="true">★</span>' : "";
-      return '<li class="song-item"><div class="song-card"><a class="song-main" href="' + e(href) + '">' + thumbBlock(x) + '<span class="song-body"><span class="song-title">' + star + e(x.title) + '</span><span class="song-detail">' + e(era(x)) + (x.release_year ? " / " + e(x.release_year) : "") + " / " + e(x.artist) + '</span><span class="song-note">' + e(x.summary || "") + '</span><span class="read-label">読む</span></span></a><div class="song-youtube"><strong>YouTube:</strong> ' + youtubeLine(x) + "</div></div></li>";
-    }).join("") + "</ul>" + pager(meta);
+    container.innerHTML = '<ul class="song-list">' + visible.map(card).join("") + '</ul>' + (kind === "home" ? '<nav class="pagination" aria-label="記事ページ"><a class="btn-gold" href="' + escapeHtml(pageHref()) + '">すべての記事を見る</a></nav>' : "");
   }
 
-  function bindSearch(s) {
-    if (!sb) return;
-    sb.value = active.q;
-    var timer = null;
-    sb.addEventListener("input", function() {
-      if (timer) clearTimeout(timer);
-      timer = setTimeout(function() {
-        active.q = sb.value.trim();
-        syncUrl();
-        render(s);
-      }, 200);
-    });
-  }
+  function bind(songs) {
+    if (searchBox) {
+      searchBox.value = active.q;
+      var timer = null;
+      searchBox.addEventListener("input", function() {
+        if (timer) clearTimeout(timer);
+        timer = setTimeout(function() {
+          active.q = searchBox.value.trim();
+          syncUrl();
+          render(songs);
+        }, 200);
+      });
+    }
 
-  function bindArtistGridResize(s) {
-    if (!af) return;
-    var lastColumns = artistColumnCount();
-    var timer = null;
-    window.addEventListener("resize", function() {
-      if (timer) clearTimeout(timer);
-      timer = setTimeout(function() {
-        var nextColumns = artistColumnCount();
-        if (nextColumns !== lastColumns) {
-          lastColumns = nextColumns;
-          filters(s);
-        }
-      }, 120);
-    });
-  }
-
-  function bind(s) {
-    document.addEventListener("click", function(ev) {
-      var toggle = ev.target.closest("[data-action]");
-      if (toggle) {
-        var action = toggle.getAttribute("data-action");
+    document.addEventListener("click", function(event) {
+      var actionTarget = event.target.closest("[data-action]");
+      if (actionTarget) {
+        var action = actionTarget.getAttribute("data-action");
         if (action === "expand-artists" || action === "collapse-artists") {
           artistExpanded = action === "expand-artists";
-          filters(s);
+          renderFilters(songs);
         }
         return;
       }
-      var t = ev.target.closest("[data-filter-type]");
-      if (!t) return;
-      var type = t.getAttribute("data-filter-type");
-      var val = t.getAttribute("data-filter-value");
-      if (type === "all") {
-        active.artist = "all";
-        active.era = "all";
-        document.querySelectorAll("[data-filter-type]").forEach(function(b) { b.classList.toggle("is-active", b.getAttribute("data-filter-value") === "all"); });
-      } else {
-        active[type] = val;
-        document.querySelectorAll('[data-filter-type="' + type + '"]').forEach(function(b) {
-          var isActive = b === t;
-          b.classList.toggle("is-active", isActive);
-          if (type === "sort") b.setAttribute("aria-pressed", isActive ? "true" : "false");
-        });
-      }
+      var target = event.target.closest("[data-filter-type]");
+      if (!target) return;
+      var type = target.getAttribute("data-filter-type");
+      var value = target.getAttribute("data-filter-value");
+      active[type] = value;
       syncUrl();
-      render(s);
+      renderFilters(songs);
+      render(songs);
     });
+
+    if (window.matchMedia) {
+      var resizeTimer = null;
+      window.addEventListener("resize", function() {
+        if (resizeTimer) clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function() {
+          renderFilters(songs);
+        }, 120);
+      });
+    }
   }
 
   Promise.all([
-    fetch(bp() + "data/search-index.json", { cache: "no-cache" }).then(function(r) {
-      if (!r.ok) throw Error("HTTP " + r.status);
-      return r.json();
+    fetch(bp() + "data/search-index.json", { cache: "no-cache" }).then(function(response) {
+      if (!response.ok) throw Error("HTTP " + response.status);
+      return response.json();
     }).catch(function() {
-      // 軽量インデックス未生成時は台帳(songs.json)へフォールバック
-      return fetch(bp() + "data/songs.json", { cache: "no-cache" }).then(function(r) {
-        if (!r.ok) throw Error("HTTP " + r.status);
-        return r.json();
+      return fetch(bp() + "data/songs.json", { cache: "no-cache" }).then(function(response) {
+        if (!response.ok) throw Error("HTTP " + response.status);
+        return response.json();
       });
     }),
-    fetch(bp() + "data/artists.json", { cache: "no-cache" }).then(function(r) {
-      return r.ok ? r.json() : [];
+    fetch(bp() + "data/artists.json", { cache: "no-cache" }).then(function(response) {
+      return response.ok ? response.json() : [];
     }).catch(function() { return []; })
   ]).then(function(results) {
-    var d = results[0];
-    (results[1] || []).forEach(function(a) { if (a.name && a.kana) artistKana[a.name] = a.kana; });
-    var s = (Array.isArray(d) ? d : d.songs || []).filter(function(x) { return !x.status || x.status === "published"; });
-    s = sortSongs(s);
-    filters(s);
-    bind(s);
-    bindSearch(s);
-    bindArtistGridResize(s);
-    render(s);
+    var rawSongs = results[0];
+    var artists = results[1] || [];
+    artists.forEach(function(artist) {
+      if (artist.name && artist.kana) artistKana[artist.name] = artist.kana;
+    });
+    var songs = (Array.isArray(rawSongs) ? rawSongs : rawSongs.songs || []).filter(function(song) {
+      return !song.status || song.status === "published";
+    });
+    songs = sortSongs(songs);
+    renderFilters(songs);
+    bind(songs);
+    render(songs);
   }).catch(function() {
-    c.innerHTML = '<p class="muted">記事データを読み込めませんでした。</p>';
+    container.innerHTML = '<p class="muted">記事データを読み込めませんでした。</p>';
   });
 })();
