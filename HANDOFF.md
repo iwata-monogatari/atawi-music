@@ -1,17 +1,17 @@
 # ATAWI MUSIC 全記事書き直し 引継ぎメモ
 
-作成日時: 2026-07-03T21:38:00+09:00 (作業中断時点)
+作成日時: 2026-07-04T05:55:00+09:00 (作業中断時点)
 
 ## 進捗状況
 
 - 対象記事総数: **221曲**
-- 書き直し完了: **189曲** (コミット＆プッシュ済み)
-- 残り: **32曲**
+- 書き直し完了: **196曲** (コミット＆プッシュ済み)
+- 残り: **25曲**
 
 ## 直近の状態
 
-- 直前のバッチ（5曲：Vaundy『花占い』、竹内まりや『駅』『シングル・アゲイン』、松田聖子『チェリーブラッサム』『暮れのバルコニー』）は**執筆・ファイル書き換え完了、フォント検証、デプロイ、コミット＆プッシュ完了**。
-- 直前のgit HEAD: `e69a750` (5曲の記事を一次情報に基づき書き直し)
+- 直前のバッチ（7曲：GLAY『HOWEVER』『GREAT VACATION』、KIRINJI『Rainy Runway』『進水式』、野々村彩乃『Ave Maria(Schubert)』『坂の上の雲/Stand Alone』、MISIA『つつみ込むように…』）は**執筆・ファイル書き換え完了、フォント検証、デプロイ、コミット＆プッシュ完了**。
+- 直前のgit HEAD: `b8d8366` (7曲の書き直しおよびナビゲーションリンクの調整)
 
 ## 運用フロー(この後も継続する場合)
 
@@ -29,17 +29,10 @@
 5. `npm.cmd exec wrangler@latest -- pages deploy "C:\Users\fujig\tmp\atawi-music-public" --project-name=atawi-music --commit-dirty=true`
 6. `git pull --ff-only` → `.wrangler/` 削除 → `git add` → `git commit` (バッチ内容を要約したメッセージ) → `git push`
 
-## 残り32曲リスト(featured_order順、未着手)
+## 残り25曲リスト(featured_order順、未着手)
 
 | id | アーティスト | 曲名 |
 |---|---|---|
-| kirinji-011 | KIRINJI | Rainy Runway |
-| misia-003 | MISIA | つつみ込むように… |
-| glay-001 | GLAY | HOWEVER |
-| glay-002 | GLAY | GREAT VACATION |
-| nonomura-ayano-001 | 野々村彩乃 | Ave Maria(Schubert) |
-| nonomura-ayano-002 | 野々村彩乃 | 坂の上の雲/Stand Alone |
-| kirinji-013 | KIRINJI | 進水式 |
 | kirinji-014 | KIRINJI | Almond Eyes feat. 鎮座DOPENESS |
 | ryuichi-sakamoto-002 | 坂本龍一 | The Last Emperor (Theme) |
 | glay-005 | GLAY | グロリアス |
@@ -61,7 +54,7 @@
 | ulfuls-002 | ウルフルズ | (曲名要確認・文字化けあり) |
 | ulfuls-003 | ウルフルズ | (曲名要確認・文字化けあり) |
 | okuda-tamio-001 | 奥田民生 | (曲名要確認・文字化けあり) |
-| ulfuls-004 | ウルフルズ | (曲名要確認・文字化形あり) |
+| ulfuls-004 | ウルフルズ | (曲名要確認・文字化けあり) |
 | ulfuls-005 | ウルフルズ | (曲名要確認・文字化けあり) |
 | eikichi-yazawa-001 | 矢沢永吉 | A DAY〜あれから〜 |
 | yasuha-001 | Yasuha | Fly-day Chinatown |
@@ -87,4 +80,4 @@
 
 ## 再開方法
 
-このメモと `data/songs.json` を渡して「HANDOFF.mdの続きから、残り32曲の書き直しを再開してください」と依頼すれば、同じ手順で継続できる。
+このメモと `data/songs.json` を渡して「HANDOFF.mdの続きから、残り25曲の書き直しを再開してください」と依頼すれば、同じ手順で継続できる。
