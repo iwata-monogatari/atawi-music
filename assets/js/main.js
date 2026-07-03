@@ -10,7 +10,7 @@
   var active = { artist: "all", era: "all", sort: "featured" };
   var kind = c.getAttribute("data-page-kind") || "archive";
   var artistKana = {};
-  var ARTIST_VISIBLE_ROWS = 6;
+  var ARTIST_VISIBLE_ROWS = 7;
   var artistExpanded = false;
 
   (function initFromQuery() {
