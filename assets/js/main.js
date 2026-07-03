@@ -174,23 +174,31 @@
     return { items: v.slice(start, start + 20), start: start, page: p, totalPages: Math.max(2, Math.ceil((v.length - 10) / 20) + 1) };
   }
 
+  function miniSort() {
+    var opts = [["featured", "掲載順"], ["created_desc", "新着順"]];
+    return '<span class="mini-sort" role="group" aria-label="並び順(簡易)">' + opts.map(function(o) {
+      var isActive = active.sort === o[0];
+      return '<button class="chip chip-mini' + (isActive ? " is-active" : "") + '" type="button" data-filter-type="sort" data-filter-value="' + o[0] + '" aria-pressed="' + (isActive ? "true" : "false") + '">' + o[1] + "</button>";
+    }).join("") + "</span>";
+  }
+
   function pager(meta) {
     if (meta.totalPages <= 1) return "";
-    var html = '<nav class="pagination" aria-label="記事ページ">';
+    var links;
     if (kind === "home") {
-      return html + '<a class="btn-gold" href="' + e(pageHref(active.sort !== "featured" ? 1 : 2)) + '">11件目以降を読む</a></nav>';
-    }
-    if (active.sort !== "featured") {
+      links = '<a class="btn-gold" href="' + e(pageHref(active.sort !== "featured" ? 1 : 2)) + '">11件目以降を読む</a>';
+    } else if (active.sort !== "featured") {
+      links = "";
       for (var j = 1; j <= meta.totalPages; j++) {
-        html += '<a class="btn-gold' + (j === meta.page ? " is-active" : "") + '" href="' + e(pageHref(j)) + '">' + j + "ページ目</a>";
+        links += '<a class="btn-gold' + (j === meta.page ? " is-active" : "") + '" href="' + e(pageHref(j)) + '">' + j + "ページ目</a>";
       }
-      return html + "</nav>";
+    } else {
+      links = '<a class="btn-gold" href="' + e(homeHref()) + '">トップの10件へ</a>';
+      for (var i = 2; i <= meta.totalPages; i++) {
+        links += '<a class="btn-gold' + (i === meta.page ? " is-active" : "") + '" href="' + e(pageHref(i)) + '">' + i + "ページ目</a>";
+      }
     }
-    html += '<a class="btn-gold" href="' + e(homeHref()) + '">トップの10件へ</a>';
-    for (var i = 2; i <= meta.totalPages; i++) {
-      html += '<a class="btn-gold' + (i === meta.page ? " is-active" : "") + '" href="' + e(pageHref(i)) + '">' + i + "ページ目</a>";
-    }
-    return html + "</nav>";
+    return '<nav class="pagination" aria-label="記事ページ"><span class="pagination-links">' + links + "</span>" + miniSort() + "</nav>";
   }
 
   function render(s) {
