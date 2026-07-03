@@ -1,17 +1,17 @@
 # ATAWI MUSIC 全記事書き直し 引継ぎメモ
 
-作成日時: 2026-07-03T21:26:00+09:00 (作業中断時点)
+作成日時: 2026-07-03T21:34:00+09:00 (作業中断時点)
 
 ## 進捗状況
 
 - 対象記事総数: **221曲**
-- 書き直し完了: **179曲** (コミット＆プッシュ済み)
-- 残り: **43曲**
+- 書き直し完了: **184曲** (コミット＆プッシュ済み)
+- 残り: **37曲**
 
 ## 直近の状態
 
-- 直前のバッチ（5曲：King Gnu『白日』、星野源『アイデア』『不思議』、Original Love『接吻 -Kiss-』、MONDO GROSSO『ラビリンス』）は**執筆・ファイル書き換え完了、フォント検証、デプロイ、コミット＆プッシュ完了**。
-- 直前のgit HEAD: `e9f987c` (5曲の記事を一次情報に基づき書き直し)
+- 直前のバッチ（5曲：土岐麻子『Gift〜あなたはマドンナ〜』『美しい顔』『愛を手探り』『Bubble Gum Town』、ANRI『悲しみがとまらない』）は**執筆・ファイル書き換え完了、フォント検証、デプロイ、コミット＆プッシュ完了**。
+- 直前のgit HEAD: `b3cf1cf` (5曲の記事を一次情報に基づき書き直し)
 
 ## 運用フロー(この後も継続する場合)
 
@@ -29,15 +29,10 @@
 5. `npm.cmd exec wrangler@latest -- pages deploy "C:\Users\fujig\tmp\atawi-music-public" --project-name=atawi-music --commit-dirty=true`
 6. `git pull --ff-only` → `.wrangler/` 削除 → `git add` → `git commit` (バッチ内容を要約したメッセージ) → `git push`
 
-## 残り42曲リスト(featured_order順、未着手)
+## 残り37曲リスト(featured_order順、未着手)
 
 | id | アーティスト | 曲名 |
 |---|---|---|
-| toki-asako-001 | 土岐麻子 | Gift〜あなたはマドンナ〜 |
-| toki-asako-002 | 土岐麻子 | 美しい顔 |
-| toki-asako-006 | 土岐麻子 | 愛を手探り |
-| toki-asako-007 | 土岐麻子 | Bubble Gum Town |
-| anri-001 | ANRI | 悲しみがとまらない |
 | vaundy-007 | Vaundy | 花占い |
 | takeuchi-mariya-004 | 竹内まりや | 駅 |
 | takeuchi-mariya-005 | 竹内まりや | シングル・アゲイン |
@@ -46,7 +41,7 @@
 | kirinji-011 | KIRINJI | Rainy Runway |
 | misia-003 | MISIA | つつみ込むように… |
 | glay-001 | GLAY | HOWEVER |
-| glay-002 | GLAY | GREAT VACATION |
+| glay-002 | GLAY | GREAT vacation |
 | nonomura-ayano-001 | 野々村彩乃 | Ave Maria(Schubert) |
 | nonomura-ayano-002 | 野々村彩乃 | 坂の上の雲/Stand Alone |
 | kirinji-013 | KIRINJI | 進水式 |
@@ -97,4 +92,4 @@
 
 ## 再開方法
 
-このメモと `data/songs.json` を渡して「HANDOFF.mdの続きから、残り42曲の書き直しを再開してください」と依頼すれば、同じ手順で継続できる。
+このメモと `data/songs.json` を渡して「HANDOFF.mdの続きから、残り37曲の書き直しを再開してください」と依頼すれば、同じ手順で継続できる。
