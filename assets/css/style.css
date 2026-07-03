@@ -92,3 +92,16 @@
 .site-header .header-links{order:1}
 .site-header .main-nav{flex-direction:column;align-items:flex-start;gap:0}
 }
+.artist-row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px}
+.artist-row .chip{display:flex;align-items:center;justify-content:center;width:100%;min-width:0;height:44px;min-height:44px;max-height:44px;padding:5px 4px;text-align:center;font-size:.72rem;line-height:1.28;white-space:normal;overflow:hidden;overflow-wrap:anywhere;word-break:break-word}
+.artist-row .chip-hidden{display:none}
+.artist-row .chip-more{font-weight:800}
+@media(min-width:721px){
+.filters .filter-group:nth-child(2) .artist-row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr))}
+.filters .filter-group:nth-child(2) .artist-row .chip{width:100%;padding-left:4px;padding-right:4px}
+}
+@media(max-width:720px){
+.artist-row{grid-template-columns:repeat(5,minmax(0,1fr));gap:9px 6px}
+.artist-row .chip{height:44px;min-height:44px;max-height:44px;padding:4px 3px;font-size:.62rem;line-height:1.24}
+.honorific-note{display:block;margin:4px 0 0;font-size:.68rem;line-height:1.45}
+}

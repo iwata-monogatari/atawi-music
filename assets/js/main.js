@@ -12,6 +12,8 @@
   var kind = c.getAttribute("data-page-kind") || "archive";
   var artistKana = {};
   var ARTIST_VISIBLE_ROWS = 7;
+  var ARTIST_COLUMNS_DESKTOP = 6;
+  var ARTIST_COLUMNS_MOBILE = 5;
   var artistExpanded = false;
 
   (function initFromQuery() {
@@ -96,19 +98,34 @@
     });
   }
 
-  function layoutArtistRows() {
-    if (!af) return;
-    var chips = Array.prototype.slice.call(af.querySelectorAll(".chip"));
+  function artistColumnCount() {
+    return window.matchMedia && window.matchMedia("(max-width: 720px)").matches ? ARTIST_COLUMNS_MOBILE : ARTIST_COLUMNS_DESKTOP;
+  }
+
+  function rowCount(el) {
+    if (!el) return 0;
     var tops = [];
-    chips.forEach(function(c) {
+    Array.prototype.slice.call(el.querySelectorAll(".chip")).forEach(function(c) {
+      if (getComputedStyle(c).display === "none") return;
       if (tops.indexOf(c.offsetTop) === -1) tops.push(c.offsetTop);
     });
-    tops.sort(function(a, b) { return a - b; });
-    if (tops.length <= ARTIST_VISIBLE_ROWS) return;
+    return tops.length;
+  }
 
-    var cutoffTop = tops[ARTIST_VISIBLE_ROWS];
+  function artistVisibleRows() {
+    return Math.max(1, rowCount(ef) || ARTIST_VISIBLE_ROWS);
+  }
+
+  function layoutArtistRows() {
+    if (!af) return;
+    af.classList.add("artist-row");
+    var chips = Array.prototype.slice.call(af.querySelectorAll(".chip"));
+    var visibleLimit = (artistVisibleRows() * artistColumnCount()) - 1;
+    if (chips.length <= visibleLimit + 1) return;
+
     var activeChip = af.querySelector(".chip.is-active");
-    var activeHidden = !!activeChip && activeChip.offsetTop >= cutoffTop;
+    var activeIndex = chips.indexOf(activeChip);
+    var activeHidden = activeIndex >= visibleLimit;
     var moreBtn = document.createElement("button");
     moreBtn.className = "chip chip-more";
     moreBtn.type = "button";
@@ -120,33 +137,25 @@
       return;
     }
 
-    var visibleChips = [];
-    chips.forEach(function(c) {
-      if (c.offsetTop >= cutoffTop) c.classList.add("chip-hidden");
-      else visibleChips.push(c);
+    chips.forEach(function(c, i) {
+      if (i >= visibleLimit) c.classList.add("chip-hidden");
     });
     moreBtn.setAttribute("data-action", "expand-artists");
     moreBtn.textContent = "もっと見る";
     af.appendChild(moreBtn);
-
-    var lastRowTop = tops[ARTIST_VISIBLE_ROWS - 1];
-    var guard = 0;
-    while (moreBtn.offsetTop > lastRowTop && visibleChips.length && guard < visibleChips.length) {
-      visibleChips.pop().classList.add("chip-hidden");
-      guard++;
-    }
   }
 
   function filters(s) {
+    var as = [];
     if (af) {
-      var as = sortArtistNames(uniq(s.reduce(function(acc, x) { return acc.concat(artistList(x)); }, [])));
+      as = sortArtistNames(uniq(s.reduce(function(acc, x) { return acc.concat(artistList(x)); }, [])));
       af.innerHTML = btn("すべて", "artist", "all", active.artist === "all") + as.map(function(a) { return btn(a, "artist", a, a === active.artist); }).join("");
-      layoutArtistRows();
     }
     if (ef) {
       var es = uniq(s.map(era)).sort();
       ef.innerHTML = btn("すべて", "era", "all", active.era === "all") + es.map(function(a) { return btn(a, "era", a, a === active.era); }).join("");
     }
+    layoutArtistRows();
     document.querySelectorAll('[data-filter-type="sort"]').forEach(function(b) {
       var isActive = b.getAttribute("data-filter-value") === active.sort;
       b.classList.toggle("is-active", isActive);
@@ -315,6 +324,22 @@
     });
   }
 
+  function bindArtistGridResize(s) {
+    if (!af) return;
+    var lastColumns = artistColumnCount();
+    var timer = null;
+    window.addEventListener("resize", function() {
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(function() {
+        var nextColumns = artistColumnCount();
+        if (nextColumns !== lastColumns) {
+          lastColumns = nextColumns;
+          filters(s);
+        }
+      }, 120);
+    });
+  }
+
   function bind(s) {
     document.addEventListener("click", function(ev) {
       var toggle = ev.target.closest("[data-action]");
@@ -369,6 +394,7 @@
     filters(s);
     bind(s);
     bindSearch(s);
+    bindArtistGridResize(s);
     render(s);
   }).catch(function() {
     c.innerHTML = '<p class="muted">記事データを読み込めませんでした。</p>';
