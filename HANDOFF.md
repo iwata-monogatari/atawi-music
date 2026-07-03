@@ -1,17 +1,17 @@
 # ATAWI MUSIC 全記事書き直し 引継ぎメモ
 
-作成日時: 2026-07-04T06:03:00+09:00 (作業中断時点)
+作成日時: 2026-07-04T06:08:00+09:00 (作業中断時点)
 
 ## 進捗状況
 
 - 対象記事総数: **221曲**
-- 書き直し完了: **201曲** (コミット＆プッシュ済み)
-- 残り: **20曲**
+- 書き直し完了: **206曲** (コミット＆プッシュ済み)
+- 残り: **15曲**
 
 ## 直近の状態
 
-- 直前のバッチ（5曲：KIRINJI『Almond Eyes feat. 鎮座DOPENESS』、坂本龍一『The Last Emperor (Theme)』、GLAY『グロリアス』、Mr.Children『抱きしめたい』『Tomorrow never knows』）は**執筆・ファイル書き換え完了、フォント検証、デプロイ、コミット＆プッシュ完了**。
-- 直前のgit HEAD: `8c16009` (5曲の記事の書き換え完了（第5弾バッチ）)
+- 直前のバッチ（5曲：Mr.Children『himawari』、m-flo『come again』、東京スカパラダイスオーケストラ『美しく燃える森』、桑田佳祐『東京』『悪戯されて』）は**執筆・ファイル書き換え完了、フォント検証、デプロイ、コミット＆プッシュ完了**。
+- 直前のgit HEAD: `98c110e` (5曲の記事を一次情報に基づき書き直し)
 
 ## 運用フロー(この後も継続する場合)
 
@@ -29,17 +29,12 @@
 5. `npm.cmd exec wrangler@latest -- pages deploy "C:\Users\fujig\tmp\atawi-music-public" --project-name=atawi-music --commit-dirty=true`
 6. `git pull --ff-only` → `.wrangler/` 削除 → `git add` → `git commit` (バッチ内容を要約したメッセージ) → `git push`
 
-## 残り20曲リスト(featured_order順、未着手)
+## 残り15曲リスト(featured_order順、未着手)
 
 | id | アーティスト | 曲名 |
 |---|---|---|
-| mr-children-007 | Mr.Children | himawari |
-| m-flo-001 | m-flo | come again |
-| tokyo-ska-001 | 東京スカパラダイスオーケストラ | 六本木純情派 |
-| kuwata-keisuke-001 | 桑田佳祐 | 白い恋人達 |
-| kuwata-keisuke-002 | 桑田佳祐 | 東京 |
 | kuwata-keisuke-003 | 桑田佳祐 | ヨシ子さん。 |
-| yamazaki-masayoshi-001 | 山崎まさよし | 「One more time,One more chance」 |
+| yamazaki-masayoshi-001 | 山崎まさよし | One more time, One more chance |
 | pizzicato-five-001 | PIZZICATO FIVE | (曲名要確認・文字化けあり) |
 | pizzicato-five-002 | PIZZICATO FIVE | (曲名要確認・文字化けあり) |
 | yamazaki-masayoshi-002 | 山崎まさよし | (曲名要確認・文字化けあり) |
@@ -75,4 +70,4 @@
 
 ## 再開方法
 
-このメモと `data/songs.json` を渡して「HANDOFF.mdの続きから、残り20曲の書き直しを再開してください」と依頼すれば、同じ手順で継続できる。
+このメモと `data/songs.json` を渡して「HANDOFF.mdの続きから、残り15曲の書き直しを再開してください」と依頼すれば、同じ手順で継続できる。
