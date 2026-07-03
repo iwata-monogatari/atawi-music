@@ -7,7 +7,8 @@
   var af = document.querySelector("[data-artist-filters]");
   var ef = document.querySelector("[data-era-filters]");
   var st = document.querySelector("[data-status]");
-  var active = { artist: "all", era: "all", sort: "featured" };
+  var sb = document.querySelector("[data-search-box]");
+  var active = { artist: "all", era: "all", sort: "featured", q: "" };
   var kind = c.getAttribute("data-page-kind") || "archive";
   var artistKana = {};
   var ARTIST_VISIBLE_ROWS = 7;
@@ -18,7 +19,38 @@
     var a = q.get("artist"); if (a) active.artist = a;
     var er = q.get("era"); if (er) active.era = er;
     var so = q.get("sort"); if (so) active.sort = so;
+    var kw = q.get("q"); if (kw) active.q = kw;
   })();
+
+  function norm(v) {
+    var s = String(v == null ? "" : v);
+    if (s.normalize) s = s.normalize("NFKC");
+    s = s.toLowerCase();
+    var out = "";
+    for (var i = 0; i < s.length; i++) {
+      var code = s.charCodeAt(i);
+      // カタカナ(ァ..ヶ)→ひらがなに寄せて同一視する
+      if (code >= 0x30a1 && code <= 0x30f6) code -= 0x60;
+      out += String.fromCharCode(code);
+    }
+    return out.replace(/[\s　]+/g, "");
+  }
+
+  function haystack(x) {
+    if (!x._hay) {
+      var parts = [x.title, x.artist].concat(x.artists || [], x.kana || [], [artistKana[x.artist] || "", x.summary || "", x.release_year || ""]);
+      x._hay = norm(parts.join(" "));
+    }
+    return x._hay;
+  }
+
+  function matchesQuery(x) {
+    if (!active.q) return true;
+    var tokens = String(active.q).split(/[\s　]+/).filter(Boolean).map(norm);
+    if (!tokens.length) return true;
+    var hay = haystack(x);
+    return tokens.every(function(t) { return hay.indexOf(t) !== -1; });
+  }
 
   function bp() {
     var p = location.pathname.split("/").filter(Boolean);
@@ -124,6 +156,7 @@
 
   function filterQueryParts() {
     var parts = [];
+    if (active.q) parts.push("q=" + encodeURIComponent(active.q));
     if (active.artist !== "all") parts.push("artist=" + encodeURIComponent(active.artist));
     if (active.era !== "all") parts.push("era=" + encodeURIComponent(active.era));
     if (active.sort !== "featured") parts.push("sort=" + encodeURIComponent(active.sort));
@@ -251,7 +284,7 @@
 
   function render(s) {
     var v = s.filter(function(x) {
-      return x.status === "published" && (active.artist === "all" || artistList(x).indexOf(active.artist) !== -1) && (active.era === "all" || era(x) === active.era);
+      return (active.artist === "all" || artistList(x).indexOf(active.artist) !== -1) && (active.era === "all" || era(x) === active.era) && matchesQuery(x);
     });
     v = sortSongs(v);
     var meta = paginate(v);
@@ -266,6 +299,20 @@
       var star = x.recommended ? '<span class="song-star" aria-hidden="true">★</span>' : "";
       return '<li class="song-item"><div class="song-card"><a class="song-main" href="' + e(href) + '">' + thumbBlock(x) + '<span class="song-body"><span class="song-title">' + star + e(x.title) + '</span><span class="song-detail">' + e(era(x)) + (x.release_year ? " / " + e(x.release_year) : "") + " / " + e(x.artist) + '</span><span class="song-note">' + e(x.summary || "") + '</span><span class="read-label">読む</span></span></a><div class="song-youtube"><strong>YouTube:</strong> ' + youtubeLine(x) + "</div></div></li>";
     }).join("") + "</ul>" + pager(meta);
+  }
+
+  function bindSearch(s) {
+    if (!sb) return;
+    sb.value = active.q;
+    var timer = null;
+    sb.addEventListener("input", function() {
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(function() {
+        active.q = sb.value.trim();
+        syncUrl();
+        render(s);
+      }, 200);
+    });
   }
 
   function bind(s) {
@@ -301,9 +348,15 @@
   }
 
   Promise.all([
-    fetch(bp() + "data/songs.json", { cache: "no-cache" }).then(function(r) {
+    fetch(bp() + "data/search-index.json", { cache: "no-cache" }).then(function(r) {
       if (!r.ok) throw Error("HTTP " + r.status);
       return r.json();
+    }).catch(function() {
+      // 軽量インデックス未生成時は台帳(songs.json)へフォールバック
+      return fetch(bp() + "data/songs.json", { cache: "no-cache" }).then(function(r) {
+        if (!r.ok) throw Error("HTTP " + r.status);
+        return r.json();
+      });
     }),
     fetch(bp() + "data/artists.json", { cache: "no-cache" }).then(function(r) {
       return r.ok ? r.json() : [];
@@ -311,10 +364,11 @@
   ]).then(function(results) {
     var d = results[0];
     (results[1] || []).forEach(function(a) { if (a.name && a.kana) artistKana[a.name] = a.kana; });
-    var s = (Array.isArray(d) ? d : d.songs || []).filter(function(x) { return x.status === "published"; });
+    var s = (Array.isArray(d) ? d : d.songs || []).filter(function(x) { return !x.status || x.status === "published"; });
     s = sortSongs(s);
     filters(s);
     bind(s);
+    bindSearch(s);
     render(s);
   }).catch(function() {
     c.innerHTML = '<p class="muted">記事データを読み込めませんでした。</p>';
