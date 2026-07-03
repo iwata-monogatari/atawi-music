@@ -128,5 +128,40 @@
     "id": "yano-punpee",
     "name": "ヤノ, PUNPEE",
     "kana": "ヤノ"
+  },
+  {
+    "id": "sakanaction",
+    "name": "サカナクション",
+    "kana": "サカナクション"
+  },
+  {
+    "id": "hoshino-gen",
+    "name": "星野源",
+    "kana": "ほしのげん"
+  },
+  {
+    "id": "odani-misako",
+    "name": "小谷美紗子",
+    "kana": "おだにみさこ"
+  },
+  {
+    "id": "quruli",
+    "name": "くるり",
+    "kana": "くるり"
+  },
+  {
+    "id": "ketsumeishi",
+    "name": "ケツメイシ",
+    "kana": "ケツメイシ"
+  },
+  {
+    "id": "fukuyama-masaharu",
+    "name": "福山雅治",
+    "kana": "ふくやままさはる"
+  },
+  {
+    "id": "lilas-ikuta",
+    "name": "幾田りら(Lilas)",
+    "kana": "いくたりら"
   }
 ]
