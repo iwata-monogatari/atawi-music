@@ -4,6 +4,7 @@
   var container = document.querySelector("[data-song-list]");
   if (!container) return;
 
+  // ARTIST_FILTER_GUARD: 「歌手で選ぶ」は data-artist-filters から自動生成する。明示的な変更指示がない限り、artist-row付与、6列/5列、もっと見る/閉じる、URL復元を壊さないこと。
   var artistFilters = document.querySelector("[data-artist-filters]");
   var eraFilters = document.querySelector("[data-era-filters]");
   var status = document.querySelector("[data-status]");
@@ -115,6 +116,7 @@
     return window.matchMedia && window.matchMedia("(max-width: 720px)").matches ? ARTIST_COLUMNS_MOBILE : ARTIST_COLUMNS_DESKTOP;
   }
 
+  // ARTIST_FILTER_GUARD: 選択中の歌手が隠れないように、折りたたみ/展開仕様を維持する。
   function layoutArtistRows() {
     if (!artistFilters) return;
     artistFilters.classList.add("artist-row");
