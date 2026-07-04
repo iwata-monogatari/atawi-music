@@ -4,3 +4,5 @@
 *.db
 *.log
 logs/
+__pycache__/
+data/discovery-approved.json

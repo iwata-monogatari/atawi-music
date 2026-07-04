@@ -6,6 +6,12 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8899"],
       "port": 8899
+    },
+    {
+      "name": "atawi-mv-admin",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["tools/youtube_mv_manager.py", "serve-admin", "--port", "8791"],
+      "port": 8791
     }
   ]
 }

@@ -3348,5 +3348,19 @@
     "summary": "蝶々結びを結ぶ手元の描写から、人と人の繋がりの尊さと傷つきやすさを描く曲。介護で向き合う家族の絆や、不動産で受け継がれる温かな記憶を重ね合わせる。",
     "status": "published",
     "featured_order": 234
+  },
+  {
+    "id": "anri-002",
+    "title": "オリビアを聴きながら",
+    "artist": "ANRI",
+    "release_year": 1978,
+    "decade": "1970年代",
+    "article_url": "/articles/anri-002.html",
+    "youtube_url": "https://www.youtube.com/watch?v=bAcMeF3lhv0",
+    "source_owner": "ANRI 杏里 Official",
+    "created_at": "2026-07-05T09:00:00",
+    "summary": "16歳の杏里がオリビア・ニュートン・ジョンへの憧れを口にしたことから生まれたデビュー曲。半世紀近くを経て歌い継がれる、憧れから始まる一歩を描いた一曲。",
+    "status": "published",
+    "featured_order": 235
   }
 ]
