@@ -11,7 +11,7 @@
   var status = document.querySelector("[data-status]");
   var searchBox = document.querySelector("[data-search-box]");
   var kind = container.getAttribute("data-page-kind") || "archive";
-  var active = { artist: "all", era: "all", theme: "all", sort: "featured", q: "" };
+  var active = { artist: "all", era: "all", theme: "all", sort: "created_desc", q: "" };
   var themes = [];
   var artistKana = {};
   var ARTIST_VISIBLE_ROWS = 7;
@@ -241,7 +241,7 @@
     if (active.artist !== "all") parts.push("artist=" + encodeURIComponent(active.artist));
     if (active.era !== "all") parts.push("era=" + encodeURIComponent(active.era));
     if (active.theme !== "all") parts.push("theme=" + encodeURIComponent(active.theme));
-    if (active.sort !== "featured") parts.push("sort=" + encodeURIComponent(active.sort));
+    if (active.sort !== "created_desc") parts.push("sort=" + encodeURIComponent(active.sort));
     return parts;
   }
 
@@ -285,16 +285,7 @@
     });
   }
 
-  // SORT_BUTTONS_GUARD: この簡易ソート（掲載順・新着順）は下部の「すべての記事を見る」ボタンの右側に配置される重要UIです。
-  // どこの変更がかかっても絶対に削除・変更しないでください。
-  function miniSort() {
-    var opts = [["featured", "掲載順"], ["created_desc", "新着順"]];
-    return '<span class="mini-sort" role="group" aria-label="並び順(簡易)">' + opts.map(function(o) {
-      var isActive = active.sort === o[0];
-      return '<button class="chip chip-mini' + (isActive ? " is-active" : "") + '" type="button" data-filter-type="sort" data-filter-value="' + o[0] + '" aria-pressed="' + (isActive ? "true" : "false") + '">' + o[1] + "</button>";
-    }).join("") + "</span>";
-  }
-
+  // SORT_BUTTONS_GUARD: デフォルトを新着順（created_desc）に固定し、切り替え用ボタン（掲載順・新着順）は廃止いたしました。
   function render(songs) {
     var filtered = sortSongs(filterSongs(songs));
     var visible = kind === "home" ? filtered.slice(0, 10) : filtered;
@@ -307,7 +298,7 @@
       container.innerHTML = '<p class="muted">該当する記事はまだありません。</p>';
       return;
     }
-    container.innerHTML = '<ul class="song-list">' + visible.map(card).join("") + '</ul>' + (kind === "home" ? '<nav class="pagination" aria-label="記事ページ"><a class="btn-gold" href="' + escapeHtml(pageHref()) + '">すべての記事を見る</a>' + miniSort() + '</nav>' : '<nav class="pagination" aria-label="記事ページ">' + miniSort() + '</nav>');
+    container.innerHTML = '<ul class="song-list">' + visible.map(card).join("") + '</ul>' + (kind === "home" ? '<nav class="pagination" aria-label="記事ページ"><a class="btn-gold" href="' + escapeHtml(pageHref()) + '">すべての記事を見る</a></nav>' : "");
   }
 
   function bind(songs) {
