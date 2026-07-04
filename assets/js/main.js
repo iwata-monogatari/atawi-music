@@ -11,7 +11,7 @@
   var status = document.querySelector("[data-status]");
   var searchBox = document.querySelector("[data-search-box]");
   var kind = container.getAttribute("data-page-kind") || "archive";
-  var active = { artist: "all", era: "all", theme: "all", sort: "created_desc", q: "" };
+  var active = { artist: "all", era: "all", theme: "all", themeGroup: "all", sort: "created_desc", q: "" };
   var themes = [];
   var artistKana = {};
   var ARTIST_VISIBLE_ROWS = 7;
@@ -24,9 +24,88 @@
     active.artist = query.get("artist") || active.artist;
     active.era = query.get("era") || active.era;
     active.theme = query.get("theme") || active.theme;
+    active.themeGroup = query.get("themeGroup") || active.themeGroup;
     active.sort = query.get("sort") || active.sort;
     active.q = query.get("q") || active.q;
   })();
+
+  
+  var MOOD_GROUPS = [
+    {
+      id: "positive",
+      title: "前を向きたい曲",
+      subtitle: "プラス・回復・元気・行動系",
+      tags: [
+        "元気をもらえる曲",
+        "前を向いて歩くための曲",
+        "作業効率が上がる曲",
+        "旅に出たくなる曲",
+        "誰かの幸せを願う曲"
+      ]
+    },
+    {
+      id: "calm",
+      title: "静かに整えたい曲",
+      subtitle: "落ち着き・整理・休息系",
+      tags: [
+        "落ち着く曲",
+        "心を整理したい時の曲",
+        "日曜日を静かに過ごす曲",
+        "海や空を眺めながら聴く曲",
+        "季節の変わり目に聴く曲"
+      ]
+    },
+    {
+      id: "night",
+      title: "夜と孤独に寄り添う曲",
+      subtitle: "寂しさ・喪失・内省系",
+      tags: [
+        "夜に残る曲",
+        "孤独に寄り添う曲",
+        "会えない人を思い出す曲",
+        "雨の日に聴きたい曲",
+        "仕事帰りに効く曲"
+      ]
+    },
+    {
+      id: "memory",
+      title: "あの頃を思い出す曲",
+      subtitle: "記憶・青春・街・東京系",
+      tags: [
+        "東京で頑張っていた頃",
+        "東京の記憶",
+        "青春を思い出す曲",
+        "街を思い出す曲",
+        "懐かしい風を感じる曲",
+        "家や記憶につながる曲"
+      ]
+    },
+    {
+      id: "philosophy",
+      title: "大人になって聴き直す曲",
+      subtitle: "哲学・人生・成熟・再解釈系",
+      tags: [
+        "大人になって分かる曲",
+        "過去をさかのぼり今を聴く曲",
+        "自分の原点に立ち返る曲",
+        "家や記憶につながる曲",
+        "誰かの幸せを願う曲"
+      ]
+    }
+  ];
+
+  function matchesThemeGroup(song, themeGroupId) {
+    var group = MOOD_GROUPS.find(function(g) { return g.id === themeGroupId; });
+    if (!group) return true;
+    return group.tags.some(function(tagName) {
+      var keywords = themeKeywords[tagName];
+      if (!keywords) return false;
+      var text = normalize((song.title || "") + " " + (song.artist || "") + " " + (song.summary || ""));
+      return keywords.some(function(kw) {
+        return text.indexOf(normalize(kw)) !== -1;
+      });
+    });
+  }
 
   var themeKeywords = {
     "東京で頑張っていた頃": ["東京"],
@@ -240,6 +319,7 @@
     if (active.q) parts.push("q=" + encodeURIComponent(active.q));
     if (active.artist !== "all") parts.push("artist=" + encodeURIComponent(active.artist));
     if (active.era !== "all") parts.push("era=" + encodeURIComponent(active.era));
+    if (active.themeGroup !== "all") parts.push("themeGroup=" + encodeURIComponent(active.themeGroup));
     if (active.theme !== "all") parts.push("theme=" + encodeURIComponent(active.theme));
     if (active.sort !== "created_desc") parts.push("sort=" + encodeURIComponent(active.sort));
     return parts;

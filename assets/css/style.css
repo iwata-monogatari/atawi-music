@@ -344,3 +344,84 @@
     box-sizing: border-box;
   }
 }
+
+/* MOOD_GROUP_GROUPING: 「気分で選ぶ」上位分類カードのスタイル */
+.filter-subheading {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--accent);
+  margin: 1.2em 0 0.8em;
+  opacity: 0.9;
+  text-align: left;
+  border-left: 2px solid var(--accent);
+  padding-left: 8px;
+}
+
+.mood-reset {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.mood-group-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 8px 0 20px;
+  width: 100%;
+}
+
+.mood-group-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 14px 16px;
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-sizing: border-box;
+}
+
+.mood-group-card:hover {
+  background: rgba(212, 175, 55, 0.05);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.1);
+}
+
+.mood-group-card.is-active {
+  border-color: var(--accent) !important;
+  background: rgba(212, 175, 55, 0.15) !important;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2) !important;
+}
+
+.mood-group-title {
+  font-size: 0.96rem;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.mood-group-card.is-active .mood-group-title {
+  color: var(--accent);
+}
+
+.mood-group-subtitle {
+  font-size: 0.76rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+@media (max-width: 720px) {
+  .mood-group-list {
+    grid-template-columns: 1fr;
+  }
+
+  .mood-group-card {
+    padding: 12px 14px;
+  }
+}
