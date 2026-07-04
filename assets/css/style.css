@@ -183,9 +183,35 @@
 /* END_CLS_STABILITY_GUARD */
 
 /* THEME_FILTER_AND_RECOMMENDATION_SUPPORT: 気分フィルターおよびおすすめ推薦機能用の追加スタイル */
-.theme-group{grid-column:1/-1}
-[data-theme-filters]{display:flex;flex-wrap:wrap;gap:9px}
-[data-theme-filters] .chip{height:42px;min-height:42px;max-height:42px;padding:6px 12px;font-size:.82rem;display:flex;align-items:center;justify-content:center}
+.theme-group{grid-column:1/-1;margin-bottom:1.8em}
+.theme-group h3{font-size:1.35rem !important;color:var(--accent) !important;font-weight:800 !important;margin-bottom:14px}
+[data-theme-filters]{display:flex;flex-wrap:wrap;gap:10px}
+[data-theme-filters] .chip{
+  height:48px;
+  min-height:48px;
+  max-height:48px;
+  padding:8px 18px;
+  font-size:.95rem;
+  font-weight:800;
+  border-color:rgba(212,175,55,0.35);
+  border-width:1px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:6px;
+  transition:all .2s ease;
+}
+[data-theme-filters] .chip:hover{
+  border-color:var(--accent);
+  background:rgba(212,175,55,0.08);
+  transform:translateY(-1px);
+}
+[data-theme-filters] .chip.is-active{
+  background:var(--accent) !important;
+  color:#050608 !important;
+  border-color:var(--accent) !important;
+  box-shadow:0 3px 12px rgba(212,175,55,0.25);
+}
 .recommendation-area{margin:2.5em 0;padding:1.5em;border:1px solid var(--line);background:var(--panel-soft);border-radius:6px}
 .recommendation-area h3{margin:0 0 14px;font-size:1.12rem;color:var(--accent);font-weight:800}
 .recommendation-card{display:flex;align-items:center;gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:12px;transition:border-color .2s ease,background-color .2s ease;text-decoration:none}
