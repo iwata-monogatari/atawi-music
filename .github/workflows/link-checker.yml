@@ -1,0 +1,39 @@
+name: Daily Link Checker
+
+on:
+  schedule:
+    - cron: '0 19 * * *' # 毎日UTC 19:00 = 日本時間 午前4:00
+  workflow_dispatch: # 手動実行も可能にする
+
+permissions:
+  contents: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run link checker
+        run: node tools/check-links.mjs
+        continue-on-error: true
+
+      - name: Commit and push report
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/link-check-report.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "docs: 毎日リンクチェックレポート更新" && git push)
+
+      - name: Final status check
+        run: |
+          if grep -q "## 検出された異常リンク一覧" data/link-check-report.md; then
+            echo "異常なリンクが検出されました。詳細はリポジトリ内の data/link-check-report.md を確認してください。"
+            exit 1
+          fi
