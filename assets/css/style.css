@@ -185,12 +185,12 @@
 /* THEME_FILTER_AND_RECOMMENDATION_SUPPORT: 気分フィルターおよびおすすめ推薦機能用の追加スタイル */
 .theme-group{grid-column:1/-1;margin-bottom:1.8em}
 .theme-group h3{font-size:1.35rem !important;color:var(--accent) !important;font-weight:800 !important;margin-bottom:14px}
-[data-theme-filters]{display:flex;flex-wrap:wrap;gap:10px}
+[data-theme-filters]{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 [data-theme-filters] .chip{
   height:48px;
   min-height:48px;
   max-height:48px;
-  padding:8px 18px;
+  padding:8px 12px;
   font-size:.95rem;
   font-weight:800;
   border-color:rgba(212,175,55,0.35);
@@ -200,6 +200,12 @@
   justify-content:center;
   border-radius:6px;
   transition:all .2s ease;
+  width:100%;
+  box-sizing:border-box;
+}
+@media(max-width:600px){
+  [data-theme-filters]{grid-template-columns:repeat(3,1fr);gap:8px}
+  [data-theme-filters] .chip{height:42px;min-height:42px;max-height:42px;padding:4px;font-size:.76rem;border-radius:4px}
 }
 [data-theme-filters] .chip:hover{
   border-color:var(--accent);
