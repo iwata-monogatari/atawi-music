@@ -11,7 +11,7 @@
     "created_at": "2026-07-01T09:00:00",
     "summary": "同じ街にいるのに遠い人を思い出す曲。東京で暮らした時間の距離感をたどる。",
     "status": "published",
-    "featured_order": 9
+    "featured_order": 1
   },
   {
     "id": "nulbarich-001",
@@ -25,7 +25,7 @@
     "created_at": "2026-07-01T09:01:00",
     "summary": "東京で折れなかった自分を思い出す曲。都会の孤独と踏ん張っていた時間をたどる。",
     "status": "published",
-    "featured_order": 10
+    "featured_order": 2
   },
   {
     "id": "go-hiromi-001",
@@ -39,7 +39,7 @@
     "created_at": "2026-07-01T09:02:00",
     "summary": "届かなかった思いが、時間を越えて胸に刺さる曲。家や土地に残る言えなかった記憶にも重なる。",
     "status": "published",
-    "featured_order": 11
+    "featured_order": 3
   },
   {
     "id": "bruno-mars-001",
@@ -53,7 +53,7 @@
     "created_at": "2026-07-01T09:03:00",
     "summary": "歌詞を追い切れなくても、声と音が心に届く曲。分からないまま響く感情をたどる。",
     "status": "published",
-    "featured_order": 12
+    "featured_order": 4
   },
   {
     "id": "official-hige-dandism-001",
@@ -67,7 +67,7 @@
     "created_at": "2026-07-01T09:04:00",
     "summary": "初めて聴いた時、若い世代にはもう勝てないと思った曲。渡していく側の役割を考え直す。",
     "status": "published",
-    "featured_order": 13
+    "featured_order": 5
   },
   {
     "id": "tokyo-jihen-001",
@@ -81,7 +81,7 @@
     "created_at": "2026-07-01T09:05:00",
     "summary": "働いて、帰って、なお残るものを見つめる曲。東京の記憶と磐田の現在をつなぎ直す。",
     "status": "published",
-    "featured_order": 14
+    "featured_order": 6
   },
   {
     "id": "shiina-ringo-001",
@@ -95,7 +95,7 @@
     "created_at": "2026-07-01T09:06:00",
     "summary": "根を持つことと、揺れながら立つことを思い出す曲。東京の記憶と家や土地の時間をたどる。",
     "status": "published",
-    "featured_order": 15
+    "featured_order": 7
   },
   {
     "id": "shiina-ringo-002",
@@ -109,7 +109,7 @@
     "created_at": "2026-07-01T09:07:00",
     "summary": "持っているものではなく、失えないものを思い出す曲。家や土地に残る見えない富をたどる。",
     "status": "published",
-    "featured_order": 16
+    "featured_order": 8
   },
   {
     "id": "tokyo-jihen-002",
@@ -123,7 +123,7 @@
     "created_at": "2026-07-01T09:08:00",
     "summary": "三分という短い時間を、ただ待つだけで終わらせない曲。東京の速度と磐田の待つ時間をたどる。",
     "status": "published",
-    "featured_order": 17
+    "featured_order": 9
   },
   {
     "id": "vaundy-001",
@@ -137,7 +137,7 @@
     "created_at": "2026-07-01T09:09:00",
     "summary": "古典的なビートが、古いのに新しく響く曲。東京の記憶と磐田の古い家や土地を重ねる。",
     "status": "published",
-    "featured_order": 18
+    "featured_order": 10
   },
   {
     "id": "kirinji-001",
@@ -151,7 +151,7 @@
     "created_at": "2026-07-01T09:10:00",
     "summary": "同じ街にいても、少しだけよそ者でいる夜の曲。東京の孤独と磐田の帰属感をたどる。",
     "status": "published",
-    "featured_order": 19,
+    "featured_order": 11,
     "artists": [
       "KIRINJI"
     ]
@@ -168,7 +168,7 @@
     "created_at": "2026-07-01T09:11:00",
     "summary": "松田聖子の名曲を椎名林檎の声で聴き直す。甘い記憶が、東京と磐田の時間をつなぐ。",
     "status": "published",
-    "featured_order": 20
+    "featured_order": 12
   },
   {
     "id": "matsuda-seiko-001",
@@ -182,7 +182,7 @@
     "created_at": "2026-07-01T09:12:00",
     "summary": "違法すれすれの映像で知っていた名曲を、公式の本人映像で聴き直す。記憶との向き合い方を整える曲。",
     "status": "published",
-    "featured_order": 21
+    "featured_order": 13
   },
   {
     "id": "jeremy-quartus-001",
@@ -196,7 +196,7 @@
     "created_at": "2026-07-01T09:13:00",
     "summary": "Nulbarichの活動休止を知ったあとで聴く、喪失感から戻れる場所を探す曲。",
     "status": "published",
-    "featured_order": 22
+    "featured_order": 14
   },
   {
     "id": "sakiya-kenjiro-001",
@@ -210,7 +210,7 @@
     "created_at": "2026-07-01T09:14:00",
     "summary": "リアルタイムで聴いていなくても、自分の夜に残る曲。都会的な余韻と止めたい時間をたどる。",
     "status": "published",
-    "featured_order": 23
+    "featured_order": 15
   },
   {
     "id": "kick-the-can-crew-001",
@@ -224,7 +224,7 @@
     "created_at": "2026-07-01T09:15:00",
     "summary": "KICK THE CAN CREWを好きになった入口の曲。岡村靖幸の存在感と、住所から始め直す感覚をたどる。",
     "status": "published",
-    "featured_order": 24
+    "featured_order": 16
   },
   {
     "id": "girls-generation-001",
@@ -238,7 +238,7 @@
     "created_at": "2026-07-02T09:00:00",
     "summary": "K-POPが日本の街に入ってきた時代の衝撃を思い出す曲。完成度と時代の移動をたどる。",
     "status": "published",
-    "featured_order": 25
+    "featured_order": 17
   },
   {
     "id": "girls-generation-002",
@@ -252,7 +252,7 @@
     "created_at": "2026-07-02T09:01:00",
     "summary": "年下の世代をかわいいと思いながら尊敬していた記憶。K-POPの明るさと完成度をたどる。",
     "status": "published",
-    "featured_order": 26
+    "featured_order": 18
   },
   {
     "id": "hiramatsu-eri-001",
@@ -266,7 +266,7 @@
     "created_at": "2026-07-02T09:02:00",
     "summary": "若い日の歌が、長く暮らした家の時間に戻ってくる曲。部屋、家族、仕事、地域の記憶をたどる。",
     "status": "published",
-    "featured_order": 27
+    "featured_order": 19
   },
   {
     "id": "princess-princess-001",
@@ -280,7 +280,7 @@
     "created_at": "2026-07-02T09:03:00",
     "summary": "子供のころに聞いた曲が、今まさに心に刺さる理由をたどる。戻らない時間と名前の記憶の曲。",
     "status": "published",
-    "featured_order": 28
+    "featured_order": 20
   },
   {
     "id": "makihara-noriyuki-001",
@@ -294,7 +294,7 @@
     "created_at": "2026-07-02T09:04:00",
     "summary": "恋愛を体験する前と後で、同じ曲が違って聞こえる理由をたどる。あの頃に戻りたい気持ちの曲。",
     "status": "published",
-    "featured_order": 29
+    "featured_order": 21
   },
   {
     "id": "makihara-noriyuki-002",
@@ -308,7 +308,7 @@
     "created_at": "2026-07-02T09:05:00",
     "summary": "私の中の槇原さんといえばこの曲。失恋の後に残る生活、強がり、寂しさをたどる。",
     "status": "published",
-    "featured_order": 30
+    "featured_order": 22
   },
   {
     "id": "furuuchi-toko-002",
@@ -322,7 +322,7 @@
     "created_at": "2026-07-02T09:06:00",
     "summary": "一番近くにいながら言えなかった気持ちを思い出す曲。友人でいることを選んだ時間をたどる。",
     "status": "published",
-    "featured_order": 31
+    "featured_order": 23
   },
   {
     "id": "kirinji-002",
@@ -336,7 +336,7 @@
     "created_at": "2026-07-02T09:07:00",
     "summary": "定まらない自分と、それでも隣にいてくれた誰かを思い出す曲。ふたりの漂流をたどる。",
     "status": "published",
-    "featured_order": 32,
+    "featured_order": 24,
     "artists": [
       "KIRINJI"
     ]
@@ -353,7 +353,7 @@
     "created_at": "2026-07-02T09:08:00",
     "summary": "言葉より先に声が届く曲。海を越えて歌い継がれる歌と、家に残る声の記憶をたどる。",
     "status": "published",
-    "featured_order": 33
+    "featured_order": 25
   },
   {
     "id": "suzuki-kiyomi-001",
@@ -367,7 +367,7 @@
     "created_at": "2026-07-03T09:00:00",
     "summary": "曖昧な別れを引き延ばさない強さを歌う曲。区切りをつけることの意味をたどる。",
     "status": "published",
-    "featured_order": 34
+    "featured_order": 26
   },
   {
     "id": "yamashita-tatsuro-001",
@@ -381,7 +381,7 @@
     "created_at": "2026-07-03T09:01:00",
     "summary": "遠い島への憧れを歌う曲。東京で思い描いた場所と、いま根を張る土地をたどる。",
     "status": "published",
-    "featured_order": 35
+    "featured_order": 27
   },
   {
     "id": "c-word-001",
@@ -395,7 +395,7 @@
     "created_at": "2026-07-03T09:02:00",
     "summary": "かなしげで落ち着く、わずか30秒の前奏曲。悲しみと落ち着きが同居する感覚をたどる。",
     "status": "published",
-    "featured_order": 36
+    "featured_order": 28
   },
   {
     "id": "takeuchi-mariya-001",
@@ -409,7 +409,7 @@
     "created_at": "2026-07-03T09:03:00",
     "summary": "歌詞が泣ける、生きることそのものを歌う曲。いのちのつながりを仕事の中でたどる。",
     "status": "published",
-    "featured_order": 37
+    "featured_order": 29
   },
   {
     "id": "gesu-no-kiwami-otome-001",
@@ -423,7 +423,7 @@
     "created_at": "2026-07-03T09:04:00",
     "summary": "いろいろあった人生の本質を突く曲。自分の人生を自分で引き受ける覚悟をたどる。",
     "status": "published",
-    "featured_order": 38
+    "featured_order": 30
   },
   {
     "id": "suchmos-001",
@@ -437,7 +437,7 @@
     "created_at": "2026-07-03T09:05:00",
     "summary": "ワンショットフィルムで撮られた都会の夜のグルーヴ。不完全な輝きを肯定する曲。",
     "status": "published",
-    "featured_order": 39
+    "featured_order": 31
   },
   {
     "id": "suchmos-002",
@@ -451,7 +451,7 @@
     "created_at": "2026-07-03T09:06:00",
     "summary": "サチモスといえばこの曲。新しい音楽との出会いの入口をたどる。",
     "status": "published",
-    "featured_order": 40
+    "featured_order": 32
   },
   {
     "id": "yamashita-tatsuro-002",
@@ -465,7 +465,7 @@
     "created_at": "2026-07-03T09:07:00",
     "summary": "夏を代表する名曲。季節にさよならを告げ、次の季節を迎える作法をたどる。",
     "status": "published",
-    "featured_order": 41
+    "featured_order": 33
   },
   {
     "id": "oda-kazumasa-001",
@@ -479,7 +479,7 @@
     "created_at": "2026-07-03T09:08:00",
     "summary": "小学6年生で出会い、何千回と聴いた曲。突然訪れる心の高鳴りをたどる。",
     "status": "published",
-    "featured_order": 42
+    "featured_order": 34
   },
   {
     "id": "shiina-ringo-004",
@@ -493,7 +493,7 @@
     "created_at": "2026-07-03T09:09:00",
     "summary": "夏を彩ったCMソング。長いようで短い祭の時間感覚をたどる。",
     "status": "published",
-    "featured_order": 43
+    "featured_order": 35
   },
   {
     "id": "dreams-come-true-001",
@@ -507,7 +507,7 @@
     "created_at": "2026-07-03T09:10:00",
     "summary": "金曜日に勝負したくなる曲。一週間の締めくくりを前向きに迎える気持ちをたどる。",
     "status": "published",
-    "featured_order": 44
+    "featured_order": 36
   },
   {
     "id": "kubota-toshinobu-001",
@@ -521,7 +521,7 @@
     "created_at": "2026-07-03T10:00:00",
     "summary": "せつないけど、いい。失って初めて分かるものを、夜の静けさの中で聴き直す。",
     "status": "published",
-    "featured_order": 45
+    "featured_order": 37
   },
   {
     "id": "dreams-come-true-002",
@@ -535,7 +535,7 @@
     "created_at": "2026-07-03T10:01:00",
     "summary": "ブレーキランプ5回点滅のサインを何度もやった。描いた未来の答え合わせの曲。",
     "status": "published",
-    "featured_order": 46
+    "featured_order": 38
   },
   {
     "id": "yamashita-kumiko-001",
@@ -549,7 +549,7 @@
     "created_at": "2026-07-03T10:02:00",
     "summary": "はじめて付き合った人を思い出す曲。気持ちを出し惜しみしないことの尊さをたどる。",
     "status": "published",
-    "featured_order": 47
+    "featured_order": 39
   },
   {
     "id": "kirinji-003",
@@ -563,7 +563,7 @@
     "created_at": "2026-07-03T10:03:00",
     "summary": "いい曲はこちらの都合を聞かずに撃ってくる。音楽に不意打ちされる瞬間の曲。",
     "status": "published",
-    "featured_order": 48,
+    "featured_order": 40,
     "artists": [
       "KIRINJI"
     ]
@@ -580,7 +580,7 @@
     "created_at": "2026-07-03T10:04:00",
     "summary": "AIが逃避行する時代になるのかな。2017年の予言を、AIと働く2026年から聴く。",
     "status": "published",
-    "featured_order": 49,
+    "featured_order": 41,
     "artists": [
       "KIRINJI"
     ]
@@ -597,7 +597,7 @@
     "created_at": "2026-07-03T10:05:00",
     "summary": "世紀の変わり目に静かに降っていた曲。区切りの向こうにも続く暮らしをたどる。",
     "status": "published",
-    "featured_order": 50,
+    "featured_order": 42,
     "artists": [
       "KIRINJI"
     ]
@@ -614,7 +614,7 @@
     "created_at": "2026-07-03T10:06:00",
     "summary": "あの頃も今もかっこいい。2023年のライブ映像で、続けてきた時間の声を聴く。",
     "status": "published",
-    "featured_order": 51
+    "featured_order": 43
   },
   {
     "id": "oe-senri-001",
@@ -628,7 +628,7 @@
     "created_at": "2026-07-03T10:07:00",
     "summary": "よく聴いていた曲の主が、まさか大学の先輩だったとは。格好悪さを歌にする勇気の曲。",
     "status": "published",
-    "featured_order": 52
+    "featured_order": 44
   },
   {
     "id": "shiina-ringo-005",
@@ -642,7 +642,7 @@
     "created_at": "2026-07-03T11:00:00",
     "summary": "宮本浩次とのコラボが本当にいい。対照的な2人の才能が並び立つ瞬間をたどる。",
     "status": "published",
-    "featured_order": 53
+    "featured_order": 45
   },
   {
     "id": "shiina-ringo-006",
@@ -656,7 +656,7 @@
     "created_at": "2026-07-03T11:01:00",
     "summary": "日本も、自分も元気になれる一曲。NHKサッカーテーマ曲が個人を鼓舞する仕組みをたどる。",
     "status": "published",
-    "featured_order": 54
+    "featured_order": 46
   },
   {
     "id": "shiina-ringo-007",
@@ -670,7 +670,7 @@
     "created_at": "2026-07-03T11:02:00",
     "summary": "せつなそうな歌い方がいい。栗山千明への提供曲を自らセルフカバーした曲をたどる。",
     "status": "published",
-    "featured_order": 55
+    "featured_order": 47
   },
   {
     "id": "shiina-ringo-008",
@@ -684,7 +684,7 @@
     "created_at": "2026-07-03T11:03:00",
     "summary": "CMのために誰かへ書いた言葉を、自分自身で歌い直す。セルフカバーに込められた時間差をたどる。",
     "status": "published",
-    "featured_order": 56
+    "featured_order": 48
   },
   {
     "id": "shiina-ringo-009",
@@ -698,7 +698,7 @@
     "created_at": "2026-07-03T11:04:00",
     "summary": "20周年の節目に、ひとりで歩く目抜き通り。デュエット曲をソロで歌う覚悟をたどる。",
     "status": "published",
-    "featured_order": 57
+    "featured_order": 49
   },
   {
     "id": "shiina-ringo-010",
@@ -712,7 +712,7 @@
     "created_at": "2026-07-03T11:05:00",
     "summary": "歩幅の違う2人が、同じ通りを並んで歩く。GINZA SIXテーマ曲のデュエットをたどる。",
     "status": "published",
-    "featured_order": 58
+    "featured_order": 50
   },
   {
     "id": "shiina-ringo-011",
@@ -726,7 +726,7 @@
     "created_at": "2026-07-03T11:06:00",
     "summary": "大正時代みたいだけど、いいね。時代を生き抜いた母の生涯を描いた主題歌をたどる。",
     "status": "published",
-    "featured_order": 59
+    "featured_order": 51
   },
   {
     "id": "kirinji-006",
@@ -740,7 +740,7 @@
     "created_at": "2026-07-03T12:00:00",
     "summary": "濡れて憂鬱なはずの日を、包まれる時間に変える曲。雨の日の特別な許可証をたどる。",
     "status": "published",
-    "featured_order": 60,
+    "featured_order": 52,
     "artists": [
       "KIRINJI"
     ]
@@ -757,7 +757,7 @@
     "created_at": "2026-07-03T12:01:00",
     "summary": "夜明けの高速を走るような、始まりの曲。移籍第1弾に込めた開放感をたどる。",
     "status": "published",
-    "featured_order": 61,
+    "featured_order": 53,
     "artists": [
       "KIRINJI"
     ]
@@ -774,7 +774,7 @@
     "created_at": "2026-07-03T12:02:00",
     "summary": "美しい兆しほど、次に来るものを警告している。予兆を読む感覚をたどる。",
     "status": "published",
-    "featured_order": 62,
+    "featured_order": 54,
     "artists": [
       "KIRINJI"
     ]
@@ -791,7 +791,7 @@
     "created_at": "2026-07-03T12:03:00",
     "summary": "酸っぱさを、まだ足せる。書き続けるということの現在地をたどる。",
     "status": "published",
-    "featured_order": 63,
+    "featured_order": 55,
     "artists": [
       "KIRINJI"
     ]
@@ -808,7 +808,7 @@
     "created_at": "2026-07-03T12:04:00",
     "summary": "これが、自分たちのやり方だ。周囲に惑わされず貫く姿勢をたどる。",
     "status": "published",
-    "featured_order": 64
+    "featured_order": 56
   },
   {
     "id": "nulbarich-003",
@@ -822,7 +822,7 @@
     "created_at": "2026-07-03T12:05:00",
     "summary": "まだ地図に載っていない場所を、それでも歩いていく感覚をたどる。",
     "status": "published",
-    "featured_order": 65
+    "featured_order": 57
   },
   {
     "id": "nulbarich-004",
@@ -836,7 +836,7 @@
     "created_at": "2026-07-03T12:06:00",
     "summary": "手錠をはめられていても、選び取ったものはある。不自由の中の自由をたどる。",
     "status": "published",
-    "featured_order": 66
+    "featured_order": 58
   },
   {
     "id": "nulbarich-005",
@@ -850,7 +850,7 @@
     "created_at": "2026-07-03T12:07:00",
     "summary": "大人の休日には、甘さと酸っぱさの両方がある。ドラマ主題歌の機微をたどる。",
     "status": "published",
-    "featured_order": 67
+    "featured_order": 59
   },
   {
     "id": "nulbarich-006",
@@ -868,7 +868,7 @@
     "created_at": "2026-07-03T12:08:00",
     "summary": "胸の中がどうであっても、1日はやってくる。感情と時間のズレをたどる。",
     "status": "published",
-    "featured_order": 68
+    "featured_order": 60
   },
   {
     "id": "nulbarich-007",
@@ -886,7 +886,7 @@
     "created_at": "2026-07-03T13:00:00",
     "summary": "灰は、燃え尽きたあとに残る、次の始まりの印。距離を越えた共作をたどる。",
     "status": "published",
-    "featured_order": 69
+    "featured_order": 61
   },
   {
     "id": "kick-the-can-crew-002",
@@ -900,7 +900,7 @@
     "created_at": "2026-07-03T14:00:00",
     "summary": "100%では足りない。14年の沈黙を経ての本気の全力をたどる。",
     "status": "published",
-    "featured_order": 70
+    "featured_order": 62
   },
   {
     "id": "kick-the-can-crew-003",
@@ -914,7 +914,7 @@
     "created_at": "2026-07-03T14:01:00",
     "summary": "履き古したブーツほど、足に馴染んでいる。時間を経た3人の味わいをたどる。",
     "status": "published",
-    "featured_order": 71
+    "featured_order": 63
   },
   {
     "id": "kick-the-can-crew-004",
@@ -928,7 +928,7 @@
     "created_at": "2026-07-03T14:02:00",
     "summary": "夏だけ特別になる場所が、誰にもひとつはある。季節と記憶の結びつきをたどる。",
     "status": "published",
-    "featured_order": 72
+    "featured_order": 64
   },
   {
     "id": "kick-the-can-crew-005",
@@ -942,7 +942,7 @@
     "created_at": "2026-07-03T14:03:00",
     "summary": "23年経っても、まだ完結していなかった1曲。機が熟すのを待つ豊かさをたどる。",
     "status": "published",
-    "featured_order": 73
+    "featured_order": 65
   },
   {
     "id": "kreva-001",
@@ -956,7 +956,7 @@
     "created_at": "2026-07-03T14:04:00",
     "summary": "ZORNさんとのコラボ。技能を極めた者同士のモノづくりをたどる。",
     "status": "published",
-    "featured_order": 74
+    "featured_order": 66
   },
   {
     "id": "kreva-002",
@@ -970,7 +970,7 @@
     "created_at": "2026-07-03T14:05:00",
     "summary": "いいものは、待ってていい。機が熟すのを見極める矜持をたどる。",
     "status": "published",
-    "featured_order": 75
+    "featured_order": 67
   },
   {
     "id": "kreva-003",
@@ -984,7 +984,7 @@
     "created_at": "2026-07-03T14:06:00",
     "summary": "三浦大知さんとの掛け合いが最高。離れていてもつながる願いをたどる。",
     "status": "published",
-    "featured_order": 76
+    "featured_order": 68
   },
   {
     "id": "kreva-004",
@@ -998,7 +998,7 @@
     "created_at": "2026-07-03T14:07:00",
     "summary": "今だからこそ、あえて理想を語ろう。逆境で咲く強さをたどる。",
     "status": "published",
-    "featured_order": 77
+    "featured_order": 69
   },
   {
     "id": "kreva-005",
@@ -1012,7 +1012,7 @@
     "created_at": "2026-07-03T14:08:00",
     "summary": "ロンドンの街で、まだ探し続けている音がある。15年の探究心をたどる。",
     "status": "published",
-    "featured_order": 78
+    "featured_order": 70
   },
   {
     "id": "kreva-006",
@@ -1026,7 +1026,7 @@
     "created_at": "2026-07-03T14:09:00",
     "summary": "Nulbarichを知ることになった一曲。思いがけない出会いの連鎖をたどる。",
     "status": "published",
-    "featured_order": 79
+    "featured_order": 71
   },
   {
     "id": "nulbarich-008",
@@ -1040,7 +1040,7 @@
     "created_at": "2026-07-03T15:00:00",
     "summary": "止まったら倒れる。転がり続けることでしか保てないバランスをたどる。",
     "status": "published",
-    "featured_order": 80
+    "featured_order": 72
   },
   {
     "id": "nulbarich-009",
@@ -1054,7 +1054,7 @@
     "created_at": "2026-07-03T15:01:00",
     "summary": "地平線の向こうに、まだ見ぬ景色がある。境界を見つめる視線をたどる。",
     "status": "published",
-    "featured_order": 81
+    "featured_order": 73
   },
   {
     "id": "nulbarich-010",
@@ -1068,7 +1068,7 @@
     "created_at": "2026-07-03T15:02:00",
     "summary": "この曲でNEW ERAという単語の意味を知った。歌で覚えた言葉の重みをたどる。",
     "status": "published",
-    "featured_order": 82
+    "featured_order": 74
   },
   {
     "id": "nulbarich-011",
@@ -1082,7 +1082,7 @@
     "created_at": "2026-07-03T15:03:00",
     "summary": "自分の声で語ることでしか届かないものがある。CMソングの成り立ちをたどる。",
     "status": "published",
-    "featured_order": 83
+    "featured_order": 75
   },
   {
     "id": "nulbarich-012",
@@ -1096,7 +1096,7 @@
     "created_at": "2026-07-03T15:04:00",
     "summary": "一歩を踏み出せ。迷いを断ち切る決断の潔さをたどる。",
     "status": "published",
-    "featured_order": 84
+    "featured_order": 76
   },
   {
     "id": "nulbarich-013",
@@ -1110,7 +1110,7 @@
     "created_at": "2026-07-03T15:05:00",
     "summary": "ポケットの中にいつも忍ばせておきたい存在。JQが初めて姿を見せた曲をたどる。",
     "status": "published",
-    "featured_order": 85
+    "featured_order": 77
   },
   {
     "id": "nulbarich-014",
@@ -1124,7 +1124,7 @@
     "created_at": "2026-07-03T15:06:00",
     "summary": "山下達郎さんのカバー、リメイクが新しい。初のカバー曲の成り立ちをたどる。",
     "status": "published",
-    "featured_order": 86
+    "featured_order": 78
   },
   {
     "id": "nulbarich-015",
@@ -1138,7 +1138,7 @@
     "created_at": "2026-07-03T15:07:00",
     "summary": "もらった分だけ、同じだけ返したい。与え合うことの心地よさをたどる。",
     "status": "published",
-    "featured_order": 87
+    "featured_order": 79
   },
   {
     "id": "nulbarich-016",
@@ -1152,7 +1152,7 @@
     "created_at": "2026-07-03T15:08:00",
     "summary": "5周年に立ち、これまでとこれからを綴った1曲。感謝と決意をたどる。",
     "status": "published",
-    "featured_order": 88
+    "featured_order": 80
   },
   {
     "id": "punpee-001",
@@ -1170,7 +1170,7 @@
     "created_at": "2026-07-03T15:09:00",
     "summary": "KREVAさんからPUNPEEを知りました。連鎖していく出会いの記憶をたどる。",
     "status": "published",
-    "featured_order": 89
+    "featured_order": 81
   },
   {
     "id": "nulbarich-017",
@@ -1184,7 +1184,7 @@
     "created_at": "2026-07-03T16:00:00",
     "summary": "終わりを決めた者だけが鳴らせる解放の音。活動休止後初のシングルをたどる。",
     "status": "published",
-    "featured_order": 90
+    "featured_order": 82
   },
   {
     "id": "stuts-001",
@@ -1202,7 +1202,7 @@
     "created_at": "2026-07-03T16:01:00",
     "summary": "夜を最後の一滴まで使い切った先にある夜明け。3年越しの1曲をたどる。",
     "status": "published",
-    "featured_order": 91
+    "featured_order": 83
   },
   {
     "id": "skirt-001",
@@ -1220,7 +1220,7 @@
     "created_at": "2026-07-03T16:02:00",
     "summary": "同じ町の出身でも交わらなかった道が交差する瞬間。異色コラボをたどる。",
     "status": "published",
-    "featured_order": 92
+    "featured_order": 84
   },
   {
     "id": "yano-001",
@@ -1238,7 +1238,7 @@
     "created_at": "2026-07-03T16:03:00",
     "summary": "ヤノさんのラップにハマりました(笑)。予想外の入口からの出会いをたどる。",
     "status": "published",
-    "featured_order": 93
+    "featured_order": 85
   },
   {
     "id": "umeda-cypher-001",
@@ -1252,7 +1252,7 @@
     "created_at": "2026-07-03T16:04:00",
     "summary": "男だけの大所帯、大変だけど楽しいんだろうな。歩道橋発祥の熱量をたどる。",
     "status": "published",
-    "featured_order": 94
+    "featured_order": 86
   },
   {
     "id": "umeda-cypher-002",
@@ -1266,7 +1266,7 @@
     "created_at": "2026-07-03T16:05:00",
     "summary": "絞り込むことで、純度は上がる。全国ツアーに向けた凝縮をたどる。",
     "status": "published",
-    "featured_order": 95
+    "featured_order": 87
   },
   {
     "id": "punipuni-denki-001",
@@ -1280,7 +1280,7 @@
     "created_at": "2026-07-03T16:06:00",
     "summary": "バンドという形を持たなくても、音楽は鳴らせる。新しい作家の形をたどる。",
     "status": "published",
-    "featured_order": 96
+    "featured_order": 88
   },
   {
     "id": "punipuni-denki-002",
@@ -1298,7 +1298,7 @@
     "created_at": "2026-07-03T16:07:00",
     "summary": "駆け引きは、時にいちばん誠実なコミュニケーション。隠れ家BARの機微をたどる。",
     "status": "published",
-    "featured_order": 97
+    "featured_order": 89
   },
   {
     "id": "creepy-nuts-001",
@@ -1312,7 +1312,7 @@
     "created_at": "2026-07-03T16:08:00",
     "summary": "かつての自分に、今の自分から語りかける。自粛期間を経た1曲をたどる。",
     "status": "published",
-    "featured_order": 98
+    "featured_order": 90
   },
   {
     "id": "utada-hikaru-001",
@@ -1326,7 +1326,7 @@
     "created_at": "2026-07-03T16:09:00",
     "summary": "大学1年生の頃のドラマ主題歌。松嶋菜々子さんへの憧れと重なる記憶をたどる。",
     "status": "published",
-    "featured_order": 99
+    "featured_order": 91
   },
   {
     "id": "utada-hikaru-002",
@@ -1340,7 +1340,7 @@
     "created_at": "2026-07-03T16:10:00",
     "summary": "15歳の才能が時代を塗り替えた衝撃。デビューシングルの記憶をたどる。",
     "status": "published",
-    "featured_order": 100
+    "featured_order": 92
   },
   {
     "id": "aiko-001",
@@ -1354,7 +1354,7 @@
     "created_at": "2026-07-03T16:11:00",
     "summary": "大学受験に失敗して浪人時代を過ごした大阪で初めて聞いた曲をたどる。",
     "status": "published",
-    "featured_order": 101
+    "featured_order": 93
   },
   {
     "id": "aiko-002",
@@ -1368,7 +1368,7 @@
     "created_at": "2026-07-03T16:12:00",
     "summary": "甲羅を1枚剥がせば脆い。虚勢を張って恋する自分をたどる。",
     "status": "published",
-    "featured_order": 102
+    "featured_order": 94
   },
   {
     "id": "king-gnu-001",
@@ -1382,7 +1382,7 @@
     "created_at": "2026-07-03T17:00:00",
     "summary": "正月休みを返上して1人こもって書いた曲。井口理という才能の再発見をたどる。",
     "status": "published",
-    "featured_order": 103
+    "featured_order": 95
   },
   {
     "id": "sakanaction-001",
@@ -1396,7 +1396,7 @@
     "created_at": "2026-07-03T17:01:00",
     "summary": "ドリフの登場シーンをまねる感覚。過去の様式を見極める審美眼をたどる。",
     "status": "published",
-    "featured_order": 104
+    "featured_order": 96
   },
   {
     "id": "sakanaction-002",
@@ -1410,7 +1410,7 @@
     "created_at": "2026-07-03T17:02:00",
     "summary": "150回作り直してでも譲れないもの。妥協しない誠実さをたどる。",
     "status": "published",
-    "featured_order": 105
+    "featured_order": 97
   },
   {
     "id": "hoshino-gen-001",
@@ -1424,7 +1424,7 @@
     "created_at": "2026-07-03T17:03:00",
     "summary": "理由もなく腰が動く。それだけでいいという解放をたどる。",
     "status": "published",
-    "featured_order": 106
+    "featured_order": 98
   },
   {
     "id": "hoshino-gen-002",
@@ -1438,7 +1438,7 @@
     "created_at": "2026-07-03T17:04:00",
     "summary": "新しい夫婦を形作る人たちへ。生活を基にした愛情の形をたどる。",
     "status": "published",
-    "featured_order": 107
+    "featured_order": 99
   },
   {
     "id": "hoshino-gen-003",
@@ -1452,7 +1452,7 @@
     "created_at": "2026-07-03T17:05:00",
     "summary": "家族を超えてゆけ。血縁を超えたつながりの形をたどる。",
     "status": "published",
-    "featured_order": 108
+    "featured_order": 100
   },
   {
     "id": "hoshino-gen-004",
@@ -1466,7 +1466,7 @@
     "created_at": "2026-07-03T17:06:00",
     "summary": "国民的スターになった直後の葛藤。成功の裏の暗さをたどる。",
     "status": "published",
-    "featured_order": 109
+    "featured_order": 101
   },
   {
     "id": "hoshino-gen-005",
@@ -1480,7 +1480,7 @@
     "created_at": "2026-07-03T17:07:00",
     "summary": "哲学的で好き。愛の定義を自分の言葉で捉え直す試みをたどる。",
     "status": "published",
-    "featured_order": 110
+    "featured_order": 102
   },
   {
     "id": "hoshino-gen-006",
@@ -1494,7 +1494,7 @@
     "created_at": "2026-07-03T17:08:00",
     "summary": "続いてく、意味もなく。無常な時間との向き合い方をたどる。",
     "status": "published",
-    "featured_order": 111
+    "featured_order": 103
   },
   {
     "id": "hoshino-gen-007",
@@ -1508,7 +1508,7 @@
     "created_at": "2026-07-03T17:09:00",
     "summary": "遠回りした末にたどり着いた素直な答え。映画主題歌の制作秘話をたどる。",
     "status": "published",
-    "featured_order": 112
+    "featured_order": 104
   },
   {
     "id": "hoshino-gen-008",
@@ -1526,7 +1526,7 @@
     "created_at": "2026-07-03T17:10:00",
     "summary": "私もさらしものだからな。人前に晒される覚悟をたどる。",
     "status": "published",
-    "featured_order": 113
+    "featured_order": 105
   },
   {
     "id": "suchmos-003",
@@ -1540,7 +1540,7 @@
     "created_at": "2026-07-03T17:11:00",
     "summary": "1年6ヶ月という熟成の時間が連れてきた次の景色をたどる。",
     "status": "published",
-    "featured_order": 114
+    "featured_order": 106
   },
   {
     "id": "vaundy-002",
@@ -1554,7 +1554,7 @@
     "created_at": "2026-07-03T17:12:00",
     "summary": "確認せずに互いを察する恋の形。90年代サウンドの再構築をたどる。",
     "status": "published",
-    "featured_order": 115
+    "featured_order": 107
   },
   {
     "id": "original-love-001",
@@ -1568,7 +1568,7 @@
     "created_at": "2026-07-03T17:13:00",
     "summary": "渋谷系という時代のジャンル越境の自由さをたどる。",
     "status": "published",
-    "featured_order": 116
+    "featured_order": 108
   },
   {
     "id": "original-love-002",
@@ -1586,7 +1586,7 @@
     "created_at": "2026-07-03T17:14:00",
     "summary": "30年前の曲を今の世代と作り直す、更新され続ける名曲をたどる。",
     "status": "published",
-    "featured_order": 117
+    "featured_order": 109
   },
   {
     "id": "odani-misako-001",
@@ -1600,7 +1600,7 @@
     "created_at": "2026-07-03T17:15:00",
     "summary": "大学生時代、自分がわからずさまよっていた記憶をたどる。",
     "status": "published",
-    "featured_order": 118
+    "featured_order": 110
   },
   {
     "id": "misia-001",
@@ -1614,7 +1614,7 @@
     "created_at": "2026-07-03T17:16:00",
     "summary": "これ以上切実な願いはない。特攻隊員の手紙から生まれた曲をたどる。",
     "status": "published",
-    "featured_order": 119
+    "featured_order": 111
   },
   {
     "id": "misia-002",
@@ -1628,7 +1628,7 @@
     "created_at": "2026-07-03T17:17:00",
     "summary": "ひとりのファンとの縁が生んだ唯一のミリオンセラーをたどる。",
     "status": "published",
-    "featured_order": 120
+    "featured_order": 112
   },
   {
     "id": "suchmos-004",
@@ -1642,7 +1642,7 @@
     "created_at": "2026-07-03T17:18:00",
     "summary": "都市生活への風刺と自己表現。変わり続ける覚悟をたどる。",
     "status": "published",
-    "featured_order": 121
+    "featured_order": 113
   },
   {
     "id": "suchmos-005",
@@ -1656,7 +1656,7 @@
     "created_at": "2026-07-03T17:19:00",
     "summary": "10分を超える映画的な構成。じっくりと付き合う時間の価値をたどる。",
     "status": "published",
-    "featured_order": 122
+    "featured_order": 114
   },
   {
     "id": "fukuyama-masaharu-001",
@@ -1670,7 +1670,7 @@
     "created_at": "2026-07-03T17:20:00",
     "summary": "歌わずギターに徹する謙虚さ。主役を譲る勇気をたどる。",
     "status": "published",
-    "featured_order": 123
+    "featured_order": 115
   },
   {
     "id": "quruli-001",
@@ -1684,7 +1684,7 @@
     "created_at": "2026-07-03T17:21:00",
     "summary": "結成20年目にして初めての新しい語法。節目の挑戦をたどる。",
     "status": "published",
-    "featured_order": 124
+    "featured_order": 116
   },
   {
     "id": "vaundy-003",
@@ -1698,7 +1698,7 @@
     "created_at": "2026-07-03T17:22:00",
     "summary": "目が合った瞬間に、もう惚れていた。理屈を超えた出会いをたどる。",
     "status": "published",
-    "featured_order": 125
+    "featured_order": 117
   },
   {
     "id": "mondo-grosso-001",
@@ -1712,7 +1712,7 @@
     "created_at": "2026-07-03T17:23:00",
     "summary": "1曲がアルバム全体の言語を決めた、14年ぶりの復活作をたどる。",
     "status": "published",
-    "featured_order": 126
+    "featured_order": 118
   },
   {
     "id": "kirinji-010",
@@ -1726,7 +1726,7 @@
     "created_at": "2026-07-03T17:24:00",
     "summary": "兄弟時代の名曲は、海を越えても色褪せなかった記憶をたどる。",
     "status": "published",
-    "featured_order": 127,
+    "featured_order": 119,
     "artists": [
       "KIRINJI"
     ]
@@ -1743,7 +1743,7 @@
     "created_at": "2026-07-03T17:25:00",
     "summary": "こんな友情を大切にできる生き方をしたかった、という憧れをたどる。",
     "status": "published",
-    "featured_order": 128
+    "featured_order": 120
   },
   {
     "id": "lilas-001",
@@ -1757,7 +1757,7 @@
     "created_at": "2026-07-03T17:26:00",
     "summary": "幾田りらさん版もいいですね。3人目の解釈が生む新しい景色をたどる。",
     "status": "published",
-    "featured_order": 129
+    "featured_order": 121
   },
   {
     "id": "original-love-003",
@@ -1771,7 +1771,7 @@
     "created_at": "2026-07-03T18:00:00",
     "summary": "原初的な衝動こそが、いちばん遠くまで届く。自身最大のヒット曲の背景を読み直す。",
     "status": "published",
-    "featured_order": 130
+    "featured_order": 122
   },
   {
     "id": "tokyo-jihen-003",
@@ -1785,7 +1785,7 @@
     "created_at": "2026-07-03T18:02:00",
     "summary": "資生堂マキアージュCMソングという、小さな入口から始まった出会い。",
     "status": "published",
-    "featured_order": 131
+    "featured_order": 123
   },
   {
     "id": "toki-asako-001",
@@ -1799,7 +1799,7 @@
     "created_at": "2026-07-03T18:04:00",
     "summary": "EPO書き下ろしのCMソング。誰かの言葉を自分の声で引き受ける仕事。",
     "status": "published",
-    "featured_order": 132
+    "featured_order": 124
   },
   {
     "id": "toki-asako-002",
@@ -1813,7 +1813,7 @@
     "created_at": "2026-07-03T18:06:00",
     "summary": "美しい顔って(笑)いい曲です。シティポップ三部作の最終章。",
     "status": "published",
-    "featured_order": 133
+    "featured_order": 125
   },
   {
     "id": "toki-asako-003",
@@ -1827,7 +1827,7 @@
     "created_at": "2026-07-03T18:08:00",
     "summary": "派手さより、削られた末に残る硬い輝きを。",
     "status": "published",
-    "featured_order": 134
+    "featured_order": 126
   },
   {
     "id": "toki-asako-004",
@@ -1841,7 +1841,7 @@
     "created_at": "2026-07-03T18:10:00",
     "summary": "この曲よく聞いていました。日常に溶け込んでいた涼やかな1曲。",
     "status": "published",
-    "featured_order": 135
+    "featured_order": 127
   },
   {
     "id": "fukumimi-001",
@@ -1855,7 +1855,7 @@
     "created_at": "2026-07-03T18:12:00",
     "summary": "杏子・山崎まさよし・スガシカオ、3人が集まると曲は新しい命を得る。",
     "status": "published",
-    "featured_order": 136
+    "featured_order": 128
   },
   {
     "id": "oe-senri-002",
@@ -1869,7 +1869,7 @@
     "created_at": "2026-07-03T18:14:00",
     "summary": "降りてきた1曲が、世代を越えて降り注ぎ続ける。",
     "status": "published",
-    "featured_order": 137
+    "featured_order": 129
   },
   {
     "id": "toki-asako-005",
@@ -1883,7 +1883,7 @@
     "created_at": "2026-07-03T19:00:00",
     "summary": "過ぎ去った夏ほど、あとから美しく思い出される。",
     "status": "published",
-    "featured_order": 138
+    "featured_order": 130
   },
   {
     "id": "toki-asako-006",
@@ -1897,7 +1897,7 @@
     "created_at": "2026-07-03T19:02:00",
     "summary": "正解のない手探りこそが、愛という営みの本質だ。",
     "status": "published",
-    "featured_order": 139
+    "featured_order": 131
   },
   {
     "id": "toki-asako-007",
@@ -1911,7 +1911,7 @@
     "created_at": "2026-07-03T19:04:00",
     "summary": "明日、街は誰のものか。答えのない問いを口ずさむ。",
     "status": "published",
-    "featured_order": 140
+    "featured_order": 132
   },
   {
     "id": "vaundy-004",
@@ -1925,7 +1925,7 @@
     "created_at": "2026-07-03T19:06:00",
     "summary": "哲学的にいいよね。ドラマ『PJ～航空救難団～』主題歌。",
     "status": "published",
-    "featured_order": 141
+    "featured_order": 133
   },
   {
     "id": "vaundy-005",
@@ -1939,7 +1939,7 @@
     "created_at": "2026-07-03T19:08:00",
     "summary": "生みの親が、自分の子を、もう一度自分の手で歌い直す。",
     "status": "published",
-    "featured_order": 142
+    "featured_order": 134
   },
   {
     "id": "candy-tune-001",
@@ -1953,7 +1953,7 @@
     "created_at": "2026-07-03T19:10:00",
     "summary": "聴くたびに、パワーが倍になっていく。TikTok史上初の10週連続1位。",
     "status": "published",
-    "featured_order": 143
+    "featured_order": 135
   },
   {
     "id": "cyberjapan-dancers-001",
@@ -1967,7 +1967,7 @@
     "created_at": "2026-07-03T19:12:00",
     "summary": "MVから元気がもらえる。あっ私がおじさんになったなぁ。",
     "status": "published",
-    "featured_order": 144
+    "featured_order": 136
   },
   {
     "id": "vaundy-006",
@@ -1981,7 +1981,7 @@
     "created_at": "2026-07-03T19:14:00",
     "summary": "駆け出しのころのVaundy君、すごかったなぁ。今もすごいけど。",
     "status": "published",
-    "featured_order": 145
+    "featured_order": 137
   },
   {
     "id": "anri-001",
@@ -1995,7 +1995,7 @@
     "created_at": "2026-07-03T20:00:00",
     "summary": "感情は、止めようとするほど、勢いを増していく。",
     "status": "published",
-    "featured_order": 146
+    "featured_order": 138
   },
   {
     "id": "vaundy-007",
@@ -2009,7 +2009,7 @@
     "created_at": "2026-07-03T20:02:00",
     "summary": "初期Vaundy君。",
     "status": "published",
-    "featured_order": 147
+    "featured_order": 139
   },
   {
     "id": "vaundy-008",
@@ -2023,7 +2023,7 @@
     "created_at": "2026-07-03T20:04:00",
     "summary": "初Vaundy君。",
     "status": "published",
-    "featured_order": 148
+    "featured_order": 140
   },
   {
     "id": "vaundy-009",
@@ -2037,7 +2037,7 @@
     "created_at": "2026-07-03T20:06:00",
     "summary": "抗えないものは、不可抗力だけではない。",
     "status": "published",
-    "featured_order": 149
+    "featured_order": 141
   },
   {
     "id": "vaundy-010",
@@ -2051,7 +2051,7 @@
     "created_at": "2026-07-03T20:08:00",
     "summary": "愛にも、うまくいくためのちょっとした工夫がある。",
     "status": "published",
-    "featured_order": 150
+    "featured_order": 142
   },
   {
     "id": "vaundy-011",
@@ -2065,7 +2065,7 @@
     "created_at": "2026-07-03T20:10:00",
     "summary": "瞬きひとつの間に、世界は少しだけ変わっている。",
     "status": "published",
-    "featured_order": 151
+    "featured_order": 143
   },
   {
     "id": "vaundy-012",
@@ -2079,7 +2079,7 @@
     "created_at": "2026-07-03T20:12:00",
     "summary": "目を閉じることでしか、見えてこない世界がある。",
     "status": "published",
-    "featured_order": 152
+    "featured_order": 144
   },
   {
     "id": "vaundy-013",
@@ -2093,7 +2093,7 @@
     "created_at": "2026-07-03T20:14:00",
     "summary": "フェスでの出会いが、国境を越えたコラボレーションに変わる。",
     "status": "published",
-    "featured_order": 153
+    "featured_order": 145
   },
   {
     "id": "vaundy-014",
@@ -2107,7 +2107,7 @@
     "created_at": "2026-07-03T20:16:00",
     "summary": "気づいてしまった秘密と、それでも日々を楽しむということ。",
     "status": "published",
-    "featured_order": 154
+    "featured_order": 146
   },
   {
     "id": "kiki-vivi-lily-001",
@@ -2121,7 +2121,7 @@
     "created_at": "2026-07-03T20:18:00",
     "summary": "ほろ苦さこそ、大人の恋の本当の味わい。",
     "status": "published",
-    "featured_order": 155
+    "featured_order": 147
   },
   {
     "id": "takeuchi-mariya-002",
@@ -2135,7 +2135,7 @@
     "created_at": "2026-07-03T20:20:00",
     "summary": "1984年の1曲が、30年以上の時を越えて世界中に届く。",
     "status": "published",
-    "featured_order": 156
+    "featured_order": 148
   },
   {
     "id": "takeuchi-mariya-003",
@@ -2149,7 +2149,7 @@
     "created_at": "2026-07-03T20:22:00",
     "summary": "本心を隠すこともまた、ひとつの優しさになる。",
     "status": "published",
-    "featured_order": 157
+    "featured_order": 149
   },
   {
     "id": "takeuchi-mariya-004",
@@ -2163,7 +2163,7 @@
     "created_at": "2026-07-03T21:00:00",
     "summary": "プラットホームでの偶然の再会が、過去のすべてを呼び覚ます。",
     "status": "published",
-    "featured_order": 158
+    "featured_order": 150
   },
   {
     "id": "takeuchi-mariya-005",
@@ -2177,7 +2177,7 @@
     "created_at": "2026-07-03T21:02:00",
     "summary": "誰がシングルに戻るのを待っているのだろう？(笑)",
     "status": "published",
-    "featured_order": 159
+    "featured_order": 151
   },
   {
     "id": "takeuchi-mariya-006",
@@ -2191,7 +2191,7 @@
     "created_at": "2026-07-03T21:04:00",
     "summary": "誰かを看る仕事に、そっと寄り添う優しさ。",
     "status": "published",
-    "featured_order": 160
+    "featured_order": 152
   },
   {
     "id": "takeuchi-mariya-007",
@@ -2205,7 +2205,7 @@
     "created_at": "2026-07-03T21:06:00",
     "summary": "秘密を抱えるということは、誰かを守るということでもある。",
     "status": "published",
-    "featured_order": 161
+    "featured_order": 153
   },
   {
     "id": "takeuchi-mariya-008",
@@ -2219,7 +2219,7 @@
     "created_at": "2026-07-03T21:08:00",
     "summary": "デビュー間もない才能が、いきなり新人賞を掴んだ1曲。",
     "status": "published",
-    "featured_order": 162
+    "featured_order": 154
   },
   {
     "id": "matsuda-seiko-002",
@@ -2233,7 +2233,7 @@
     "created_at": "2026-07-03T21:10:00",
     "summary": "34年の時を経て、同じ地球をもう一度見つめ直す。",
     "status": "published",
-    "featured_order": 163
+    "featured_order": 155
   },
   {
     "id": "matsuda-seiko-003",
@@ -2247,7 +2247,7 @@
     "created_at": "2026-07-03T21:12:00",
     "summary": "2枚目のシングルで、早くも時代の顔になった。",
     "status": "published",
-    "featured_order": 164
+    "featured_order": 156
   },
   {
     "id": "matsuda-seiko-004",
@@ -2261,7 +2261,7 @@
     "created_at": "2026-07-03T21:14:00",
     "summary": "桜の花のように、毎年新しく咲き直す決意がある。",
     "status": "published",
-    "featured_order": 165
+    "featured_order": 157
   },
   {
     "id": "matsuda-seiko-005",
@@ -2275,7 +2275,7 @@
     "created_at": "2026-07-03T21:16:00",
     "summary": "1年の終わりに、バルコニーからそっと見つめ直す。",
     "status": "published",
-    "featured_order": 166
+    "featured_order": 158
   },
   {
     "id": "matsuda-seiko-006",
@@ -2289,7 +2289,7 @@
     "created_at": "2026-07-03T21:18:00",
     "summary": "名前ではなく、名もなき仕事として届けたかった曲。",
     "status": "published",
-    "featured_order": 167
+    "featured_order": 159
   },
   {
     "id": "chris-hart-001",
@@ -2303,7 +2303,7 @@
     "created_at": "2026-07-03T21:20:00",
     "summary": "本当に大好きでした。このMV。",
     "status": "published",
-    "featured_order": 168
+    "featured_order": 160
   },
   {
     "id": "yakushimaru-hiroko-001",
@@ -2317,7 +2317,7 @@
     "created_at": "2026-07-03T21:22:00",
     "summary": "相容れないはずの2つの言葉が、ひとつになると強くなる。",
     "status": "published",
-    "featured_order": 169
+    "featured_order": 161
   },
   {
     "id": "nakashima-mika-001",
@@ -2331,7 +2331,7 @@
     "created_at": "2026-07-03T21:24:00",
     "summary": "楽曲だけで勝負したいという、我儘に込めた矜持。",
     "status": "published",
-    "featured_order": 170
+    "featured_order": 162
   },
   {
     "id": "shimizu-shota-001",
@@ -2345,7 +2345,7 @@
     "created_at": "2026-07-03T21:26:00",
     "summary": "離れてしまった人へ、季節が変わる前に届けたい願い。",
     "status": "published",
-    "featured_order": 171
+    "featured_order": 163
   },
   {
     "id": "kirinji-011",
@@ -2359,7 +2359,7 @@
     "created_at": "2026-07-03T22:00:00",
     "summary": "1人になってなお、磨かれ続けるロマンティシズム。",
     "status": "published",
-    "featured_order": 172
+    "featured_order": 164
   },
   {
     "id": "misia-003",
@@ -2373,7 +2373,7 @@
     "created_at": "2026-07-03T22:02:00",
     "summary": "温め続けた曲が、ふさわしい歌い手に出会うまでの物語。",
     "status": "published",
-    "featured_order": 173
+    "featured_order": 165
   },
   {
     "id": "uru-001",
@@ -2387,7 +2387,7 @@
     "created_at": "2026-07-03T22:04:00",
     "summary": "ドラマは見れませんでしたが、同時期に映画の撮影に奔走させていただいた曲として、強烈に記憶に残っています。",
     "status": "published",
-    "featured_order": 174
+    "featured_order": 166
   },
   {
     "id": "aska-001",
@@ -2401,7 +2401,7 @@
     "created_at": "2026-07-03T22:06:00",
     "summary": "いろいろあったけど、いいよね。私も始まりはいつも雨です。",
     "status": "published",
-    "featured_order": 175
+    "featured_order": 167
   },
   {
     "id": "official-hige-dandism-002",
@@ -2415,7 +2415,7 @@
     "created_at": "2026-07-03T22:08:00",
     "summary": "些細な喧嘩さえ、一生分の愛おしさになる。",
     "status": "published",
-    "featured_order": 176
+    "featured_order": 168
   },
   {
     "id": "official-hige-dandism-003",
@@ -2429,7 +2429,7 @@
     "created_at": "2026-07-03T22:10:00",
     "summary": "主流から外れているからこそ、輝ける場所がある。",
     "status": "published",
-    "featured_order": 177
+    "featured_order": 169
   },
   {
     "id": "official-hige-dandism-004",
@@ -2443,7 +2443,7 @@
     "created_at": "2026-07-03T22:12:00",
     "summary": "哲学的というか知的センスを感じます。",
     "status": "published",
-    "featured_order": 178
+    "featured_order": 170
   },
   {
     "id": "glay-001",
@@ -2457,7 +2457,7 @@
     "created_at": "2026-07-03T22:14:00",
     "summary": "多分、現地に居ました(笑)",
     "status": "published",
-    "featured_order": 179
+    "featured_order": 171
   },
   {
     "id": "glay-002",
@@ -2471,7 +2471,7 @@
     "created_at": "2026-07-03T22:16:00",
     "summary": "多分、現地に居ました(笑)",
     "status": "published",
-    "featured_order": 180
+    "featured_order": 172
   },
   {
     "id": "glay-003",
@@ -2485,7 +2485,7 @@
     "created_at": "2026-07-03T22:18:00",
     "summary": "この当時、とっても好きで、ウォークマンに入れてもらい、ヘビロテしてました。",
     "status": "published",
-    "featured_order": 181
+    "featured_order": 173
   },
   {
     "id": "glay-004",
@@ -2499,7 +2499,7 @@
     "created_at": "2026-07-03T22:20:00",
     "summary": "空白を、自分自身の言葉で埋めていく。",
     "status": "published",
-    "featured_order": 182
+    "featured_order": 174
   },
   {
     "id": "x-japan-001",
@@ -2513,7 +2513,7 @@
     "created_at": "2026-07-03T23:00:00",
     "summary": "大学３年生でした。聞き始めたのが。その時には、解散していて。でも好きでした。特に、トシさんの声、最高です。",
     "status": "published",
-    "featured_order": 183
+    "featured_order": 175
   },
   {
     "id": "the-birthday-001",
@@ -2527,7 +2527,7 @@
     "created_at": "2026-07-03T23:02:00",
     "summary": "もうボーカルがいなくなるなんて。映画は本当によかったです。",
     "status": "published",
-    "featured_order": 184
+    "featured_order": 176
   },
   {
     "id": "yoshiki-001",
@@ -2541,7 +2541,7 @@
     "created_at": "2026-07-03T23:04:00",
     "summary": "without you あなたなしで。私もあなたなしで生きてきましたよ。もうあなたなしでいいですけどね(笑)でもあなたと一緒にいたかった。",
     "status": "published",
-    "featured_order": 185
+    "featured_order": 177
   },
   {
     "id": "nonomura-ayano-001",
@@ -2555,7 +2555,7 @@
     "created_at": "2026-07-03T23:06:00",
     "summary": "200年前の祈りの歌が、澄んだ声で今に届く。",
     "status": "published",
-    "featured_order": 186
+    "featured_order": 178
   },
   {
     "id": "nonomura-ayano-002",
@@ -2569,7 +2569,7 @@
     "created_at": "2026-07-03T23:08:00",
     "summary": "やはりこれ。日本人の源。",
     "status": "published",
-    "featured_order": 187
+    "featured_order": 179
   },
   {
     "id": "kirinji-012",
@@ -2583,7 +2583,7 @@
     "created_at": "2026-07-03T23:10:00",
     "summary": "人生の折り返しで気づく、伝えたい想いの残り時間。",
     "status": "published",
-    "featured_order": 188
+    "featured_order": 180
   },
   {
     "id": "ymo-001",
@@ -2597,7 +2597,7 @@
     "created_at": "2026-07-03T23:12:00",
     "summary": "日本発のテクノが、世界の音楽地図を書き換えた。",
     "status": "published",
-    "featured_order": 189
+    "featured_order": 181
   },
   {
     "id": "ryuichi-sakamoto-001",
@@ -2611,7 +2611,7 @@
     "created_at": "2026-07-03T23:14:00",
     "summary": "病と向き合いながらも、1音1音を積み重ねて残した演奏。",
     "status": "published",
-    "featured_order": 190
+    "featured_order": 182
   },
   {
     "id": "joe-hisaishi-001",
@@ -2625,7 +2625,7 @@
     "created_at": "2026-07-03T23:16:00",
     "summary": "ピアノのひと粒の音から、ひとつの世界が立ち上がる。",
     "status": "published",
-    "featured_order": 191
+    "featured_order": 183
   },
   {
     "id": "joe-hisaishi-002",
@@ -2639,7 +2639,7 @@
     "created_at": "2026-07-03T23:18:00",
     "summary": "不器用な優しさが、軽やかなメロディーに宿る。",
     "status": "published",
-    "featured_order": 192
+    "featured_order": 184
   },
   {
     "id": "kirinji-013",
@@ -2653,7 +2653,7 @@
     "created_at": "2026-07-04T00:00:00",
     "summary": "新しい船出には、寿ぎの歌がふさわしい。",
     "status": "published",
-    "featured_order": 193
+    "featured_order": 185
   },
   {
     "id": "kirinji-014",
@@ -2667,7 +2667,7 @@
     "created_at": "2026-07-04T00:02:00",
     "summary": "意外な組み合わせほど、思いがけない化学反応を起こす。",
     "status": "published",
-    "featured_order": 194
+    "featured_order": 186
   },
   {
     "id": "nakayama-miho-001",
@@ -2681,7 +2681,7 @@
     "created_at": "2026-07-04T00:04:00",
     "summary": "ステージの熱気が、ミリオンヒットの記憶をそのまま呼び覚ます。",
     "status": "published",
-    "featured_order": 195,
+    "featured_order": 187,
     "artists": [
       "中山美穂",
       "WANDS"
@@ -2699,7 +2699,7 @@
     "created_at": "2026-07-04T00:06:00",
     "summary": "アイドルとロックが手を組んだとき、新しい景色が生まれた。",
     "status": "published",
-    "featured_order": 196,
+    "featured_order": 188,
     "artists": [
       "中山美穂",
       "WANDS"
@@ -2717,7 +2717,7 @@
     "created_at": "2026-07-04T00:08:00",
     "summary": "離れた場所にいても、想いは同じ空の下に届く。",
     "status": "published",
-    "featured_order": 197
+    "featured_order": 189
   },
   {
     "id": "nakayama-miho-004",
@@ -2731,7 +2731,7 @@
     "created_at": "2026-07-04T00:10:00",
     "summary": "理由がなくても、涙が心を軽くしてくれることがある。",
     "status": "published",
-    "featured_order": 198
+    "featured_order": 190
   },
   {
     "id": "mai-kuraki-001",
@@ -2745,7 +2745,7 @@
     "created_at": "2026-07-04T00:12:00",
     "summary": "同時期に大学生だったと。",
     "status": "published",
-    "featured_order": 199
+    "featured_order": 191
   },
   {
     "id": "ryuichi-sakamoto-002",
@@ -2759,7 +2759,7 @@
     "created_at": "2026-07-04T00:14:00",
     "summary": "The Last Emperor (Theme)の映画も鮮烈でした。",
     "status": "published",
-    "featured_order": 200
+    "featured_order": 192
   },
   {
     "id": "glay-005",
@@ -2773,7 +2773,7 @@
     "created_at": "2026-07-04T00:16:00",
     "summary": "初めてのトップ10入りが、その後の躍進の号砲になった。",
     "status": "published",
-    "featured_order": 201
+    "featured_order": 193
   },
   {
     "id": "stardust-revue-001",
@@ -2787,7 +2787,7 @@
     "created_at": "2026-07-04T00:18:00",
     "summary": "10年の時を経て、生まれ変わった名曲。",
     "status": "published",
-    "featured_order": 202
+    "featured_order": 194
   },
   {
     "id": "mr-children-001",
@@ -2801,7 +2801,7 @@
     "created_at": "2026-07-04T01:00:00",
     "summary": "シンプルな一言が、幾つもの時代のCMを支え続けた。",
     "status": "published",
-    "featured_order": 203
+    "featured_order": 195
   },
   {
     "id": "mr-children-002",
@@ -2815,7 +2815,7 @@
     "created_at": "2026-07-04T01:02:00",
     "summary": "10年越しに、もう一度掴んだ栄誉。",
     "status": "published",
-    "featured_order": 204
+    "featured_order": 196
   },
   {
     "id": "mr-children-003",
@@ -2829,7 +2829,7 @@
     "created_at": "2026-07-04T01:04:00",
     "summary": "誰かと関わったという事実は、痕跡として残り続ける。",
     "status": "published",
-    "featured_order": 205
+    "featured_order": 197
   },
   {
     "id": "mr-children-004",
@@ -2843,7 +2843,7 @@
     "created_at": "2026-07-04T01:06:00",
     "summary": "名前がなくても、確かにそこにある想いがある。",
     "status": "published",
-    "featured_order": 206
+    "featured_order": 198
   },
   {
     "id": "mr-children-005",
@@ -2857,7 +2857,7 @@
     "created_at": "2026-07-04T01:08:00",
     "summary": "友人のために書いた曲が、いつしか代表曲になった。",
     "status": "published",
-    "featured_order": 207
+    "featured_order": 199
   },
   {
     "id": "mr-children-006",
@@ -2871,7 +2871,7 @@
     "created_at": "2026-07-04T01:10:00",
     "summary": "明日のことは誰にも分からないからこそ、心の赴くままに。",
     "status": "published",
-    "featured_order": 208
+    "featured_order": 200
   },
   {
     "id": "mr-children-007",
@@ -2885,7 +2885,7 @@
     "created_at": "2026-07-04T01:12:00",
     "summary": "限られた時間だからこそ、太陽に向かって咲く。",
     "status": "published",
-    "featured_order": 209
+    "featured_order": 201
   },
   {
     "id": "m-flo-001",
@@ -2899,7 +2899,7 @@
     "created_at": "2026-07-04T02:00:00",
     "summary": "シャネルとストラップ携帯が同居していた、あの時代の空気。",
     "status": "published",
-    "featured_order": 210
+    "featured_order": 202
   },
   {
     "id": "tokyo-ska-001",
@@ -2913,7 +2913,7 @@
     "created_at": "2026-07-04T02:02:00",
     "summary": "歌詞がなくても、確かに伝わる物語がある。",
     "status": "published",
-    "featured_order": 211
+    "featured_order": 203
   },
   {
     "id": "kuwata-keisuke-001",
@@ -2927,7 +2927,7 @@
     "created_at": "2026-07-04T02:04:00",
     "summary": "東京はいいよね。",
     "status": "published",
-    "featured_order": 212
+    "featured_order": 204
   },
   {
     "id": "kuwata-keisuke-002",
@@ -2941,7 +2941,7 @@
     "created_at": "2026-07-04T02:06:00",
     "summary": "歌謡曲の系譜を、映像仕立てのサスペンスとして届ける。",
     "status": "published",
-    "featured_order": 213
+    "featured_order": 205
   },
   {
     "id": "kuwata-keisuke-003",
@@ -2955,7 +2955,7 @@
     "created_at": "2026-07-04T02:08:00",
     "summary": "クリスマスソングの定番になりましたね。私が知っているころは新曲出した(笑)",
     "status": "published",
-    "featured_order": 214
+    "featured_order": 206
   },
   {
     "id": "yamazaki-masayoshi-001",
@@ -2969,7 +2969,7 @@
     "created_at": "2026-07-04T02:10:00",
     "summary": "カラオケで歌うとかっこいいと思っていましたが、でもいい曲です。",
     "status": "published",
-    "featured_order": 215
+    "featured_order": 207
   },
   {
     "id": "pizzicato-five-001",
@@ -2983,7 +2983,7 @@
     "created_at": "2026-07-04T02:12:00",
     "summary": "ガキの使いやあらへんで、で教えてもらった曲ですがいい曲です。",
     "status": "published",
-    "featured_order": 216
+    "featured_order": 208
   },
   {
     "id": "pizzicato-five-002",
@@ -2997,7 +2997,7 @@
     "created_at": "2026-07-04T02:14:00",
     "summary": "東京は夜の七時でしょ。",
     "status": "published",
-    "featured_order": 217
+    "featured_order": 209
   },
   {
     "id": "yamazaki-masayoshi-002",
@@ -3011,7 +3011,7 @@
     "created_at": "2026-07-04T02:16:00",
     "summary": "歌い手が変わっても、曲の本質は変わらない。",
     "status": "published",
-    "featured_order": 218
+    "featured_order": 210
   },
   {
     "id": "saito-kazuyoshi-001",
@@ -3025,7 +3025,7 @@
     "created_at": "2026-07-04T02:18:00",
     "summary": "同窓会で再会した初恋の人に、ようやく告げる想い。",
     "status": "published",
-    "featured_order": 219
+    "featured_order": 211
   },
   {
     "id": "saito-kazuyoshi-002",
@@ -3039,7 +3039,7 @@
     "created_at": "2026-07-04T02:20:00",
     "summary": "なりたいという願いそのものが、すでに優しさの一歩になる。",
     "status": "published",
-    "featured_order": 220
+    "featured_order": 212
   },
   {
     "id": "ulfuls-001",
@@ -3053,7 +3053,7 @@
     "created_at": "2026-07-04T02:22:00",
     "summary": "難しい理屈より、笑えることの方がずっと大切だ。",
     "status": "published",
-    "featured_order": 221
+    "featured_order": 213
   },
   {
     "id": "ulfuls-002",
@@ -3067,7 +3067,7 @@
     "created_at": "2026-07-04T02:24:00",
     "summary": "迷いを断ち切る、力強い言い切りの美学。",
     "status": "published",
-    "featured_order": 222
+    "featured_order": 214
   },
   {
     "id": "ulfuls-003",
@@ -3081,7 +3081,7 @@
     "created_at": "2026-07-04T02:26:00",
     "summary": "デビュー間もない頃から、何度も録り直されてきた愛され曲。",
     "status": "published",
-    "featured_order": 223
+    "featured_order": 215
   },
   {
     "id": "okuda-tamio-001",
@@ -3095,7 +3095,7 @@
     "created_at": "2026-07-04T03:00:00",
     "summary": "四半世紀を経て、まったく新しい世代に見つけ出された曲。",
     "status": "published",
-    "featured_order": 224
+    "featured_order": 216
   },
   {
     "id": "ulfuls-004",
@@ -3109,7 +3109,7 @@
     "created_at": "2026-07-04T03:02:00",
     "summary": "結ばれるかどうかより、好きになれたこと自体を祝おう。",
     "status": "published",
-    "featured_order": 225
+    "featured_order": 217
   },
   {
     "id": "ulfuls-005",
@@ -3123,7 +3123,7 @@
     "created_at": "2026-07-04T03:04:00",
     "summary": "結果がどうであれ、それでええねん。",
     "status": "published",
-    "featured_order": 226
+    "featured_order": 218
   },
   {
     "id": "eikichi-yazawa-001",
@@ -3137,7 +3137,7 @@
     "created_at": "2026-07-04T04:00:00",
     "summary": "時間よ止まれと歌い続けて、半世紀近くが過ぎた。",
     "status": "published",
-    "featured_order": 227
+    "featured_order": 219
   },
   {
     "id": "yasuha-001",
@@ -3151,7 +3151,7 @@
     "created_at": "2026-07-04T04:02:00",
     "summary": "当時69位だった曲が、40年後にシティポップの象徴になった。",
     "status": "published",
-    "featured_order": 228
+    "featured_order": 220
   },
   {
     "id": "matsubara-miki-001",
@@ -3165,7 +3165,7 @@
     "created_at": "2026-07-04T04:04:00",
     "summary": "インドネシアのユーチューバーが、41年前の扉を開いた。",
     "status": "published",
-    "featured_order": 229
+    "featured_order": 221
   },
   {
     "id": "hirai-ken-001",
@@ -3179,7 +3179,7 @@
     "created_at": "2026-07-04T06:30:00",
     "summary": "好きな女性をうまく連れ出したいと考えていた頃の記憶を、バーの灯りと声の余白からたどる。",
     "status": "published",
-    "featured_order": 230
+    "featured_order": 222
   },
   {
     "id": "sano-motoharu-001",
@@ -3193,7 +3193,7 @@
     "created_at": "2026-07-04T07:10:00",
     "summary": "橋の向こうへ渡ろうとする気持ちを、今の仕事と過去の自分から聴き直す。",
     "status": "published",
-    "featured_order": 1
+    "featured_order": 223
   },
   {
     "id": "kaguyahime-001",
@@ -3207,7 +3207,7 @@
     "created_at": "2026-07-04T07:11:00",
     "summary": "フォークの生活感が、若いころの部屋と時代の空気を呼び戻す。",
     "status": "published",
-    "featured_order": 2
+    "featured_order": 224
   },
   {
     "id": "kaguyahime-002",
@@ -3221,7 +3221,7 @@
     "created_at": "2026-07-04T07:12:00",
     "summary": "妹を持つ兄として、家族の距離と送り出す気持ちを聴き直す。",
     "status": "published",
-    "featured_order": 3
+    "featured_order": 225
   },
   {
     "id": "kaguyahime-003",
@@ -3235,7 +3235,7 @@
     "created_at": "2026-07-04T07:13:00",
     "summary": "やさしい言葉の裏側にある、若い恋の不安と居場所を聴く。",
     "status": "published",
-    "featured_order": 4
+    "featured_order": 226
   },
   {
     "id": "kaguyahime-004",
@@ -3249,7 +3249,7 @@
     "created_at": "2026-07-04T07:14:00",
     "summary": "時代背景を帯びた刺激の強さを、手紙という古い媒体から聴き直す。",
     "status": "published",
-    "featured_order": 5
+    "featured_order": 227
   },
   {
     "id": "kaguyahime-005",
@@ -3263,7 +3263,7 @@
     "created_at": "2026-07-04T07:15:00",
     "summary": "二十二歳で別れるものだと思っていた若さと、実際の別れを重ねる。",
     "status": "published",
-    "featured_order": 6
+    "featured_order": 228
   },
   {
     "id": "kaze-001",
@@ -3277,7 +3277,7 @@
     "created_at": "2026-07-04T07:16:00",
     "summary": "風バージョンの端正さから、同じ曲が別の時間を持つことを聴く。",
     "status": "published",
-    "featured_order": 7
+    "featured_order": 229
   },
   {
     "id": "ozaki-ami-001",
@@ -3291,7 +3291,7 @@
     "created_at": "2026-07-04T07:17:00",
     "summary": "化粧品CMの記憶と、軽やかな都会的ポップスの手触りを聴き直す。",
     "status": "published",
-    "featured_order": 8
+    "featured_order": 230
   },
   {
     "id": "arai-yumi-001",
