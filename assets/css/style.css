@@ -181,3 +181,20 @@
   [data-site-footer]{min-height:316px}
 }
 /* END_CLS_STABILITY_GUARD */
+
+/* THEME_FILTER_AND_RECOMMENDATION_SUPPORT: 気分フィルターおよびおすすめ推薦機能用の追加スタイル */
+.theme-group{grid-column:1/-1}
+[data-theme-filters]{display:flex;flex-wrap:wrap;gap:9px}
+[data-theme-filters] .chip{height:42px;min-height:42px;max-height:42px;padding:6px 12px;font-size:.82rem;display:flex;align-items:center;justify-content:center}
+.recommendation-area{margin:2.5em 0;padding:1.5em;border:1px solid var(--line);background:var(--panel-soft);border-radius:6px}
+.recommendation-area h3{margin:0 0 14px;font-size:1.12rem;color:var(--accent);font-weight:800}
+.recommendation-card{display:flex;align-items:center;gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:12px;transition:border-color .2s ease,background-color .2s ease;text-decoration:none}
+.recommendation-card:hover{border-color:var(--accent);background:rgba(255,255,255,.025);text-decoration:none}
+.recommendation-thumb{width:112px;aspect-ratio:16/9;object-fit:cover;background:#050608;border-radius:3px;flex:0 0 112px}
+.recommendation-body{flex:1;min-width:0}
+.recommendation-title{display:block;font-weight:800;font-size:1.02rem;color:var(--text);margin-bottom:4px}
+.recommendation-desc{display:block;font-size:.82rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:600px){
+.recommendation-card{flex-direction:column;align-items:stretch;gap:10px}
+.recommendation-thumb{width:100%;max-height:148px;flex:none}
+}

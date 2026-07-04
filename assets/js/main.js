@@ -7,10 +7,12 @@
   // ARTIST_FILTER_GUARD: 「歌手で選ぶ」は data-artist-filters から自動生成する。明示的な変更指示がない限り、artist-row付与、6列/5列、もっと見る/閉じる、URL復元を壊さないこと。
   var artistFilters = document.querySelector("[data-artist-filters]");
   var eraFilters = document.querySelector("[data-era-filters]");
+  var themeFilters = document.querySelector("[data-theme-filters]");
   var status = document.querySelector("[data-status]");
   var searchBox = document.querySelector("[data-search-box]");
   var kind = container.getAttribute("data-page-kind") || "archive";
-  var active = { artist: "all", era: "all", sort: "featured", q: "" };
+  var active = { artist: "all", era: "all", theme: "all", sort: "featured", q: "" };
+  var themes = [];
   var artistKana = {};
   var ARTIST_VISIBLE_ROWS = 7;
   var ARTIST_COLUMNS_DESKTOP = 6;
@@ -21,9 +23,35 @@
     var query = new URLSearchParams(location.search);
     active.artist = query.get("artist") || active.artist;
     active.era = query.get("era") || active.era;
+    active.theme = query.get("theme") || active.theme;
     active.sort = query.get("sort") || active.sort;
     active.q = query.get("q") || active.q;
   })();
+
+  var themeKeywords = {
+    "東京で頑張っていた頃": ["東京"],
+    "夜に残る曲": ["夜", "深夜"],
+    "仕事帰りに効く曲": ["仕事", "帰り", "働く", "職場", "通勤"],
+    "大人になって分かる曲": ["大人", "歳", "年齢", "時代"],
+    "作業効率が上がる曲": ["ビート", "テンポ", "集中", "作業", "リズム"],
+    "落ち着く曲": ["落ち着く", "静か", "癒し", "バラード"],
+    "元気をもらえる曲": ["元気", "前向き", "勇気", "力", "背中"],
+    "街を思い出す曲": ["街", "都会", "景色", "風景"],
+    "家や記憶につながる曲": ["家", "記憶", "思い出", "歴史", "土地", "実家", "家族"],
+    "過去をさかのぼり今を聴く曲": ["過去", "今", "さかのぼり", "現在"],
+    "東京の記憶": ["東京", "都会"],
+    "会えない人を思い出す曲": ["会えない", "遠い", "届かない", "恋人", "別れ", "サヨナラ", "さよなら"]
+  };
+
+  function matchesTheme(song) {
+    if (active.theme === "all") return true;
+    var keywords = themeKeywords[active.theme];
+    if (!keywords) return true;
+    var text = normalize((song.title || "") + " " + (song.artist || "") + " " + (song.summary || ""));
+    return keywords.some(function(kw) {
+      return text.indexOf(normalize(kw)) !== -1;
+    });
+  }
 
   function bp() {
     var parts = location.pathname.split("/").filter(Boolean);
@@ -183,6 +211,11 @@
         return button(value, "era", value, active.era === value);
       }).join("");
     }
+    if (themeFilters) {
+      themeFilters.innerHTML = button("すべて", "theme", "all", active.theme === "all") + themes.map(function(value) {
+        return button(value, "theme", value, active.theme === value);
+      }).join("");
+    }
     document.querySelectorAll('[data-filter-type="sort"]').forEach(function(btn) {
       var isActive = btn.getAttribute("data-filter-value") === active.sort;
       btn.classList.toggle("is-active", isActive);
@@ -195,6 +228,7 @@
     if (active.q) parts.push("q=" + encodeURIComponent(active.q));
     if (active.artist !== "all") parts.push("artist=" + encodeURIComponent(active.artist));
     if (active.era !== "all") parts.push("era=" + encodeURIComponent(active.era));
+    if (active.theme !== "all") parts.push("theme=" + encodeURIComponent(active.theme));
     if (active.sort !== "featured") parts.push("sort=" + encodeURIComponent(active.sort));
     return parts;
   }
@@ -234,6 +268,7 @@
     return songs.filter(function(song) {
       return (active.artist === "all" || artistList(song).indexOf(active.artist) !== -1) &&
         (active.era === "all" || era(song) === active.era) &&
+        matchesTheme(song) &&
         matchesSearch(song);
     });
   }
@@ -320,10 +355,14 @@
     }),
     fetch(bp() + "data/artists.json", { cache: "no-cache" }).then(function(response) {
       return response.ok ? response.json() : [];
+    }).catch(function() { return []; }),
+    fetch(bp() + "data/themes.json", { cache: "no-cache" }).then(function(response) {
+      return response.ok ? response.json() : [];
     }).catch(function() { return []; })
   ]).then(function(results) {
     var rawSongs = results[0];
     var artists = results[1] || [];
+    themes = results[2] || [];
     artists.forEach(function(artist) {
       if (artist.name && artist.kana) artistKana[artist.name] = artist.kana;
     });

@@ -37,6 +37,11 @@
     return "https://hb.afl.rakuten.co.jp/hgc/" + CONFIG.rakutenAffiliateId + "/?pc=" + encodeURIComponent(target);
   }
 
+  function youtubeId(url) {
+    var match = String(url || "").match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|shorts\/|embed\/))([\w-]{6,})/);
+    return match ? match[1] : "";
+  }
+
   function render(links) {
     if (!links.length) { mount.remove(); return; }
     var sponsored = links.some(function(l) { return l.sponsored; });
@@ -48,6 +53,46 @@
         return '<a class="btn-gold btn-stream" href="' + e(l.href) + '" target="_blank" rel="noopener' + (l.sponsored ? ' sponsored' : '') + '">' + e(l.label) + "</a>";
       }).join("") +
       "</span>" + (sponsored ? '<span class="streaming-disclosure">(PR) 一部リンクはアフィリエイトプログラムを含みます</span>' : "") + pixels;
+  }
+
+  function renderRecommend(currentSong, songs) {
+    var pool = songs.filter(function(s) {
+      return s.id !== currentSong.id && (!s.status || s.status === "published");
+    });
+    if (!pool.length) return;
+
+    var sameArtist = pool.filter(function(s) { return s.artist === currentSong.artist; });
+    var sameEra = pool.filter(function(s) { return s.decade === currentSong.decade; });
+    
+    var nextSong = null;
+    if (sameArtist.length > 0) {
+      nextSong = sameArtist[Math.floor(Math.random() * sameArtist.length)];
+    } else if (sameEra.length > 0) {
+      nextSong = sameEra[Math.floor(Math.random() * sameEra.length)];
+    } else {
+      nextSong = pool[Math.floor(Math.random() * pool.length)];
+    }
+
+    if (!nextSong) return;
+
+    var ytId = youtubeId(nextSong.youtube_url);
+    var thumbUrl = ytId ? 'https://i.ytimg.com/vi/' + e(ytId) + '/hqdefault.jpg' : '';
+    var href = bp() + String(nextSong.article_url || "#").replace(/^\//, "");
+
+    var html = '<div class="recommendation-area">' +
+      '<h3>あなたへのおすすめの次の1曲</h3>' +
+      '<a class="recommendation-card" href="' + e(href) + '">' +
+      (thumbUrl ? '<img class="recommendation-thumb" src="' + thumbUrl + '" alt="" loading="lazy">' : '') +
+      '<div class="recommendation-body">' +
+      '<span class="recommendation-title">' + e(nextSong.title) + ' / ' + e(nextSong.artist) + '</span>' +
+      '<span class="recommendation-desc">' + e(nextSong.summary || '') + '</span>' +
+      '</div>' +
+      '</a>' +
+      '</div>';
+
+    var div = document.createElement("div");
+    div.innerHTML = html;
+    mount.parentNode.insertBefore(div.firstChild, mount);
   }
 
   fetch(bp() + "data/songs.json", { cache: "no-cache" }).then(function(r) {
@@ -73,5 +118,6 @@
       links.push({ label: "楽天ミュージックで聴く", href: CONFIG.rakutenMusicA8.href, pixel: CONFIG.rakutenMusicA8.pixel, sponsored: true });
     }
     render(links);
+    renderRecommend(song, songs);
   }).catch(function() { mount.remove(); });
 })();
