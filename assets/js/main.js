@@ -373,6 +373,12 @@
       return !song.status || song.status === "published";
     });
     songs = sortSongs(songs);
+    window.playRandomSong = function() {
+      if (!songs || !songs.length) return;
+      var randomSong = songs[Math.floor(Math.random() * songs.length)];
+      var href = bp() + String(randomSong.article_url || "#").replace(/^\//, "");
+      window.location.href = href;
+    };
     renderFilters(songs);
     bind(songs);
     render(songs);
