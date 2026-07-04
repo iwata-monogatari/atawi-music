@@ -34,7 +34,7 @@
 .search-input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 1px rgba(208,168,95,.3)}
 .chip-mini{min-height:auto;padding:5px 10px;font-size:.78rem}
 .sort-group{grid-column:1/-1;padding:20px}.sort-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.sort-row .chip{min-height:54px;width:100%;font-size:1rem;font-weight:800;background:rgba(255,255,255,.025)}.sort-row .chip.is-active{background:var(--accent-soft);box-shadow:inset 0 0 0 1px rgba(208,168,95,.32)}.sort-row .chip:focus-visible{outline:2px solid rgba(208,168,95,.55);outline-offset:2px}
-@media(min-width:721px){.filters{grid-template-columns:repeat(3,minmax(0,1fr))}.artist-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:721px){.filters{grid-template-columns:minmax(0,1fr) 170px}[data-era-filters]{display:grid;grid-template-columns:1fr}[data-era-filters] .chip{width:100%;padding-left:10px;padding-right:10px}}
 @media(max-width:720px){.sort-row{grid-template-columns:1fr 1fr}.sort-row .chip{min-height:50px;font-size:.94rem}}
 @media(max-width:860px){.song-main{grid-template-columns:1fr}.hero-inner{grid-template-columns:1fr}.hero-photo-wrap{width:min(220px,70vw)}}
 .header-inner{min-height:82px}
@@ -183,9 +183,9 @@
 /* END_CLS_STABILITY_GUARD */
 
 /* THEME_FILTER_AND_RECOMMENDATION_SUPPORT: 気分フィルターおよびおすすめ推薦機能用の追加スタイル */
-.theme-group{margin-bottom:1.8em}
+.theme-group{grid-column:1/-1;margin-bottom:1.8em}
 .theme-group h3{font-size:1.35rem !important;color:var(--accent) !important;font-weight:800 !important;margin-bottom:14px}
-[data-theme-filters]{display:grid;grid-template-columns:1fr;gap:9px}
+[data-theme-filters]{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 [data-theme-filters] .chip{
   height:48px;
   min-height:48px;
