@@ -364,10 +364,24 @@
 
 .mood-group-list {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-  margin: 8px 0 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 16px 0 28px;
   width: 100%;
+}
+
+@media (max-width: 900px) {
+  .mood-group-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .mood-group-list {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
 }
 
 .mood-group-card {

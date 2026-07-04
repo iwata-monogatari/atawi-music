@@ -303,9 +303,51 @@
       }).join("");
     }
     if (themeFilters) {
-      themeFilters.innerHTML = button("すべて", "theme", "all", active.theme === "all") + themes.map(function(value) {
-        return button(value, "theme", value, active.theme === value);
-      }).join("");
+      var htmlContent = "";
+      var resetActive = (active.themeGroup === "all" && active.theme === "all");
+      var songCountText = (songs && songs.length ? songs.length : 234) + "件の音楽考察";
+      
+      if (kind === "home") {
+        htmlContent += '<div class="mood-group-list">';
+        htmlContent += '<button class="mood-group-card' + (resetActive ? ' is-active' : '') + '" type="button" data-filter-type="themeGroup" data-filter-value="all">' +
+          '<span class="mood-group-title">すべての曲</span>' +
+          '<span class="mood-group-subtitle">' + escapeHtml(songCountText) + '</span>' +
+          '</button>';
+        
+        MOOD_GROUPS.forEach(function(group) {
+          var isActive = active.themeGroup === group.id;
+          htmlContent += '<button class="mood-group-card' + (isActive ? ' is-active' : '') + '" type="button" data-filter-type="themeGroup" data-filter-value="' + escapeHtml(group.id) + '">' +
+            '<span class="mood-group-title">' + escapeHtml(group.title) + '</span>' +
+            '<span class="mood-group-subtitle">' + escapeHtml(group.subtitle) + '</span>' +
+            '</button>';
+        });
+        htmlContent += '</div>';
+      } else {
+        htmlContent += '<h4 class="filter-subheading">大きく選ぶ</h4>';
+        htmlContent += '<div class="mood-group-list">';
+        htmlContent += '<button class="mood-group-card' + (resetActive ? ' is-active' : '') + '" type="button" data-filter-type="themeGroup" data-filter-value="all">' +
+          '<span class="mood-group-title">すべての曲</span>' +
+          '<span class="mood-group-subtitle">' + escapeHtml(songCountText) + '</span>' +
+          '</button>';
+          
+        MOOD_GROUPS.forEach(function(group) {
+          var isActive = active.themeGroup === group.id;
+          htmlContent += '<button class="mood-group-card' + (isActive ? ' is-active' : '') + '" type="button" data-filter-type="themeGroup" data-filter-value="' + escapeHtml(group.id) + '">' +
+            '<span class="mood-group-title">' + escapeHtml(group.title) + '</span>' +
+            '<span class="mood-group-subtitle">' + escapeHtml(group.subtitle) + '</span>' +
+            '</button>';
+        });
+        htmlContent += '</div>';
+        
+        htmlContent += '<h4 class="filter-subheading">細かく選ぶ</h4>';
+        htmlContent += '<div class="chip-row">';
+        themes.forEach(function(value) {
+          var isActive = active.theme === value;
+          htmlContent += button(value, "theme", value, isActive);
+        });
+        htmlContent += '</div>';
+      }
+      themeFilters.innerHTML = htmlContent;
     }
     document.querySelectorAll('[data-filter-type="sort"]').forEach(function(btn) {
       var isActive = btn.getAttribute("data-filter-value") === active.sort;
