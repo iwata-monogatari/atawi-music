@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
   "use strict";
 
   var container = document.querySelector("[data-song-list]");
@@ -238,6 +238,14 @@
     });
   }
 
+  function miniSort() {
+    var opts = [["featured", "掲載順"], ["created_desc", "新着順"]];
+    return '<span class="mini-sort" role="group" aria-label="並び順(簡易)">' + opts.map(function(o) {
+      var isActive = active.sort === o[0];
+      return '<button class="chip chip-mini' + (isActive ? " is-active" : "") + '" type="button" data-filter-type="sort" data-filter-value="' + o[0] + '" aria-pressed="' + (isActive ? "true" : "false") + '">' + o[1] + "</button>";
+    }).join("") + "</span>";
+  }
+
   function render(songs) {
     var filtered = sortSongs(filterSongs(songs));
     var visible = kind === "home" ? filtered.slice(0, 10) : filtered;
@@ -250,7 +258,7 @@
       container.innerHTML = '<p class="muted">該当する記事はまだありません。</p>';
       return;
     }
-    container.innerHTML = '<ul class="song-list">' + visible.map(card).join("") + '</ul>' + (kind === "home" ? '<nav class="pagination" aria-label="記事ページ"><a class="btn-gold" href="' + escapeHtml(pageHref()) + '">すべての記事を見る</a></nav>' : "");
+    container.innerHTML = '<ul class="song-list">' + visible.map(card).join("") + '</ul>' + (kind === "home" ? '<nav class="pagination" aria-label="記事ページ"><a class="btn-gold" href="' + escapeHtml(pageHref()) + '">すべての記事を見る</a>' + miniSort() + '</nav>' : '<nav class="pagination" aria-label="記事ページ">' + miniSort() + '</nav>');
   }
 
   function bind(songs) {
