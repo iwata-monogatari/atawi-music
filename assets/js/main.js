@@ -305,15 +305,13 @@
     if (themeFilters) {
       var htmlContent = "";
       var resetActive = (active.themeGroup === "all" && active.theme === "all");
-      var songCountText = (songs && songs.length ? songs.length : 234) + "件の音楽考察";
+      
+      htmlContent += '<div class="mood-reset">' +
+        '<button class="chip' + (resetActive ? ' is-active' : '') + '" type="button" data-filter-type="themeGroup" data-filter-value="all">すべて</button>' +
+        '</div>';
       
       if (kind === "home") {
         htmlContent += '<div class="mood-group-list">';
-        htmlContent += '<button class="mood-group-card' + (resetActive ? ' is-active' : '') + '" type="button" data-filter-type="themeGroup" data-filter-value="all">' +
-          '<span class="mood-group-title">すべての曲</span>' +
-          '<span class="mood-group-subtitle">' + escapeHtml(songCountText) + '</span>' +
-          '</button>';
-        
         MOOD_GROUPS.forEach(function(group) {
           var isActive = active.themeGroup === group.id;
           htmlContent += '<button class="mood-group-card' + (isActive ? ' is-active' : '') + '" type="button" data-filter-type="themeGroup" data-filter-value="' + escapeHtml(group.id) + '">' +
@@ -325,11 +323,6 @@
       } else {
         htmlContent += '<h4 class="filter-subheading">大きく選ぶ</h4>';
         htmlContent += '<div class="mood-group-list">';
-        htmlContent += '<button class="mood-group-card' + (resetActive ? ' is-active' : '') + '" type="button" data-filter-type="themeGroup" data-filter-value="all">' +
-          '<span class="mood-group-title">すべての曲</span>' +
-          '<span class="mood-group-subtitle">' + escapeHtml(songCountText) + '</span>' +
-          '</button>';
-          
         MOOD_GROUPS.forEach(function(group) {
           var isActive = active.themeGroup === group.id;
           htmlContent += '<button class="mood-group-card' + (isActive ? ' is-active' : '') + '" type="button" data-filter-type="themeGroup" data-filter-value="' + escapeHtml(group.id) + '">' +
