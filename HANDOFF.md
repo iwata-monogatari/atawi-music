@@ -33,3 +33,6 @@
    `node tools/build-search-index.mjs` を実行し、`data/search-index.json` を更新します。
 4. **公開とデプロイ**
    ファイルを public ディレクトリ（`C:\Users\fujig\tmp\atawi-music-public`）にコピー後、Cloudflare PagesへデプロイおよびGitHubへのコミット・プッシュを行います。
+
+5. **変更ガード・保護機能の導入**
+   AIエージェントによる誤った書き換えを防ぐため、`SORT_BUTTONS_GUARD` および `ARTIST_FILTER_GUARD` のコードガードコメントを各ソースファイルに挿入し、これらの削除や不正な変更を自動検知してコミットをブロックするGitの `pre-commit` フックを整備しました。
