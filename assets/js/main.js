@@ -238,6 +238,8 @@
     });
   }
 
+  // SORT_BUTTONS_GUARD: この簡易ソート（掲載順・新着順）は下部の「すべての記事を見る」ボタンの右側に配置される重要UIです。
+  // どこの変更がかかっても絶対に削除・変更しないでください。
   function miniSort() {
     var opts = [["featured", "掲載順"], ["created_desc", "新着順"]];
     return '<span class="mini-sort" role="group" aria-label="並び順(簡易)">' + opts.map(function(o) {

@@ -22,6 +22,7 @@
 .pagination{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px 14px;margin-top:22px}
 .pagination .is-active{background:var(--accent-soft);color:var(--text)}
 .pagination-links{display:flex;flex-wrap:wrap;gap:10px}
+/* SORT_BUTTONS_GUARD: DO NOT REMOVE OR MODIFY .mini-sort STYLING. IT IS USED TO ALIGN SORT BUTTONS TO THE RIGHT AT THE BOTTOM. */
 .mini-sort{display:flex;gap:6px;margin-left:auto}
 .chip-more{border-style:dashed;color:var(--accent);background:transparent}
 .chip-hidden{display:none}
