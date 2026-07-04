@@ -151,7 +151,10 @@
     "created_at": "2026-07-01T09:10:00",
     "summary": "同じ街にいても、少しだけよそ者でいる夜の曲。東京の孤独と磐田の帰属感をたどる。",
     "status": "published",
-    "featured_order": 19
+    "featured_order": 19,
+    "artists": [
+      "KIRINJI"
+    ]
   },
   {
     "id": "shiina-ringo-003",
@@ -333,7 +336,10 @@
     "created_at": "2026-07-02T09:07:00",
     "summary": "定まらない自分と、それでも隣にいてくれた誰かを思い出す曲。ふたりの漂流をたどる。",
     "status": "published",
-    "featured_order": 32
+    "featured_order": 32,
+    "artists": [
+      "KIRINJI"
+    ]
   },
   {
     "id": "sakiya-kenjiro-002",
@@ -557,7 +563,10 @@
     "created_at": "2026-07-03T10:03:00",
     "summary": "いい曲はこちらの都合を聞かずに撃ってくる。音楽に不意打ちされる瞬間の曲。",
     "status": "published",
-    "featured_order": 48
+    "featured_order": 48,
+    "artists": [
+      "KIRINJI"
+    ]
   },
   {
     "id": "kirinji-004",
@@ -571,7 +580,10 @@
     "created_at": "2026-07-03T10:04:00",
     "summary": "AIが逃避行する時代になるのかな。2017年の予言を、AIと働く2026年から聴く。",
     "status": "published",
-    "featured_order": 49
+    "featured_order": 49,
+    "artists": [
+      "KIRINJI"
+    ]
   },
   {
     "id": "kirinji-005",
@@ -585,7 +597,10 @@
     "created_at": "2026-07-03T10:05:00",
     "summary": "世紀の変わり目に静かに降っていた曲。区切りの向こうにも続く暮らしをたどる。",
     "status": "published",
-    "featured_order": 50
+    "featured_order": 50,
+    "artists": [
+      "KIRINJI"
+    ]
   },
   {
     "id": "kusunose-seishiro-001",
@@ -725,7 +740,10 @@
     "created_at": "2026-07-03T12:00:00",
     "summary": "濡れて憂鬱なはずの日を、包まれる時間に変える曲。雨の日の特別な許可証をたどる。",
     "status": "published",
-    "featured_order": 60
+    "featured_order": 60,
+    "artists": [
+      "KIRINJI"
+    ]
   },
   {
     "id": "kirinji-007",
@@ -739,7 +757,10 @@
     "created_at": "2026-07-03T12:01:00",
     "summary": "夜明けの高速を走るような、始まりの曲。移籍第1弾に込めた開放感をたどる。",
     "status": "published",
-    "featured_order": 61
+    "featured_order": 61,
+    "artists": [
+      "KIRINJI"
+    ]
   },
   {
     "id": "kirinji-008",
@@ -753,7 +774,10 @@
     "created_at": "2026-07-03T12:02:00",
     "summary": "美しい兆しほど、次に来るものを警告している。予兆を読む感覚をたどる。",
     "status": "published",
-    "featured_order": 62
+    "featured_order": 62,
+    "artists": [
+      "KIRINJI"
+    ]
   },
   {
     "id": "kirinji-009",
@@ -767,7 +791,10 @@
     "created_at": "2026-07-03T12:03:00",
     "summary": "酸っぱさを、まだ足せる。書き続けるということの現在地をたどる。",
     "status": "published",
-    "featured_order": 63
+    "featured_order": 63,
+    "artists": [
+      "KIRINJI"
+    ]
   },
   {
     "id": "nulbarich-002",
@@ -1699,7 +1726,10 @@
     "created_at": "2026-07-03T17:24:00",
     "summary": "兄弟時代の名曲は、海を越えても色褪せなかった記憶をたどる。",
     "status": "published",
-    "featured_order": 127
+    "featured_order": 127,
+    "artists": [
+      "KIRINJI"
+    ]
   },
   {
     "id": "ketsumeishi-001",
@@ -1718,7 +1748,7 @@
   {
     "id": "lilas-001",
     "title": "SWEET MEMORIES",
-    "artist": "幾田りら(Lilas)",
+    "artist": "幾田りら",
     "release_year": 2021,
     "decade": "2020年代",
     "article_url": "/articles/lilas-001.html",
@@ -2651,7 +2681,11 @@
     "created_at": "2026-07-04T00:04:00",
     "summary": "ステージの熱気が、ミリオンヒットの記憶をそのまま呼び覚ます。",
     "status": "published",
-    "featured_order": 195
+    "featured_order": 195,
+    "artists": [
+      "中山美穂",
+      "WANDS"
+    ]
   },
   {
     "id": "nakayama-miho-002",
@@ -2665,7 +2699,11 @@
     "created_at": "2026-07-04T00:06:00",
     "summary": "アイドルとロックが手を組んだとき、新しい景色が生まれた。",
     "status": "published",
-    "featured_order": 196
+    "featured_order": 196,
+    "artists": [
+      "中山美穂",
+      "WANDS"
+    ]
   },
   {
     "id": "nakayama-miho-003",

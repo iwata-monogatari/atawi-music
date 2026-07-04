@@ -120,13 +120,13 @@
     "kana": "うただひかる"
   },
   {
-    "id": "skirt-punpee",
-    "name": "スカートとPUNPEE",
-    "kana": "スカートトパンピー"
+    "id": "skirt",
+    "name": "スカート",
+    "kana": "スカート"
   },
   {
-    "id": "yano-punpee",
-    "name": "ヤノ, PUNPEE",
+    "id": "yano",
+    "name": "ヤノ",
     "kana": "ヤノ"
   },
   {
@@ -161,7 +161,7 @@
   },
   {
     "id": "lilas-ikuta",
-    "name": "幾田りら(Lilas)",
+    "name": "幾田りら",
     "kana": "いくたりら"
   },
   {
@@ -343,5 +343,20 @@
     "id": "hirai-ken",
     "name": "平井堅",
     "kana": "ひらいけん"
+  },
+  {
+    "id": "sano-motoharu",
+    "name": "佐野元春",
+    "kana": "さのもとはる"
+  },
+  {
+    "id": "ozaki-ami",
+    "name": "尾崎亜美",
+    "kana": "おざきあみ"
+  },
+  {
+    "id": "kaze",
+    "name": "風",
+    "kana": "かぜ"
   }
 ]
