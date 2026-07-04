@@ -3292,5 +3292,61 @@
     "summary": "化粧品CMの記憶と、軽やかな都会的ポップスの手触りを聴き直す。",
     "status": "published",
     "featured_order": 8
+  },
+  {
+    "id": "arai-yumi-001",
+    "title": "ひこうき雲",
+    "artist": "荒井由実",
+    "release_year": 1973,
+    "decade": "1970年代",
+    "article_url": "/articles/arai-yumi-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=SlXL1A7rrxo",
+    "source_owner": "松任谷由実公式YouTubeチャンネル",
+    "created_at": "2026-07-04T12:00:00",
+    "summary": "坂を登るように空へと消えていくひこうき雲を見上げる曲。逝ってしまった誰かの記憶と、介護や実家じまいで向き合う人生の時間を聴く。",
+    "status": "published",
+    "featured_order": 231
+  },
+  {
+    "id": "matsutoya-yumi-001",
+    "title": "春よ、来い",
+    "artist": "松任谷由実",
+    "release_year": 1994,
+    "decade": "1990年代",
+    "article_url": "/articles/matsutoya-yumi-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=qX7pFYH9O04",
+    "source_owner": "松任谷由実公式YouTubeチャンネル",
+    "created_at": "2026-07-04T12:01:00",
+    "summary": "巡る季節の中で、遠く離れた大切な人を思う春の曲。NHK朝ドラの記憶とともに、磐田の春の風景と大切な人々の歩みを聴き直す。",
+    "status": "published",
+    "featured_order": 232
+  },
+  {
+    "id": "arai-yumi-002",
+    "title": "ルージュの伝言",
+    "artist": "荒井由実",
+    "release_year": 1975,
+    "decade": "1970年代",
+    "article_url": "/articles/arai-yumi-002.html",
+    "youtube_url": "https://www.youtube.com/watch?v=ZS6eNJPVvoE",
+    "source_owner": "松任谷由実公式YouTubeチャンネル",
+    "created_at": "2026-07-04T12:02:00",
+    "summary": "軽快なオールドポップスのビートに乗せて、不義理な恋人への抗議を歌う曲。東京のきらびやかな夜と、磐田で向き合う人々の生きた歴史をたどる。",
+    "status": "published",
+    "featured_order": 233
+  },
+  {
+    "id": "aimer-001",
+    "title": "蝶々結び",
+    "artist": "Aimer",
+    "release_year": 2016,
+    "decade": "2010年代",
+    "article_url": "/articles/aimer-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=Du_5wIB26-M",
+    "source_owner": "Aimer Official YouTube Channel",
+    "created_at": "2026-07-04T12:03:00",
+    "summary": "蝶々結びを結ぶ手元の描写から、人と人の繋がりの尊さと傷つきやすさを描く曲。介護で向き合う家族の絆や、不動産で受け継がれる温かな記憶を重ね合わせる。",
+    "status": "published",
+    "featured_order": 234
   }
 ]

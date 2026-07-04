@@ -358,5 +358,20 @@
     "id": "kaze",
     "name": "風",
     "kana": "かぜ"
+  },
+  {
+    "id": "arai-yumi",
+    "name": "荒井由実",
+    "kana": "あらいゆみ"
+  },
+  {
+    "id": "matsutoya-yumi",
+    "name": "松任谷由実",
+    "kana": "まつとうやゆみ"
+  },
+  {
+    "id": "aimer",
+    "name": "Aimer",
+    "kana": "エメ"
   }
 ]
