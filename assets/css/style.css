@@ -93,7 +93,7 @@
 .site-header .header-links{order:1}
 .site-header .main-nav{flex-direction:column;align-items:flex-start;gap:0}
 }
-/* ARTIST_FILTER_GUARD: 「歌手で選ぶ」の6列/5列グリッド、44px固定高、もっと見る/閉じる表示は意図的な変更指示がない限り変更禁止。 */
+/* ARTIST_FILTER_GUARD: 縲梧ｭ梧焔縺ｧ驕ｸ縺ｶ縲阪・6蛻・5蛻励げ繝ｪ繝・ラ縲・4px蝗ｺ螳夐ｫ倥√ｂ縺｣縺ｨ隕九ｋ/髢峨§繧玖｡ｨ遉ｺ縺ｯ諢丞峙逧・↑螟画峩謖・､ｺ縺後↑縺・剞繧雁､画峩遖∵ｭ｢縲・*/
 .artist-row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px}
 .artist-row .chip{display:flex;align-items:center;justify-content:center;width:100%;min-width:0;height:44px;min-height:44px;max-height:44px;padding:5px 4px;text-align:center;font-size:.72rem;line-height:1.28;white-space:normal;overflow:hidden;overflow-wrap:anywhere;word-break:break-word}
 .artist-row .chip-hidden{display:none}
@@ -182,7 +182,7 @@
 }
 /* END_CLS_STABILITY_GUARD */
 
-/* THEME_FILTER_AND_RECOMMENDATION_SUPPORT: 気分フィルターおよびおすすめ推薦機能用の追加スタイル */
+/* THEME_FILTER_AND_RECOMMENDATION_SUPPORT: 豌怜・繝輔ぅ繝ｫ繧ｿ繝ｼ縺翫ｈ縺ｳ縺翫☆縺吶ａ謗ｨ阮ｦ讖溯・逕ｨ縺ｮ霑ｽ蜉繧ｹ繧ｿ繧､繝ｫ */
 .theme-group{grid-column:1/-1;margin-bottom:1.8em}
 .theme-group h3{font-size:1.35rem !important;color:var(--accent) !important;font-weight:800 !important;margin-bottom:14px}
 [data-theme-filters]{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
@@ -231,7 +231,7 @@
 .recommendation-thumb{width:100%;max-height:148px;flex:none}
 }
 
-/* CONCEPT_BOARD_STYLING: コンセプトボード及び「ランダムに1曲と出会う」ボタン用スタイル */
+/* CONCEPT_BOARD_STYLING: 繧ｳ繝ｳ繧ｻ繝励ヨ繝懊・繝牙所縺ｳ縲後Λ繝ｳ繝繝縺ｫ1譖ｲ縺ｨ蜃ｺ莨壹≧縲阪・繧ｿ繝ｳ逕ｨ繧ｹ繧ｿ繧､繝ｫ */
 .concept-board {
   margin: 2.5em auto;
   padding: 2.5em;
@@ -345,7 +345,7 @@
   }
 }
 
-/* MOOD_GROUP_GROUPING: 「気分で選ぶ」上位分類カードのスタイル */
+/* MOOD_GROUP_GROUPING: 縲梧ｰ怜・縺ｧ驕ｸ縺ｶ縲堺ｸ贋ｽ榊・鬘槭き繝ｼ繝峨・繧ｹ繧ｿ繧､繝ｫ */
 .filter-subheading {
   font-size: 0.95rem;
   font-weight: 800;
@@ -364,10 +364,11 @@
 
 .mood-group-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-  margin: 16px 0 28px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 16px;
+  max-width: none;
   width: 100%;
+  margin: 16px 0 28px;
 }
 
 .mood-group-card {
@@ -375,7 +376,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
-  padding: 14px 16px;
+  padding: 16px 18px;
   border: 1px solid rgba(212, 175, 55, 0.15);
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.02);
@@ -384,8 +385,9 @@
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   box-sizing: border-box;
-  height: 100%; /* グリッド内で高さを揃える */
+  height: 100%;
   width: 100%;
+  text-decoration: none;
 }
 
 .mood-group-card:hover {
@@ -402,36 +404,51 @@
 }
 
 .mood-group-title {
-  font-size: 0.96rem;
+  font-size: 1rem;
   font-weight: 800;
   color: var(--text);
   line-height: 1.4;
 }
 
-.mood-group-card.is-active .mood-group-title {
-  color: var(--accent);
-}
-
 .mood-group-subtitle {
-  font-size: 0.76rem;
+  font-size: 0.82rem;
   color: var(--muted);
   line-height: 1.4;
 }
 
-/* メディアクエリを一元化し、720px以下で綺麗に1列縦並びにする */
+.mood-link-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.mood-link-list a {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(212, 175, 55, 0.08);
+  color: var(--muted);
+  font-size: 0.77rem;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.mood-link-list a:hover {
+  background: rgba(212, 175, 55, 0.15);
+  color: var(--text);
+}
+
 @media (max-width: 720px) {
   .mood-group-list {
-    grid-template-columns: 1fr;
-    gap: 10px;
-    margin: 12px 0 20px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .mood-group-card {
-    padding: 12px 14px;
+    gap: 5px;
   }
 }
-
-/* 指示された「曲リスト（status & 一覧）」と「すべての記事を見るボタン」のみ、ヘッダー幅に合わせて 860px に制限して中央寄せ */
+/* 謖・､ｺ縺輔ｌ縺溘梧峇繝ｪ繧ｹ繝茨ｼ・tatus & 荳隕ｧ・峨阪→縲後☆縺ｹ縺ｦ縺ｮ險倅ｺ九ｒ隕九ｋ繝懊ち繝ｳ縲阪・縺ｿ縲√・繝・ム繝ｼ蟷・↓蜷医ｏ縺帙※ 860px 縺ｫ蛻ｶ髯舌＠縺ｦ荳ｭ螟ｮ蟇・○ */
 .status,
 [data-song-list],
 .pagination {
@@ -442,9 +459,10 @@
   box-sizing: border-box;
 }
 
-/* すべての記事を見るボタンの横幅をコンパクトに中央寄せ */
+/* 縺吶∋縺ｦ縺ｮ險倅ｺ九ｒ隕九ｋ繝懊ち繝ｳ縺ｮ讓ｪ蟷・ｒ繧ｳ繝ｳ繝代け繝医↓荳ｭ螟ｮ蟇・○ */
 .pagination .btn-gold {
   width: 100% !important;
   max-width: 320px !important;
   justify-content: center !important;
 }
+

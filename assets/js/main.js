@@ -24,6 +24,7 @@
     active.artist = query.get("artist") || active.artist;
     active.era = query.get("era") || active.era;
     active.theme = query.get("theme") || active.theme;
+    if (active.theme === "all" && query.get("mood")) active.theme = query.get("mood");
     active.themeGroup = query.get("themeGroup") || active.themeGroup;
     active.sort = query.get("sort") || active.sort;
     active.q = query.get("q") || active.q;
@@ -306,18 +307,25 @@
       var htmlContent = "";
       var resetActive = (active.themeGroup === "all" && active.theme === "all");
       
-      htmlContent += '<div class="mood-reset">' +
-        '<button class="chip' + (resetActive ? ' is-active' : '') + '" type="button" data-filter-type="themeGroup" data-filter-value="all">すべて</button>' +
-        '</div>';
       
       if (kind === "home") {
         htmlContent += '<div class="mood-group-list">';
+        htmlContent += '<a class="mood-group-card mood-card-all' + (resetActive ? ' is-active' : '') + '" href="/articles/">' +
+          '<span class="mood-group-title">すべての曲</span>' +
+          '<span class="mood-group-subtitle">235件の音楽考察</span>' +
+          '</a>';
         MOOD_GROUPS.forEach(function(group) {
           var isActive = active.themeGroup === group.id;
-          htmlContent += '<button class="mood-group-card' + (isActive ? ' is-active' : '') + '" type="button" data-filter-type="themeGroup" data-filter-value="' + escapeHtml(group.id) + '">' +
+          var links = (group.links || group.tags || []).map(function(link) {
+            var label = typeof link === "string" ? link : link.label;
+            var value = typeof link === "string" ? link : link.theme;
+            return '<a href="/articles/?mood=' + encodeURIComponent(value) + '">' + escapeHtml(label) + '</a>';
+          }).join("");
+          htmlContent += '<div class="mood-group-card' + (isActive ? ' is-active' : '') + '">' +
             '<span class="mood-group-title">' + escapeHtml(group.title) + '</span>' +
             '<span class="mood-group-subtitle">' + escapeHtml(group.subtitle) + '</span>' +
-            '</button>';
+            (links ? '<div class="mood-link-list">' + links + '</div>' : '') +
+            '</div>';
         });
         htmlContent += '</div>';
       } else {
