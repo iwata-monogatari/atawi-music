@@ -185,6 +185,7 @@
 /* THEME_FILTER_AND_RECOMMENDATION_SUPPORT: 豌怜・繝輔ぅ繝ｫ繧ｿ繝ｼ縺翫ｈ縺ｳ縺翫☆縺吶ａ謗ｨ阮ｦ讖溯・逕ｨ縺ｮ霑ｽ蜉繧ｹ繧ｿ繧､繝ｫ */
 .theme-group{grid-column:1/-1;margin-bottom:1.8em}
 .theme-group h3{font-size:1.35rem !important;color:var(--accent) !important;font-weight:800 !important;margin-bottom:14px}
+.theme-group [data-theme-filters]{display:block;grid-template-columns:none}
 [data-theme-filters]{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 [data-theme-filters] .chip{
   height:48px;
