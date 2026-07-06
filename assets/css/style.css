@@ -468,3 +468,12 @@
   justify-content: center !important;
 }
 
+.header-random-encounter{display:inline-flex;align-items:center;gap:6px;color:var(--accent);font-size:.84rem;white-space:nowrap}
+.header-random-encounter::before{content:""}
+.header-random-encounter .encounter-text{display:inline}
+@media (max-width: 860px){
+  .header-random-encounter{font-size:.74rem}
+}
+@media (max-width: 720px){
+  .header-random-encounter{font-size:.68rem}
+}
