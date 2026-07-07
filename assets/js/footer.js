@@ -1,4 +1,18 @@
 (function () {
+  function injectRandomEncounterLabel() {
+    var headerLinks = document.querySelector(".header-links");
+    if (!headerLinks || headerLinks.querySelector(".header-random-encounter")) {
+      return;
+    }
+
+    var span = document.createElement("span");
+    span.className = "header-random-encounter";
+    span.textContent = "✨ ランダムに1曲と出会う";
+    headerLinks.insertBefore(span, headerLinks.firstChild);
+  }
+
+  injectRandomEncounterLabel();
+
   var target = document.querySelector('[data-site-footer]');
   if (!target) return;
 
