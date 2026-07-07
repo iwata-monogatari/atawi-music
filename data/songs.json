@@ -923,12 +923,18 @@
     "release_year": 2017,
     "decade": "2010年代",
     "article_url": "/articles/kick-the-can-crew-004.html",
-    "youtube_url": "https://www.youtube.com/watch?v=fC3ISmSofMY",
-    "source_owner": "KICK THE CAN CREW - Topic（公式系）",
+    "youtube_url": "https://www.youtube.com/watch?v=7luxvzYx298",
+    "source_owner": "KICK THE CAN CREW 公式YouTubeチャンネル",
     "created_at": "2026-07-03T14:02:00",
     "summary": "夏だけ特別になる場所が、誰にもひとつはある。季節と記憶の結びつきをたどる。",
     "status": "published",
-    "featured_order": 64
+    "featured_order": 64,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kick-the-can-crew-005",
