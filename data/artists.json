@@ -10,16 +10,6 @@
     "kana": "あらいゆみ"
   },
   {
-    "id": "anri",
-    "name": "ANRI",
-    "kana": "アンリ"
-  },
-  {
-    "id": "ymo",
-    "name": "Yellow Magic Orchestra",
-    "kana": "イエローマジックオーケストラ"
-  },
-  {
     "id": "lilas-ikuta",
     "name": "幾田りら",
     "kana": "いくたりら"
@@ -43,21 +33,6 @@
     "id": "ulfuls",
     "name": "ウルフルズ",
     "kana": "うるふるず"
-  },
-  {
-    "id": "x-japan",
-    "name": "X JAPAN",
-    "kana": "エックスジャパン"
-  },
-  {
-    "id": "m-flo",
-    "name": "m-flo",
-    "kana": "エムフロー"
-  },
-  {
-    "id": "aimer",
-    "name": "Aimer",
-    "kana": "エメ"
   },
   {
     "id": "oe-senri",
@@ -90,21 +65,6 @@
     "kana": "かぜ"
   },
   {
-    "id": "kiki-vivi-lily",
-    "name": "kiki vivi lily",
-    "kana": "キキヴィヴィリリー"
-  },
-  {
-    "id": "candy-tune",
-    "name": "CANDY TUNE",
-    "kana": "キャンディチューン"
-  },
-  {
-    "id": "kirinji",
-    "name": "キリンジ",
-    "kana": "キリンジ"
-  },
-  {
     "id": "kusunose-seishiro",
     "name": "楠瀬誠志郎",
     "kana": "くすのせせいしろう"
@@ -135,21 +95,6 @@
     "kana": "くわたけいすけ"
   },
   {
-    "id": "glay",
-    "name": "GLAY",
-    "kana": "グレイ"
-  },
-  {
-    "id": "ketsumeishi",
-    "name": "ケツメイシ",
-    "kana": "ケツメイシ"
-  },
-  {
-    "id": "gesu-no-kiwami-otome",
-    "name": "ゲスの極み乙女",
-    "kana": "ゲスノキワミオトメ"
-  },
-  {
     "id": "go-hiromi",
     "name": "郷ひろみ",
     "kana": "ごうひろみ"
@@ -158,16 +103,6 @@
     "id": "saito-kazuyoshi",
     "name": "斉藤和義",
     "kana": "さいとうかずよし"
-  },
-  {
-    "id": "cyberjapan-dancers",
-    "name": "CYBERJAPAN DANCERS",
-    "kana": "サイバージャパンダンサーズ"
-  },
-  {
-    "id": "sakanaction",
-    "name": "サカナクション",
-    "kana": "サカナクション"
   },
   {
     "id": "ryuichi-sakamoto",
@@ -185,11 +120,6 @@
     "kana": "さのもとはる"
   },
   {
-    "id": "the-birthday",
-    "name": "The Birthday",
-    "kana": "ザバースデイ"
-  },
-  {
     "id": "shiina-ringo",
     "name": "椎名林檎",
     "kana": "しいなりんご"
@@ -205,29 +135,19 @@
     "kana": "しょうじょじだい"
   },
   {
-    "id": "juju",
-    "name": "JUJU",
-    "kana": "ジュジュ"
-  },
-  {
-    "id": "skirt",
-    "name": "スカート",
-    "kana": "スカート"
-  },
-  {
     "id": "suzuki-kiyomi",
     "name": "鈴木聖美",
     "kana": "すずききよみ"
   },
   {
-    "id": "stardust-revue",
-    "name": "スターダスト☆レビュー",
-    "kana": "スターダストレビュー"
-  },
-  {
     "id": "takeuchi-mariya",
     "name": "竹内まりや",
     "kana": "たけうちまりや"
+  },
+  {
+    "id": "chiisana-koi-no-uta-band",
+    "name": "小さな恋のうたバンド",
+    "kana": "ちいさなこいのうたばんど"
   },
   {
     "id": "tokyo-jihen",
@@ -255,14 +175,14 @@
     "kana": "なかやまみほ"
   },
   {
-    "id": "nulbarich",
-    "name": "Nulbarich",
-    "kana": "ナルバリッチ"
-  },
-  {
     "id": "nonomura-ayano",
     "name": "野々村彩乃",
     "kana": "ののむらあやの"
+  },
+  {
+    "id": "back-number",
+    "name": "back number",
+    "kana": "ばっくなんばー"
   },
   {
     "id": "joe-hisaishi",
@@ -278,11 +198,6 @@
     "id": "hiramatsu-eri",
     "name": "平松愛理",
     "kana": "ひらまつえり"
-  },
-  {
-    "id": "pizzicato-five",
-    "name": "PIZZICATO FIVE",
-    "kana": "ピチカートファイヴ"
   },
   {
     "id": "fukumimi",
@@ -303,11 +218,6 @@
     "id": "punipuni-denki",
     "name": "ぷにぷに電機",
     "kana": "ぷにぷにでんき"
-  },
-  {
-    "id": "princess-princess",
-    "name": "プリンセス プリンセス",
-    "kana": "プリンセスプリンセス"
   },
   {
     "id": "hoshino-gen",
@@ -335,11 +245,6 @@
     "kana": "まつばらみき"
   },
   {
-    "id": "mr-children",
-    "name": "Mr.Children",
-    "kana": "ミスターチルドレン"
-  },
-  {
     "id": "yakushimaru-hiroko",
     "name": "薬師丸ひろ子",
     "kana": "やくしまるひろこ"
@@ -353,11 +258,6 @@
     "id": "yasuha",
     "name": "Yasuha",
     "kana": "やすは"
-  },
-  {
-    "id": "yano",
-    "name": "ヤノ",
-    "kana": "ヤノ"
   },
   {
     "id": "yamazaki-masayoshi",
@@ -378,5 +278,115 @@
     "id": "yoshiki",
     "name": "YOSHIKI",
     "kana": "よしき"
+  },
+  {
+    "id": "anri",
+    "name": "ANRI",
+    "kana": "アンリ"
+  },
+  {
+    "id": "ymo",
+    "name": "Yellow Magic Orchestra",
+    "kana": "イエローマジックオーケストラ"
+  },
+  {
+    "id": "x-japan",
+    "name": "X JAPAN",
+    "kana": "エックスジャパン"
+  },
+  {
+    "id": "m-flo",
+    "name": "m-flo",
+    "kana": "エムフロー"
+  },
+  {
+    "id": "aimer",
+    "name": "Aimer",
+    "kana": "エメ"
+  },
+  {
+    "id": "kiki-vivi-lily",
+    "name": "kiki vivi lily",
+    "kana": "キキヴィヴィリリー"
+  },
+  {
+    "id": "candy-tune",
+    "name": "CANDY TUNE",
+    "kana": "キャンディチューン"
+  },
+  {
+    "id": "kirinji",
+    "name": "キリンジ",
+    "kana": "キリンジ"
+  },
+  {
+    "id": "glay",
+    "name": "GLAY",
+    "kana": "グレイ"
+  },
+  {
+    "id": "ketsumeishi",
+    "name": "ケツメイシ",
+    "kana": "ケツメイシ"
+  },
+  {
+    "id": "gesu-no-kiwami-otome",
+    "name": "ゲスの極み乙女",
+    "kana": "ゲスノキワミオトメ"
+  },
+  {
+    "id": "cyberjapan-dancers",
+    "name": "CYBERJAPAN DANCERS",
+    "kana": "サイバージャパンダンサーズ"
+  },
+  {
+    "id": "sakanaction",
+    "name": "サカナクション",
+    "kana": "サカナクション"
+  },
+  {
+    "id": "the-birthday",
+    "name": "The Birthday",
+    "kana": "ザバースデイ"
+  },
+  {
+    "id": "juju",
+    "name": "JUJU",
+    "kana": "ジュジュ"
+  },
+  {
+    "id": "skirt",
+    "name": "スカート",
+    "kana": "スカート"
+  },
+  {
+    "id": "stardust-revue",
+    "name": "スターダスト☆レビュー",
+    "kana": "スターダストレビュー"
+  },
+  {
+    "id": "nulbarich",
+    "name": "Nulbarich",
+    "kana": "ナルバリッチ"
+  },
+  {
+    "id": "pizzicato-five",
+    "name": "PIZZICATO FIVE",
+    "kana": "ピチカートファイヴ"
+  },
+  {
+    "id": "princess-princess",
+    "name": "プリンセス プリンセス",
+    "kana": "プリンセスプリンセス"
+  },
+  {
+    "id": "mr-children",
+    "name": "Mr.Children",
+    "kana": "ミスターチルドレン"
+  },
+  {
+    "id": "yano",
+    "name": "ヤノ",
+    "kana": "ヤノ"
   }
 ]

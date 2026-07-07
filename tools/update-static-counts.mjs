@@ -48,8 +48,8 @@ targetHtmls.forEach(file => {
   }
   
   // テキスト内の件数表記を動的に置換 (例: "233件の" -> "234件の")
-  html = html.replace(/\b\d+件(の音楽考察|件中\d+件を表示|の記事を表示)/g, (match, p1) => {
-    if (p1.includes("件中")) {
+  html = html.replace(/\b\d+件(の音楽考察|中\d+件を表示|の記事を表示)/g, (match, p1) => {
+    if (p1.includes("中")) {
       return `${publishedCount}件中10件を表示`;
     }
     return `${publishedCount}件${p1}`;

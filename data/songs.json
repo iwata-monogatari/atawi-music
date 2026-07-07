@@ -11,7 +11,13 @@
     "created_at": "2026-07-01T09:00:00",
     "summary": "同じ街にいるのに遠い人を思い出す曲。東京で暮らした時間の距離感をたどる。",
     "status": "published",
-    "featured_order": 1
+    "featured_order": 1,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "nulbarich-001",
@@ -25,7 +31,13 @@
     "created_at": "2026-07-01T09:01:00",
     "summary": "東京で折れなかった自分を思い出す曲。都会の孤独と踏ん張っていた時間をたどる。",
     "status": "published",
-    "featured_order": 2
+    "featured_order": 2,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "go-hiromi-001",
@@ -39,7 +51,13 @@
     "created_at": "2026-07-01T09:02:00",
     "summary": "届かなかった思いが、時間を越えて胸に刺さる曲。家や土地に残る言えなかった記憶にも重なる。",
     "status": "published",
-    "featured_order": 3
+    "featured_order": 3,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "bruno-mars-001",
@@ -53,7 +71,13 @@
     "created_at": "2026-07-01T09:03:00",
     "summary": "歌詞を追い切れなくても、声と音が心に届く曲。分からないまま響く感情をたどる。",
     "status": "published",
-    "featured_order": 4
+    "featured_order": 4,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "official-hige-dandism-001",
@@ -67,7 +91,13 @@
     "created_at": "2026-07-01T09:04:00",
     "summary": "初めて聴いた時、若い世代にはもう勝てないと思った曲。渡していく側の役割を考え直す。",
     "status": "published",
-    "featured_order": 5
+    "featured_order": 5,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "tokyo-jihen-001",
@@ -81,7 +111,13 @@
     "created_at": "2026-07-01T09:05:00",
     "summary": "働いて、帰って、なお残るものを見つめる曲。東京の記憶と磐田の現在をつなぎ直す。",
     "status": "published",
-    "featured_order": 6
+    "featured_order": 6,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "shiina-ringo-001",
@@ -95,7 +131,13 @@
     "created_at": "2026-07-01T09:06:00",
     "summary": "根を持つことと、揺れながら立つことを思い出す曲。東京の記憶と家や土地の時間をたどる。",
     "status": "published",
-    "featured_order": 7
+    "featured_order": 7,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "shiina-ringo-002",
@@ -109,7 +151,13 @@
     "created_at": "2026-07-01T09:07:00",
     "summary": "持っているものではなく、失えないものを思い出す曲。家や土地に残る見えない富をたどる。",
     "status": "published",
-    "featured_order": 8
+    "featured_order": 8,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "tokyo-jihen-002",
@@ -123,7 +171,13 @@
     "created_at": "2026-07-01T09:08:00",
     "summary": "三分という短い時間を、ただ待つだけで終わらせない曲。東京の速度と磐田の待つ時間をたどる。",
     "status": "published",
-    "featured_order": 9
+    "featured_order": 9,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "vaundy-001",
@@ -137,7 +191,13 @@
     "created_at": "2026-07-01T09:09:00",
     "summary": "古典的なビートが、古いのに新しく響く曲。東京の記憶と磐田の古い家や土地を重ねる。",
     "status": "published",
-    "featured_order": 10
+    "featured_order": 10,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "kirinji-001",
@@ -154,7 +214,13 @@
     "featured_order": 11,
     "artists": [
       "KIRINJI"
-    ]
+    ],
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "shiina-ringo-003",
@@ -168,7 +234,13 @@
     "created_at": "2026-07-01T09:11:00",
     "summary": "松田聖子の名曲を椎名林檎の声で聴き直す。甘い記憶が、東京と磐田の時間をつなぐ。",
     "status": "published",
-    "featured_order": 12
+    "featured_order": 12,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "matsuda-seiko-001",
@@ -182,7 +254,13 @@
     "created_at": "2026-07-01T09:12:00",
     "summary": "違法すれすれの映像で知っていた名曲を、公式の本人映像で聴き直す。記憶との向き合い方を整える曲。",
     "status": "published",
-    "featured_order": 13
+    "featured_order": 13,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "jeremy-quartus-001",
@@ -196,7 +274,13 @@
     "created_at": "2026-07-01T09:13:00",
     "summary": "Nulbarichの活動休止を知ったあとで聴く、喪失感から戻れる場所を探す曲。",
     "status": "published",
-    "featured_order": 14
+    "featured_order": 14,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "sakiya-kenjiro-001",
@@ -210,7 +294,13 @@
     "created_at": "2026-07-01T09:14:00",
     "summary": "リアルタイムで聴いていなくても、自分の夜に残る曲。都会的な余韻と止めたい時間をたどる。",
     "status": "published",
-    "featured_order": 15
+    "featured_order": 15,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "kick-the-can-crew-001",
@@ -224,7 +314,13 @@
     "created_at": "2026-07-01T09:15:00",
     "summary": "KICK THE CAN CREWを好きになった入口の曲。岡村靖幸の存在感と、住所から始め直す感覚をたどる。",
     "status": "published",
-    "featured_order": 16
+    "featured_order": 16,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "girls-generation-001",
@@ -238,7 +334,13 @@
     "created_at": "2026-07-02T09:00:00",
     "summary": "K-POPが日本の街に入ってきた時代の衝撃を思い出す曲。完成度と時代の移動をたどる。",
     "status": "published",
-    "featured_order": 17
+    "featured_order": 17,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "girls-generation-002",
@@ -252,7 +354,13 @@
     "created_at": "2026-07-02T09:01:00",
     "summary": "年下の世代をかわいいと思いながら尊敬していた記憶。K-POPの明るさと完成度をたどる。",
     "status": "published",
-    "featured_order": 18
+    "featured_order": 18,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "hiramatsu-eri-001",
@@ -266,7 +374,13 @@
     "created_at": "2026-07-02T09:02:00",
     "summary": "若い日の歌が、長く暮らした家の時間に戻ってくる曲。部屋、家族、仕事、地域の記憶をたどる。",
     "status": "published",
-    "featured_order": 19
+    "featured_order": 19,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "princess-princess-001",
@@ -280,7 +394,13 @@
     "created_at": "2026-07-02T09:03:00",
     "summary": "子供のころに聞いた曲が、今まさに心に刺さる理由をたどる。戻らない時間と名前の記憶の曲。",
     "status": "published",
-    "featured_order": 20
+    "featured_order": 20,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "makihara-noriyuki-001",
@@ -294,7 +414,13 @@
     "created_at": "2026-07-02T09:04:00",
     "summary": "恋愛を体験する前と後で、同じ曲が違って聞こえる理由をたどる。あの頃に戻りたい気持ちの曲。",
     "status": "published",
-    "featured_order": 21
+    "featured_order": 21,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "makihara-noriyuki-002",
@@ -308,7 +434,13 @@
     "created_at": "2026-07-02T09:05:00",
     "summary": "私の中の槇原さんといえばこの曲。失恋の後に残る生活、強がり、寂しさをたどる。",
     "status": "published",
-    "featured_order": 22
+    "featured_order": 22,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "furuuchi-toko-002",
@@ -322,7 +454,13 @@
     "created_at": "2026-07-02T09:06:00",
     "summary": "一番近くにいながら言えなかった気持ちを思い出す曲。友人でいることを選んだ時間をたどる。",
     "status": "published",
-    "featured_order": 23
+    "featured_order": 23,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kirinji-002",
@@ -339,7 +477,13 @@
     "featured_order": 24,
     "artists": [
       "KIRINJI"
-    ]
+    ],
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "sakiya-kenjiro-002",
@@ -353,7 +497,13 @@
     "created_at": "2026-07-02T09:08:00",
     "summary": "言葉より先に声が届く曲。海を越えて歌い継がれる歌と、家に残る声の記憶をたどる。",
     "status": "published",
-    "featured_order": 25
+    "featured_order": 25,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "suzuki-kiyomi-001",
@@ -367,7 +517,13 @@
     "created_at": "2026-07-03T09:00:00",
     "summary": "曖昧な別れを引き延ばさない強さを歌う曲。区切りをつけることの意味をたどる。",
     "status": "published",
-    "featured_order": 26
+    "featured_order": 26,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "yamashita-tatsuro-001",
@@ -381,7 +537,13 @@
     "created_at": "2026-07-03T09:01:00",
     "summary": "遠い島への憧れを歌う曲。東京で思い描いた場所と、いま根を張る土地をたどる。",
     "status": "published",
-    "featured_order": 27
+    "featured_order": 27,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "c-word-001",
@@ -395,7 +557,13 @@
     "created_at": "2026-07-03T09:02:00",
     "summary": "かなしげで落ち着く、わずか30秒の前奏曲。悲しみと落ち着きが同居する感覚をたどる。",
     "status": "published",
-    "featured_order": 28
+    "featured_order": 28,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "takeuchi-mariya-001",
@@ -409,7 +577,13 @@
     "created_at": "2026-07-03T09:03:00",
     "summary": "歌詞が泣ける、生きることそのものを歌う曲。いのちのつながりを仕事の中でたどる。",
     "status": "published",
-    "featured_order": 29
+    "featured_order": 29,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "gesu-no-kiwami-otome-001",
@@ -423,7 +597,13 @@
     "created_at": "2026-07-03T09:04:00",
     "summary": "いろいろあった人生の本質を突く曲。自分の人生を自分で引き受ける覚悟をたどる。",
     "status": "published",
-    "featured_order": 30
+    "featured_order": 30,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "suchmos-001",
@@ -437,7 +617,13 @@
     "created_at": "2026-07-03T09:05:00",
     "summary": "ワンショットフィルムで撮られた都会の夜のグルーヴ。不完全な輝きを肯定する曲。",
     "status": "published",
-    "featured_order": 31
+    "featured_order": 31,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "suchmos-002",
@@ -451,7 +637,13 @@
     "created_at": "2026-07-03T09:06:00",
     "summary": "サチモスといえばこの曲。新しい音楽との出会いの入口をたどる。",
     "status": "published",
-    "featured_order": 32
+    "featured_order": 32,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "yamashita-tatsuro-002",
@@ -465,7 +657,13 @@
     "created_at": "2026-07-03T09:07:00",
     "summary": "夏を代表する名曲。季節にさよならを告げ、次の季節を迎える作法をたどる。",
     "status": "published",
-    "featured_order": 33
+    "featured_order": 33,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "oda-kazumasa-001",
@@ -479,7 +677,13 @@
     "created_at": "2026-07-03T09:08:00",
     "summary": "小学6年生で出会い、何千回と聴いた曲。突然訪れる心の高鳴りをたどる。",
     "status": "published",
-    "featured_order": 34
+    "featured_order": 34,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "shiina-ringo-004",
@@ -493,7 +697,13 @@
     "created_at": "2026-07-03T09:09:00",
     "summary": "夏を彩ったCMソング。長いようで短い祭の時間感覚をたどる。",
     "status": "published",
-    "featured_order": 35
+    "featured_order": 35,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "dreams-come-true-001",
@@ -507,7 +717,13 @@
     "created_at": "2026-07-03T09:10:00",
     "summary": "金曜日に勝負したくなる曲。一週間の締めくくりを前向きに迎える気持ちをたどる。",
     "status": "published",
-    "featured_order": 36
+    "featured_order": 36,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "kubota-toshinobu-001",
@@ -521,7 +737,13 @@
     "created_at": "2026-07-03T10:00:00",
     "summary": "せつないけど、いい。失って初めて分かるものを、夜の静けさの中で聴き直す。",
     "status": "published",
-    "featured_order": 37
+    "featured_order": 37,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "dreams-come-true-002",
@@ -535,7 +757,13 @@
     "created_at": "2026-07-03T10:01:00",
     "summary": "ブレーキランプ5回点滅のサインを何度もやった。描いた未来の答え合わせの曲。",
     "status": "published",
-    "featured_order": 38
+    "featured_order": 38,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "yamashita-kumiko-001",
@@ -549,7 +777,13 @@
     "created_at": "2026-07-03T10:02:00",
     "summary": "はじめて付き合った人を思い出す曲。気持ちを出し惜しみしないことの尊さをたどる。",
     "status": "published",
-    "featured_order": 39
+    "featured_order": 39,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kirinji-003",
@@ -566,7 +800,13 @@
     "featured_order": 40,
     "artists": [
       "KIRINJI"
-    ]
+    ],
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "kirinji-004",
@@ -583,7 +823,13 @@
     "featured_order": 41,
     "artists": [
       "KIRINJI"
-    ]
+    ],
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kirinji-005",
@@ -600,7 +846,13 @@
     "featured_order": 42,
     "artists": [
       "KIRINJI"
-    ]
+    ],
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kusunose-seishiro-001",
@@ -614,7 +866,13 @@
     "created_at": "2026-07-03T10:06:00",
     "summary": "あの頃も今もかっこいい。2023年のライブ映像で、続けてきた時間の声を聴く。",
     "status": "published",
-    "featured_order": 43
+    "featured_order": 43,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "oe-senri-001",
@@ -628,7 +886,13 @@
     "created_at": "2026-07-03T10:07:00",
     "summary": "よく聴いていた曲の主が、まさか大学の先輩だったとは。格好悪さを歌にする勇気の曲。",
     "status": "published",
-    "featured_order": 44
+    "featured_order": 44,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "shiina-ringo-005",
@@ -642,7 +906,13 @@
     "created_at": "2026-07-03T11:00:00",
     "summary": "宮本浩次とのコラボが本当にいい。対照的な2人の才能が並び立つ瞬間をたどる。",
     "status": "published",
-    "featured_order": 45
+    "featured_order": 45,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "shiina-ringo-006",
@@ -656,7 +926,13 @@
     "created_at": "2026-07-03T11:01:00",
     "summary": "日本も、自分も元気になれる一曲。NHKサッカーテーマ曲が個人を鼓舞する仕組みをたどる。",
     "status": "published",
-    "featured_order": 46
+    "featured_order": 46,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "shiina-ringo-007",
@@ -670,7 +946,13 @@
     "created_at": "2026-07-03T11:02:00",
     "summary": "せつなそうな歌い方がいい。栗山千明への提供曲を自らセルフカバーした曲をたどる。",
     "status": "published",
-    "featured_order": 47
+    "featured_order": 47,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "shiina-ringo-008",
@@ -684,7 +966,13 @@
     "created_at": "2026-07-03T11:03:00",
     "summary": "CMのために誰かへ書いた言葉を、自分自身で歌い直す。セルフカバーに込められた時間差をたどる。",
     "status": "published",
-    "featured_order": 48
+    "featured_order": 48,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "shiina-ringo-009",
@@ -698,7 +986,13 @@
     "created_at": "2026-07-03T11:04:00",
     "summary": "20周年の節目に、ひとりで歩く目抜き通り。デュエット曲をソロで歌う覚悟をたどる。",
     "status": "published",
-    "featured_order": 49
+    "featured_order": 49,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "shiina-ringo-010",
@@ -712,7 +1006,13 @@
     "created_at": "2026-07-03T11:05:00",
     "summary": "歩幅の違う2人が、同じ通りを並んで歩く。GINZA SIXテーマ曲のデュエットをたどる。",
     "status": "published",
-    "featured_order": 50
+    "featured_order": 50,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "shiina-ringo-011",
@@ -726,7 +1026,13 @@
     "created_at": "2026-07-03T11:06:00",
     "summary": "大正時代みたいだけど、いいね。時代を生き抜いた母の生涯を描いた主題歌をたどる。",
     "status": "published",
-    "featured_order": 51
+    "featured_order": 51,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "kirinji-006",
@@ -743,7 +1049,13 @@
     "featured_order": 52,
     "artists": [
       "KIRINJI"
-    ]
+    ],
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kirinji-007",
@@ -760,7 +1072,13 @@
     "featured_order": 53,
     "artists": [
       "KIRINJI"
-    ]
+    ],
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "kirinji-008",
@@ -777,7 +1095,13 @@
     "featured_order": 54,
     "artists": [
       "KIRINJI"
-    ]
+    ],
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kirinji-009",
@@ -794,7 +1118,13 @@
     "featured_order": 55,
     "artists": [
       "KIRINJI"
-    ]
+    ],
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "nulbarich-002",
@@ -808,7 +1138,13 @@
     "created_at": "2026-07-03T12:04:00",
     "summary": "これが、自分たちのやり方だ。周囲に惑わされず貫く姿勢をたどる。",
     "status": "published",
-    "featured_order": 56
+    "featured_order": 56,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "nulbarich-003",
@@ -822,7 +1158,13 @@
     "created_at": "2026-07-03T12:05:00",
     "summary": "まだ地図に載っていない場所を、それでも歩いていく感覚をたどる。",
     "status": "published",
-    "featured_order": 57
+    "featured_order": 57,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "nulbarich-004",
@@ -836,7 +1178,13 @@
     "created_at": "2026-07-03T12:06:00",
     "summary": "手錠をはめられていても、選び取ったものはある。不自由の中の自由をたどる。",
     "status": "published",
-    "featured_order": 58
+    "featured_order": 58,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "nulbarich-005",
@@ -850,7 +1198,13 @@
     "created_at": "2026-07-03T12:07:00",
     "summary": "大人の休日には、甘さと酸っぱさの両方がある。ドラマ主題歌の機微をたどる。",
     "status": "published",
-    "featured_order": 59
+    "featured_order": 59,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "nulbarich-006",
@@ -868,7 +1222,13 @@
     "created_at": "2026-07-03T12:08:00",
     "summary": "胸の中がどうであっても、1日はやってくる。感情と時間のズレをたどる。",
     "status": "published",
-    "featured_order": 60
+    "featured_order": 60,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "nulbarich-007",
@@ -886,7 +1246,13 @@
     "created_at": "2026-07-03T13:00:00",
     "summary": "灰は、燃え尽きたあとに残る、次の始まりの印。距離を越えた共作をたどる。",
     "status": "published",
-    "featured_order": 61
+    "featured_order": 61,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "kick-the-can-crew-002",
@@ -900,7 +1266,13 @@
     "created_at": "2026-07-03T14:00:00",
     "summary": "100%では足りない。14年の沈黙を経ての本気の全力をたどる。",
     "status": "published",
-    "featured_order": 62
+    "featured_order": 62,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "kick-the-can-crew-003",
@@ -914,7 +1286,13 @@
     "created_at": "2026-07-03T14:01:00",
     "summary": "履き古したブーツほど、足に馴染んでいる。時間を経た3人の味わいをたどる。",
     "status": "published",
-    "featured_order": 63
+    "featured_order": 63,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "kick-the-can-crew-004",
@@ -932,7 +1310,7 @@
     "rating": {
       "song": 4,
       "lyrics": 4,
-      "mv": 4,
+      "mv": 2,
       "selection": "lyrics"
     }
   },
@@ -948,7 +1326,13 @@
     "created_at": "2026-07-03T14:03:00",
     "summary": "23年経っても、まだ完結していなかった1曲。機が熟すのを待つ豊かさをたどる。",
     "status": "published",
-    "featured_order": 65
+    "featured_order": 65,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kreva-001",
@@ -962,7 +1346,13 @@
     "created_at": "2026-07-03T14:04:00",
     "summary": "ZORNさんとのコラボ。技能を極めた者同士のモノづくりをたどる。",
     "status": "published",
-    "featured_order": 66
+    "featured_order": 66,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kreva-002",
@@ -976,7 +1366,13 @@
     "created_at": "2026-07-03T14:05:00",
     "summary": "いいものは、待ってていい。機が熟すのを見極める矜持をたどる。",
     "status": "published",
-    "featured_order": 67
+    "featured_order": 67,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kreva-003",
@@ -990,7 +1386,13 @@
     "created_at": "2026-07-03T14:06:00",
     "summary": "三浦大知さんとの掛け合いが最高。離れていてもつながる願いをたどる。",
     "status": "published",
-    "featured_order": 68
+    "featured_order": 68,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "kreva-004",
@@ -1004,7 +1406,13 @@
     "created_at": "2026-07-03T14:07:00",
     "summary": "今だからこそ、あえて理想を語ろう。逆境で咲く強さをたどる。",
     "status": "published",
-    "featured_order": 69
+    "featured_order": 69,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kreva-005",
@@ -1018,7 +1426,13 @@
     "created_at": "2026-07-03T14:08:00",
     "summary": "ロンドンの街で、まだ探し続けている音がある。15年の探究心をたどる。",
     "status": "published",
-    "featured_order": 70
+    "featured_order": 70,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "kreva-006",
@@ -1032,7 +1446,13 @@
     "created_at": "2026-07-03T14:09:00",
     "summary": "Nulbarichを知ることになった一曲。思いがけない出会いの連鎖をたどる。",
     "status": "published",
-    "featured_order": 71
+    "featured_order": 71,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "nulbarich-008",
@@ -1046,7 +1466,13 @@
     "created_at": "2026-07-03T15:00:00",
     "summary": "止まったら倒れる。転がり続けることでしか保てないバランスをたどる。",
     "status": "published",
-    "featured_order": 72
+    "featured_order": 72,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "nulbarich-009",
@@ -1060,7 +1486,13 @@
     "created_at": "2026-07-03T15:01:00",
     "summary": "地平線の向こうに、まだ見ぬ景色がある。境界を見つめる視線をたどる。",
     "status": "published",
-    "featured_order": 73
+    "featured_order": 73,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "nulbarich-010",
@@ -1074,7 +1506,13 @@
     "created_at": "2026-07-03T15:02:00",
     "summary": "この曲でNEW ERAという単語の意味を知った。歌で覚えた言葉の重みをたどる。",
     "status": "published",
-    "featured_order": 74
+    "featured_order": 74,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "nulbarich-011",
@@ -1088,7 +1526,13 @@
     "created_at": "2026-07-03T15:03:00",
     "summary": "自分の声で語ることでしか届かないものがある。CMソングの成り立ちをたどる。",
     "status": "published",
-    "featured_order": 75
+    "featured_order": 75,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "nulbarich-012",
@@ -1102,7 +1546,13 @@
     "created_at": "2026-07-03T15:04:00",
     "summary": "一歩を踏み出せ。迷いを断ち切る決断の潔さをたどる。",
     "status": "published",
-    "featured_order": 76
+    "featured_order": 76,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "nulbarich-013",
@@ -1116,7 +1566,13 @@
     "created_at": "2026-07-03T15:05:00",
     "summary": "ポケットの中にいつも忍ばせておきたい存在。JQが初めて姿を見せた曲をたどる。",
     "status": "published",
-    "featured_order": 77
+    "featured_order": 77,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "nulbarich-014",
@@ -1130,7 +1586,13 @@
     "created_at": "2026-07-03T15:06:00",
     "summary": "山下達郎さんのカバー、リメイクが新しい。初のカバー曲の成り立ちをたどる。",
     "status": "published",
-    "featured_order": 78
+    "featured_order": 78,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "nulbarich-015",
@@ -1144,7 +1606,13 @@
     "created_at": "2026-07-03T15:07:00",
     "summary": "もらった分だけ、同じだけ返したい。与え合うことの心地よさをたどる。",
     "status": "published",
-    "featured_order": 79
+    "featured_order": 79,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "nulbarich-016",
@@ -1158,7 +1626,13 @@
     "created_at": "2026-07-03T15:08:00",
     "summary": "5周年に立ち、これまでとこれからを綴った1曲。感謝と決意をたどる。",
     "status": "published",
-    "featured_order": 80
+    "featured_order": 80,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "punpee-001",
@@ -1176,7 +1650,13 @@
     "created_at": "2026-07-03T15:09:00",
     "summary": "KREVAさんからPUNPEEを知りました。連鎖していく出会いの記憶をたどる。",
     "status": "published",
-    "featured_order": 81
+    "featured_order": 81,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "nulbarich-017",
@@ -1190,7 +1670,13 @@
     "created_at": "2026-07-03T16:00:00",
     "summary": "終わりを決めた者だけが鳴らせる解放の音。活動休止後初のシングルをたどる。",
     "status": "published",
-    "featured_order": 82
+    "featured_order": 82,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "stuts-001",
@@ -1208,7 +1694,13 @@
     "created_at": "2026-07-03T16:01:00",
     "summary": "夜を最後の一滴まで使い切った先にある夜明け。3年越しの1曲をたどる。",
     "status": "published",
-    "featured_order": 83
+    "featured_order": 83,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "skirt-001",
@@ -1226,7 +1718,13 @@
     "created_at": "2026-07-03T16:02:00",
     "summary": "同じ町の出身でも交わらなかった道が交差する瞬間。異色コラボをたどる。",
     "status": "published",
-    "featured_order": 84
+    "featured_order": 84,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "yano-001",
@@ -1244,7 +1742,13 @@
     "created_at": "2026-07-03T16:03:00",
     "summary": "ヤノさんのラップにハマりました(笑)。予想外の入口からの出会いをたどる。",
     "status": "published",
-    "featured_order": 85
+    "featured_order": 85,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "umeda-cypher-001",
@@ -1258,7 +1762,13 @@
     "created_at": "2026-07-03T16:04:00",
     "summary": "男だけの大所帯、大変だけど楽しいんだろうな。歩道橋発祥の熱量をたどる。",
     "status": "published",
-    "featured_order": 86
+    "featured_order": 86,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "umeda-cypher-002",
@@ -1272,7 +1782,13 @@
     "created_at": "2026-07-03T16:05:00",
     "summary": "絞り込むことで、純度は上がる。全国ツアーに向けた凝縮をたどる。",
     "status": "published",
-    "featured_order": 87
+    "featured_order": 87,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "punipuni-denki-001",
@@ -1286,7 +1802,13 @@
     "created_at": "2026-07-03T16:06:00",
     "summary": "バンドという形を持たなくても、音楽は鳴らせる。新しい作家の形をたどる。",
     "status": "published",
-    "featured_order": 88
+    "featured_order": 88,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "punipuni-denki-002",
@@ -1304,7 +1826,13 @@
     "created_at": "2026-07-03T16:07:00",
     "summary": "駆け引きは、時にいちばん誠実なコミュニケーション。隠れ家BARの機微をたどる。",
     "status": "published",
-    "featured_order": 89
+    "featured_order": 89,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "creepy-nuts-001",
@@ -1318,7 +1846,13 @@
     "created_at": "2026-07-03T16:08:00",
     "summary": "かつての自分に、今の自分から語りかける。自粛期間を経た1曲をたどる。",
     "status": "published",
-    "featured_order": 90
+    "featured_order": 90,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "utada-hikaru-001",
@@ -1332,7 +1866,13 @@
     "created_at": "2026-07-03T16:09:00",
     "summary": "大学1年生の頃のドラマ主題歌。松嶋菜々子さんへの憧れと重なる記憶をたどる。",
     "status": "published",
-    "featured_order": 91
+    "featured_order": 91,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "utada-hikaru-002",
@@ -1346,7 +1886,13 @@
     "created_at": "2026-07-03T16:10:00",
     "summary": "15歳の才能が時代を塗り替えた衝撃。デビューシングルの記憶をたどる。",
     "status": "published",
-    "featured_order": 92
+    "featured_order": 92,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "aiko-001",
@@ -1360,7 +1906,13 @@
     "created_at": "2026-07-03T16:11:00",
     "summary": "大学受験に失敗して浪人時代を過ごした大阪で初めて聞いた曲をたどる。",
     "status": "published",
-    "featured_order": 93
+    "featured_order": 93,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "aiko-002",
@@ -1374,7 +1926,13 @@
     "created_at": "2026-07-03T16:12:00",
     "summary": "甲羅を1枚剥がせば脆い。虚勢を張って恋する自分をたどる。",
     "status": "published",
-    "featured_order": 94
+    "featured_order": 94,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "king-gnu-001",
@@ -1388,7 +1946,13 @@
     "created_at": "2026-07-03T17:00:00",
     "summary": "正月休みを返上して1人こもって書いた曲。井口理という才能の再発見をたどる。",
     "status": "published",
-    "featured_order": 95
+    "featured_order": 95,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "sakanaction-001",
@@ -1402,7 +1966,13 @@
     "created_at": "2026-07-03T17:01:00",
     "summary": "ドリフの登場シーンをまねる感覚。過去の様式を見極める審美眼をたどる。",
     "status": "published",
-    "featured_order": 96
+    "featured_order": 96,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "sakanaction-002",
@@ -1416,7 +1986,13 @@
     "created_at": "2026-07-03T17:02:00",
     "summary": "150回作り直してでも譲れないもの。妥協しない誠実さをたどる。",
     "status": "published",
-    "featured_order": 97
+    "featured_order": 97,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "hoshino-gen-001",
@@ -1430,7 +2006,13 @@
     "created_at": "2026-07-03T17:03:00",
     "summary": "理由もなく腰が動く。それだけでいいという解放をたどる。",
     "status": "published",
-    "featured_order": 98
+    "featured_order": 98,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "hoshino-gen-002",
@@ -1444,7 +2026,13 @@
     "created_at": "2026-07-03T17:04:00",
     "summary": "新しい夫婦を形作る人たちへ。生活を基にした愛情の形をたどる。",
     "status": "published",
-    "featured_order": 99
+    "featured_order": 99,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "hoshino-gen-003",
@@ -1458,7 +2046,13 @@
     "created_at": "2026-07-03T17:05:00",
     "summary": "家族を超えてゆけ。血縁を超えたつながりの形をたどる。",
     "status": "published",
-    "featured_order": 100
+    "featured_order": 100,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "hoshino-gen-004",
@@ -1472,7 +2066,13 @@
     "created_at": "2026-07-03T17:06:00",
     "summary": "国民的スターになった直後の葛藤。成功の裏の暗さをたどる。",
     "status": "published",
-    "featured_order": 101
+    "featured_order": 101,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "hoshino-gen-005",
@@ -1486,7 +2086,13 @@
     "created_at": "2026-07-03T17:07:00",
     "summary": "哲学的で好き。愛の定義を自分の言葉で捉え直す試みをたどる。",
     "status": "published",
-    "featured_order": 102
+    "featured_order": 102,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "hoshino-gen-006",
@@ -1500,7 +2106,13 @@
     "created_at": "2026-07-03T17:08:00",
     "summary": "続いてく、意味もなく。無常な時間との向き合い方をたどる。",
     "status": "published",
-    "featured_order": 103
+    "featured_order": 103,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "hoshino-gen-007",
@@ -1514,7 +2126,13 @@
     "created_at": "2026-07-03T17:09:00",
     "summary": "遠回りした末にたどり着いた素直な答え。映画主題歌の制作秘話をたどる。",
     "status": "published",
-    "featured_order": 104
+    "featured_order": 104,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "hoshino-gen-008",
@@ -1532,7 +2150,13 @@
     "created_at": "2026-07-03T17:10:00",
     "summary": "私もさらしものだからな。人前に晒される覚悟をたどる。",
     "status": "published",
-    "featured_order": 105
+    "featured_order": 105,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "suchmos-003",
@@ -1546,7 +2170,13 @@
     "created_at": "2026-07-03T17:11:00",
     "summary": "1年6ヶ月という熟成の時間が連れてきた次の景色をたどる。",
     "status": "published",
-    "featured_order": 106
+    "featured_order": 106,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "vaundy-002",
@@ -1560,7 +2190,13 @@
     "created_at": "2026-07-03T17:12:00",
     "summary": "確認せずに互いを察する恋の形。90年代サウンドの再構築をたどる。",
     "status": "published",
-    "featured_order": 107
+    "featured_order": 107,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "original-love-001",
@@ -1574,7 +2210,13 @@
     "created_at": "2026-07-03T17:13:00",
     "summary": "渋谷系という時代のジャンル越境の自由さをたどる。",
     "status": "published",
-    "featured_order": 108
+    "featured_order": 108,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "original-love-002",
@@ -1592,7 +2234,13 @@
     "created_at": "2026-07-03T17:14:00",
     "summary": "30年前の曲を今の世代と作り直す、更新され続ける名曲をたどる。",
     "status": "published",
-    "featured_order": 109
+    "featured_order": 109,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "odani-misako-001",
@@ -1606,7 +2254,13 @@
     "created_at": "2026-07-03T17:15:00",
     "summary": "大学生時代、自分がわからずさまよっていた記憶をたどる。",
     "status": "published",
-    "featured_order": 110
+    "featured_order": 110,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "misia-001",
@@ -1620,7 +2274,13 @@
     "created_at": "2026-07-03T17:16:00",
     "summary": "これ以上切実な願いはない。特攻隊員の手紙から生まれた曲をたどる。",
     "status": "published",
-    "featured_order": 111
+    "featured_order": 111,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "misia-002",
@@ -1634,7 +2294,13 @@
     "created_at": "2026-07-03T17:17:00",
     "summary": "ひとりのファンとの縁が生んだ唯一のミリオンセラーをたどる。",
     "status": "published",
-    "featured_order": 112
+    "featured_order": 112,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "suchmos-004",
@@ -1648,7 +2314,13 @@
     "created_at": "2026-07-03T17:18:00",
     "summary": "都市生活への風刺と自己表現。変わり続ける覚悟をたどる。",
     "status": "published",
-    "featured_order": 113
+    "featured_order": 113,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "suchmos-005",
@@ -1662,7 +2334,13 @@
     "created_at": "2026-07-03T17:19:00",
     "summary": "10分を超える映画的な構成。じっくりと付き合う時間の価値をたどる。",
     "status": "published",
-    "featured_order": 114
+    "featured_order": 114,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "fukuyama-masaharu-001",
@@ -1676,7 +2354,13 @@
     "created_at": "2026-07-03T17:20:00",
     "summary": "歌わずギターに徹する謙虚さ。主役を譲る勇気をたどる。",
     "status": "published",
-    "featured_order": 115
+    "featured_order": 115,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "quruli-001",
@@ -1690,7 +2374,13 @@
     "created_at": "2026-07-03T17:21:00",
     "summary": "結成20年目にして初めての新しい語法。節目の挑戦をたどる。",
     "status": "published",
-    "featured_order": 116
+    "featured_order": 116,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "vaundy-003",
@@ -1704,7 +2394,13 @@
     "created_at": "2026-07-03T17:22:00",
     "summary": "目が合った瞬間に、もう惚れていた。理屈を超えた出会いをたどる。",
     "status": "published",
-    "featured_order": 117
+    "featured_order": 117,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "mondo-grosso-001",
@@ -1718,7 +2414,13 @@
     "created_at": "2026-07-03T17:23:00",
     "summary": "1曲がアルバム全体の言語を決めた、14年ぶりの復活作をたどる。",
     "status": "published",
-    "featured_order": 118
+    "featured_order": 118,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "kirinji-010",
@@ -1735,7 +2437,13 @@
     "featured_order": 119,
     "artists": [
       "KIRINJI"
-    ]
+    ],
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "ketsumeishi-001",
@@ -1749,7 +2457,13 @@
     "created_at": "2026-07-03T17:25:00",
     "summary": "こんな友情を大切にできる生き方をしたかった、という憧れをたどる。",
     "status": "published",
-    "featured_order": 120
+    "featured_order": 120,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "lilas-001",
@@ -1763,7 +2477,13 @@
     "created_at": "2026-07-03T17:26:00",
     "summary": "幾田りらさん版もいいですね。3人目の解釈が生む新しい景色をたどる。",
     "status": "published",
-    "featured_order": 121
+    "featured_order": 121,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "original-love-003",
@@ -1777,7 +2497,13 @@
     "created_at": "2026-07-03T18:00:00",
     "summary": "原初的な衝動こそが、いちばん遠くまで届く。自身最大のヒット曲の背景を読み直す。",
     "status": "published",
-    "featured_order": 122
+    "featured_order": 122,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "tokyo-jihen-003",
@@ -1791,7 +2517,13 @@
     "created_at": "2026-07-03T18:02:00",
     "summary": "資生堂マキアージュCMソングという、小さな入口から始まった出会い。",
     "status": "published",
-    "featured_order": 123
+    "featured_order": 123,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "toki-asako-001",
@@ -1805,7 +2537,13 @@
     "created_at": "2026-07-03T18:04:00",
     "summary": "EPO書き下ろしのCMソング。誰かの言葉を自分の声で引き受ける仕事。",
     "status": "published",
-    "featured_order": 124
+    "featured_order": 124,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "toki-asako-002",
@@ -1819,7 +2557,13 @@
     "created_at": "2026-07-03T18:06:00",
     "summary": "美しい顔って(笑)いい曲です。シティポップ三部作の最終章。",
     "status": "published",
-    "featured_order": 125
+    "featured_order": 125,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "toki-asako-003",
@@ -1833,7 +2577,13 @@
     "created_at": "2026-07-03T18:08:00",
     "summary": "派手さより、削られた末に残る硬い輝きを。",
     "status": "published",
-    "featured_order": 126
+    "featured_order": 126,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "toki-asako-004",
@@ -1847,7 +2597,13 @@
     "created_at": "2026-07-03T18:10:00",
     "summary": "この曲よく聞いていました。日常に溶け込んでいた涼やかな1曲。",
     "status": "published",
-    "featured_order": 127
+    "featured_order": 127,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "fukumimi-001",
@@ -1861,7 +2617,13 @@
     "created_at": "2026-07-03T18:12:00",
     "summary": "杏子・山崎まさよし・スガシカオ、3人が集まると曲は新しい命を得る。",
     "status": "published",
-    "featured_order": 128
+    "featured_order": 128,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "oe-senri-002",
@@ -1875,7 +2637,13 @@
     "created_at": "2026-07-03T18:14:00",
     "summary": "降りてきた1曲が、世代を越えて降り注ぎ続ける。",
     "status": "published",
-    "featured_order": 129
+    "featured_order": 129,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "toki-asako-005",
@@ -1889,7 +2657,13 @@
     "created_at": "2026-07-03T19:00:00",
     "summary": "過ぎ去った夏ほど、あとから美しく思い出される。",
     "status": "published",
-    "featured_order": 130
+    "featured_order": 130,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "toki-asako-006",
@@ -1903,7 +2677,13 @@
     "created_at": "2026-07-03T19:02:00",
     "summary": "正解のない手探りこそが、愛という営みの本質だ。",
     "status": "published",
-    "featured_order": 131
+    "featured_order": 131,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "toki-asako-007",
@@ -1917,7 +2697,13 @@
     "created_at": "2026-07-03T19:04:00",
     "summary": "明日、街は誰のものか。答えのない問いを口ずさむ。",
     "status": "published",
-    "featured_order": 132
+    "featured_order": 132,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "vaundy-004",
@@ -1931,7 +2717,13 @@
     "created_at": "2026-07-03T19:06:00",
     "summary": "哲学的にいいよね。ドラマ『PJ～航空救難団～』主題歌。",
     "status": "published",
-    "featured_order": 133
+    "featured_order": 133,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "vaundy-005",
@@ -1945,7 +2737,13 @@
     "created_at": "2026-07-03T19:08:00",
     "summary": "生みの親が、自分の子を、もう一度自分の手で歌い直す。",
     "status": "published",
-    "featured_order": 134
+    "featured_order": 134,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "candy-tune-001",
@@ -1959,7 +2757,13 @@
     "created_at": "2026-07-03T19:10:00",
     "summary": "聴くたびに、パワーが倍になっていく。TikTok史上初の10週連続1位。",
     "status": "published",
-    "featured_order": 135
+    "featured_order": 135,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "cyberjapan-dancers-001",
@@ -1973,7 +2777,13 @@
     "created_at": "2026-07-03T19:12:00",
     "summary": "MVから元気がもらえる。あっ私がおじさんになったなぁ。",
     "status": "published",
-    "featured_order": 136
+    "featured_order": 136,
+    "rating": {
+      "song": 3,
+      "lyrics": 2,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "vaundy-006",
@@ -1987,7 +2797,13 @@
     "created_at": "2026-07-03T19:14:00",
     "summary": "駆け出しのころのVaundy君、すごかったなぁ。今もすごいけど。",
     "status": "published",
-    "featured_order": 137
+    "featured_order": 137,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "anri-001",
@@ -2001,7 +2817,13 @@
     "created_at": "2026-07-03T20:00:00",
     "summary": "感情は、止めようとするほど、勢いを増していく。",
     "status": "published",
-    "featured_order": 138
+    "featured_order": 138,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "vaundy-007",
@@ -2015,7 +2837,13 @@
     "created_at": "2026-07-03T20:02:00",
     "summary": "初期Vaundy君。",
     "status": "published",
-    "featured_order": 139
+    "featured_order": 139,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "vaundy-008",
@@ -2029,7 +2857,13 @@
     "created_at": "2026-07-03T20:04:00",
     "summary": "初Vaundy君。",
     "status": "published",
-    "featured_order": 140
+    "featured_order": 140,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "vaundy-009",
@@ -2043,7 +2877,13 @@
     "created_at": "2026-07-03T20:06:00",
     "summary": "抗えないものは、不可抗力だけではない。",
     "status": "published",
-    "featured_order": 141
+    "featured_order": 141,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "vaundy-010",
@@ -2057,7 +2897,13 @@
     "created_at": "2026-07-03T20:08:00",
     "summary": "愛にも、うまくいくためのちょっとした工夫がある。",
     "status": "published",
-    "featured_order": 142
+    "featured_order": 142,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "vaundy-011",
@@ -2071,7 +2917,13 @@
     "created_at": "2026-07-03T20:10:00",
     "summary": "瞬きひとつの間に、世界は少しだけ変わっている。",
     "status": "published",
-    "featured_order": 143
+    "featured_order": 143,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "vaundy-012",
@@ -2085,7 +2937,13 @@
     "created_at": "2026-07-03T20:12:00",
     "summary": "目を閉じることでしか、見えてこない世界がある。",
     "status": "published",
-    "featured_order": 144
+    "featured_order": 144,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "vaundy-013",
@@ -2099,7 +2957,13 @@
     "created_at": "2026-07-03T20:14:00",
     "summary": "フェスでの出会いが、国境を越えたコラボレーションに変わる。",
     "status": "published",
-    "featured_order": 145
+    "featured_order": 145,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "vaundy-014",
@@ -2113,7 +2977,13 @@
     "created_at": "2026-07-03T20:16:00",
     "summary": "気づいてしまった秘密と、それでも日々を楽しむということ。",
     "status": "published",
-    "featured_order": 146
+    "featured_order": 146,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "kiki-vivi-lily-001",
@@ -2127,7 +2997,13 @@
     "created_at": "2026-07-03T20:18:00",
     "summary": "ほろ苦さこそ、大人の恋の本当の味わい。",
     "status": "published",
-    "featured_order": 147
+    "featured_order": 147,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "takeuchi-mariya-002",
@@ -2141,7 +3017,13 @@
     "created_at": "2026-07-03T20:20:00",
     "summary": "1984年の1曲が、30年以上の時を越えて世界中に届く。",
     "status": "published",
-    "featured_order": 148
+    "featured_order": 148,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "takeuchi-mariya-003",
@@ -2155,7 +3037,13 @@
     "created_at": "2026-07-03T20:22:00",
     "summary": "本心を隠すこともまた、ひとつの優しさになる。",
     "status": "published",
-    "featured_order": 149
+    "featured_order": 149,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "takeuchi-mariya-004",
@@ -2169,7 +3057,13 @@
     "created_at": "2026-07-03T21:00:00",
     "summary": "プラットホームでの偶然の再会が、過去のすべてを呼び覚ます。",
     "status": "published",
-    "featured_order": 150
+    "featured_order": 150,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "takeuchi-mariya-005",
@@ -2183,7 +3077,13 @@
     "created_at": "2026-07-03T21:02:00",
     "summary": "誰がシングルに戻るのを待っているのだろう？(笑)",
     "status": "published",
-    "featured_order": 151
+    "featured_order": 151,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "takeuchi-mariya-006",
@@ -2197,7 +3097,13 @@
     "created_at": "2026-07-03T21:04:00",
     "summary": "誰かを看る仕事に、そっと寄り添う優しさ。",
     "status": "published",
-    "featured_order": 152
+    "featured_order": 152,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "takeuchi-mariya-007",
@@ -2225,7 +3131,13 @@
     "created_at": "2026-07-03T21:08:00",
     "summary": "デビュー間もない才能が、いきなり新人賞を掴んだ1曲。",
     "status": "published",
-    "featured_order": 154
+    "featured_order": 154,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "matsuda-seiko-002",
@@ -2239,7 +3151,13 @@
     "created_at": "2026-07-03T21:10:00",
     "summary": "34年の時を経て、同じ地球をもう一度見つめ直す。",
     "status": "published",
-    "featured_order": 155
+    "featured_order": 155,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "matsuda-seiko-003",
@@ -2253,7 +3171,13 @@
     "created_at": "2026-07-03T21:12:00",
     "summary": "2枚目のシングルで、早くも時代の顔になった。",
     "status": "published",
-    "featured_order": 156
+    "featured_order": 156,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "matsuda-seiko-004",
@@ -2267,7 +3191,13 @@
     "created_at": "2026-07-03T21:14:00",
     "summary": "桜の花のように、毎年新しく咲き直す決意がある。",
     "status": "published",
-    "featured_order": 157
+    "featured_order": 157,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "matsuda-seiko-005",
@@ -2281,7 +3211,13 @@
     "created_at": "2026-07-03T21:16:00",
     "summary": "1年の終わりに、バルコニーからそっと見つめ直す。",
     "status": "published",
-    "featured_order": 158
+    "featured_order": 158,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "matsuda-seiko-006",
@@ -2295,7 +3231,13 @@
     "created_at": "2026-07-03T21:18:00",
     "summary": "名前ではなく、名もなき仕事として届けたかった曲。",
     "status": "published",
-    "featured_order": 159
+    "featured_order": 159,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "chris-hart-001",
@@ -2309,7 +3251,13 @@
     "created_at": "2026-07-03T21:20:00",
     "summary": "本当に大好きでした。このMV。",
     "status": "published",
-    "featured_order": 160
+    "featured_order": 160,
+    "rating": {
+      "song": 3,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "yakushimaru-hiroko-001",
@@ -2323,7 +3271,13 @@
     "created_at": "2026-07-03T21:22:00",
     "summary": "相容れないはずの2つの言葉が、ひとつになると強くなる。",
     "status": "published",
-    "featured_order": 161
+    "featured_order": 161,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "nakashima-mika-001",
@@ -2337,7 +3291,13 @@
     "created_at": "2026-07-03T21:24:00",
     "summary": "楽曲だけで勝負したいという、我儘に込めた矜持。",
     "status": "published",
-    "featured_order": 162
+    "featured_order": 162,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "shimizu-shota-001",
@@ -2351,7 +3311,13 @@
     "created_at": "2026-07-03T21:26:00",
     "summary": "離れてしまった人へ、季節が変わる前に届けたい願い。",
     "status": "published",
-    "featured_order": 163
+    "featured_order": 163,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "kirinji-011",
@@ -2365,7 +3331,13 @@
     "created_at": "2026-07-03T22:00:00",
     "summary": "1人になってなお、磨かれ続けるロマンティシズム。",
     "status": "published",
-    "featured_order": 164
+    "featured_order": 164,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "misia-003",
@@ -2379,7 +3351,13 @@
     "created_at": "2026-07-03T22:02:00",
     "summary": "温め続けた曲が、ふさわしい歌い手に出会うまでの物語。",
     "status": "published",
-    "featured_order": 165
+    "featured_order": 165,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "uru-001",
@@ -2393,7 +3371,13 @@
     "created_at": "2026-07-03T22:04:00",
     "summary": "ドラマは見れませんでしたが、同時期に映画の撮影に奔走させていただいた曲として、強烈に記憶に残っています。",
     "status": "published",
-    "featured_order": 166
+    "featured_order": 166,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "aska-001",
@@ -2407,7 +3391,13 @@
     "created_at": "2026-07-03T22:06:00",
     "summary": "いろいろあったけど、いいよね。私も始まりはいつも雨です。",
     "status": "published",
-    "featured_order": 167
+    "featured_order": 167,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "official-hige-dandism-002",
@@ -2421,7 +3411,13 @@
     "created_at": "2026-07-03T22:08:00",
     "summary": "些細な喧嘩さえ、一生分の愛おしさになる。",
     "status": "published",
-    "featured_order": 168
+    "featured_order": 168,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "official-hige-dandism-003",
@@ -2435,7 +3431,13 @@
     "created_at": "2026-07-03T22:10:00",
     "summary": "主流から外れているからこそ、輝ける場所がある。",
     "status": "published",
-    "featured_order": 169
+    "featured_order": 169,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "official-hige-dandism-004",
@@ -2449,7 +3451,13 @@
     "created_at": "2026-07-03T22:12:00",
     "summary": "哲学的というか知的センスを感じます。",
     "status": "published",
-    "featured_order": 170
+    "featured_order": 170,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "glay-001",
@@ -2463,7 +3471,13 @@
     "created_at": "2026-07-03T22:14:00",
     "summary": "多分、現地に居ました(笑)",
     "status": "published",
-    "featured_order": 171
+    "featured_order": 171,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "glay-002",
@@ -2477,7 +3491,13 @@
     "created_at": "2026-07-03T22:16:00",
     "summary": "多分、現地に居ました(笑)",
     "status": "published",
-    "featured_order": 172
+    "featured_order": 172,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "glay-003",
@@ -2491,7 +3511,13 @@
     "created_at": "2026-07-03T22:18:00",
     "summary": "この当時、とっても好きで、ウォークマンに入れてもらい、ヘビロテしてました。",
     "status": "published",
-    "featured_order": 173
+    "featured_order": 173,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "glay-004",
@@ -2505,7 +3531,13 @@
     "created_at": "2026-07-03T22:20:00",
     "summary": "空白を、自分自身の言葉で埋めていく。",
     "status": "published",
-    "featured_order": 174
+    "featured_order": 174,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "x-japan-001",
@@ -2519,7 +3551,13 @@
     "created_at": "2026-07-03T23:00:00",
     "summary": "大学３年生でした。聞き始めたのが。その時には、解散していて。でも好きでした。特に、トシさんの声、最高です。",
     "status": "published",
-    "featured_order": 175
+    "featured_order": 175,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "the-birthday-001",
@@ -2533,7 +3571,13 @@
     "created_at": "2026-07-03T23:02:00",
     "summary": "もうボーカルがいなくなるなんて。映画は本当によかったです。",
     "status": "published",
-    "featured_order": 176
+    "featured_order": 176,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "yoshiki-001",
@@ -2547,7 +3591,12 @@
     "created_at": "2026-07-03T23:04:00",
     "summary": "without you あなたなしで。私もあなたなしで生きてきましたよ。もうあなたなしでいいですけどね(笑)でもあなたと一緒にいたかった。",
     "status": "published",
-    "featured_order": 177
+    "featured_order": 177,
+    "rating": {
+      "song": 5,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "nonomura-ayano-001",
@@ -2561,7 +3610,13 @@
     "created_at": "2026-07-03T23:06:00",
     "summary": "200年前の祈りの歌が、澄んだ声で今に届く。",
     "status": "published",
-    "featured_order": 178
+    "featured_order": 178,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "nonomura-ayano-002",
@@ -2575,7 +3630,13 @@
     "created_at": "2026-07-03T23:08:00",
     "summary": "やはりこれ。日本人の源。",
     "status": "published",
-    "featured_order": 179
+    "featured_order": 179,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "kirinji-012",
@@ -2589,7 +3650,13 @@
     "created_at": "2026-07-03T23:10:00",
     "summary": "人生の折り返しで気づく、伝えたい想いの残り時間。",
     "status": "published",
-    "featured_order": 180
+    "featured_order": 180,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "ymo-001",
@@ -2603,7 +3670,12 @@
     "created_at": "2026-07-03T23:12:00",
     "summary": "日本発のテクノが、世界の音楽地図を書き換えた。",
     "status": "published",
-    "featured_order": 181
+    "featured_order": 181,
+    "rating": {
+      "song": 5,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "ryuichi-sakamoto-001",
@@ -2617,7 +3689,12 @@
     "created_at": "2026-07-03T23:14:00",
     "summary": "病と向き合いながらも、1音1音を積み重ねて残した演奏。",
     "status": "published",
-    "featured_order": 182
+    "featured_order": 182,
+    "rating": {
+      "song": 5,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "joe-hisaishi-001",
@@ -2631,7 +3708,12 @@
     "created_at": "2026-07-03T23:16:00",
     "summary": "ピアノのひと粒の音から、ひとつの世界が立ち上がる。",
     "status": "published",
-    "featured_order": 183
+    "featured_order": 183,
+    "rating": {
+      "song": 5,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "joe-hisaishi-002",
@@ -2645,7 +3727,12 @@
     "created_at": "2026-07-03T23:18:00",
     "summary": "不器用な優しさが、軽やかなメロディーに宿る。",
     "status": "published",
-    "featured_order": 184
+    "featured_order": 184,
+    "rating": {
+      "song": 5,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "kirinji-013",
@@ -2659,7 +3746,13 @@
     "created_at": "2026-07-04T00:00:00",
     "summary": "新しい船出には、寿ぎの歌がふさわしい。",
     "status": "published",
-    "featured_order": 185
+    "featured_order": 185,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "kirinji-014",
@@ -2673,7 +3766,13 @@
     "created_at": "2026-07-04T00:02:00",
     "summary": "意外な組み合わせほど、思いがけない化学反応を起こす。",
     "status": "published",
-    "featured_order": 186
+    "featured_order": 186,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "nakayama-miho-001",
@@ -2691,7 +3790,13 @@
     "artists": [
       "中山美穂",
       "WANDS"
-    ]
+    ],
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "nakayama-miho-002",
@@ -2709,7 +3814,13 @@
     "artists": [
       "中山美穂",
       "WANDS"
-    ]
+    ],
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "nakayama-miho-003",
@@ -2723,7 +3834,13 @@
     "created_at": "2026-07-04T00:08:00",
     "summary": "離れた場所にいても、想いは同じ空の下に届く。",
     "status": "published",
-    "featured_order": 189
+    "featured_order": 189,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "nakayama-miho-004",
@@ -2737,7 +3854,13 @@
     "created_at": "2026-07-04T00:10:00",
     "summary": "理由がなくても、涙が心を軽くしてくれることがある。",
     "status": "published",
-    "featured_order": 190
+    "featured_order": 190,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "mai-kuraki-001",
@@ -2751,7 +3874,13 @@
     "created_at": "2026-07-04T00:12:00",
     "summary": "同時期に大学生だったと。",
     "status": "published",
-    "featured_order": 191
+    "featured_order": 191,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "ryuichi-sakamoto-002",
@@ -2765,7 +3894,12 @@
     "created_at": "2026-07-04T00:14:00",
     "summary": "The Last Emperor (Theme)の映画も鮮烈でした。",
     "status": "published",
-    "featured_order": 192
+    "featured_order": 192,
+    "rating": {
+      "song": 5,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "glay-005",
@@ -2779,7 +3913,13 @@
     "created_at": "2026-07-04T00:16:00",
     "summary": "初めてのトップ10入りが、その後の躍進の号砲になった。",
     "status": "published",
-    "featured_order": 193
+    "featured_order": 193,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "stardust-revue-001",
@@ -2793,7 +3933,13 @@
     "created_at": "2026-07-04T00:18:00",
     "summary": "10年の時を経て、生まれ変わった名曲。",
     "status": "published",
-    "featured_order": 194
+    "featured_order": 194,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "mr-children-001",
@@ -2807,7 +3953,13 @@
     "created_at": "2026-07-04T01:00:00",
     "summary": "シンプルな一言が、幾つもの時代のCMを支え続けた。",
     "status": "published",
-    "featured_order": 195
+    "featured_order": 195,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "mr-children-002",
@@ -2821,7 +3973,13 @@
     "created_at": "2026-07-04T01:02:00",
     "summary": "10年越しに、もう一度掴んだ栄誉。",
     "status": "published",
-    "featured_order": 196
+    "featured_order": 196,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "mr-children-003",
@@ -2835,7 +3993,13 @@
     "created_at": "2026-07-04T01:04:00",
     "summary": "誰かと関わったという事実は、痕跡として残り続ける。",
     "status": "published",
-    "featured_order": 197
+    "featured_order": 197,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "mr-children-004",
@@ -2849,7 +4013,13 @@
     "created_at": "2026-07-04T01:06:00",
     "summary": "名前がなくても、確かにそこにある想いがある。",
     "status": "published",
-    "featured_order": 198
+    "featured_order": 198,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "mr-children-005",
@@ -2863,7 +4033,13 @@
     "created_at": "2026-07-04T01:08:00",
     "summary": "友人のために書いた曲が、いつしか代表曲になった。",
     "status": "published",
-    "featured_order": 199
+    "featured_order": 199,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "mr-children-006",
@@ -2877,7 +4053,13 @@
     "created_at": "2026-07-04T01:10:00",
     "summary": "明日のことは誰にも分からないからこそ、心の赴くままに。",
     "status": "published",
-    "featured_order": 200
+    "featured_order": 200,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "mr-children-007",
@@ -2891,7 +4073,13 @@
     "created_at": "2026-07-04T01:12:00",
     "summary": "限られた時間だからこそ、太陽に向かって咲く。",
     "status": "published",
-    "featured_order": 201
+    "featured_order": 201,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "m-flo-001",
@@ -2905,7 +4093,13 @@
     "created_at": "2026-07-04T02:00:00",
     "summary": "シャネルとストラップ携帯が同居していた、あの時代の空気。",
     "status": "published",
-    "featured_order": 202
+    "featured_order": 202,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "tokyo-ska-001",
@@ -2919,7 +4113,13 @@
     "created_at": "2026-07-04T02:02:00",
     "summary": "歌詞がなくても、確かに伝わる物語がある。",
     "status": "published",
-    "featured_order": 203
+    "featured_order": 203,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "kuwata-keisuke-001",
@@ -2933,7 +4133,13 @@
     "created_at": "2026-07-04T02:04:00",
     "summary": "東京はいいよね。",
     "status": "published",
-    "featured_order": 204
+    "featured_order": 204,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "kuwata-keisuke-002",
@@ -2947,7 +4153,13 @@
     "created_at": "2026-07-04T02:06:00",
     "summary": "歌謡曲の系譜を、映像仕立てのサスペンスとして届ける。",
     "status": "published",
-    "featured_order": 205
+    "featured_order": 205,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "kuwata-keisuke-003",
@@ -2961,7 +4173,13 @@
     "created_at": "2026-07-04T02:08:00",
     "summary": "クリスマスソングの定番になりましたね。私が知っているころは新曲出した(笑)",
     "status": "published",
-    "featured_order": 206
+    "featured_order": 206,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "yamazaki-masayoshi-001",
@@ -2975,7 +4193,13 @@
     "created_at": "2026-07-04T02:10:00",
     "summary": "カラオケで歌うとかっこいいと思っていましたが、でもいい曲です。",
     "status": "published",
-    "featured_order": 207
+    "featured_order": 207,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "pizzicato-five-001",
@@ -2989,7 +4213,13 @@
     "created_at": "2026-07-04T02:12:00",
     "summary": "ガキの使いやあらへんで、で教えてもらった曲ですがいい曲です。",
     "status": "published",
-    "featured_order": 208
+    "featured_order": 208,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "pizzicato-five-002",
@@ -3003,7 +4233,13 @@
     "created_at": "2026-07-04T02:14:00",
     "summary": "東京は夜の七時でしょ。",
     "status": "published",
-    "featured_order": 209
+    "featured_order": 209,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "yamazaki-masayoshi-002",
@@ -3017,7 +4253,13 @@
     "created_at": "2026-07-04T02:16:00",
     "summary": "歌い手が変わっても、曲の本質は変わらない。",
     "status": "published",
-    "featured_order": 210
+    "featured_order": 210,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "saito-kazuyoshi-001",
@@ -3031,7 +4273,13 @@
     "created_at": "2026-07-04T02:18:00",
     "summary": "同窓会で再会した初恋の人に、ようやく告げる想い。",
     "status": "published",
-    "featured_order": 211
+    "featured_order": 211,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "saito-kazuyoshi-002",
@@ -3045,7 +4293,13 @@
     "created_at": "2026-07-04T02:20:00",
     "summary": "なりたいという願いそのものが、すでに優しさの一歩になる。",
     "status": "published",
-    "featured_order": 212
+    "featured_order": 212,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "ulfuls-001",
@@ -3059,7 +4313,13 @@
     "created_at": "2026-07-04T02:22:00",
     "summary": "難しい理屈より、笑えることの方がずっと大切だ。",
     "status": "published",
-    "featured_order": 213
+    "featured_order": 213,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "ulfuls-002",
@@ -3073,7 +4333,13 @@
     "created_at": "2026-07-04T02:24:00",
     "summary": "迷いを断ち切る、力強い言い切りの美学。",
     "status": "published",
-    "featured_order": 214
+    "featured_order": 214,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "ulfuls-003",
@@ -3087,7 +4353,13 @@
     "created_at": "2026-07-04T02:26:00",
     "summary": "デビュー間もない頃から、何度も録り直されてきた愛され曲。",
     "status": "published",
-    "featured_order": 215
+    "featured_order": 215,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "okuda-tamio-001",
@@ -3101,7 +4373,13 @@
     "created_at": "2026-07-04T03:00:00",
     "summary": "四半世紀を経て、まったく新しい世代に見つけ出された曲。",
     "status": "published",
-    "featured_order": 216
+    "featured_order": 216,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "ulfuls-004",
@@ -3115,7 +4393,13 @@
     "created_at": "2026-07-04T03:02:00",
     "summary": "結ばれるかどうかより、好きになれたこと自体を祝おう。",
     "status": "published",
-    "featured_order": 217
+    "featured_order": 217,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "ulfuls-005",
@@ -3129,7 +4413,13 @@
     "created_at": "2026-07-04T03:04:00",
     "summary": "結果がどうであれ、それでええねん。",
     "status": "published",
-    "featured_order": 218
+    "featured_order": 218,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "eikichi-yazawa-001",
@@ -3157,7 +4447,13 @@
     "created_at": "2026-07-04T04:02:00",
     "summary": "当時69位だった曲が、40年後にシティポップの象徴になった。",
     "status": "published",
-    "featured_order": 220
+    "featured_order": 220,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "matsubara-miki-001",
@@ -3171,7 +4467,13 @@
     "created_at": "2026-07-04T04:04:00",
     "summary": "インドネシアのユーチューバーが、41年前の扉を開いた。",
     "status": "published",
-    "featured_order": 221
+    "featured_order": 221,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "hirai-ken-001",
@@ -3185,7 +4487,13 @@
     "created_at": "2026-07-04T06:30:00",
     "summary": "好きな女性をうまく連れ出したいと考えていた頃の記憶を、バーの灯りと声の余白からたどる。",
     "status": "published",
-    "featured_order": 222
+    "featured_order": 222,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "sano-motoharu-001",
@@ -3199,7 +4507,13 @@
     "created_at": "2026-07-04T07:10:00",
     "summary": "橋の向こうへ渡ろうとする気持ちを、今の仕事と過去の自分から聴き直す。",
     "status": "published",
-    "featured_order": 223
+    "featured_order": 223,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "kaguyahime-001",
@@ -3213,7 +4527,13 @@
     "created_at": "2026-07-04T07:11:00",
     "summary": "フォークの生活感が、若いころの部屋と時代の空気を呼び戻す。",
     "status": "published",
-    "featured_order": 224
+    "featured_order": 224,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kaguyahime-002",
@@ -3227,7 +4547,13 @@
     "created_at": "2026-07-04T07:12:00",
     "summary": "妹を持つ兄として、家族の距離と送り出す気持ちを聴き直す。",
     "status": "published",
-    "featured_order": 225
+    "featured_order": 225,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kaguyahime-003",
@@ -3241,7 +4567,13 @@
     "created_at": "2026-07-04T07:13:00",
     "summary": "やさしい言葉の裏側にある、若い恋の不安と居場所を聴く。",
     "status": "published",
-    "featured_order": 226
+    "featured_order": 226,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "kaguyahime-004",
@@ -3255,7 +4587,13 @@
     "created_at": "2026-07-04T07:14:00",
     "summary": "時代背景を帯びた刺激の強さを、手紙という古い媒体から聴き直す。",
     "status": "published",
-    "featured_order": 227
+    "featured_order": 227,
+    "rating": {
+      "song": 3,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kaguyahime-005",
@@ -3269,7 +4607,13 @@
     "created_at": "2026-07-04T07:15:00",
     "summary": "二十二歳で別れるものだと思っていた若さと、実際の別れを重ねる。",
     "status": "published",
-    "featured_order": 228
+    "featured_order": 228,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kaze-001",
@@ -3283,7 +4627,13 @@
     "created_at": "2026-07-04T07:16:00",
     "summary": "風バージョンの端正さから、同じ曲が別の時間を持つことを聴く。",
     "status": "published",
-    "featured_order": 229
+    "featured_order": 229,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "ozaki-ami-001",
@@ -3297,7 +4647,13 @@
     "created_at": "2026-07-04T07:17:00",
     "summary": "化粧品CMの記憶と、軽やかな都会的ポップスの手触りを聴き直す。",
     "status": "published",
-    "featured_order": 230
+    "featured_order": 230,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "arai-yumi-001",
@@ -3311,7 +4667,13 @@
     "created_at": "2026-07-04T12:00:00",
     "summary": "坂を登るように空へと消えていくひこうき雲を見上げる曲。逝ってしまった誰かの記憶と、介護や実家じまいで向き合う人生の時間を聴く。",
     "status": "published",
-    "featured_order": 231
+    "featured_order": 231,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "matsutoya-yumi-001",
@@ -3325,7 +4687,13 @@
     "created_at": "2026-07-04T12:01:00",
     "summary": "巡る季節の中で、遠く離れた大切な人を思う春の曲。NHK朝ドラの記憶とともに、磐田の春の風景と大切な人々の歩みを聴き直す。",
     "status": "published",
-    "featured_order": 232
+    "featured_order": 232,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "arai-yumi-002",
@@ -3339,7 +4707,13 @@
     "created_at": "2026-07-04T12:02:00",
     "summary": "軽快なオールドポップスのビートに乗せて、不義理な恋人への抗議を歌う曲。東京のきらびやかな夜と、磐田で向き合う人々の生きた歴史をたどる。",
     "status": "published",
-    "featured_order": 233
+    "featured_order": 233,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "aimer-001",
@@ -3353,7 +4727,13 @@
     "created_at": "2026-07-04T12:03:00",
     "summary": "蝶々結びを結ぶ手元の描写から、人と人の繋がりの尊さと傷つきやすさを描く曲。介護で向き合う家族の絆や、不動産で受け継がれる温かな記憶を重ね合わせる。",
     "status": "published",
-    "featured_order": 234
+    "featured_order": 234,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "anri-002",
@@ -3367,7 +4747,13 @@
     "created_at": "2026-07-05T09:00:00",
     "summary": "16歳の杏里がオリビア・ニュートン・ジョンへの憧れを口にしたことから生まれたデビュー曲。半世紀近くを経て歌い継がれる、憧れから始まる一歩を描いた一曲。",
     "status": "published",
-    "featured_order": 235
+    "featured_order": 235,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "aska-002",
@@ -3379,7 +4765,13 @@
     "release_year": 1998,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=xx9tNmb-8Zo",
-    "featured_order": 236
+    "featured_order": 236,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "aska-003",
@@ -3391,7 +4783,13 @@
     "release_year": 2017,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=GeVCgkXm6cg",
-    "featured_order": 237
+    "featured_order": 237,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "aska-004",
@@ -3415,7 +4813,13 @@
     "release_year": 2015,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=JfgOjtq440o",
-    "featured_order": 239
+    "featured_order": 239,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "bonnie-pink-001",
@@ -3427,7 +4831,13 @@
     "release_year": 2006,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=qe5pN-xMnPo",
-    "featured_order": 240
+    "featured_order": 240,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "bonnie-pink-002",
@@ -3439,7 +4849,13 @@
     "release_year": 2008,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=65DtPZLeBzs",
-    "featured_order": 241
+    "featured_order": 241,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "bonnie-pink-003",
@@ -3451,7 +4867,13 @@
     "release_year": 2004,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=qFPvvBqNjFc",
-    "featured_order": 242
+    "featured_order": 242,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "bonnie-pink-004",
@@ -3463,7 +4885,13 @@
     "release_year": 2003,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=7ZAEyMFko7A",
-    "featured_order": 243
+    "featured_order": 243,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "bonnie-pink-005",
@@ -3475,7 +4903,13 @@
     "release_year": 2010,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=YRghRp4awaQ",
-    "featured_order": 244
+    "featured_order": 244,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "bonnie-pink-006",
@@ -3487,7 +4921,13 @@
     "release_year": 2009,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=BjaPvjwM9GM",
-    "featured_order": 245
+    "featured_order": 245,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "bonnie-pink-007",
@@ -3499,7 +4939,13 @@
     "release_year": 2001,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=CbAp4fMqIQE",
-    "featured_order": 246
+    "featured_order": 246,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "bonnie-pink-008",
@@ -3511,7 +4957,13 @@
     "release_year": 2006,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=hY3G266DOPQ",
-    "featured_order": 247
+    "featured_order": 247,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "bonnie-pink-009",
@@ -3523,7 +4975,13 @@
     "release_year": 2010,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=w1qGHyVbqBA",
-    "featured_order": 248
+    "featured_order": 248,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "bonnie-pink-010",
@@ -3535,7 +4993,13 @@
     "release_year": 2007,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=LGzU2tFrJB8",
-    "featured_order": 249
+    "featured_order": 249,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "deen-001",
@@ -3547,7 +5011,13 @@
     "release_year": 1993,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=yFvrbelLW5w",
-    "featured_order": 250
+    "featured_order": 250,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "deen-002",
@@ -3559,7 +5029,13 @@
     "release_year": 1994,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=TcZG8k-3HiA",
-    "featured_order": 251
+    "featured_order": 251,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "deen-003",
@@ -3571,7 +5047,13 @@
     "release_year": 2008,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=EcPFL_ZDJSo",
-    "featured_order": 252
+    "featured_order": 252,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "dreams-come-true-003",
@@ -3583,7 +5065,13 @@
     "release_year": 1989,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=jysWZ3eW3AA",
-    "featured_order": 253
+    "featured_order": 253,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "dreams-come-true-004",
@@ -3595,7 +5083,13 @@
     "release_year": 1995,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=Vj6OAlDgv9M",
-    "featured_order": 254
+    "featured_order": 254,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "dreams-come-true-005",
@@ -3607,7 +5101,13 @@
     "release_year": 2004,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=yxvSUaeXm1c",
-    "featured_order": 255
+    "featured_order": 255,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "dreams-come-true-006",
@@ -3619,7 +5119,13 @@
     "release_year": 1990,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=VcEP7IcJJHs",
-    "featured_order": 256
+    "featured_order": 256,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "elephant-kashimashi-001",
@@ -3631,7 +5137,13 @@
     "release_year": 1981,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=cWHU2-WnZqc",
-    "featured_order": 257
+    "featured_order": 257,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "fukuyama-masaharu-002",
@@ -3643,7 +5155,13 @@
     "release_year": 2003,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=SXyqhjhaQQA",
-    "featured_order": 258
+    "featured_order": 258,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "fukuyama-masaharu-003",
@@ -3655,7 +5173,13 @@
     "release_year": 2009,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=WLwgd5sCq_M",
-    "featured_order": 259
+    "featured_order": 259,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "fukuyama-masaharu-004",
@@ -3667,7 +5191,13 @@
     "release_year": 2010,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=lQQxViMcafQ",
-    "featured_order": 260
+    "featured_order": 260,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "fukuyama-masaharu-005",
@@ -3679,7 +5209,13 @@
     "release_year": 2014,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=rZSQbQtrLds",
-    "featured_order": 261
+    "featured_order": 261,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "fukuyama-masaharu-006",
@@ -3691,7 +5227,13 @@
     "release_year": 2012,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=H47tnBf4ato",
-    "featured_order": 262
+    "featured_order": 262,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "fukuyama-masaharu-007",
@@ -3703,7 +5245,13 @@
     "release_year": 2005,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=Z_YCscXpGnU",
-    "featured_order": 263
+    "featured_order": 263,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "fukuyama-masaharu-008",
@@ -3715,7 +5263,13 @@
     "release_year": 2014,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=37bHFU6nW7s",
-    "featured_order": 264
+    "featured_order": 264,
+    "rating": {
+      "song": 3,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "fukuyama-masaharu-009",
@@ -3727,7 +5281,13 @@
     "release_year": 2020,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=9MQ-P71R_ic",
-    "featured_order": 265
+    "featured_order": 265,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "genie-high-001",
@@ -3739,7 +5299,13 @@
     "release_year": 2017,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=G6earlGo0b0",
-    "featured_order": 266
+    "featured_order": 266,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "genie-high-002",
@@ -3751,7 +5317,13 @@
     "release_year": 2018,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=qj9HxreMrSA",
-    "featured_order": 267
+    "featured_order": 267,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "genie-high-003",
@@ -3763,7 +5335,13 @@
     "release_year": 2018,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=PycRXQtJU0s",
-    "featured_order": 268
+    "featured_order": 268,
+    "rating": {
+      "song": 3,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "mv"
+    }
   },
   {
     "id": "genie-high-004",
@@ -3775,7 +5353,13 @@
     "release_year": 2019,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=43wWe7_SztA",
-    "featured_order": 269
+    "featured_order": 269,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "globe-001",
@@ -3787,7 +5371,13 @@
     "release_year": 1996,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=4ctWvVAmQpo",
-    "featured_order": 270
+    "featured_order": 270,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "globe-002",
@@ -3799,7 +5389,13 @@
     "release_year": 1995,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=VHKMwue-jUE",
-    "featured_order": 271
+    "featured_order": 271,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "globe-003",
@@ -3811,7 +5407,13 @@
     "release_year": 1995,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=kMs3JIXeJ0Q",
-    "featured_order": 272
+    "featured_order": 272,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "globe-004",
@@ -3823,7 +5425,13 @@
     "release_year": 1997,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=W5cZcrkQ-b4",
-    "featured_order": 273
+    "featured_order": 273,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "globe-005",
@@ -3835,7 +5443,13 @@
     "release_year": 1998,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=FEkgOG5lg7s",
-    "featured_order": 274
+    "featured_order": 274,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "globe-006",
@@ -3847,7 +5461,13 @@
     "release_year": 1998,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=HoV3sF1xhmo",
-    "featured_order": 275
+    "featured_order": 275,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "globe-007",
@@ -3859,7 +5479,13 @@
     "release_year": 1996,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=Z-asfMte17s",
-    "featured_order": 276
+    "featured_order": 276,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "globe-008",
@@ -3871,7 +5497,13 @@
     "release_year": 1987,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=36ydeA9sSYM",
-    "featured_order": 277
+    "featured_order": 277,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "globe-009",
@@ -3883,7 +5515,13 @@
     "release_year": 1995,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=0jXWjGl_AWE",
-    "featured_order": 278
+    "featured_order": 278,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "globe-010",
@@ -3895,7 +5533,13 @@
     "release_year": 2002,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=APcOZvx82B0",
-    "featured_order": 279
+    "featured_order": 279,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "globe-011",
@@ -3907,7 +5551,13 @@
     "release_year": 1997,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=VhsuYZiLjFo",
-    "featured_order": 280
+    "featured_order": 280,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "globe-012",
@@ -3919,7 +5569,13 @@
     "release_year": 1996,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=Cd6NvdB8PG0",
-    "featured_order": 281
+    "featured_order": 281,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "globe-013",
@@ -3931,7 +5587,13 @@
     "release_year": 1998,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=VdOdDDuMiwY",
-    "featured_order": 282
+    "featured_order": 282,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "globe-014",
@@ -3943,7 +5605,13 @@
     "release_year": 1997,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=3djg2YAblk8",
-    "featured_order": 283
+    "featured_order": 283,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "globe-015",
@@ -3955,7 +5623,13 @@
     "release_year": 1997,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=gtT347z0Z7A",
-    "featured_order": 284
+    "featured_order": 284,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "globe-016",
@@ -3967,7 +5641,13 @@
     "release_year": 2001,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=fAOoQZQa5no",
-    "featured_order": 285
+    "featured_order": 285,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "globe-017",
@@ -3979,7 +5659,13 @@
     "release_year": 1999,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=rTZxiN-_8FY",
-    "featured_order": 286
+    "featured_order": 286,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "globe-018",
@@ -3991,7 +5677,13 @@
     "release_year": 1995,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=l6ypfWAWKQw",
-    "featured_order": 287
+    "featured_order": 287,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "go-hiromi-002",
@@ -4003,7 +5695,13 @@
     "release_year": 1994,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=HAkUeMEOXzQ",
-    "featured_order": 288
+    "featured_order": 288,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "go-hiromi-003",
@@ -4015,7 +5713,13 @@
     "release_year": 1981,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=NK2Xf6-S3P8",
-    "featured_order": 289
+    "featured_order": 289,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "go-hiromi-004",
@@ -4027,7 +5731,13 @@
     "release_year": 1980,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=7pLcHkw_WhY",
-    "featured_order": 290
+    "featured_order": 290,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "go-hiromi-005",
@@ -4039,7 +5749,13 @@
     "release_year": 1974,
     "decade": "1970年代",
     "youtube_url": "https://www.youtube.com/watch?v=s6pOcMk8UtA",
-    "featured_order": 291
+    "featured_order": 291,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "go-hiromi-006",
@@ -4051,7 +5767,13 @@
     "release_year": 2024,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=jNaSmIiqIHk",
-    "featured_order": 292
+    "featured_order": 292,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "go-hiromi-007",
@@ -4063,7 +5785,13 @@
     "release_year": 2022,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=I9LNUKcsuKU",
-    "featured_order": 293
+    "featured_order": 293,
+    "rating": {
+      "song": 3,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "go-hiromi-008",
@@ -4075,7 +5803,13 @@
     "release_year": 2023,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=lT9wRaPHV8Q",
-    "featured_order": 294
+    "featured_order": 294,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "go-hiromi-009",
@@ -4087,7 +5821,13 @@
     "release_year": 2025,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=7mRBC52rcCE",
-    "featured_order": 295
+    "featured_order": 295,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "go-hiromi-010",
@@ -4099,7 +5839,13 @@
     "release_year": 2021,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=KefDFahM-vc",
-    "featured_order": 296
+    "featured_order": 296,
+    "rating": {
+      "song": 3,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "hamada-shogo-001",
@@ -4111,7 +5857,13 @@
     "release_year": 2011,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=Oy7fhdAWvpk",
-    "featured_order": 297
+    "featured_order": 297,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "hamada-shogo-002",
@@ -4123,7 +5875,13 @@
     "release_year": 2005,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=IIqi3YVC-Bg",
-    "featured_order": 298
+    "featured_order": 298,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "hamada-shogo-003",
@@ -4135,7 +5893,13 @@
     "release_year": 1975,
     "decade": "1970年代",
     "youtube_url": "https://www.youtube.com/watch?v=ZXhDTCKH3qM",
-    "featured_order": 299
+    "featured_order": 299,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "hamada-shogo-004",
@@ -4147,7 +5911,13 @@
     "release_year": 2015,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=kMqgomNGbHw",
-    "featured_order": 300
+    "featured_order": 300,
+    "rating": {
+      "song": 3,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "hisamatsu-fumina-001",
@@ -4159,7 +5929,13 @@
     "release_year": 1992,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=inDNqHsDlf8",
-    "featured_order": 301
+    "featured_order": 301,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "hotei-tomoyasu-001",
@@ -4171,7 +5947,13 @@
     "release_year": 1995,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=WfMEHQjHdH4",
-    "featured_order": 302
+    "featured_order": 302,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "hotei-tomoyasu-002",
@@ -4183,7 +5965,13 @@
     "release_year": 1999,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=lwOWS02RoEw",
-    "featured_order": 303
+    "featured_order": 303,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "hotei-tomoyasu-003",
@@ -4195,7 +5983,13 @@
     "release_year": 1996,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=4pEj_f4A9O4",
-    "featured_order": 304
+    "featured_order": 304,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "hotei-tomoyasu-004",
@@ -4207,7 +6001,13 @@
     "release_year": 2002,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=F3589zFsgBo",
-    "featured_order": 305
+    "featured_order": 305,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "hotei-tomoyasu-005",
@@ -4219,7 +6019,13 @@
     "release_year": 1996,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=djdXSl_qTOY",
-    "featured_order": 306
+    "featured_order": 306,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "hotei-tomoyasu-006",
@@ -4231,7 +6037,13 @@
     "release_year": 1988,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=s4Szf_imSMM",
-    "featured_order": 307
+    "featured_order": 307,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "kikkawa-koji-001",
@@ -4243,7 +6055,13 @@
     "release_year": 2010,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=q4BsgFVU360",
-    "featured_order": 308
+    "featured_order": 308,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kikkawa-koji-002",
@@ -4255,7 +6073,13 @@
     "release_year": 2020,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=DZ2GbL7D230",
-    "featured_order": 309
+    "featured_order": 309,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "kirinji-015",
@@ -4265,7 +6089,13 @@
     "summary": "KIRINJI「flush! flush! flush!」を、大石セレクション（曲・歌詞・MV）で読み解くATAWI MUSIC記事です。",
     "status": "published",
     "youtube_url": "https://www.youtube.com/watch?v=CpTtZ6KQTNA",
-    "featured_order": 310
+    "featured_order": 310,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kobayashi-tateki-001",
@@ -4277,7 +6107,13 @@
     "release_year": 1999,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=bsExShj-wp0",
-    "featured_order": 311
+    "featured_order": 311,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "kobayashi-tateki-002",
@@ -4289,7 +6125,13 @@
     "release_year": 1999,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=1NgNzhn_eCE",
-    "featured_order": 312
+    "featured_order": 312,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kobayashi-tateki-003",
@@ -4301,7 +6143,13 @@
     "release_year": 2000,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=27L5_g9bK78",
-    "featured_order": 313
+    "featured_order": 313,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "kobayashi-tateki-004",
@@ -4313,7 +6161,13 @@
     "release_year": 2000,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=aj0zi97NEAQ",
-    "featured_order": 314
+    "featured_order": 314,
+    "rating": {
+      "song": 3,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "kobayashi-tateki-005",
@@ -4325,7 +6179,13 @@
     "release_year": 2000,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=FXSmER2HEqw",
-    "featured_order": 315
+    "featured_order": 315,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kobayashi-tateki-006",
@@ -4337,7 +6197,13 @@
     "release_year": 2001,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=k0IJmm-p0xA",
-    "featured_order": 316
+    "featured_order": 316,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "kobayashi-tateki-007",
@@ -4349,7 +6215,13 @@
     "release_year": 2002,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=EWFjZp5Xxqk",
-    "featured_order": 317
+    "featured_order": 317,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kohiruimaki-kahoru-001",
@@ -4361,7 +6233,13 @@
     "release_year": 1987,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=ja1ymJQt1z0",
-    "featured_order": 318
+    "featured_order": 318,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "kohiruimaki-kahoru-002",
@@ -4373,7 +6251,13 @@
     "release_year": 1987,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=gO7e0fDWRos",
-    "featured_order": 319
+    "featured_order": 319,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "kohiruimaki-kahoru-003",
@@ -4385,7 +6269,13 @@
     "release_year": 1988,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=by-107dCuJo",
-    "featured_order": 320
+    "featured_order": 320,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kohiruimaki-kahoru-004",
@@ -4395,7 +6285,13 @@
     "summary": "小比類巻かほる「Cops And Robbers」を、大石セレクション（曲・歌詞・MV）で読み解くATAWI MUSIC記事です。",
     "status": "published",
     "youtube_url": "https://www.youtube.com/watch?v=_q_RAKJKkHI",
-    "featured_order": 321
+    "featured_order": 321,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "kohiruimaki-kahoru-005",
@@ -4407,7 +6303,13 @@
     "release_year": 1988,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=TXEGP0-hQwU",
-    "featured_order": 322
+    "featured_order": 322,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kohiruimaki-kahoru-006",
@@ -4417,7 +6319,13 @@
     "summary": "小比類巻かほるが歌う「ルパン三世のテーマ」を、大石セレクション（曲・歌詞・MV）で読み解くATAWI MUSIC記事です。",
     "status": "published",
     "youtube_url": "https://www.youtube.com/watch?v=IkMx4yho6AY",
-    "featured_order": 323
+    "featured_order": 323,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "kubota-toshinobu-002",
@@ -4429,7 +6337,13 @@
     "release_year": 1996,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=JHqCneAi9Sw",
-    "featured_order": 324
+    "featured_order": 324,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "kuwata-keisuke-004",
@@ -4441,7 +6355,13 @@
     "release_year": 2002,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=AjRbQMwXMN0",
-    "featured_order": 325
+    "featured_order": 325,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kuwata-keisuke-005",
@@ -4453,7 +6373,13 @@
     "release_year": 2020,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=ThVAJuQQTXU",
-    "featured_order": 326
+    "featured_order": 326,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "kuwata-keisuke-006",
@@ -4465,7 +6391,13 @@
     "release_year": 2012,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=Fay3ZhHS1rU",
-    "featured_order": 327
+    "featured_order": 327,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kuwata-keisuke-007",
@@ -4477,7 +6409,13 @@
     "release_year": 2001,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=9ZbLT4INFpw",
-    "featured_order": 328
+    "featured_order": 328,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "kuwata-keisuke-008",
@@ -4489,7 +6427,13 @@
     "release_year": 2022,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=7JXEqX7M4Kc",
-    "featured_order": 329
+    "featured_order": 329,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kuwata-keisuke-009",
@@ -4501,7 +6445,13 @@
     "release_year": 2016,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=pRDI2XHvXLQ",
-    "featured_order": 330
+    "featured_order": 330,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kuwata-keisuke-010",
@@ -4513,7 +6463,13 @@
     "release_year": 2021,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=4jn41JBHRbs",
-    "featured_order": 331
+    "featured_order": 331,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "kuwata-keisuke-011",
@@ -4525,7 +6481,13 @@
     "release_year": 2017,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=32SIXAogkYI",
-    "featured_order": 332
+    "featured_order": 332,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kuwata-keisuke-012",
@@ -4535,7 +6497,13 @@
     "summary": "桑田佳祐「風の詩を聴かせて」（Full ver.）を、大石セレクション（曲・歌詞・MV）で読み解くATAWI MUSIC記事です。",
     "status": "published",
     "youtube_url": "https://www.youtube.com/watch?v=mbyAoMjrPC0",
-    "featured_order": 333
+    "featured_order": 333,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kuwata-keisuke-013",
@@ -4545,7 +6513,13 @@
     "summary": "桑田佳祐「君にサヨナラを」（Full ver.）を、大石セレクション（曲・歌詞・MV）で読み解くATAWI MUSIC記事です。",
     "status": "published",
     "youtube_url": "https://www.youtube.com/watch?v=OsKXzmrYUqw",
-    "featured_order": 334
+    "featured_order": 334,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "kuwata-keisuke-014",
@@ -4555,7 +6529,13 @@
     "summary": "桑田佳祐「真夜中のダンディー」（Short ver.）を、大石セレクション（曲・歌詞・MV）で読み解くATAWI MUSIC記事です。",
     "status": "published",
     "youtube_url": "https://www.youtube.com/watch?v=hHkbravdbB8",
-    "featured_order": 335
+    "featured_order": 335,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "makihara-noriyuki-003",
@@ -4567,7 +6547,13 @@
     "release_year": 2015,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=yDCgSEnwld8",
-    "featured_order": 336
+    "featured_order": 336,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "misia-004",
@@ -4579,7 +6565,13 @@
     "release_year": 2019,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=1lD3RSit348",
-    "featured_order": 337
+    "featured_order": 337,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "misia-005",
@@ -4591,7 +6583,13 @@
     "release_year": 2018,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=JcNi89esMGM",
-    "featured_order": 338
+    "featured_order": 338,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "misia-006",
@@ -4603,7 +6601,13 @@
     "release_year": 2024,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=QdVWtHc2_LU",
-    "featured_order": 339
+    "featured_order": 339,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "misia-007",
@@ -4615,7 +6619,13 @@
     "release_year": 1999,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=7-xChqpitwQ",
-    "featured_order": 340
+    "featured_order": 340,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "misia-008",
@@ -4627,7 +6637,13 @@
     "release_year": 2015,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=_pyfH3oj_eg",
-    "featured_order": 341
+    "featured_order": 341,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "misia-009",
@@ -4639,7 +6655,13 @@
     "release_year": 2002,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=DzLhJkY8p6I",
-    "featured_order": 342
+    "featured_order": 342,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "misia-010",
@@ -4651,7 +6673,13 @@
     "release_year": 1998,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=lJUFrBIDhLY",
-    "featured_order": 343
+    "featured_order": 343,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "misia-011",
@@ -4661,7 +6689,13 @@
     "summary": "MISIA「ラストダンスあなたと」を、大石セレクション（曲・歌詞・MV）で読み解くATAWI MUSIC記事です。",
     "status": "published",
     "youtube_url": "https://www.youtube.com/watch?v=m4UuJWVt4Zc",
-    "featured_order": 344
+    "featured_order": 344,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "misia-012",
@@ -4673,7 +6707,13 @@
     "release_year": 1999,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=EYd_oZTcIlU",
-    "featured_order": 345
+    "featured_order": 345,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "misia-013",
@@ -4685,7 +6725,13 @@
     "release_year": 2014,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=efqBnrR1RjU",
-    "featured_order": 346
+    "featured_order": 346,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "misia-014",
@@ -4697,7 +6743,13 @@
     "release_year": 2020,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=fWaYXtqFtDU",
-    "featured_order": 347
+    "featured_order": 347,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "misia-015",
@@ -4709,7 +6761,13 @@
     "release_year": 2012,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=LNZD_5Ltp_I",
-    "featured_order": 348
+    "featured_order": 348,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "misia-016",
@@ -4721,7 +6779,13 @@
     "release_year": 2015,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=7jVu9CddXxo",
-    "featured_order": 349
+    "featured_order": 349,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "misia-017",
@@ -4733,7 +6797,13 @@
     "release_year": 2013,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=Ze-71ihSBg8",
-    "featured_order": 350
+    "featured_order": 350,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "misia-018",
@@ -4745,7 +6815,13 @@
     "release_year": 2005,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=nreqqTeZbzg",
-    "featured_order": 351
+    "featured_order": 351,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "monkey-majik-001",
@@ -4757,7 +6833,13 @@
     "release_year": 2019,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=lvEVP7NPklU",
-    "featured_order": 352
+    "featured_order": 352,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "nakayama-miho-005",
@@ -4769,7 +6851,13 @@
     "release_year": 1986,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=UOdQ_TU0oyw",
-    "featured_order": 353
+    "featured_order": 353,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 1,
+      "selection": "song"
+    }
   },
   {
     "id": "nulbarich-tokyo",
@@ -4790,7 +6878,13 @@
     "release_year": 2016,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=Vho5jBUfR28",
-    "featured_order": 355
+    "featured_order": 355,
+    "rating": {
+      "song": 3,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "official-hige-dandism-006",
@@ -4802,7 +6896,13 @@
     "release_year": 2017,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=XZsSUSYBeLs",
-    "featured_order": 356
+    "featured_order": 356,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 2,
+      "selection": "song"
+    }
   },
   {
     "id": "official-hige-dandism-007",
@@ -4814,7 +6914,13 @@
     "release_year": 2017,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=1fO0mY5vLA8",
-    "featured_order": 357
+    "featured_order": 357,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "official-hige-dandism-008",
@@ -4826,7 +6932,13 @@
     "release_year": 2017,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=0nzgi6dz8VY",
-    "featured_order": 358
+    "featured_order": 358,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "official-hige-dandism-009",
@@ -4838,7 +6950,13 @@
     "release_year": 2018,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=ZPU2ngHWxV4",
-    "featured_order": 359
+    "featured_order": 359,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "official-hige-dandism-010",
@@ -4850,7 +6968,13 @@
     "release_year": 2018,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=R9s5IepTYFI",
-    "featured_order": 360
+    "featured_order": 360,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "official-hige-dandism-011",
@@ -4862,7 +6986,13 @@
     "release_year": 2018,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=K2mbJXjxMVQ",
-    "featured_order": 361
+    "featured_order": 361,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 2,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "official-hige-dandism-012",
@@ -4874,7 +7004,13 @@
     "release_year": 2019,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=3LYdaQ1N8RY",
-    "featured_order": 362
+    "featured_order": 362,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "official-hige-dandism-013",
@@ -4886,7 +7022,13 @@
     "release_year": 2020,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=p1qM75a9FeE",
-    "featured_order": 363
+    "featured_order": 363,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "official-hige-dandism-014",
@@ -4898,7 +7040,13 @@
     "release_year": 2021,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=6lnS-8FVod4",
-    "featured_order": 364
+    "featured_order": 364,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "okamura-yasuyuki-001",
@@ -4910,7 +7058,13 @@
     "release_year": 1988,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=LRrtKoMDNpo",
-    "featured_order": 365
+    "featured_order": 365,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "okazaki-taiiku-001",
@@ -4922,7 +7076,13 @@
     "release_year": 2016,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=fTwAz1JC4yI",
-    "featured_order": 366
+    "featured_order": 366,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "okazaki-taiiku-002",
@@ -4934,7 +7094,13 @@
     "release_year": 2019,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=rA0g_naCA5M",
-    "featured_order": 367
+    "featured_order": 367,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "okazaki-taiiku-003",
@@ -4946,7 +7112,13 @@
     "release_year": 2014,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=Uv04e4TEmtc",
-    "featured_order": 368
+    "featured_order": 368,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "ravex-001",
@@ -4958,7 +7130,13 @@
     "release_year": 2008,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=coxLRv1qJL8",
-    "featured_order": 369
+    "featured_order": 369,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "somewhere-in-tokyo",
@@ -4979,7 +7157,13 @@
     "release_year": 2018,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=htMGeeLObNM",
-    "featured_order": 371
+    "featured_order": 371,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "southern-all-stars-002",
@@ -4991,7 +7175,13 @@
     "release_year": 2023,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=8OCvkuxnIuw",
-    "featured_order": 372
+    "featured_order": 372,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "southern-all-stars-003",
@@ -5003,7 +7193,13 @@
     "release_year": 2019,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=svk_stIa8sc",
-    "featured_order": 373
+    "featured_order": 373,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "southern-all-stars-004",
@@ -5015,7 +7211,13 @@
     "release_year": 2015,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=jYbalGCy_4k",
-    "featured_order": 374
+    "featured_order": 374,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "southern-all-stars-005",
@@ -5027,7 +7229,13 @@
     "release_year": 2015,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=GAaRoZ1pJAg",
-    "featured_order": 375
+    "featured_order": 375,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "southern-all-stars-006",
@@ -5039,7 +7247,13 @@
     "release_year": 2004,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=ebNSPVfURvQ",
-    "featured_order": 376
+    "featured_order": 376,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "southern-all-stars-007",
@@ -5051,7 +7265,13 @@
     "release_year": 2013,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=dJvAcSModfA",
-    "featured_order": 377
+    "featured_order": 377,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "takahashi-yumiko-001",
@@ -5063,7 +7283,13 @@
     "release_year": 1994,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=E5lXbg7ouQM",
-    "featured_order": 378
+    "featured_order": 378,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "takahashi-yumiko-002",
@@ -5075,7 +7301,13 @@
     "release_year": 1993,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=allTezZ0sqQ",
-    "featured_order": 379
+    "featured_order": 379,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "takahashi-yumiko-003",
@@ -5087,7 +7319,13 @@
     "release_year": 1991,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=b8nj9VqhVaE",
-    "featured_order": 380
+    "featured_order": 380,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "tekkun-001",
@@ -5099,7 +7337,13 @@
     "release_year": 2019,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=MUD_fKmxvdI",
-    "featured_order": 381
+    "featured_order": 381,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "tokyo-jihen-004",
@@ -5111,7 +7355,13 @@
     "release_year": 2021,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=syWkcpuAj04",
-    "featured_order": 382
+    "featured_order": 382,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "tokyo-jihen-005",
@@ -5123,7 +7373,13 @@
     "release_year": 2020,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=zKBCSBfP9TI",
-    "featured_order": 383
+    "featured_order": 383,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "tokyo-jihen-006",
@@ -5135,7 +7391,13 @@
     "release_year": 2016,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=lcz89e42XEM",
-    "featured_order": 384
+    "featured_order": 384,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "tokyo-jihen-007",
@@ -5147,7 +7409,13 @@
     "release_year": 2007,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=Ix8Inb2wAl4",
-    "featured_order": 385
+    "featured_order": 385,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "tokyo-jihen-008",
@@ -5157,7 +7425,13 @@
     "summary": "東京事変「ハンサム過ぎて」を、大石セレクション（曲・歌詞・MV）で読み解くATAWI MUSIC記事です。",
     "status": "published",
     "youtube_url": "https://www.youtube.com/watch?v=r1O_s_Vbkmw",
-    "featured_order": 386
+    "featured_order": 386,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "tokyo-jihen-009",
@@ -5169,7 +7443,13 @@
     "release_year": 2004,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=JxJbMizDbm0",
-    "featured_order": 387
+    "featured_order": 387,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "tokyo-jihen-010",
@@ -5181,7 +7461,13 @@
     "release_year": 2011,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=7RtQ-pySHq4",
-    "featured_order": 388
+    "featured_order": 388,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "tokyo-jihen-011",
@@ -5193,7 +7479,13 @@
     "release_year": 2021,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=wpgu6pac3Hk",
-    "featured_order": 389
+    "featured_order": 389,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "tokyo-jihen-012",
@@ -5205,7 +7497,13 @@
     "release_year": 2012,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=VeKp78Q8r3A",
-    "featured_order": 390
+    "featured_order": 390,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "tokyo-jihen-013",
@@ -5217,7 +7515,13 @@
     "release_year": 2016,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=iyUUkuDzEec",
-    "featured_order": 391
+    "featured_order": 391,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "tokyo-ska-002",
@@ -5229,7 +7533,13 @@
     "release_year": 2001,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=E-eD5ZkahBQ",
-    "featured_order": 392
+    "featured_order": 392,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "tokyo-ska-003",
@@ -5241,7 +7551,13 @@
     "release_year": 2006,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=a8dBrKfD7Sw",
-    "featured_order": 393
+    "featured_order": 393,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "tokyo-ska-004",
@@ -5253,7 +7569,13 @@
     "release_year": 2010,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=_vEMkvjnAfo",
-    "featured_order": 394
+    "featured_order": 394,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "tokyo-ska-005",
@@ -5265,7 +7587,13 @@
     "release_year": 2013,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=U68ov4pmwAs",
-    "featured_order": 395
+    "featured_order": 395,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "tokyo-ska-006",
@@ -5277,7 +7605,13 @@
     "release_year": 2017,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=1zKo_I8VhkA",
-    "featured_order": 396
+    "featured_order": 396,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "tokyo-ska-007",
@@ -5289,7 +7623,13 @@
     "release_year": 2020,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=X-HyJryYwsA",
-    "featured_order": 397
+    "featured_order": 397,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "tokyo-ska-008",
@@ -5301,7 +7641,13 @@
     "release_year": 2022,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=IhEzKdcZ4lc",
-    "featured_order": 398
+    "featured_order": 398,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "tokyo-ska-009",
@@ -5313,7 +7659,13 @@
     "release_year": 2023,
     "decade": "2020年代",
     "youtube_url": "https://www.youtube.com/watch?v=zWXZ0381CaI",
-    "featured_order": 399
+    "featured_order": 399,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "trf-001",
@@ -5325,7 +7677,13 @@
     "release_year": 1993,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=LKEWlU4rkxc",
-    "featured_order": 400
+    "featured_order": 400,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "trf-002",
@@ -5337,7 +7695,13 @@
     "release_year": 1994,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=gfuykoLwzII",
-    "featured_order": 401
+    "featured_order": 401,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "trf-003",
@@ -5349,7 +7713,13 @@
     "release_year": 1994,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=AE-n1ZQl_XI",
-    "featured_order": 402
+    "featured_order": 402,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "trf-004",
@@ -5361,7 +7731,13 @@
     "release_year": 1996,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=yCPLiwyfmeo",
-    "featured_order": 403
+    "featured_order": 403,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "trf-005",
@@ -5373,7 +7749,13 @@
     "release_year": 1994,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=4OMa_eaTJ8o",
-    "featured_order": 404
+    "featured_order": 404,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "trf-006",
@@ -5385,7 +7767,13 @@
     "release_year": 1993,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=56XBiNDwwY0",
-    "featured_order": 405
+    "featured_order": 405,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "trf-007",
@@ -5397,7 +7785,13 @@
     "release_year": 1995,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=K5p5_YL8Crg",
-    "featured_order": 406
+    "featured_order": 406,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "trf-008",
@@ -5409,7 +7803,13 @@
     "release_year": 2006,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=f8fNN_MKpII",
-    "featured_order": 407
+    "featured_order": 407,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "trf-009",
@@ -5421,7 +7821,13 @@
     "release_year": 1998,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=TIrDj5R14lc",
-    "featured_order": 408
+    "featured_order": 408,
+    "rating": {
+      "song": 3,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "trf-010",
@@ -5433,7 +7839,13 @@
     "release_year": 1996,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=8cQvqux-llM",
-    "featured_order": 409
+    "featured_order": 409,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "trf-011",
@@ -5445,7 +7857,13 @@
     "release_year": 1993,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=BdoO0aYEPhs",
-    "featured_order": 410
+    "featured_order": 410,
+    "rating": {
+      "song": 3,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "trf-012",
@@ -5457,7 +7875,13 @@
     "release_year": 2006,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=fsf4gPMzF4s",
-    "featured_order": 411
+    "featured_order": 411,
+    "rating": {
+      "song": 3,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "trf-013",
@@ -5469,7 +7893,13 @@
     "release_year": 2013,
     "decade": "2010年代",
     "youtube_url": "https://www.youtube.com/watch?v=xunjWiFudno",
-    "featured_order": 412
+    "featured_order": 412,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "trf-014",
@@ -5481,7 +7911,13 @@
     "release_year": 1999,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=ZC7RRAQLDDw",
-    "featured_order": 413
+    "featured_order": 413,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "x-japan-002",
@@ -5493,7 +7929,13 @@
     "release_year": 1982,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=_ON9CLI06BA",
-    "featured_order": 414
+    "featured_order": 414,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "x-japan-003",
@@ -5505,7 +7947,13 @@
     "release_year": 1989,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=QhOFg_3RV5Q",
-    "featured_order": 415
+    "featured_order": 415,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "x-japan-004",
@@ -5517,7 +7965,13 @@
     "release_year": 1991,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=Oj9bvmzTR2A",
-    "featured_order": 416
+    "featured_order": 416,
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    }
   },
   {
     "id": "x-japan-005",
@@ -5529,7 +7983,13 @@
     "release_year": 1991,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=ZRaQ17bpzKI",
-    "featured_order": 417
+    "featured_order": 417,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    }
   },
   {
     "id": "x-japan-006",
@@ -5541,7 +8001,13 @@
     "release_year": 1990,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=NTiTd-dXfSk",
-    "featured_order": 418
+    "featured_order": 418,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    }
   },
   {
     "id": "x-japan-007",
@@ -5553,7 +8019,13 @@
     "release_year": 1997,
     "decade": "1990年代",
     "youtube_url": "https://www.youtube.com/watch?v=_me2yfR7Jfk",
-    "featured_order": 419
+    "featured_order": 419,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   },
   {
     "id": "yajima-biyoushitsu-001",
@@ -5565,7 +8037,13 @@
     "release_year": 2008,
     "decade": "2000年代",
     "youtube_url": "https://www.youtube.com/watch?v=-tYi4cNhQZw",
-    "featured_order": 420
+    "featured_order": 420,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    }
   },
   {
     "id": "juju-001",
@@ -5795,6 +8273,174 @@
       "song": 5,
       "lyrics": 5,
       "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "aoyama-thelma-001",
+    "title": "そばにいるね",
+    "artist": "青山テルマ",
+    "release_year": 2008,
+    "decade": "2000年代",
+    "article_url": "/articles/aoyama-thelma-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=M80XXxMKFWw",
+    "source_owner": "UNIVERSAL MUSIC JAPAN",
+    "created_at": "2026-07-07T10:45:00",
+    "summary": "遠く離れていても、心はいつも隣にいる——距離を越える約束の歌。",
+    "status": "published",
+    "featured_order": 432,
+    "recommended": true,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
+  },
+  {
+    "id": "back-number-002",
+    "title": "ハッピーエンド",
+    "artist": "BACK NUMBER",
+    "release_year": 2016,
+    "decade": "2010年代",
+    "article_url": "/articles/back-number-002.html",
+    "youtube_url": "https://www.youtube.com/watch?v=hzWDXge2ANM",
+    "source_owner": "back number Official YouTube Channel",
+    "created_at": "2026-07-07T10:45:00",
+    "summary": "終わってしまった恋にだけ、こんなにもやさしい名前をつけられる。",
+    "status": "published",
+    "featured_order": 433,
+    "recommended": true,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
+  },
+  {
+    "id": "back-number-003",
+    "title": "瞬き",
+    "artist": "BACK NUMBER",
+    "release_year": 2017,
+    "decade": "2010年代",
+    "article_url": "/articles/back-number-003.html",
+    "youtube_url": "https://www.youtube.com/watch?v=s-O_JV8j8wc",
+    "source_owner": "back number Official YouTube Channel",
+    "created_at": "2026-07-07T10:45:00",
+    "summary": "幸せとは何かという大きな問いに、誰かの傍らにいる小さな時間で答えようとする歌。",
+    "status": "published",
+    "featured_order": 434,
+    "recommended": true,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
+  },
+  {
+    "id": "utada-hikaru-003",
+    "title": "Beautiful World",
+    "artist": "宇多田ヒカル",
+    "release_year": 2007,
+    "decade": "2000年代",
+    "article_url": "/articles/utada-hikaru-003.html",
+    "youtube_url": "https://www.youtube.com/watch?v=jmKRgqWGrWc",
+    "source_owner": "Hikaru Utada",
+    "created_at": "2026-07-07T10:45:00",
+    "summary": "世界がどう終わるかではなく、その隣に誰がいるかを歌った願いの歌。",
+    "status": "published",
+    "featured_order": 435,
+    "recommended": true,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
+  },
+  {
+    "id": "wise-001",
+    "title": "会えなくても",
+    "artist": "WISE",
+    "release_year": 2009,
+    "decade": "2000年代",
+    "article_url": "/articles/wise-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=J2FoIhITryg",
+    "source_owner": "UNIVERSAL MUSIC JAPAN",
+    "created_at": "2026-07-07T10:45:00",
+    "summary": "離れているという事実の上に、それでも続く想いを重ねていく歌。",
+    "status": "published",
+    "featured_order": 436,
+    "recommended": true,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
+  },
+  {
+    "id": "tokunaga-hideaki-001",
+    "title": "壊れかけのRadio",
+    "artist": "徳永英明",
+    "release_year": 1990,
+    "decade": "1990年代",
+    "article_url": "/articles/tokunaga-hideaki-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=MT_wFx9mLhM",
+    "source_owner": "UNIVERSAL MUSIC JAPAN",
+    "created_at": "2026-07-07T10:45:00",
+    "summary": "少年でいられなくなる夜に、雑音まじりの声だけが味方だった。",
+    "status": "published",
+    "featured_order": 437,
+    "recommended": true,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    }
+  },
+  {
+    "id": "chiisana-koi-no-uta-band-001",
+    "title": "小さな恋のうた",
+    "artist": "小さな恋のうたバンド",
+    "release_year": 2019,
+    "decade": "2010年代",
+    "article_url": "/articles/chiisana-koi-no-uta-band-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=WDue-wsX27E",
+    "source_owner": "UNIVERSAL MUSIC JAPAN",
+    "created_at": "2026-07-07T10:45:00",
+    "summary": "世界を語らず、目の前のひとりに向けて歌うから、遠くまで届く。",
+    "status": "published",
+    "featured_order": 438,
+    "recommended": true,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    }
+  },
+  {
+    "id": "matsuda-seiko-007",
+    "title": "薔薇のように咲いて 桜のように散って",
+    "artist": "松田聖子",
+    "release_year": 2016,
+    "decade": "2010年代",
+    "article_url": "/articles/matsuda-seiko-007.html",
+    "youtube_url": "https://www.youtube.com/watch?v=Ep4dmY--Ius",
+    "source_owner": "UNIVERSAL MUSIC JAPAN",
+    "created_at": "2026-07-07T10:45:00",
+    "summary": "咲くことと散ることを、一つのメロディの中で同時に歌う。",
+    "status": "published",
+    "featured_order": 439,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
       "selection": "song"
     }
   }

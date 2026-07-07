@@ -35,6 +35,7 @@ const index = songs
     };
     if (s.artists && s.artists.length) entry.artists = s.artists;
     if (s.recommended) entry.recommended = true;
+    if (s.rating) entry.rating = s.rating;
     const kana = names.map(n => kanaByName.get(n)).filter(Boolean);
     if (kana.length) entry.kana = kana;
     return entry;
