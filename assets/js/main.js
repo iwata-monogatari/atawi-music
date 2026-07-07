@@ -9,15 +9,20 @@
   var eraFilters = document.querySelector("[data-era-filters]");
   var themeFilters = document.querySelector("[data-theme-filters]");
   var status = document.querySelector("[data-status]");
-  var searchBox = document.querySelector("[data-search-box]");
   var kind = container.getAttribute("data-page-kind") || "archive";
-  var active = { artist: "all", era: "all", theme: "all", themeGroup: "all", sort: "created_desc", q: "" };
+  var active = { artist: "all", era: "all", theme: "all", themeGroup: "all", sort: "created_desc" };
+  var shouldPlayRandom = false;
   var themes = [];
   var artistKana = {};
   var ARTIST_VISIBLE_ROWS = 7;
   var ARTIST_COLUMNS_DESKTOP = 6;
-  var ARTIST_COLUMNS_MOBILE = 5;
+  var ARTIST_COLUMNS_MOBILE = 3;
   var artistExpanded = false;
+  // PAGINATION_GUARD: 2026-07-05に確定した仕様。index/articlesとも検索ボックスは廃止し、
+  // 「次の20件を見る」ボタンで20件刻みに読み込む方式に統一済み。明示的な変更指示がない限り、
+  // PAGE_SIZEの変更、「すべて見る」的な全件リンクの復活、キーワード検索UIの復元をしないこと。
+  var PAGE_SIZE = 20;
+  var visibleCount = PAGE_SIZE;
 
   (function initFromQuery() {
     var query = new URLSearchParams(location.search);
@@ -27,10 +32,12 @@
     if (active.theme === "all" && query.get("mood")) active.theme = query.get("mood");
     active.themeGroup = query.get("themeGroup") || active.themeGroup;
     active.sort = query.get("sort") || active.sort;
-    active.q = query.get("q") || active.q;
+    shouldPlayRandom = query.get("random") === "1";
   })();
 
   
+  // MOOD_GROUPS_GUARD: 2026-07-05に確定した「今の気分から選ぶ」の仕様。明示的な変更指示がない限り、
+  // タイトル（特に「街と人生を思い出す曲」「大人になって分かる曲」）・タグの絞り込み件数・並び順を変更／復元しないこと。
   var MOOD_GROUPS = [
     {
       id: "positive",
@@ -38,10 +45,8 @@
       subtitle: "プラス・回復・元気・行動系",
       tags: [
         "元気をもらえる曲",
-        "前を向いて歩くための曲",
-        "作業効率が上がる曲",
-        "旅に出たくなる曲",
-        "誰かの幸せを願う曲"
+        "前向きになれる曲",
+        "仕事帰りに効く曲"
       ]
     },
     {
@@ -50,10 +55,7 @@
       subtitle: "落ち着き・整理・休息系",
       tags: [
         "落ち着く曲",
-        "心を整理したい時の曲",
-        "日曜日を静かに過ごす曲",
-        "海や空を眺めながら聴く曲",
-        "季節の変わり目に聴く曲"
+        "雨の日に聴きたい曲"
       ]
     },
     {
@@ -62,35 +64,25 @@
       subtitle: "寂しさ・喪失・内省系",
       tags: [
         "夜に残る曲",
-        "孤独に寄り添う曲",
-        "会えない人を思い出す曲",
-        "雨の日に聴きたい曲",
-        "仕事帰りに効く曲"
+        "孤独に寄り添う曲"
       ]
     },
     {
       id: "memory",
-      title: "あの頃を思い出す曲",
+      title: "街と人生を思い出す曲",
       subtitle: "記憶・青春・街・東京系",
       tags: [
-        "東京で頑張っていた頃",
         "東京の記憶",
-        "青春を思い出す曲",
-        "街を思い出す曲",
-        "懐かしい風を感じる曲",
-        "家や記憶につながる曲"
+        "青春を思い出す曲"
       ]
     },
     {
       id: "philosophy",
-      title: "大人になって聴き直す曲",
+      title: "大人になって分かる曲",
       subtitle: "哲学・人生・成熟・再解釈系",
       tags: [
         "大人になって分かる曲",
-        "過去をさかのぼり今を聴く曲",
-        "自分の原点に立ち返る曲",
-        "家や記憶につながる曲",
-        "誰かの幸せを願う曲"
+        "歌詞が刺さる曲"
       ]
     }
   ];
@@ -132,7 +124,9 @@
     "心を整理したい時の曲": ["整理", "心", "静か", "涙", "見つめる"],
     "海や空を眺めながら聴く曲": ["海", "空", "青", "波", "風", "水平線"],
     "誰かの幸せを願う曲": ["幸せ", "願う", "愛", "君", "祈る"],
-    "自分の原点に立ち返る曲": ["原点", "昔", "子供", "親", "故郷", "地元"]
+    "自分の原点に立ち返る曲": ["原点", "昔", "子供", "親", "故郷", "地元"],
+    "前向きになれる曲": ["前向き", "進む", "未来", "希望", "勇気", "背中"],
+    "歌詞が刺さる曲": ["歌詞", "刺さる", "刺さった", "染みる", "言葉"]
   };
 
   function matchesTheme(song) {
@@ -263,23 +257,6 @@
     artistFilters.appendChild(moreButton);
   }
 
-  function searchHaystack(song) {
-    if (!song._haystack) {
-      var parts = [song.title, song.artist, song.summary, song.release_year, artistKana[song.artist] || ""]
-        .concat(song.artists || [], song.kana || []);
-      song._haystack = normalize(parts.join(" "));
-    }
-    return song._haystack;
-  }
-
-  function matchesSearch(song) {
-    if (!active.q) return true;
-    var tokens = String(active.q).split(/[\s　]+/).filter(Boolean).map(normalize);
-    if (!tokens.length) return true;
-    var haystack = searchHaystack(song);
-    return tokens.every(function(token) { return haystack.indexOf(token) !== -1; });
-  }
-
   function button(label, type, value, isActive) {
     return '<button class="chip' + (isActive ? ' is-active' : '') + '" type="button" data-filter-type="' + escapeHtml(type) + '" data-filter-value="' + escapeHtml(value) + '"' + (type === "sort" ? ' aria-pressed="' + (isActive ? 'true' : 'false') + '"' : '') + '>' + escapeHtml(label) + '</button>';
   }
@@ -312,7 +289,7 @@
         htmlContent += '<div class="mood-group-list">';
         htmlContent += '<a class="mood-group-card mood-card-all' + (resetActive ? ' is-active' : '') + '" href="/articles/">' +
           '<span class="mood-group-title">すべての曲</span>' +
-          '<span class="mood-group-subtitle">235件の音楽考察</span>' +
+          '<span class="mood-group-subtitle">' + songs.length + '件の音楽考察</span>' +
           '</a>';
         MOOD_GROUPS.forEach(function(group) {
           var isActive = active.themeGroup === group.id;
@@ -359,7 +336,6 @@
 
   function queryParts() {
     var parts = [];
-    if (active.q) parts.push("q=" + encodeURIComponent(active.q));
     if (active.artist !== "all") parts.push("artist=" + encodeURIComponent(active.artist));
     if (active.era !== "all") parts.push("era=" + encodeURIComponent(active.era));
     if (active.themeGroup !== "all") parts.push("themeGroup=" + encodeURIComponent(active.themeGroup));
@@ -373,13 +349,34 @@
     history.replaceState(null, "", location.pathname + (parts.length ? "?" + parts.join("&") : ""));
   }
 
-  function pageHref() {
-    var parts = queryParts();
-    return bp() + "articles/" + (parts.length ? "?" + parts.join("&") : "");
-  }
-
   function youtubeLine(song) {
     return song.youtube_url ? '<a href="' + escapeHtml(song.youtube_url) + '" target="_blank" rel="noopener">YouTube</a>' : '<span>公式リンク確認中</span>';
+  }
+
+  function toStars(n) {
+    var filled = Math.max(0, Math.min(5, Number(n) || 0));
+    return "★".repeat(filled) + "☆".repeat(5 - filled);
+  }
+
+  var SELECTION_LABEL = { song: "曲がいい", lyrics: "歌詞がいい", mv: "MVがいい" };
+
+  function selectionBlock(song) {
+    var r = song.rating;
+    if (!r || !r.selection || r[r.selection] == null) return "";
+    var label = SELECTION_LABEL[r.selection];
+    if (!label) return "";
+    return '<div class="card-selection"><span class="card-selection-label">' + escapeHtml(label) + '</span><span class="card-selection-stars">' + toStars(r[r.selection]) + '</span></div>';
+  }
+
+  function ratingLine(song) {
+    var r = song.rating;
+    if (!r) return "";
+    var parts = [];
+    if (r.song != null) parts.push("曲：" + toStars(r.song));
+    if (r.lyrics != null) parts.push("歌詞：" + toStars(r.lyrics));
+    if (r.mv != null) parts.push("MV：" + toStars(r.mv));
+    if (!parts.length) return "";
+    return '<span class="song-rating">' + escapeHtml(parts.join("　")) + '</span>';
   }
 
   function youtubeId(url) {
@@ -396,48 +393,44 @@
   function card(song) {
     var href = bp() + String(song.article_url || "#").replace(/^\//, "");
     var star = song.recommended ? '<span class="song-star" aria-hidden="true">★</span>' : "";
-    return '<li class="song-item"><div class="song-card"><a class="song-main" href="' + escapeHtml(href) + '">' + thumb(song) + '<span class="song-body"><span class="song-title">' + star + escapeHtml(song.title) + '</span><span class="song-detail">' + escapeHtml(era(song)) + (song.release_year ? ' / ' + escapeHtml(song.release_year) : '') + ' / ' + escapeHtml(song.artist) + '</span><span class="song-note">' + escapeHtml(song.summary || '') + '</span><span class="read-label">読む</span></span></a><div class="song-youtube"><strong>YouTube:</strong> ' + youtubeLine(song) + '</div></div></li>';
+    return '<li class="song-item"><div class="song-card"><a class="song-main" href="' + escapeHtml(href) + '">' + thumb(song) + '<span class="song-body"><span class="song-title">' + star + escapeHtml(song.title) + '</span><span class="song-detail">' + escapeHtml(era(song)) + (song.release_year ? ' / ' + escapeHtml(song.release_year) : '') + ' / ' + escapeHtml(song.artist) + '</span><span class="song-note">' + escapeHtml(song.summary || '') + '</span><span class="read-label">読む</span></span>' + selectionBlock(song) + '</a><div class="song-youtube"><span class="song-youtube-link"><strong>YouTube:</strong> ' + youtubeLine(song) + '</span>' + ratingLine(song) + '</div></div></li>';
   }
 
   function filterSongs(songs) {
     return songs.filter(function(song) {
       return (active.artist === "all" || artistList(song).indexOf(active.artist) !== -1) &&
         (active.era === "all" || era(song) === active.era) &&
-        matchesTheme(song) &&
-        matchesSearch(song);
+        matchesTheme(song);
     });
   }
 
-  // SORT_BUTTONS_GUARD: デフォルトを新着順（created_desc）に固定し、切り替え用ボタン（掲載順・新着順）は廃止いたしました。
+  // SORT_BUTTONS_GUARD: デフォルトは新着順（created_desc）。掲載順・新着順の切り替えは
+  // ページ最下部の簡易ソート（miniSort、次の20件を見るボタンの右側）としてのみ復活済み。
+  function miniSort() {
+    var opts = [["featured", "掲載順"], ["created_desc", "新着順"]];
+    return '<span class="mini-sort" role="group" aria-label="並び順(簡易)">' + opts.map(function(o) {
+      var isActive = active.sort === o[0];
+      return '<button class="chip chip-mini' + (isActive ? " is-active" : "") + '" type="button" data-filter-type="sort" data-filter-value="' + o[0] + '" aria-pressed="' + (isActive ? "true" : "false") + '">' + o[1] + "</button>";
+    }).join("") + "</span>";
+  }
+
   function render(songs) {
     var filtered = sortSongs(filterSongs(songs));
-    var visible = kind === "home" ? filtered.slice(0, 10) : filtered;
+    var visible = filtered.slice(0, visibleCount);
     if (status) {
-      status.textContent = kind === "home"
-        ? filtered.length + "件中" + visible.length + "件を表示"
-        : filtered.length + "件の記事を表示";
+      status.textContent = filtered.length + "件中" + visible.length + "件を表示";
     }
     if (!visible.length) {
       container.innerHTML = '<p class="muted">該当する記事はまだありません。</p>';
       return;
     }
-    container.innerHTML = '<ul class="song-list">' + visible.map(card).join("") + '</ul>' + (kind === "home" ? '<nav class="pagination" aria-label="記事ページ"><a class="btn-gold" href="' + escapeHtml(pageHref()) + '">すべての記事を見る</a></nav>' : "");
+    var showMoreButton = visibleCount < filtered.length
+      ? '<button class="btn-gold" type="button" data-action="show-more">次の20件を見る</button>'
+      : "";
+    container.innerHTML = '<ul class="song-list">' + visible.map(card).join("") + '</ul><nav class="pagination" aria-label="記事ページ">' + showMoreButton + miniSort() + '</nav>';
   }
 
   function bind(songs) {
-    if (searchBox) {
-      searchBox.value = active.q;
-      var timer = null;
-      searchBox.addEventListener("input", function() {
-        if (timer) clearTimeout(timer);
-        timer = setTimeout(function() {
-          active.q = searchBox.value.trim();
-          syncUrl();
-          render(songs);
-        }, 200);
-      });
-    }
-
     document.addEventListener("click", function(event) {
       var actionTarget = event.target.closest("[data-action]");
       if (actionTarget) {
@@ -445,6 +438,9 @@
         if (action === "expand-artists" || action === "collapse-artists") {
           artistExpanded = action === "expand-artists";
           renderFilters(songs);
+        } else if (action === "show-more") {
+          visibleCount += PAGE_SIZE;
+          render(songs);
         }
         return;
       }
@@ -453,6 +449,7 @@
       var type = target.getAttribute("data-filter-type");
       var value = target.getAttribute("data-filter-value");
       active[type] = value;
+      visibleCount = PAGE_SIZE;
       syncUrl();
       renderFilters(songs);
       render(songs);
@@ -502,6 +499,10 @@
       var href = bp() + String(randomSong.article_url || "#").replace(/^\//, "");
       window.location.href = href;
     };
+    if (shouldPlayRandom) {
+      window.playRandomSong();
+      return;
+    }
     renderFilters(songs);
     bind(songs);
     render(songs);

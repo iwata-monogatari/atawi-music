@@ -1,188 +1,13 @@
 [
   {
-    "id": "furuuchi-toko",
-    "name": "古内東子",
-    "kana": "ふるうちとうこ"
+    "id": "aska",
+    "name": "ASKA",
+    "kana": "あすか"
   },
   {
-    "id": "nulbarich",
-    "name": "Nulbarich",
-    "kana": "ナルバリッチ"
-  },
-  {
-    "id": "kirinji",
-    "name": "キリンジ",
-    "kana": "キリンジ"
-  },
-  {
-    "id": "gesu-no-kiwami-otome",
-    "name": "ゲスの極み乙女",
-    "kana": "ゲスノキワミオトメ"
-  },
-  {
-    "id": "princess-princess",
-    "name": "プリンセス プリンセス",
-    "kana": "プリンセスプリンセス"
-  },
-  {
-    "id": "oda-kazumasa",
-    "name": "小田和正",
-    "kana": "おだかずまさ"
-  },
-  {
-    "id": "girls-generation",
-    "name": "少女時代",
-    "kana": "しょうじょじだい"
-  },
-  {
-    "id": "yamashita-tatsuro",
-    "name": "山下達郎",
-    "kana": "やましたたつろう"
-  },
-  {
-    "id": "sakiya-kenjiro",
-    "name": "崎谷健次郎",
-    "kana": "さきやけんじろう"
-  },
-  {
-    "id": "hiramatsu-eri",
-    "name": "平松愛理",
-    "kana": "ひらまつえり"
-  },
-  {
-    "id": "tokyo-jihen",
-    "name": "東京事変",
-    "kana": "とうきょうじへん"
-  },
-  {
-    "id": "matsuda-seiko",
-    "name": "松田聖子",
-    "kana": "まつだせいこ"
-  },
-  {
-    "id": "shiina-ringo",
-    "name": "椎名林檎",
-    "kana": "しいなりんご"
-  },
-  {
-    "id": "makihara-noriyuki",
-    "name": "槇原敬之",
-    "kana": "まきはらのりゆき"
-  },
-  {
-    "id": "takeuchi-mariya",
-    "name": "竹内まりや",
-    "kana": "たけうちまりや"
-  },
-  {
-    "id": "go-hiromi",
-    "name": "郷ひろみ",
-    "kana": "ごうひろみ"
-  },
-  {
-    "id": "suzuki-kiyomi",
-    "name": "鈴木聖美",
-    "kana": "すずききよみ"
-  },
-  {
-    "id": "kubota-toshinobu",
-    "name": "久保田利伸",
-    "kana": "くぼたとしのぶ"
-  },
-  {
-    "id": "yamashita-kumiko",
-    "name": "山下久美子",
-    "kana": "やましたくみこ"
-  },
-  {
-    "id": "kusunose-seishiro",
-    "name": "楠瀬誠志郎",
-    "kana": "くすのせせいしろう"
-  },
-  {
-    "id": "oe-senri",
-    "name": "大江千里",
-    "kana": "おおえせんり"
-  },
-  {
-    "id": "umeda-cypher",
-    "name": "梅田サイファー",
-    "kana": "うめださいふぁー"
-  },
-  {
-    "id": "punipuni-denki",
-    "name": "ぷにぷに電機",
-    "kana": "ぷにぷにでんき"
-  },
-  {
-    "id": "utada-hikaru",
-    "name": "宇多田ヒカル",
-    "kana": "うただひかる"
-  },
-  {
-    "id": "skirt",
-    "name": "スカート",
-    "kana": "スカート"
-  },
-  {
-    "id": "yano",
-    "name": "ヤノ",
-    "kana": "ヤノ"
-  },
-  {
-    "id": "sakanaction",
-    "name": "サカナクション",
-    "kana": "サカナクション"
-  },
-  {
-    "id": "hoshino-gen",
-    "name": "星野源",
-    "kana": "ほしのげん"
-  },
-  {
-    "id": "odani-misako",
-    "name": "小谷美紗子",
-    "kana": "おだにみさこ"
-  },
-  {
-    "id": "quruli",
-    "name": "くるり",
-    "kana": "くるり"
-  },
-  {
-    "id": "ketsumeishi",
-    "name": "ケツメイシ",
-    "kana": "ケツメイシ"
-  },
-  {
-    "id": "fukuyama-masaharu",
-    "name": "福山雅治",
-    "kana": "ふくやままさはる"
-  },
-  {
-    "id": "lilas-ikuta",
-    "name": "幾田りら",
-    "kana": "いくたりら"
-  },
-  {
-    "id": "toki-asako",
-    "name": "土岐麻子",
-    "kana": "ときあさこ"
-  },
-  {
-    "id": "fukumimi",
-    "name": "福耳",
-    "kana": "ふくみみ"
-  },
-  {
-    "id": "candy-tune",
-    "name": "CANDY TUNE",
-    "kana": "キャンディチューン"
-  },
-  {
-    "id": "cyberjapan-dancers",
-    "name": "CYBERJAPAN DANCERS",
-    "kana": "サイバージャパンダンサーズ"
+    "id": "arai-yumi",
+    "name": "荒井由実",
+    "kana": "あらいゆみ"
   },
   {
     "id": "anri",
@@ -190,29 +15,24 @@
     "kana": "アンリ"
   },
   {
-    "id": "kiki-vivi-lily",
-    "name": "kiki vivi lily",
-    "kana": "キキヴィヴィリリー"
+    "id": "ymo",
+    "name": "Yellow Magic Orchestra",
+    "kana": "イエローマジックオーケストラ"
   },
   {
-    "id": "chris-hart",
-    "name": "クリス・ハート",
-    "kana": "くりすはーと"
+    "id": "lilas-ikuta",
+    "name": "幾田りら",
+    "kana": "いくたりら"
   },
   {
-    "id": "yakushimaru-hiroko",
-    "name": "薬師丸ひろ子",
-    "kana": "やくしまるひろこ"
+    "id": "utada-hikaru",
+    "name": "宇多田ヒカル",
+    "kana": "うただひかる"
   },
   {
-    "id": "nakashima-mika",
-    "name": "中島美嘉",
-    "kana": "なかしまみか"
-  },
-  {
-    "id": "shimizu-shota",
-    "name": "清水翔太",
-    "kana": "しみずしょうた"
+    "id": "umeda-cypher",
+    "name": "梅田サイファー",
+    "kana": "うめださいふぁー"
   },
   {
     "id": "uru",
@@ -220,14 +40,9 @@
     "kana": "うる"
   },
   {
-    "id": "aska",
-    "name": "ASKA",
-    "kana": "あすか"
-  },
-  {
-    "id": "glay",
-    "name": "GLAY",
-    "kana": "グレイ"
+    "id": "ulfuls",
+    "name": "ウルフルズ",
+    "kana": "うるふるず"
   },
   {
     "id": "x-japan",
@@ -235,39 +50,69 @@
     "kana": "エックスジャパン"
   },
   {
-    "id": "the-birthday",
-    "name": "The Birthday",
-    "kana": "ザバースデイ"
+    "id": "m-flo",
+    "name": "m-flo",
+    "kana": "エムフロー"
   },
   {
-    "id": "yoshiki",
-    "name": "YOSHIKI",
-    "kana": "よしき"
+    "id": "aimer",
+    "name": "Aimer",
+    "kana": "エメ"
   },
   {
-    "id": "nonomura-ayano",
-    "name": "野々村彩乃",
-    "kana": "ののむらあやの"
+    "id": "oe-senri",
+    "name": "大江千里",
+    "kana": "おおえせんり"
   },
   {
-    "id": "ymo",
-    "name": "Yellow Magic Orchestra",
-    "kana": "イエローマジックオーケストラ"
+    "id": "okuda-tamio",
+    "name": "奥田民生",
+    "kana": "おくだたみお"
   },
   {
-    "id": "ryuichi-sakamoto",
-    "name": "坂本龍一",
-    "kana": "さかもとりゅういち"
+    "id": "ozaki-ami",
+    "name": "尾崎亜美",
+    "kana": "おざきあみ"
   },
   {
-    "id": "joe-hisaishi",
-    "name": "久石譲",
-    "kana": "ひさいしじょう"
+    "id": "oda-kazumasa",
+    "name": "小田和正",
+    "kana": "おだかずまさ"
   },
   {
-    "id": "nakayama-miho",
-    "name": "中山美穂",
-    "kana": "なかやまみほ"
+    "id": "odani-misako",
+    "name": "小谷美紗子",
+    "kana": "おだにみさこ"
+  },
+  {
+    "id": "kaze",
+    "name": "風",
+    "kana": "かぜ"
+  },
+  {
+    "id": "kiki-vivi-lily",
+    "name": "kiki vivi lily",
+    "kana": "キキヴィヴィリリー"
+  },
+  {
+    "id": "candy-tune",
+    "name": "CANDY TUNE",
+    "kana": "キャンディチューン"
+  },
+  {
+    "id": "kirinji",
+    "name": "キリンジ",
+    "kana": "キリンジ"
+  },
+  {
+    "id": "kusunose-seishiro",
+    "name": "楠瀬誠志郎",
+    "kana": "くすのせせいしろう"
+  },
+  {
+    "id": "kubota-toshinobu",
+    "name": "久保田利伸",
+    "kana": "くぼたとしのぶ"
   },
   {
     "id": "mai-kuraki",
@@ -275,24 +120,14 @@
     "kana": "くらきまい"
   },
   {
-    "id": "stardust-revue",
-    "name": "スターダスト☆レビュー",
-    "kana": "スターダストレビュー"
+    "id": "chris-hart",
+    "name": "クリス・ハート",
+    "kana": "くりすはーと"
   },
   {
-    "id": "mr-children",
-    "name": "Mr.Children",
-    "kana": "ミスターチルドレン"
-  },
-  {
-    "id": "m-flo",
-    "name": "m-flo",
-    "kana": "エムフロー"
-  },
-  {
-    "id": "tokyo-ska",
-    "name": "東京スカパラダイスオーケストラ",
-    "kana": "とうきょうすかぱらだいすおーけすとら"
+    "id": "quruli",
+    "name": "くるり",
+    "kana": "くるり"
   },
   {
     "id": "kuwata-keisuke",
@@ -300,14 +135,24 @@
     "kana": "くわたけいすけ"
   },
   {
-    "id": "yamazaki-masayoshi",
-    "name": "山崎まさよし",
-    "kana": "やまざきまさよし"
+    "id": "glay",
+    "name": "GLAY",
+    "kana": "グレイ"
   },
   {
-    "id": "pizzicato-five",
-    "name": "PIZZICATO FIVE",
-    "kana": "ピチカートファイヴ"
+    "id": "ketsumeishi",
+    "name": "ケツメイシ",
+    "kana": "ケツメイシ"
+  },
+  {
+    "id": "gesu-no-kiwami-otome",
+    "name": "ゲスの極み乙女",
+    "kana": "ゲスノキワミオトメ"
+  },
+  {
+    "id": "go-hiromi",
+    "name": "郷ひろみ",
+    "kana": "ごうひろみ"
   },
   {
     "id": "saito-kazuyoshi",
@@ -315,14 +160,189 @@
     "kana": "さいとうかずよし"
   },
   {
-    "id": "ulfuls",
-    "name": "ウルフルズ",
-    "kana": "うるふるず"
+    "id": "cyberjapan-dancers",
+    "name": "CYBERJAPAN DANCERS",
+    "kana": "サイバージャパンダンサーズ"
   },
   {
-    "id": "okuda-tamio",
-    "name": "奥田民生",
-    "kana": "おくだたみお"
+    "id": "sakanaction",
+    "name": "サカナクション",
+    "kana": "サカナクション"
+  },
+  {
+    "id": "ryuichi-sakamoto",
+    "name": "坂本龍一",
+    "kana": "さかもとりゅういち"
+  },
+  {
+    "id": "sakiya-kenjiro",
+    "name": "崎谷健次郎",
+    "kana": "さきやけんじろう"
+  },
+  {
+    "id": "sano-motoharu",
+    "name": "佐野元春",
+    "kana": "さのもとはる"
+  },
+  {
+    "id": "the-birthday",
+    "name": "The Birthday",
+    "kana": "ザバースデイ"
+  },
+  {
+    "id": "shiina-ringo",
+    "name": "椎名林檎",
+    "kana": "しいなりんご"
+  },
+  {
+    "id": "shimizu-shota",
+    "name": "清水翔太",
+    "kana": "しみずしょうた"
+  },
+  {
+    "id": "girls-generation",
+    "name": "少女時代",
+    "kana": "しょうじょじだい"
+  },
+  {
+    "id": "juju",
+    "name": "JUJU",
+    "kana": "ジュジュ"
+  },
+  {
+    "id": "skirt",
+    "name": "スカート",
+    "kana": "スカート"
+  },
+  {
+    "id": "suzuki-kiyomi",
+    "name": "鈴木聖美",
+    "kana": "すずききよみ"
+  },
+  {
+    "id": "stardust-revue",
+    "name": "スターダスト☆レビュー",
+    "kana": "スターダストレビュー"
+  },
+  {
+    "id": "takeuchi-mariya",
+    "name": "竹内まりや",
+    "kana": "たけうちまりや"
+  },
+  {
+    "id": "tokyo-jihen",
+    "name": "東京事変",
+    "kana": "とうきょうじへん"
+  },
+  {
+    "id": "tokyo-ska",
+    "name": "東京スカパラダイスオーケストラ",
+    "kana": "とうきょうすかぱらだいすおーけすとら"
+  },
+  {
+    "id": "toki-asako",
+    "name": "土岐麻子",
+    "kana": "ときあさこ"
+  },
+  {
+    "id": "nakashima-mika",
+    "name": "中島美嘉",
+    "kana": "なかしまみか"
+  },
+  {
+    "id": "nakayama-miho",
+    "name": "中山美穂",
+    "kana": "なかやまみほ"
+  },
+  {
+    "id": "nulbarich",
+    "name": "Nulbarich",
+    "kana": "ナルバリッチ"
+  },
+  {
+    "id": "nonomura-ayano",
+    "name": "野々村彩乃",
+    "kana": "ののむらあやの"
+  },
+  {
+    "id": "joe-hisaishi",
+    "name": "久石譲",
+    "kana": "ひさいしじょう"
+  },
+  {
+    "id": "hirai-ken",
+    "name": "平井堅",
+    "kana": "ひらいけん"
+  },
+  {
+    "id": "hiramatsu-eri",
+    "name": "平松愛理",
+    "kana": "ひらまつえり"
+  },
+  {
+    "id": "pizzicato-five",
+    "name": "PIZZICATO FIVE",
+    "kana": "ピチカートファイヴ"
+  },
+  {
+    "id": "fukumimi",
+    "name": "福耳",
+    "kana": "ふくみみ"
+  },
+  {
+    "id": "fukuyama-masaharu",
+    "name": "福山雅治",
+    "kana": "ふくやままさはる"
+  },
+  {
+    "id": "furuuchi-toko",
+    "name": "古内東子",
+    "kana": "ふるうちとうこ"
+  },
+  {
+    "id": "punipuni-denki",
+    "name": "ぷにぷに電機",
+    "kana": "ぷにぷにでんき"
+  },
+  {
+    "id": "princess-princess",
+    "name": "プリンセス プリンセス",
+    "kana": "プリンセスプリンセス"
+  },
+  {
+    "id": "hoshino-gen",
+    "name": "星野源",
+    "kana": "ほしのげん"
+  },
+  {
+    "id": "makihara-noriyuki",
+    "name": "槇原敬之",
+    "kana": "まきはらのりゆき"
+  },
+  {
+    "id": "matsuda-seiko",
+    "name": "松田聖子",
+    "kana": "まつだせいこ"
+  },
+  {
+    "id": "matsutoya-yumi",
+    "name": "松任谷由実",
+    "kana": "まつとうやゆみ"
+  },
+  {
+    "id": "matsubara-miki",
+    "name": "松原みき",
+    "kana": "まつばらみき"
+  },
+  {
+    "id": "mr-children",
+    "name": "Mr.Children",
+    "kana": "ミスターチルドレン"
+  },
+  {
+    "id": "yakushimaru-hiroko",
+    "name": "薬師丸ひろ子",
+    "kana": "やくしまるひろこ"
   },
   {
     "id": "eikichi-yazawa",
@@ -335,43 +355,28 @@
     "kana": "やすは"
   },
   {
-    "id": "matsubara-miki",
-    "name": "松原みき",
-    "kana": "まつばらみき"
+    "id": "yano",
+    "name": "ヤノ",
+    "kana": "ヤノ"
   },
   {
-    "id": "hirai-ken",
-    "name": "平井堅",
-    "kana": "ひらいけん"
+    "id": "yamazaki-masayoshi",
+    "name": "山崎まさよし",
+    "kana": "やまざきまさよし"
   },
   {
-    "id": "sano-motoharu",
-    "name": "佐野元春",
-    "kana": "さのもとはる"
+    "id": "yamashita-kumiko",
+    "name": "山下久美子",
+    "kana": "やましたくみこ"
   },
   {
-    "id": "ozaki-ami",
-    "name": "尾崎亜美",
-    "kana": "おざきあみ"
+    "id": "yamashita-tatsuro",
+    "name": "山下達郎",
+    "kana": "やましたたつろう"
   },
   {
-    "id": "kaze",
-    "name": "風",
-    "kana": "かぜ"
-  },
-  {
-    "id": "arai-yumi",
-    "name": "荒井由実",
-    "kana": "あらいゆみ"
-  },
-  {
-    "id": "matsutoya-yumi",
-    "name": "松任谷由実",
-    "kana": "まつとうやゆみ"
-  },
-  {
-    "id": "aimer",
-    "name": "Aimer",
-    "kana": "エメ"
+    "id": "yoshiki",
+    "name": "YOSHIKI",
+    "kana": "よしき"
   }
 ]
