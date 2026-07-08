@@ -23,7 +23,7 @@ Before production deployment:
 1. Fetch the latest `origin/main`.
 2. Apply the requested change on a clean checkout.
 3. Commit and push the exact deployed change.
-4. Run `node tools/predeploy-check.mjs`.
+4. Run `powershell -NoProfile -ExecutionPolicy Bypass -File tools/predeploy-check.ps1`.
 5. Deploy only after the check passes.
 
 `--commit-dirty=true` must not be used for normal production deployment.
