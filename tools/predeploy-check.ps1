@@ -8,15 +8,25 @@ function Add-ErrorMessage {
   [void]$errors.Add($Message)
 }
 
-git -C $root fetch --quiet origin main
+function Invoke-Git {
+  param([string[]]$GitArgs)
 
-$head = (git -C $root rev-parse HEAD).Trim()
-$origin = (git -C $root rev-parse origin/main).Trim()
+  $output = & git -c http.sslBackend=openssl -C $root.Path @GitArgs 2>&1
+  if ($LASTEXITCODE -ne 0) {
+    throw "git $($GitArgs -join ' ') failed:`n$($output -join "`n")"
+  }
+  return ($output -join "`n")
+}
+
+Invoke-Git @("fetch", "--quiet", "origin", "main") | Out-Null
+
+$head = (Invoke-Git @("rev-parse", "HEAD")).Trim()
+$origin = (Invoke-Git @("rev-parse", "origin/main")).Trim()
 if ($head -ne $origin) {
   Add-ErrorMessage "HEAD is not origin/main. Push the exact commit first, then deploy."
 }
 
-$status = git -C $root status --porcelain=v1
+$status = Invoke-Git @("status", "--porcelain=v1")
 if ($status) {
   Add-ErrorMessage "Working tree is dirty. Commit or discard changes before deploy."
 }
