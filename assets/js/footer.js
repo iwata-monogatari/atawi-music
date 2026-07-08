@@ -11,6 +11,10 @@
 
   loadFujigaokaAnalytics();
   function injectRandomEncounterLabel() {
+    if (document.querySelector(".site-header .header-random-encounter")) {
+      return;
+    }
+
     var headerLinks = document.querySelector(".header-links");
     if (!headerLinks || headerLinks.querySelector(".header-random-encounter")) {
       return;

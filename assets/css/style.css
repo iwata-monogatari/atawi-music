@@ -477,3 +477,78 @@
 @media (max-width: 720px){
   .header-random-encounter{font-size:.68rem}
 }
+
+/* Stable restore guards: keep filters/search aligned with song cards and preserve rating layout. */
+.filters,
+.status,
+[data-song-list],
+.pagination {
+  max-width: 860px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+}
+
+.song-main .card-selection {
+  align-self: center;
+  color: var(--accent);
+  display: flex;
+  flex: 0 0 136px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  font-weight: 800;
+  line-height: 1.25;
+  padding: 12px 18px 12px 0;
+  text-align: right;
+  white-space: nowrap;
+}
+.song-main .card-selection-label {
+  color: rgba(245, 240, 234, .76);
+  font-size: .88rem;
+}
+.song-main .card-selection-stars {
+  color: var(--accent);
+  font-size: 1.08rem;
+  letter-spacing: 0;
+}
+.song-youtube {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.song-youtube-link {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.song-youtube .song-rating {
+  color: rgba(208, 168, 95, .9);
+  flex: 0 0 auto;
+  font-size: .9rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  margin-left: auto;
+  text-align: right;
+  white-space: nowrap;
+}
+@media (max-width: 720px) {
+  .song-main .card-selection {
+    align-self: flex-start;
+    align-items: flex-start;
+    flex-basis: auto;
+    padding: 0 14px 12px;
+    text-align: left;
+  }
+  .song-youtube {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .song-youtube .song-rating {
+    align-self: flex-end;
+    max-width: 100%;
+    white-space: normal;
+  }
+}
