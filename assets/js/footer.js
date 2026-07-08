@@ -1,4 +1,15 @@
 (function () {
+  function loadFujigaokaAnalytics() {
+    if (document.querySelector('script[data-fujigaoka-analytics="true"]')) return;
+    var script = document.createElement("script");
+    script.defer = true;
+    script.src = "https://fujigaoka-analytics-worker.hiroyukio0122.workers.dev/tracker.js";
+    script.setAttribute("data-site", "atawi-music");
+    script.setAttribute("data-fujigaoka-analytics", "true");
+    document.head.appendChild(script);
+  }
+
+  loadFujigaokaAnalytics();
   function injectRandomEncounterLabel() {
     var headerLinks = document.querySelector(".header-links");
     if (!headerLinks || headerLinks.querySelector(".header-random-encounter")) {
