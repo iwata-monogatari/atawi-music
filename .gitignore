@@ -5,4 +5,5 @@
 *.log
 logs/
 __pycache__/
+.wrangler/
 data/discovery-approved.json
