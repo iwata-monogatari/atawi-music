@@ -6246,40 +6246,6 @@
     }
   },
   {
-    "id": "kohiruimaki-kahoru-003",
-    "title": "TONIGHT",
-    "artist": "小比類巻かほる",
-    "article_url": "/articles/kohiruimaki-kahoru-003.html",
-    "summary": "小比類巻かほる「TONIGHT」を、大石セレクション（曲・歌詞・MV）で読み解くATAWI MUSIC記事です。",
-    "status": "published",
-    "release_year": 1988,
-    "decade": "1980年代",
-    "youtube_url": "https://www.youtube.com/watch?v=by-107dCuJo",
-    "featured_order": 320,
-    "rating": {
-      "song": 3,
-      "lyrics": 4,
-      "mv": 4,
-      "selection": "lyrics"
-    }
-  },
-  {
-    "id": "kohiruimaki-kahoru-004",
-    "title": "Cops And Robbers",
-    "artist": "小比類巻かほる",
-    "article_url": "/articles/kohiruimaki-kahoru-004.html",
-    "summary": "小比類巻かほる「Cops And Robbers」を、大石セレクション（曲・歌詞・MV）で読み解くATAWI MUSIC記事です。",
-    "status": "published",
-    "youtube_url": "https://www.youtube.com/watch?v=_q_RAKJKkHI",
-    "featured_order": 321,
-    "rating": {
-      "song": 4,
-      "lyrics": 3,
-      "mv": 4,
-      "selection": "mv"
-    }
-  },
-  {
     "id": "kohiruimaki-kahoru-005",
     "title": "TOGETHER",
     "artist": "小比類巻かほる",
@@ -6295,22 +6261,6 @@
       "lyrics": 4,
       "mv": 3,
       "selection": "lyrics"
-    }
-  },
-  {
-    "id": "kohiruimaki-kahoru-006",
-    "title": "ルパン三世のテーマ",
-    "artist": "小比類巻かほる",
-    "article_url": "/articles/kohiruimaki-kahoru-006.html",
-    "summary": "小比類巻かほるが歌う「ルパン三世のテーマ」を、大石セレクション（曲・歌詞・MV）で読み解くATAWI MUSIC記事です。",
-    "status": "published",
-    "youtube_url": "https://www.youtube.com/watch?v=IkMx4yho6AY",
-    "featured_order": 323,
-    "rating": {
-      "song": 4,
-      "lyrics": 3,
-      "mv": 4,
-      "selection": "song"
     }
   },
   {
@@ -6846,15 +6796,6 @@
     }
   },
   {
-    "id": "nulbarich-tokyo",
-    "title": "ATAWI MUSIC",
-    "artist": "移動しました",
-    "article_url": "/articles/nulbarich-tokyo.html",
-    "summary": "",
-    "status": "published",
-    "featured_order": 354
-  },
-  {
     "id": "official-hige-dandism-005",
     "title": "コーヒーとシロップ",
     "artist": "Official髭男dism",
@@ -7123,15 +7064,6 @@
       "mv": 3,
       "selection": "song"
     }
-  },
-  {
-    "id": "somewhere-in-tokyo",
-    "title": "ATAWI MUSIC",
-    "artist": "移動しました",
-    "article_url": "/articles/somewhere-in-tokyo.html",
-    "summary": "",
-    "status": "published",
-    "featured_order": 370
   },
   {
     "id": "southern-all-stars-001",
