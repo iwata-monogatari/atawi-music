@@ -8361,5 +8361,26 @@
       "mv": 3,
       "selection": "song"
     }
+  },
+  {
+    "id": "funky-monkey-babys-001",
+    "title": "明日へ",
+    "artist": "FUNKY MONKEY BABYS",
+    "release_year": 2009,
+    "decade": "2000年代",
+    "article_url": "/articles/funky-monkey-babys-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=dqApaRsDmyo",
+    "source_owner": "レーベル提供",
+    "created_at": "2026-07-11T00:15:00",
+    "summary": "高校生に向けて贈られたはずのこの曲のMVに、磐田が生んだサッカーの英雄が映っていた。",
+    "status": "published",
+    "featured_order": 440,
+    "recommended": true,
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    }
   }
 ]
