@@ -3,7 +3,7 @@
     if (document.querySelector('script[data-fujigaoka-analytics="true"]')) return;
     var script = document.createElement("script");
     script.defer = true;
-    script.src = "https://fujigaoka-analytics-worker.hiroyukio0122.workers.dev/tracker.js?v=20260711";
+    script.src = "https://fujigaoka-analytics-worker.hiroyukio0122.workers.dev/tracker.js?v=20260711-2";
     script.setAttribute("data-site", "atawi-music");
     script.setAttribute("data-fujigaoka-analytics", "true");
     document.head.appendChild(script);
