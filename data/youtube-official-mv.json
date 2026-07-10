@@ -4494,27 +4494,6 @@
     }
   },
   {
-    "song_id": "eikichi-yazawa-001",
-    "artist_id": "eikichi-yazawa",
-    "artist": "矢沢永吉",
-    "title": "A DAY〜時間よ止まれ",
-    "release_year": 1978,
-    "decade": "1970年代",
-    "article_url": "/articles/eikichi-yazawa-001.html",
-    "youtube": {
-      "video_id": "UGNysA3vgYo",
-      "url": "https://www.youtube.com/watch?v=UGNysA3vgYo",
-      "title": "A DAY〜時間よ止まれ",
-      "channel_name": "矢沢永吉 Eikichi Yazawa Channel公式",
-      "channel_id": null,
-      "score": 100,
-      "score_reasons": [
-        "既存公開データから移行"
-      ],
-      "reviewed_at": "2026-07-04T19:58:08+00:00"
-    }
-  },
-  {
     "song_id": "fukuyama-masaharu-001",
     "artist_id": "fukuyama-masaharu",
     "artist": "福山雅治",
