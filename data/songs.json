@@ -8382,5 +8382,173 @@
       "mv": 5,
       "selection": "mv"
     }
+  },
+  {
+    "id": "sakiya-kenjiro-003",
+    "title": "Because of Love",
+    "artist": "崎谷健次郎",
+    "release_year": 1989,
+    "decade": "1980年代",
+    "article_url": "/articles/sakiya-kenjiro-003.html",
+    "youtube_url": "https://www.youtube.com/watch?v=XI1VSDomTZg",
+    "source_owner": "崎谷健次郎公式チャンネルimpression",
+    "created_at": "2026-07-13T09:00:00",
+    "summary": "強く言い切る愛ではなく、声の余白で残る大人のラブソング。",
+    "status": "published",
+    "featured_order": 441,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "sakiya-kenjiro-004",
+    "title": "さよならも言わずに",
+    "artist": "崎谷健次郎",
+    "release_year": 1990,
+    "decade": "1990年代",
+    "article_url": "/articles/sakiya-kenjiro-004.html",
+    "youtube_url": "https://www.youtube.com/watch?v=6JxNPwpa6tM",
+    "source_owner": "崎谷健次郎公式チャンネルimpression",
+    "created_at": "2026-07-13T09:01:00",
+    "summary": "別れの言葉を置かないまま進んでいく時間を、静かに受け止める曲。",
+    "status": "published",
+    "featured_order": 442,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "sakiya-kenjiro-005",
+    "title": "ニューヨークシティ・セレナーデ（崎谷健次郎Cover）",
+    "artist": "崎谷健次郎",
+    "release_year": 2024,
+    "decade": "2020年代",
+    "article_url": "/articles/sakiya-kenjiro-005.html",
+    "youtube_url": "https://www.youtube.com/watch?v=-6Wvaq3tzgI",
+    "source_owner": "崎谷健次郎公式チャンネルimpression",
+    "created_at": "2026-07-13T09:02:00",
+    "summary": "クリストファー・クロスの名曲を、崎谷健次郎の声で日本の夜に戻すカバー。",
+    "status": "published",
+    "featured_order": 443,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "sakiya-kenjiro-006",
+    "title": "夏の午后（1988 LIVE）",
+    "artist": "崎谷健次郎",
+    "release_year": 1988,
+    "decade": "1980年代",
+    "article_url": "/articles/sakiya-kenjiro-006.html",
+    "youtube_url": "https://www.youtube.com/watch?v=7Mc-m9RtTUQ",
+    "source_owner": "崎谷健次郎公式チャンネルimpression",
+    "created_at": "2026-07-13T09:03:00",
+    "summary": "夏の明るさではなく、午後の影と余韻を聴かせるライブ映像。",
+    "status": "published",
+    "featured_order": 444,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "sakiya-kenjiro-007",
+    "title": "I WANNA DANCE（1989 LIVE）",
+    "artist": "崎谷健次郎",
+    "release_year": 1989,
+    "decade": "1980年代",
+    "article_url": "/articles/sakiya-kenjiro-007.html",
+    "youtube_url": "https://www.youtube.com/watch?v=Hmdzr6koOxk",
+    "source_owner": "崎谷健次郎公式チャンネルimpression",
+    "created_at": "2026-07-13T09:04:00",
+    "summary": "踊るという軽さの奥に、都会の夜の孤独をにじませるライブ曲。",
+    "status": "published",
+    "featured_order": 445,
+    "recommended": true,
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    }
+  },
+  {
+    "id": "sakiya-kenjiro-008",
+    "title": "不安定な月（1991 Acoustic LIVE）",
+    "artist": "崎谷健次郎",
+    "release_year": 1991,
+    "decade": "1990年代",
+    "article_url": "/articles/sakiya-kenjiro-008.html",
+    "youtube_url": "https://www.youtube.com/watch?v=5dwTJfRMgvg",
+    "source_owner": "崎谷健次郎公式チャンネルimpression",
+    "created_at": "2026-07-13T09:05:00",
+    "summary": "アコースティックな声の近さで、夜の不安と揺れを受け止める曲。",
+    "status": "published",
+    "featured_order": 446,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "sakiya-kenjiro-009",
+    "title": "ROOMS（2018年5月1日LIVE）",
+    "artist": "崎谷健次郎",
+    "release_year": 1994,
+    "decade": "1990年代",
+    "article_url": "/articles/sakiya-kenjiro-009.html",
+    "youtube_url": "https://www.youtube.com/watch?v=9TSz37BXpkU",
+    "source_owner": "崎谷健次郎公式チャンネルimpression",
+    "created_at": "2026-07-13T09:06:00",
+    "summary": "部屋という言葉から、暮らしの記憶と人がいた気配をたどる曲。",
+    "status": "published",
+    "featured_order": 447,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "sakiya-kenjiro-010",
+    "title": "さよならも言わずに（1991 Acoustic LIVE）",
+    "artist": "崎谷健次郎",
+    "release_year": 1991,
+    "decade": "1990年代",
+    "article_url": "/articles/sakiya-kenjiro-010.html",
+    "youtube_url": "https://www.youtube.com/watch?v=FUNJN7_aiuQ",
+    "source_owner": "崎谷健次郎公式チャンネルimpression",
+    "created_at": "2026-07-13T09:07:00",
+    "summary": "MV版とは違う近さで、言えなかった別れをもう一度聴き直すライブ版。",
+    "status": "published",
+    "featured_order": 448,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   }
 ]
