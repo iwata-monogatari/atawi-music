@@ -8622,5 +8622,26 @@
     "kana": [
       "さきやけんじろう"
     ]
+  },
+  {
+    "id": "inagaki-junichi-001",
+    "title": "夏のクラクション",
+    "artist": "稲垣潤一",
+    "release_year": 1983,
+    "decade": "1980年代",
+    "article_url": "/articles/inagaki-junichi-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=DxFmhIslxnI",
+    "source_owner": "稲垣潤一 Official",
+    "created_at": "2026-07-19T09:00:00",
+    "summary": "夏の終わりに残るクラクションの余韻を、公式MVと1983年の記憶から聴き直す曲。",
+    "status": "published",
+    "featured_order": 452,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "song"
+    }
   }
 ]
