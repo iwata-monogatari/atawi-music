@@ -8895,5 +8895,320 @@
       "mv": 4,
       "selection": "song"
     }
+  },
+  {
+    "id": "kubota-toshinobu-004",
+    "title": "Dance If You Want It",
+    "artist": "久保田利伸",
+    "release_year": 1988,
+    "decade": "1980年代",
+    "article_url": "/articles/kubota-toshinobu-004.html",
+    "youtube_url": "https://www.youtube.com/watch?v=u-iNGmmFqDg",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T13:00:00",
+    "summary": "踊ることを、自分を取り戻す小さな決意として聴く。",
+    "status": "published",
+    "featured_order": 465,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-005",
+    "title": "CRY ON YOUR SMILE",
+    "artist": "久保田利伸",
+    "release_year": 1987,
+    "decade": "1980年代",
+    "article_url": "/articles/kubota-toshinobu-005.html",
+    "youtube_url": "https://www.youtube.com/watch?v=zXDoAjyV3Rc",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T14:00:00",
+    "summary": "笑顔の奥にある涙へ、声を荒らげずに手を伸ばす。",
+    "status": "published",
+    "featured_order": 466,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-006",
+    "title": "You were mine",
+    "artist": "久保田利伸",
+    "release_year": 1988,
+    "decade": "1980年代",
+    "article_url": "/articles/kubota-toshinobu-006.html",
+    "youtube_url": "https://www.youtube.com/watch?v=asWsotxv1AA",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T15:00:00",
+    "summary": "過去形になった愛を、都会の速度の中で振り返る。",
+    "status": "published",
+    "featured_order": 467,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-007",
+    "title": "Indigo Waltz",
+    "artist": "久保田利伸",
+    "release_year": 1989,
+    "decade": "1980年代",
+    "article_url": "/articles/kubota-toshinobu-007.html",
+    "youtube_url": "https://www.youtube.com/watch?v=-lpTU5IYCTw",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T16:00:00",
+    "summary": "藍色の夜に残る、言えなかった言葉の輪郭。",
+    "status": "published",
+    "featured_order": 468,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-008",
+    "title": "夢 with You",
+    "artist": "久保田利伸",
+    "release_year": 1993,
+    "decade": "1990年代",
+    "article_url": "/articles/kubota-toshinobu-008.html",
+    "youtube_url": "https://www.youtube.com/watch?v=yadC79-l5zg",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T17:00:00",
+    "summary": "誰かと同じ未来を見ることの、まぶしさと怖さ。",
+    "status": "published",
+    "featured_order": 469,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-009",
+    "title": "the Sound of Carnival",
+    "artist": "久保田利伸",
+    "release_year": 1999,
+    "decade": "1990年代",
+    "article_url": "/articles/kubota-toshinobu-009.html",
+    "youtube_url": "https://www.youtube.com/watch?v=58Cx76NMEVM",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T18:00:00",
+    "summary": "祝祭のあとに一人で聞く、街のざわめきの余韻。",
+    "status": "published",
+    "featured_order": 470,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-010",
+    "title": "Candy Rain",
+    "artist": "久保田利伸",
+    "release_year": 2001,
+    "decade": "2000年代",
+    "article_url": "/articles/kubota-toshinobu-010.html",
+    "youtube_url": "https://www.youtube.com/watch?v=CaZeAs8JASo",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T19:00:00",
+    "summary": "甘い雨のように、記憶へゆっくり染み込む恋。",
+    "status": "published",
+    "featured_order": 471,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-011",
+    "title": "流星のサドル",
+    "artist": "久保田利伸",
+    "release_year": 1986,
+    "decade": "1980年代",
+    "article_url": "/articles/kubota-toshinobu-011.html",
+    "youtube_url": "https://www.youtube.com/watch?v=CD2a9Z0hU3w",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T20:00:00",
+    "summary": "若さの速度を、今の自分の時間から見送り直す。",
+    "status": "published",
+    "featured_order": 472,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-012",
+    "title": "LOVE RAIN ～恋の雨～",
+    "artist": "久保田利伸",
+    "release_year": 2010,
+    "decade": "2010年代",
+    "article_url": "/articles/kubota-toshinobu-012.html",
+    "youtube_url": "https://www.youtube.com/watch?v=jOnmP8rPVMY",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T21:00:00",
+    "summary": "年齢を重ねても始まる恋を、雨の景色に重ねる。",
+    "status": "published",
+    "featured_order": 473,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-013",
+    "title": "声にできない",
+    "artist": "久保田利伸",
+    "release_year": 2011,
+    "decade": "2010年代",
+    "article_url": "/articles/kubota-toshinobu-013.html",
+    "youtube_url": "https://www.youtube.com/watch?v=hUeQTOv3QDY",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T22:00:00",
+    "summary": "言葉にできない時間にも、確かに伝わるものがある。",
+    "status": "published",
+    "featured_order": 474,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-014",
+    "title": "Club Happiness",
+    "artist": "久保田利伸",
+    "release_year": 2005,
+    "decade": "2000年代",
+    "article_url": "/articles/kubota-toshinobu-014.html",
+    "youtube_url": "https://www.youtube.com/watch?v=6Nz1NQ02KM0",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T23:00:00",
+    "summary": "幸福を待つのでなく、音の中で自分から迎えに行く。",
+    "status": "published",
+    "featured_order": 475,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-015",
+    "title": "AHHHHH!",
+    "artist": "久保田利伸",
+    "release_year": 1998,
+    "decade": "1990年代",
+    "article_url": "/articles/kubota-toshinobu-015.html",
+    "youtube_url": "https://www.youtube.com/watch?v=dS2NzYQ3aNs",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T24:00:00",
+    "summary": "言葉になる前の叫びを、前へ進む力へ変える。",
+    "status": "published",
+    "featured_order": 476,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-016",
+    "title": "ふたりのオルケスタ",
+    "artist": "久保田利伸",
+    "release_year": 1993,
+    "decade": "1990年代",
+    "article_url": "/articles/kubota-toshinobu-016.html",
+    "youtube_url": "https://www.youtube.com/watch?v=di5lz_lzUDM",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T25:00:00",
+    "summary": "二人の間にしか鳴らない音を、丁寧に聴き取る。",
+    "status": "published",
+    "featured_order": 477,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-017",
+    "title": "夜に抱かれて～A Night in Afro Blue～",
+    "artist": "久保田利伸",
+    "release_year": 1994,
+    "decade": "1990年代",
+    "article_url": "/articles/kubota-toshinobu-017.html",
+    "youtube_url": "https://www.youtube.com/watch?v=6js5tLtba9w",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T26:00:00",
+    "summary": "夜を孤独ではなく、感情を戻す場所として受け止める。",
+    "status": "published",
+    "featured_order": 478,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
+  },
+  {
+    "id": "kubota-toshinobu-018",
+    "title": "You Go Lady",
+    "artist": "久保田利伸",
+    "release_year": 2018,
+    "decade": "2010年代",
+    "article_url": "/articles/kubota-toshinobu-018.html",
+    "youtube_url": "https://www.youtube.com/watch?v=gQUoCI5tS40",
+    "source_owner": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+    "created_at": "2026-07-26T27:00:00",
+    "summary": "自分の歩幅で進む人へ、押しつけずに送る応援歌。",
+    "status": "published",
+    "featured_order": 479,
+    "recommended": true,
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    }
   }
 ]
