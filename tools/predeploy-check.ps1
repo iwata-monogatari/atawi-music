@@ -1,5 +1,8 @@
 $ErrorActionPreference = "Stop"
 
+node (Join-Path $PSScriptRoot 'build-seo.mjs') --check
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
 $root = Resolve-Path (Join-Path $PSScriptRoot "..")
 $errors = New-Object System.Collections.Generic.List[string]
 

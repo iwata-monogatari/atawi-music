@@ -6,6 +6,8 @@ import { fileURLToPath } from "node:url";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const errors = [];
 
+execFileSync(process.execPath, [join(root, "tools", "build-seo.mjs"), "--check"], { stdio: "inherit" });
+
 function git(args) {
   return execFileSync("git", args, { cwd: root, encoding: "utf8" }).trim();
 }

@@ -1,3 +1,9 @@
 /docs/* /404.html 404!
 /.wrangler/* /404.html 404!
 /build_site.js /404.html 404!
+
+# Retired URL aliases still refer to these same published articles.
+/articles/somewhere-in-tokyo /articles/furuuchi-toko-001 301
+/articles/somewhere-in-tokyo.html /articles/furuuchi-toko-001 301
+/articles/nulbarich-tokyo /articles/nulbarich-001 301
+/articles/nulbarich-tokyo.html /articles/nulbarich-001 301

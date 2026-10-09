@@ -2,6 +2,7 @@
 // 実行: node tools/build-search-index.mjs
 // songs.json を編集したら必ず再実行すること(記事作成スキルのSite Registration手順に含まれる)。
 import { readFileSync, writeFileSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -44,3 +45,5 @@ const index = songs
 const out = JSON.stringify(index);
 writeFileSync(join(root, "data", "search-index.json"), out);
 console.log(`search-index.json: ${index.length} songs, ${Math.round(out.length / 1024)} KB (songs.json: ${songs.length} entries)`);
+// Article creation/deletion must update discovery URLs and canonical tags too.
+execFileSync(process.execPath, [join(root, "tools", "build-seo.mjs")], { stdio: "inherit" });
