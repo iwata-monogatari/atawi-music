@@ -1,0 +1,94 @@
+name: Audit live site
+
+on:
+  workflow_dispatch:
+    inputs:
+      origin:
+        description: 'ATAWI MUSIC production or Pages preview origin'
+        required: true
+        default: 'https://atawimusic.link'
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify responses, canonical URLs, published data, and old redirects
+        env:
+          AUDIT_ORIGIN: ${{ inputs.origin }}
+        run: |
+          node --input-type=module <<'NODE'
+          import {readFileSync, writeFileSync} from 'node:fs';
+          const origin = process.env.AUDIT_ORIGIN.replace(/\/$/, '');
+          if (!/^https:\/\/(atawimusic\.link|(?:[a-z0-9-]+\.)?atawi-music\.pages\.dev)$/.test(origin)) throw Error('Only ATAWI MUSIC origins are allowed');
+          const songs = JSON.parse(readFileSync('data/songs.json', 'utf8')).filter(s => s.status === 'published');
+          const sitemap = readFileSync('sitemap.xml', 'utf8');
+          const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
+          const results = [];
+          const taskUrls = [];
+          async function get(path) {
+            let last;
+            for (let attempt=0; attempt<3; attempt++) {
+              try {
+                const r = await fetch(origin + path, {redirect:'manual',signal:AbortSignal.timeout(20000)});
+                if ([429,500,502,503,504].includes(r.status) && attempt<2) { await r.text(); await new Promise(r=>setTimeout(r,1500*(attempt+1))); continue; }
+                return r;
+              } catch(e) {last=e;}
+            }
+            throw last || Error('Request failed');
+          }
+          function record(path, ok, detail) {results.push({path,ok,detail}); if (!ok) console.log('FAIL',path,detail);}
+          for (const file of ['sitemap.xml','data/songs.json','data/search-index.json','robots.txt']) {
+            const r=await get('/'+file); const body=await r.text();
+            const local=readFileSync(file,'utf8');
+            const same=file.endsWith('.json') ? JSON.stringify(JSON.parse(body))===JSON.stringify(JSON.parse(local)) : body.replaceAll('\r\n','\n')===local.replaceAll('\r\n','\n');
+            record('/'+file,r.status===200&&same,{status:r.status,contentMatchesMain:same});
+          }
+          const byPath=new Map(songs.map(s=>[s.article_url.replace(/\.html$/,''),s]));
+          for (const canonical of urls) {
+            taskUrls.push(async()=>{
+              const path=new URL(canonical).pathname; const r=await get(path); const body=await r.text();
+              const actual=[...body.matchAll(/<link\b[^>]*\brel=["']canonical["'][^>]*\bhref=["']([^"']+)/g)].map(m=>m[1]);
+              const song=byPath.get(path); const videos=[];
+              if (song?.article_type==='official_video_note') videos.push(new URL(song.youtube_url).searchParams.get('v'));
+              for (const u of song?.additional_youtube_urls||[]) videos.push(new URL(u).searchParams.get('v'));
+              const embeds=videos.every(v=>v&&body.includes('embed/'+v));
+              const noindex=/<meta\b[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(body) || (origin==='https://atawimusic.link'&&/noindex/i.test(r.headers.get('x-robots-tag')||''));
+              record(path,r.status===200&&actual.length===1&&actual[0]===canonical&&embeds&&!noindex,{status:r.status,canonical:actual,expectedVideosPresent:embeds,indexable:!noindex});
+              if (song) {
+                const legacy=await get(path+'.html'); await legacy.text();
+                const target=new URL(legacy.headers.get('location')||'',origin).href;
+                record(path+'.html',[301,308].includes(legacy.status)&&target===origin+path,{status:legacy.status,location:target});
+              }
+            });
+          }
+          let index=0;
+          await Promise.all(Array.from({length:5},async()=>{while(index<taskUrls.length){const i=index++;try{await taskUrls[i]();}catch(e){record(urls[i],false,{error:String(e)});}}}));
+          for (const [old,dest] of [['somewhere-in-tokyo','furuuchi-toko-001'],['nulbarich-tokyo','nulbarich-001']]) {
+            for (const ext of ['', '.html']) {
+              const path='/articles/'+old+ext;const r=await get(path);await r.text();
+              const target=new URL(r.headers.get('location')||'',origin).pathname;
+              record(path,r.status===301&&target==='/articles/'+dest,{status:r.status,location:target});
+            }
+          }
+          for (const path of ['/articles/atawi-music-nonexistent-verification-20261009','/data/discovery-approved.json','/data/youtube-official-mv.json','/.agents/skills/atawi-music-skill/SKILL.md']) {
+            const r=await get(path); await r.text();record(path,r.status===404,{status:r.status});
+          }
+          const summary={origin,commit:process.env.GITHUB_SHA,articles:songs.length,sitemapUrls:urls.length,checks:results.length,passed:results.filter(x=>x.ok).length,failed:results.filter(x=>!x.ok).length};
+          writeFileSync('live-audit.json',JSON.stringify({summary,results},null,2));
+          console.log('AUDIT_SUMMARY '+JSON.stringify(summary));
+          if(summary.failed)process.exitCode=1;
+          NODE
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: live-audit
+          path: live-audit.json
