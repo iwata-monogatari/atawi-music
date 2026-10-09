@@ -1,0 +1,26 @@
+name: Verify published main
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test SEO invariants
+        run: node --test tools/build-seo.test.mjs
+      - name: Check clean latest main and deployment guards
+        shell: pwsh
+        run: ./tools/predeploy-check.ps1
