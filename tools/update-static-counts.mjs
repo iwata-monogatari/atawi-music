@@ -22,6 +22,8 @@ const ldJson = {
     if (!url.startsWith('http')) {
       url = 'https://atawimusic.link' + (url.startsWith('/') ? url : '/' + url);
     }
+    // Cloudflare Pages redirects .html to the extensionless canonical URL.
+    url = url.replace(/\.html$/, '');
     return {
       "@type": "ListItem",
       "position": idx + 1,
