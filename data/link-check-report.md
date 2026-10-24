@@ -1,11 +1,12 @@
 # リンク切れチェックレポート
 
-実行日時: 2026/10/24 6:58:36 (日本時間)
+実行日時: 2026/10/25 6:28:52 (日本時間)
 総チェック件数: 509 件
-リンク切れ検出件数: **1** 件
+リンク切れ検出件数: **2** 件
 
 ## 検出された異常リンク一覧
 
 | 歌手名 | 曲名 | 記事リンク | YouTubeリンク | 異常内容 |
 | --- | --- | --- | --- | --- |
 | 崎谷健次郎 | ニューヨークシティ・セレナーデ（崎谷健次郎Cover） | [記事](/articles/sakiya-kenjiro-005.html) | [YouTube](https://www.youtube.com/watch?v=-6Wvaq3tzgI) | YouTube動画が非公開または削除されています (ステータス: 403)。  |
+| JUJU | 夏蝉 | [記事](/articles/juju-012.html) | [YouTube](https://www.youtube.com/watch?v=Cvg00GnAvKU) | YouTube動画が非公開または削除されています (ステータス: 403)。  |
