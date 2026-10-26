@@ -3125,7 +3125,14 @@
     "created_at": "2026-07-03T21:06:00",
     "summary": "秘密を抱えるということは、誰かを守るということでもある。",
     "status": "published",
-    "featured_order": 153
+    "featured_order": 153,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "別れを大きな悲劇として語るより、誰かを守るために抱える思いへ目を向けるところを選びました。本文で触れた抑制のある歌と、映画『秘密』にもつながる言葉の余白を、この曲の主な魅力として評価します。"
   },
   {
     "id": "takeuchi-mariya-008",
@@ -4699,7 +4706,14 @@
     "release_year": 1989,
     "decade": "1980年代",
     "youtube_url": "https://www.youtube.com/watch?v=lWy55cka6Nc",
-    "featured_order": 238
+    "featured_order": 238,
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "誇りを他人に示す強さではなく、自分の内側で守り続けるものとして読める点を選びました。若い頃の作品を年月を経て歌い直すという本文の視点が、言葉の重みを受け取り直す入口になります。"
   },
   {
     "id": "back-number-001",
@@ -8821,7 +8835,14 @@
     "status": "published",
     "featured_order": 480,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-07T04:30:14+00:00"
+    "video_published_at": "2026-10-07T04:30:14+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "代表的なシングルだけでは見えない、初期のかぐや姫のレパートリーへ戻れる一曲です。1972年のアルバム曲を1978年の演奏でたどれることを重視し、歌詞の解釈よりも曲との再会を主眼に選びました。"
   },
   {
     "id": "kaguyahime-007",
@@ -8837,7 +8858,14 @@
     "status": "published",
     "featured_order": 481,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-07T04:00:17+00:00"
+    "video_published_at": "2026-10-07T04:00:17+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "山田つぐとが作詞・作曲した作品から、かぐや姫の作り手の幅に触れられる点を選びました。『さあど』の収録曲とライブ版を行き来し、グループの音楽を代表曲以外へ広げる入口として評価します。"
   },
   {
     "id": "kaguyahime-008",
@@ -8853,7 +8881,14 @@
     "status": "published",
     "featured_order": 482,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-07T03:45:07+00:00"
+    "video_published_at": "2026-10-07T03:45:07+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "「赤ちょうちん」と同じシングルに収められたもう一曲を、独立した作品として聴き直せる点を選びました。季節という題名の余韻にも惹かれますが、まずレコードの両面へ関心を向ける選曲として曲を主視点にしています。"
   },
   {
     "id": "kaguyahime-009",
@@ -8869,7 +8904,14 @@
     "status": "published",
     "featured_order": 483,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-07T03:30:35+00:00"
+    "video_published_at": "2026-10-07T03:30:35+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "伊勢正三の言葉と南こうせつの曲という組み合わせから、初期のかぐや姫へ戻れる点を選びました。「なごり雪」と同じ物語に重ねず、この一曲の居場所をアルバムの中で探す聴き方を大切にしています。"
   },
   {
     "id": "kaguyahime-010",
@@ -8885,7 +8927,14 @@
     "status": "published",
     "featured_order": 484,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-07T03:15:01+00:00"
+    "video_published_at": "2026-10-07T03:15:01+00:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    },
+    "rating_reason": "小さな暮らしの情景から、若かった二人の時間が立ち上がる歌として選びました。懐かしさだけで終わらず、過ぎた日々の不安や親密さまで思い返せる言葉を主視点とし、今回はシングル版で再会できる点も重視しています。"
   },
   {
     "id": "hirai-ken-002",
@@ -8901,7 +8950,14 @@
     "status": "published",
     "featured_order": 485,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-07T03:00:01+00:00"
+    "video_published_at": "2026-10-07T03:00:01+00:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "よく知る「赤とんぼ」を、平井堅のKen’s Barという別の歌い手・別の場から受け取り直せる点を選びました。元の曲の記憶と歌唱表現を比べる楽しみを重視し、曲と声を主視点にしています。"
   },
   {
     "id": "kuwata-keisuke-015",
@@ -8917,7 +8973,14 @@
     "status": "published",
     "featured_order": 486,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-06T15:00:15+00:00"
+    "video_published_at": "2026-10-06T15:00:15+00:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    },
+    "rating_reason": "別れと季節の移り変わりを重ねる言葉が、違う世代の歌い手にも受け継がれる点を選びました。あいみょんと桑田佳祐の共演を入口に、伊勢正三の作品が持つ時間の余韻へ戻れる一曲です。"
   },
   {
     "id": "uru-002",
@@ -8933,7 +8996,14 @@
     "status": "published",
     "featured_order": 487,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-05T06:00:09+00:00"
+    "video_published_at": "2026-10-05T06:00:09+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "脚本の複雑な心情を歌へ移すという、本文に記した制作の入口を重視しました。短いリリックビデオから言葉へ注意を向けられるため、歌詞を主視点に選び、フル版の展開まで評価したものとは分けています。"
   },
   {
     "id": "sano-motoharu-002",
@@ -8949,7 +9019,14 @@
     "status": "published",
     "featured_order": 488,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-04T11:00:26+00:00"
+    "video_published_at": "2026-10-04T11:00:26+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "見通しにくい時代にどんな合図を受け取るか、という作品紹介の問いを選びました。過去の代表曲の懐かしさにとどまらず、今の言葉を聴き手自身の暮らしへ引き寄せられることを重視しています。"
   },
   {
     "id": "misia-019",
@@ -8968,7 +9045,14 @@
     "video_published_at": "2026-10-04T09:00:14+00:00",
     "additional_youtube_urls": [
       "https://www.youtube.com/watch?v=9tznieudJ8A"
-    ]
+    ],
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "自然を扱う番組・映画との接点と、MISIAのステージの両方から一曲へ進める点を選びました。映像の題材だけに評価を委ねず、異なる場面をつなぐ歌そのものを紹介の中心にしています。"
   },
   {
     "id": "tokyo-ska-010",
@@ -8984,7 +9068,14 @@
     "status": "published",
     "featured_order": 490,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-03T12:00:07+00:00"
+    "video_published_at": "2026-10-03T12:00:07+00:00",
+    "rating": {
+      "song": 5,
+      "mv": 5,
+      "selection": "mv",
+      "lyrics": 4
+    },
+    "rating_reason": "公演のダイジェストではなく、「Showdown」一曲を演奏の場とともにたどれる点を選びました。バンドの演奏へ視線を向ける入口としてライブ映像を主視点にし、曲と映像の両方を高く位置づけています。"
   },
   {
     "id": "vaundy-015",
@@ -9000,7 +9091,14 @@
     "status": "published",
     "featured_order": 491,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-02T09:26:10-07:00"
+    "video_published_at": "2026-10-02T09:26:10-07:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "人とのつながりや時間の重なりを思う歌として、題名に込められた言葉の響きを主視点に選びました。映画を入口に知った人がソウル公演のライブへ進み、同じ曲を別の場で受け取れる点にも魅力があります。"
   },
   {
     "id": "vaundy-016",
@@ -9016,7 +9114,14 @@
     "status": "published",
     "featured_order": 492,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T07:43:06-07:00"
+    "video_published_at": "2026-09-27T07:43:06-07:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "song"
+    },
+    "rating_reason": "忘れられない歌をもう一度口ずさみたくなる、曲そのものの引力を主視点に選びました。今回の公式ライブは、日常の再生リストで出会った一曲を、公演という共有の場へつなぐ入口として評価します。"
   },
   {
     "id": "aiko-003",
@@ -9032,7 +9137,14 @@
     "status": "published",
     "featured_order": 493,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-02T05:00:10-07:00"
+    "video_published_at": "2026-10-02T05:00:10-07:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "アニメのオープニングからアルバムの一曲へ、異なる入口をつないで聴ける点を選びました。「花の色」という題名の余白を大切にしつつ、まずaikoの新しい曲に出会う楽しみを主視点にしています。"
   },
   {
     "id": "bruno-mars-002",
@@ -9051,7 +9163,14 @@
     "video_published_at": "2026-10-01T09:00:04-07:00",
     "additional_youtube_urls": [
       "https://www.youtube.com/watch?v=7f1g9pqGo6Q"
-    ]
+    ],
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "同じ「Dance With Me」を公式MVとVMAsのステージで見比べられる点を選びました。作品として構成された映像と公演の記録を行き来できるため、今回の紹介では映像から曲へ入る楽しみを主視点にしています。"
   },
   {
     "id": "umeda-cypher-003",
@@ -9067,7 +9186,14 @@
     "status": "published",
     "featured_order": 495,
     "article_type": "official_video_note",
-    "video_published_at": "2026-10-01T05:00:09-07:00"
+    "video_published_at": "2026-10-01T05:00:09-07:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "12人の参加者と音の制作陣に加え、映像の監督や撮影協力までたどれる作品として選びました。言葉・トラック・映像を複数の作り手の仕事として受け取れることを重視し、公式MVを紹介の主な入口にしています。"
   },
   {
     "id": "nonomura-ayano-003",
@@ -9086,7 +9212,14 @@
     "video_published_at": "2026-09-30T10:29:06+00:00",
     "additional_youtube_urls": [
       "https://www.youtube.com/watch?v=WUjjKsCixHg"
-    ]
+    ],
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    },
+    "rating_reason": "英語・ロシア語・日本語の題名を越えて、野々村彩乃の歌うカバーへ出会える点を選びました。AI MVサンプルとは評価対象を分け、ここでは主動画の歌唱を紹介の中心にしています。歌詞の細部を翻訳・検証した評価ではありません。"
   },
   {
     "id": "oda-kazumasa-002",
@@ -9102,7 +9235,14 @@
     "status": "published",
     "featured_order": 497,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:04:52-07:00"
+    "video_published_at": "2026-09-29T08:04:52-07:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "オフコース時代の曲を、同じ書き手が2025年の公演で歌う記録として選びました。愛をためらわずに伝えようとする題名の力と、時間を越えて曲に戻れることを重視しています。"
   },
   {
     "id": "oda-kazumasa-003",
@@ -9118,7 +9258,14 @@
     "status": "published",
     "featured_order": 498,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:04:51-07:00"
+    "video_published_at": "2026-09-29T08:04:51-07:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "短い肯定の言葉を重ねた曲名が、もう一度聴きたくなる目印になる一曲です。以前の録音の記憶と2025年の演奏を行き来し、作品そのものに再会する楽しさを主視点に選びました。"
   },
   {
     "id": "oda-kazumasa-004",
@@ -9134,7 +9281,14 @@
     "status": "published",
     "featured_order": 499,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:04:46-07:00"
+    "video_published_at": "2026-09-29T08:04:46-07:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "過ぎた夏を今の季節から聴き直せる一曲として選びました。オフコース時代の作品を現在の聴き手の時間へつなぐライブ版という位置づけを重視し、個別の思い出を重ねられる余地を残しています。"
   },
   {
     "id": "oda-kazumasa-005",
@@ -9150,7 +9304,14 @@
     "status": "published",
     "featured_order": 500,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:04:44-07:00"
+    "video_published_at": "2026-09-29T08:04:44-07:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    },
+    "rating_reason": "東京という街を、住所だけでなく暮らした時間として思い浮かべられる点を選びました。街を離れた人にも今そこにいる人にも開かれた題名を入口に、言葉と自分の記憶の接点を主視点にしています。"
   },
   {
     "id": "oda-kazumasa-006",
@@ -9166,7 +9327,14 @@
     "status": "published",
     "featured_order": 501,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:04:38-07:00"
+    "video_published_at": "2026-09-29T08:04:38-07:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    },
+    "rating_reason": "感情をすべて説明しきれないこと自体が、聴き手の記憶を受け止める余白になる歌として選びました。曲の強さと同じだけ、言い尽くさない言葉の力を重視し、今回の主視点は歌詞に置いています。"
   },
   {
     "id": "oda-kazumasa-007",
@@ -9182,7 +9350,14 @@
     "status": "published",
     "featured_order": 502,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:04:11-07:00"
+    "video_published_at": "2026-09-29T08:04:11-07:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "親しみやすい短い題名から、小田和正のソロ作品へ進める一曲として選びました。「キラキラ」「たしかなこと」と同じライブの中で聴き比べ、曲ごとの表情に関心を広げられることを重視しています。"
   },
   {
     "id": "oda-kazumasa-008",
@@ -9198,7 +9373,14 @@
     "status": "published",
     "featured_order": 503,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:04:05-07:00"
+    "video_published_at": "2026-09-29T08:04:05-07:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "文字で説明するより声と旋律へ戻りたくなる題名を持つ一曲として選びました。2000年の作品と2025年の演奏をつなぎ、年月を経た歌を聴く入口になることを曲の評価に込めています。"
   },
   {
     "id": "oda-kazumasa-009",
@@ -9214,7 +9396,14 @@
     "status": "published",
     "featured_order": 504,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:04:02-07:00"
+    "video_published_at": "2026-09-29T08:04:02-07:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "ドラマで覚えた人にも日常の再生リストから知った人にも、同じ曲へ戻れる親しみを重視しました。2002年の作品をライブ版で聴き直す楽しみを中心に、曲を主視点として選んでいます。"
   },
   {
     "id": "oda-kazumasa-010",
@@ -9230,7 +9419,14 @@
     "status": "published",
     "featured_order": 505,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:03:36-07:00"
+    "video_published_at": "2026-09-29T08:03:36-07:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    },
+    "rating_reason": "去っていく日々を簡単には手放せない、という題名の感覚を暮らしに重ねられる点を選びました。近年の作品が昔からの代表曲と同じ公演に並ぶことで、過去だけを振り返らない聴き方につながります。"
   },
   {
     "id": "oda-kazumasa-011",
@@ -9246,7 +9442,14 @@
     "status": "published",
     "featured_order": 506,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:03:35-07:00"
+    "video_published_at": "2026-09-29T08:03:35-07:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "日々の挨拶のような題名から、アルバム『どーも』の作品世界へ入れる点を選びました。「東京の空」と行き来しながら一曲を孤立させずに楽しめるため、今回は曲を主な紹介軸にしています。"
   },
   {
     "id": "oda-kazumasa-012",
@@ -9262,7 +9465,14 @@
     "status": "published",
     "featured_order": 507,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:02:54-07:00"
+    "video_published_at": "2026-09-29T08:02:54-07:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "lyrics"
+    },
+    "rating_reason": "風と人を待つという題名が、急いで答えを出さない時間を思わせる点を選びました。代表的なシングルの外側にあるアルバム曲へ耳を向け、言葉から自分の風景を広げる入口として評価しています。"
   },
   {
     "id": "oda-kazumasa-013",
@@ -9278,7 +9488,14 @@
     "status": "published",
     "featured_order": 508,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:02:40-07:00"
+    "video_published_at": "2026-09-29T08:02:40-07:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    },
+    "rating_reason": "街を場所だけでなく、そこにいる大切な人とともに思い描けるところを選びました。オフコース時代から2025年のライブへ続く曲を、遠くの誰かを思う言葉の力から紹介します。"
   },
   {
     "id": "oda-kazumasa-014",
@@ -9294,7 +9511,14 @@
     "status": "published",
     "featured_order": 509,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T08:02:32-07:00"
+    "video_published_at": "2026-09-29T08:02:32-07:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    },
+    "rating_reason": "身近な人を大切に思う気持ちを、普段の暮らしへ持ち帰れる歌として選びました。知名度だけに頼らず、2025年のライブ版から言葉を受け取り直す入口として、歌詞を主視点にしています。"
   },
   {
     "id": "suchmos-006",
@@ -9313,7 +9537,14 @@
     "video_published_at": "2026-09-29T08:02:41-07:00",
     "additional_youtube_urls": [
       "https://www.youtube.com/watch?v=qaaIla7FRL4"
-    ]
+    ],
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "歌い手だけでなく、作曲・演奏・録音に関わる人へも関心を広げられる一曲として選びました。公式配信音源のクレジットを手がかりに、バンドが曲を形にする仕事をたどることを重視しています。"
   },
   {
     "id": "vaundy-017",
@@ -9329,7 +9560,14 @@
     "status": "published",
     "featured_order": 511,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T15:00:27+00:00"
+    "video_published_at": "2026-09-29T15:00:27+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "テーマパークの周年企画から知る人と、Vaundyの新作として聴く人をつなぐ一曲として選びました。特定の施設体験を前提にせず、まず音源から曲に出会えることを紹介の中心にしています。"
   },
   {
     "id": "hoshino-gen-009",
@@ -9345,7 +9583,14 @@
     "status": "published",
     "featured_order": 512,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-29T09:00:01+00:00"
+    "video_published_at": "2026-09-29T09:00:01+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "ELEVENPLAYの手あそびを通じて、見るだけでなく体を動かして曲に関われる点を選びました。通常のMVとは異なる参加の入口があるため、今回は映像の役割を主視点として評価します。"
   },
   {
     "id": "dreams-come-true-007",
@@ -9361,7 +9606,13 @@
     "status": "published",
     "featured_order": 513,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T11:00:09+00:00"
+    "video_published_at": "2026-09-27T11:00:09+00:00",
+    "rating": {
+      "song": 5,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "歌入りの原曲から視点を移し、武藤良明を迎えたギターとインストゥルメンタルの表現へ耳を向けられる点を選びました。言葉を追わずに旋律や演奏を楽しむ版として、曲を主視点にしています。"
   },
   {
     "id": "mai-kuraki-002",
@@ -9377,7 +9628,14 @@
     "status": "published",
     "featured_order": 514,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T07:59:38+00:00"
+    "video_published_at": "2026-09-27T07:59:38+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 3,
+      "selection": "song"
+    },
+    "rating_reason": "一秒という小さな時間を曲名の目印に、2008年の倉木麻衣へ戻れる一曲として選びました。今回の短縮MVを入口に、あらためて正規の音源へ進みたくなる曲との再会を重視しています。"
   },
   {
     "id": "mai-kuraki-003",
@@ -9393,7 +9651,14 @@
     "status": "published",
     "featured_order": 515,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T07:59:36+00:00"
+    "video_published_at": "2026-09-27T07:59:36+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "明日と最後という言葉が同居する題名から、限りある時間を意識して聴ける点を選びました。ライブの抜粋をきっかけに『FUTURE KISS』へ戻り、曲全体へ関心を広げるための選曲です。"
   },
   {
     "id": "mai-kuraki-004",
@@ -9409,7 +9674,14 @@
     "status": "published",
     "featured_order": 516,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T07:59:33+00:00"
+    "video_published_at": "2026-09-27T07:59:33+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "冬を思わせる題名を入口に、2002年のシングルと再会できる点を選びました。季節の再生リストにも置きたくなる曲として、短縮MVと元の作品情報を行き来する楽しみを重視しています。"
   },
   {
     "id": "mai-kuraki-005",
@@ -9425,7 +9697,14 @@
     "status": "published",
     "featured_order": 517,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T07:59:30+00:00"
+    "video_published_at": "2026-09-27T07:59:30+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    },
+    "rating_reason": "2000年代の倉木麻衣を年順にたどるとき、2005年の一曲として立ち寄りたい作品です。成長を思わせる曲名から過去と今をつなぎ、短縮MVの先にある一曲全体へ興味を向ける選曲としました。"
   },
   {
     "id": "mai-kuraki-006",
@@ -9441,7 +9720,14 @@
     "status": "published",
     "featured_order": 518,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T07:59:29+00:00"
+    "video_published_at": "2026-09-27T07:59:29+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    },
+    "rating_reason": "「風のららら」という言葉の軽やかな響きを入口に、2003年の作品へ戻れる点を選びました。同年の「Time after time」と並べ、同じ歌手の別の表情を探すための一曲として評価します。"
   },
   {
     "id": "mai-kuraki-007",
@@ -9457,7 +9743,14 @@
     "status": "published",
     "featured_order": 519,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T07:59:25+00:00"
+    "video_published_at": "2026-09-27T07:59:25+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "夏が過ぎていく題名に、季節の終わりと自分の記憶を重ねられる点を選びました。2010年の作品を今の暮らしから聴き直す入口として、今回は言葉が残す余韻を主視点にしています。"
   },
   {
     "id": "mai-kuraki-008",
@@ -9473,7 +9766,14 @@
     "status": "published",
     "featured_order": 520,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T07:59:24+00:00"
+    "video_published_at": "2026-09-27T07:59:24+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    },
+    "rating_reason": "「Revive」と並ぶシングルの中から、「PUZZLE」一曲に焦点を当てて聴き直せる点を選びました。両A面という作品のまとまりを保ちながら、一曲ごとの違いを探す入口として曲を主視点にしています。"
   },
   {
     "id": "mai-kuraki-009",
@@ -9489,7 +9789,14 @@
     "status": "published",
     "featured_order": 521,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T07:59:23+00:00"
+    "video_published_at": "2026-09-27T07:59:23+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    },
+    "rating_reason": "録音版だけでなく、ステージで歌われる「SAWAGE☆LIFE」へ出会える点を選びました。今回のページではライブ抜粋を入口にしているため、曲に接する場を広げる映像の役割を主視点にしています。"
   },
   {
     "id": "mai-kuraki-010",
@@ -9505,7 +9812,14 @@
     "status": "published",
     "featured_order": 522,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T07:59:13+00:00"
+    "video_published_at": "2026-09-27T07:59:13+00:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "繰り返す時間と花のある街を重ねた題名から、昔聴いた一曲の記憶へ戻れる点を選びました。短縮MVだけで終わらず、2003年の作品を通して聴き直したくなる再会の入口として曲を高く位置づけています。"
   },
   {
     "id": "mai-kuraki-011",
@@ -9521,7 +9835,14 @@
     "status": "published",
     "featured_order": 523,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T07:59:07+00:00"
+    "video_published_at": "2026-09-27T07:59:07+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    },
+    "rating_reason": "「DYNAMITE」を公式ライブの一場面として選べる点を重視しました。同時期のライブ公開曲と見比べ、スタジオ録音とは別の出会い方を持てるため、今回の紹介では映像を主視点にしています。"
   },
   {
     "id": "lilas-002",
@@ -9537,7 +9858,14 @@
     "status": "published",
     "featured_order": 524,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-27T02:57:55+00:00"
+    "video_published_at": "2026-09-27T02:57:55+00:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "ドラマのために書かれた曲を、書き手自身のセルフカバー、さらにツアーの演奏へとたどれる点を選びました。曲が異なる場所で歌われていく過程に注目し、作品そのものの広がりを主視点にしています。"
   },
   {
     "id": "kohiruimaki-kahoru-006",
@@ -9553,7 +9881,14 @@
     "status": "published",
     "featured_order": 525,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-26T12:00:10+00:00"
+    "video_published_at": "2026-09-26T12:00:10+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "mv"
+    },
+    "rating_reason": "過去の作品を4Kリマスターの公式映像から見直せる点を選びました。新録音と取り違えず、当時の曲へ今の視聴環境から出会い直す入口として、今回公開された映像の役割を評価しています。"
   },
   {
     "id": "kohiruimaki-kahoru-007",
@@ -9569,7 +9904,14 @@
     "status": "published",
     "featured_order": 526,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-20T12:00:08+00:00"
+    "video_published_at": "2026-09-20T12:00:08+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "mv"
+    },
+    "rating_reason": "小比類巻かほるの言葉と鈴木雅之の曲を、4Kリマスターの公式映像からたどれる点を選びました。元の作品と今回の再公開を結ぶページとして、見直すきっかけになる映像を主視点にしています。"
   },
   {
     "id": "juju-012",
@@ -9585,7 +9927,14 @@
     "status": "published",
     "featured_order": 527,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-25T12:00:02+00:00"
+    "video_published_at": "2026-09-25T12:00:02+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "「夏蝉」を配信やCDだけでなく、テレビ番組での歌唱から知る入口として選びました。同じ夏の題名を持つ既存曲とは分け、この一曲とJUJUの歌に目を向けることを重視しています。"
   },
   {
     "id": "jeremy-quartus-002",
@@ -9601,7 +9950,14 @@
     "status": "published",
     "featured_order": 528,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-24T03:00:04-07:00"
+    "video_published_at": "2026-09-24T03:00:04-07:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "Jeremy Quartusの歌唱、n-bunaとVaundyの作曲、n-bunaの編曲という異なる役割が一曲に集まる点を選びました。名義の豪華さだけでなく、歌と曲の作り手を分けてたどる楽しみを主視点にしています。"
   },
   {
     "id": "ozaki-ami-002",
@@ -9617,7 +9973,14 @@
     "status": "published",
     "featured_order": 529,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-23T03:00:02+00:00"
+    "video_published_at": "2026-09-23T03:00:02+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "周年を過去の代表曲の振り返りだけにせず、近年の制作へつなぐ一曲として選びました。「明日の声」という題名から先へ進む時間を思い描き、尾崎亜美の今の作品へ耳を向ける入口としています。"
   },
   {
     "id": "shimizu-shota-002",
@@ -9633,7 +9996,14 @@
     "status": "published",
     "featured_order": 530,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-22T15:00:06+00:00"
+    "video_published_at": "2026-09-22T15:00:06+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "大切な人との時間という作品の主題を、自分の暮らしへ引き寄せて考えられる点を選びました。作詞・作曲・編曲を本人が担う一曲ですが、私生活の告白と決めつけず、言葉の親密さを主視点にしています。"
   },
   {
     "id": "toki-asako-008",
@@ -9649,7 +10019,14 @@
     "status": "published",
     "featured_order": 531,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-22T10:02:27+00:00"
+    "video_published_at": "2026-09-22T10:02:27+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "夏に出た作品へ季節が移ってから出会う、その時間差も楽しめる一曲として選びました。題名だけで音や風景を決めつけず、「That Summer」などと並べて土岐麻子の作品をたどる入口を重視しています。"
   },
   {
     "id": "inagaki-junichi-002",
@@ -9665,7 +10042,14 @@
     "status": "published",
     "featured_order": 532,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-17T09:00:13+00:00"
+    "video_published_at": "2026-09-17T09:00:13+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "「終らない」「終わらない」という表記の違いを越えて、1997年の一曲へ再会できる点を選びました。同年の「Starting Over」と並べ、稲垣潤一の作品の流れへ戻るための曲として評価しています。"
   },
   {
     "id": "inagaki-junichi-003",
@@ -9681,7 +10065,14 @@
     "status": "published",
     "featured_order": 533,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-10T09:00:39+00:00"
+    "video_published_at": "2026-09-10T09:00:39+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "再出発を表す題名を、今の自分の節目から受け取り直せる点を選びました。2026年のMV公開を入口に1997年の作品へ戻り、過去の曲を現在の暮らしの中で選び直す楽しみを重視しています。"
   },
   {
     "id": "kiki-vivi-lily-002",
@@ -9697,7 +10088,14 @@
     "status": "published",
     "featured_order": 534,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-16T09:00:30+00:00"
+    "video_published_at": "2026-09-16T09:00:30+00:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "kiki vivi lilyの歌、Boseのラップ、tofubeatsの編曲という役割をたどれる点を選びました。曲名に残る客演を手がかりに、声と言葉とトラックの出会いへ関心を広げる一曲として評価します。"
   },
   {
     "id": "quruli-002",
@@ -9713,7 +10111,14 @@
     "status": "published",
     "featured_order": 535,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-13T19:00:38-07:00"
+    "video_published_at": "2026-09-13T19:00:38-07:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "2004年の曲が、夜行バスで新宿に来た二人の物語を描く新しいMVと出会う点を選びました。古い録音と今の街をつなぐ映像の役割が明確なので、東京の記憶をたどる入口としてMVを主視点にしています。"
   },
   {
     "id": "shiina-ringo-012",
@@ -9729,7 +10134,14 @@
     "status": "published",
     "featured_order": 536,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-11T07:47:39-07:00"
+    "video_published_at": "2026-09-11T07:47:39-07:00",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "椎名林檎の作曲・歌唱、Jack Brownの詞、服部隆之の編曲という布陣を、番組のライブ音源からたどれる点を選びました。映像の演出よりも演奏された曲そのものへ耳を向ける紹介としています。"
   },
   {
     "id": "hamada-shogo-005",
@@ -9745,7 +10157,14 @@
     "status": "published",
     "featured_order": 537,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-10T03:00:30+00:00"
+    "video_published_at": "2026-09-10T03:00:30+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "1990年の録音をもとに後年発表された曲が、公演用映像へつながる時間の重なりを選びました。今回はConcert Intermission Versionという版の役割を重視し、映像から作品の来歴へ進む入口として評価しています。"
   },
   {
     "id": "saito-kazuyoshi-003",
@@ -9761,7 +10180,14 @@
     "status": "published",
     "featured_order": 538,
     "article_type": "official_video_note",
-    "video_published_at": "2026-09-09T10:00:06+00:00"
+    "video_published_at": "2026-09-09T10:00:06+00:00",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "CMで耳にした断片から、アルバム『日常Days』の一曲へ聴き方を広げられる点を選びました。作品案内にある弾き語り用コード譜への道も含め、聴くだけでなく演奏へ関心をつなぐ曲として紹介します。"
   },
   {
     "id": "sato-moka-001",
@@ -9775,6 +10201,13 @@
     "created_at": "2026-10-26T17:30:00+09:00",
     "summary": "公式ミュージックビデオ。アルバム『shilly shally』収録。友達の近さと、伝えられない思いを暮らしの記憶からたどります。",
     "status": "published",
-    "featured_order": 539
+    "featured_order": 539,
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "親しい友達でいられる安心と、恋としては届かない苦しさが同時にあるところを選びました。相手の表情に気づくほどの近さが自分を傷つける、という本文の読みを支える言葉の余白を高く評価しています。"
   }
 ]
