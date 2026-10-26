@@ -9762,5 +9762,19 @@
     "featured_order": 538,
     "article_type": "official_video_note",
     "video_published_at": "2026-09-09T10:00:06+00:00"
+  },
+  {
+    "id": "sato-moka-001",
+    "title": "恋の顔",
+    "artist": "さとうもか",
+    "release_year": 2026,
+    "decade": "2020年代",
+    "article_url": "/articles/sato-moka-001.html",
+    "youtube_url": "https://www.youtube.com/watch?v=V_49gbM2M9g",
+    "source_owner": "さとうもか 公式アーティストチャンネル",
+    "created_at": "2026-10-26T17:30:00+09:00",
+    "summary": "公式ミュージックビデオ。アルバム『shilly shally』収録。友達の近さと、伝えられない思いを暮らしの記憶からたどります。",
+    "status": "published",
+    "featured_order": 539
   }
 ]
