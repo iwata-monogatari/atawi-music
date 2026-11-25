@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const errors = [];
+execFileSync(process.execPath, [join(root, "tools", "check-ratings.mjs")], { stdio: "inherit" });
 
 execFileSync(process.execPath, [join(root, "tools", "build-seo.mjs"), "--check"], { stdio: "inherit" });
 

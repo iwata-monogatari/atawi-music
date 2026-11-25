@@ -47,3 +47,4 @@ writeFileSync(join(root, "data", "search-index.json"), out);
 console.log(`search-index.json: ${index.length} songs, ${Math.round(out.length / 1024)} KB (songs.json: ${songs.length} entries)`);
 // Article creation/deletion must update discovery URLs and canonical tags too.
 execFileSync(process.execPath, [join(root, "tools", "build-seo.mjs")], { stdio: "inherit" });
+execFileSync(process.execPath, [join(root, "tools", "check-ratings.mjs")], { stdio: "inherit" });

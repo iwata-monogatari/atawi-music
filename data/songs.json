@@ -10222,7 +10222,14 @@
     "summary": "好きだと言い切る一言の手前に、驚きやためらいがいくつも重なる。",
     "status": "published",
     "featured_order": 540,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    },
+    "rating_reason": "サビで声が跳ね上がると、告白しようとして何度も言い直す人の呼吸が聞こえてきます。最後まで言い切らない題名の続きを、メロディーに歌わせているところを選びました。"
   },
   {
     "id": "king-gnu-002",
@@ -10237,7 +10244,14 @@
     "summary": "『一途』と同じシングルに収められた曲。",
     "status": "published",
     "featured_order": 541,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "細い声の輪郭を残したまま弦が厚くなるので、小さな祈りが遠くまで響きます。対になる「一途」の直後にかけると、同じバンドが音の余白でこれほど切迫感を出せることに驚きます。"
   },
   {
     "id": "vaundy-018",
@@ -10252,7 +10266,14 @@
     "summary": "『王様ランキング』の映像と一緒に聴ける公式MV。",
     "status": "published",
     "featured_order": 542,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "守りたい相手ができたとき、強さと怖さが一緒に生まれる。その厄介な気持ちを抱えたまま「勇者」と呼ぶところに、この歌を物語から離れても聴きたくなる理由があります。"
   },
   {
     "id": "back-number-004",
@@ -10267,7 +10288,14 @@
     "summary": "相手とはまだ何も始まっていないのに、頭の中では恋敵まで登場する。",
     "status": "published",
     "featured_order": 543,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "まだ話してもいない相手の恋人を、頭の中だけで手ごわく仕立ててしまう。そんな格好のつかない片思いを、ここまで晴れやかに口ずさめる言葉にした可笑しさを買いました。"
   },
   {
     "id": "utada-hikaru-004",
@@ -10282,7 +10310,14 @@
     "summary": "台所で食器を洗う姿をワンカットで追う映像です。",
     "status": "published",
     "featured_order": 544,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "食器をひとつ洗い終えても、台所は台所のまま。そこでサビだけがどこまでも遠くへ伸びます。カメラを切り替えず、暮らしの時間と歌の時間を同時に見せた映像に五つ星です。"
   },
   {
     "id": "hoshino-gen-010",
@@ -10297,7 +10332,14 @@
     "summary": "低く弾むベースに耳を預けると、家に帰ってきたときのように肩の力が抜けます。",
     "status": "published",
     "featured_order": 545,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "サビで胸がいっぱいになるころも、ベースは家の中を歩くような歩幅を守っています。誰かと暮らしていくという大きな選択を、毎日続くリズムとして聴かせるところが好きです。"
   },
   {
     "id": "sakanaction-003",
@@ -10312,7 +10354,14 @@
     "summary": "歩く人の足取りと、画面のあちこちで形を結ぶ文字を追ってみてください。",
     "status": "published",
     "featured_order": 546,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "ばらばらの形が、歩く人とカメラの位置がそろった一瞬だけ言葉になる。読めたと思う間もなく次へ進む映像なので、歌詞を読むことまで歩くリズムの一部になります。"
   },
   {
     "id": "aiko-004",
@@ -10327,7 +10376,14 @@
     "summary": "言葉を細かく詰めたフレーズからサビへ移ると、急に夜空の広さが感じられます。",
     "status": "published",
     "featured_order": 547,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "早口でこぼれ出た気持ちが、長く伸びる音でふと宙にとどまります。一発の花火が消えるまでの短い時間に、これだけ忙しい恋心を収める旋律が見事です。"
   },
   {
     "id": "mr-children-008",
@@ -10342,7 +10398,14 @@
     "summary": "最初はひとりでつぶやくようだった声が、終盤ではバンドを引っ張っていく。",
     "status": "published",
     "featured_order": 548,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "歌い出しではすぐ隣で話している距離だった声が、調を変えながら遠くへ届いていきます。前へ進むことを、言葉だけでなく歌い手自身が一段ずつ登る音の高さで示した曲です。"
   },
   {
     "id": "fukuyama-masaharu-010",
@@ -10357,7 +10420,14 @@
     "summary": "桜の季節に思い出すのは、景色だろうか、それとも隣にいた人だろうか。",
     "status": "published",
     "featured_order": 549,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "春になれば桜はまた咲くけれど、隣にいた人と同じ春を繰り返せるわけではない。地名のように短い題名に、ひとりの人との長い記憶がしまわれています。"
   },
   {
     "id": "hirai-ken-003",
@@ -10372,7 +10442,14 @@
     "summary": "そっと息を置くような歌い出しから、サビでは声が大きく開く。",
     "status": "published",
     "featured_order": 550,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "サビで息が長く続くあいだだけ、会えない人の姿がそこにとどまるようです。声が途切れて伴奏に戻る瞬間まで含めて、思い出すという行為を旋律にしたバラードです。"
   },
   {
     "id": "southern-all-stars-008",
@@ -10387,7 +10464,14 @@
     "summary": "重い足取りで進むようなビートに、働く人々の姿が浮かぶ。",
     "status": "published",
     "featured_order": 551,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "仕事に出て行く普通の人を「戦士」と呼ぶとき、その称号には頼もしさとしんどさが一緒に響きます。重い拍に合わせて街を思い浮かべると、仕事帰りの人の姿まで違って見えます。"
   },
   {
     "id": "kuwata-keisuke-016",
@@ -10402,7 +10486,14 @@
     "summary": "にぎわいが引いた帰り道、ひとりになってやっと出てくる言葉がある。",
     "status": "published",
     "featured_order": 552,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "祭りが終わると、さっきまで人に紛れていた一人分の寂しさが戻ってきます。大勢のいた場所を題名にしながら一人の帰り道を描く、その時間の選び方がいい。"
   },
   {
     "id": "bruno-mars-003",
@@ -10417,7 +10508,14 @@
     "summary": "軽く跳ねるピアノの反復の上で、ひとつひとつの言葉を相手に手渡すように歌います。",
     "status": "published",
     "featured_order": 553,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "サビで声が広がり、目の前の一人に向けた褒め言葉が、誰でも歌って渡せる贈り物になります。素直すぎて話すと照れることを、旋律が気持ちよく言わせてくれます。"
   },
   {
     "id": "girls-generation-003",
@@ -10432,7 +10530,14 @@
     "summary": "掛け声で幕を開けたかと思うと、ビートも歌い口も次々に切り替わります。",
     "status": "published",
     "featured_order": 554,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "別々の曲が始まったかと思うほどビートが変わるのに、声の受け渡しを追えば一本の会話としてつながります。次の切り替わりを待ちたくなる構成に五つ星です。"
   },
   {
     "id": "aimer-002",
@@ -10447,7 +10552,14 @@
     "summary": "金管の鋭い音と速い言葉の連なりが耳を引く一曲です。",
     "status": "published",
     "featured_order": 555,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "金管の鋭さと、少しかすれた声の手触りが耳の中で混ざらず、互いを際立たせます。速い歌なのに、一音ずつの表情まで覚えてしまう。その音色の組み合わせが決め手です。"
   },
   {
     "id": "uru-003",
@@ -10462,7 +10574,14 @@
     "summary": "ドラマ『中学聖日記』の主題歌としてUruが作詞・作曲した曲です。",
     "status": "published",
     "featured_order": 556,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "恋の始まりには、相手に伝えるより先に、自分の気持ちに気づいてしまう瞬間があります。物語の題を「プロローグ」としたことで、そのひそやかな変化に時間を割ける歌になっています。"
   },
   {
     "id": "lilas-003",
@@ -10477,7 +10596,14 @@
     "summary": "片思いを思い出す語り口で始まり、近くにいる相手との距離が少しずつ見えてきます。",
     "status": "published",
     "featured_order": 557,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "最初と最後で似た場面に立ち返ると、変わったのは景色よりもそれを見ている人のほうだと分かります。一瞬光った片思いを、後から語り直す距離感を選びました。"
   },
   {
     "id": "shiina-ringo-013",
@@ -10492,7 +10618,14 @@
     "summary": "冒頭の低い声から、タイトルを歌い切る瞬間まで、相手との距離が一気に縮まる。",
     "status": "published",
     "featured_order": 558,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "英語で始まった歌が、最後には相手へ突きつけるような短い日本語にたどり着きます。題の末尾の句点まで意志を持っているようで、頼み事と命令の間の危うさが残ります。"
   },
   {
     "id": "tokyo-jihen-014",
@@ -10507,7 +10640,14 @@
     "summary": "新宿の風景が浮かぶ短い歌い出しから、バンドがなだれ込む。",
     "status": "published",
     "featured_order": 559,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "歌い出しで新宿の空が見えた途端、演奏が一斉に走り出します。特にドラムの小さな打音をたどると、速さの中にいくつもの歩幅があり、一度では聴き尽くせません。"
   },
   {
     "id": "dreams-come-true-008",
@@ -10522,7 +10662,14 @@
     "summary": "サビで同じ言葉に戻るたび、吉田美和の息の強さが変わる。",
     "status": "published",
     "featured_order": 560,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "同じ言葉を繰り返すたび、それまでの失敗の数まで歌の中に積もっていきます。励まされる余裕もない日に、途中からでも声を合わせられる反復であることを評価しました。"
   },
   {
     "id": "misia-020",
@@ -10537,7 +10684,14 @@
     "summary": "2012年の横浜アリーナ公演で歌われた復興応援歌。",
     "status": "published",
     "featured_order": 561,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "横浜アリーナに響く声は、音を長く保つ途中でも強さと息の量を変えていきます。ひと息の中に祈りを託し、最後は会場の空気に預ける。その余韻まで含めた歌唱を選びました。"
   },
   {
     "id": "nakashima-mika-002",
@@ -10552,7 +10706,14 @@
     "summary": "デビュー曲で印象に残るのは、低いところで言葉を置く声と、そこから高くのびる声の距離。",
     "status": "published",
     "featured_order": 562,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "低い声でそっと言葉を置く冒頭があるから、高音に移ったとき夜空が急に深く感じられます。一人の声の中に、話しかけられる近さと、星を見上げる遠さがあります。"
   },
   {
     "id": "mai-kuraki-012",
@@ -10567,7 +10728,14 @@
     "summary": "ためらいを含んだ日本語の歌い出しから、英語のタイトルが軽やかに抜けるサビへ。",
     "status": "published",
     "featured_order": 563,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "控えめな日本語の歌い出しから英語のサビへ移ると、声がふっと軽くなります。厚く重ねたコーラスの中にも最初の声の親密さが残る。その響きの作り方を選びました。"
   },
   {
     "id": "official-hige-dandism-016",
@@ -10582,7 +10750,14 @@
     "summary": "慌ただしいピアノを追っていたはずが、いつの間にか管楽器とドラムに体ごと連れていかれる。",
     "status": "published",
     "featured_order": 564,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "出だしのピアノだけで拍を取ろうとすると、思わず足がもつれます。それがサビではすっと一緒に歌える。家族それぞれの落ち着かなさまで一曲の中で鳴らす、この合奏が決め手です。"
   },
   {
     "id": "king-gnu-003",
@@ -10597,7 +10772,14 @@
     "summary": "短く鋭いギターの反復が、聴き手に立ち止まる隙を与えない。",
     "status": "published",
     "featured_order": 565,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "ギターが同じ刻みを押し通す一方で、二つの声は位置を入れ替えて迫ってきます。あの速さの中でも歌が平板にならない理由を、もう一度イントロから確かめたくなります。"
   },
   {
     "id": "vaundy-019",
@@ -10612,7 +10794,14 @@
     "summary": "低くうなるギターと押し寄せるドラムの間を、言葉が歯切れよく駆け抜ける。",
     "status": "published",
     "featured_order": 566,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "重たいギターが鳴るたびに身を引く暇もなく、次の言葉が飛び込んできます。短く切る声まで打楽器のように働くので、音量を絞ってもあの速度が落ちません。"
   },
   {
     "id": "back-number-005",
@@ -10627,7 +10816,14 @@
     "summary": "大会が中止になった高校生たちに向けて、2020年に最初に公開された映像。",
     "status": "published",
     "featured_order": 567,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "努力を見ていた人がいても、結果を残す場所そのものが失われることがある。その悔しさに急いで答えを出さず、相手の見ていた景色を想像する時間をくれる歌です。"
   },
   {
     "id": "utada-hikaru-005",
@@ -10642,7 +10838,14 @@
     "summary": "細かく刻むビートに乗って、声が軽く跳ねたり、一息で長い音を描いたりします。",
     "status": "published",
     "featured_order": 568,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "ビートは一定なのに、色と形が変わるたびに乗り物の速度まで変わった気がします。先に音だけで聴いてから画面を加えると、同じ一拍にこれほどたくさんの景色が入るのかと驚きます。"
   },
   {
     "id": "hoshino-gen-011",
@@ -10657,7 +10860,14 @@
     "summary": "電子音が画面のあちこちから飛び出すように鳴ります。",
     "status": "published",
     "featured_order": 569,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "一瞬の電子音に気を取られていると、次の小さな音がもう別のリズムを作っています。遊んだ記憶のある人には懐かしく、初めての人には新しい。その両方を一つの編曲で成立させています。"
   },
   {
     "id": "sakanaction-004",
@@ -10672,7 +10882,14 @@
     "summary": "前半の抑えた歌声を覚えておいて、後半で音が一気に広がる瞬間と聴き比べてみてください。",
     "status": "published",
     "featured_order": 570,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "前半で歌声との距離をぐっと近づけておくから、後半で音が開いたときに空間の広さが分かります。小さな部屋から始まる一曲を、途中で止めずに最後まで聴く価値があります。"
   },
   {
     "id": "aiko-005",
@@ -10687,7 +10904,14 @@
     "summary": "春を知らせるのは桜の風景だけでしょうか。",
     "status": "published",
     "featured_order": 571,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "春の恋を思い出す手がかりが、満開の桜から、隣を歩く二人の手に移ります。誰にでも見える季節を、その二人にしか分からない記憶に変える細部を選びました。"
   },
   {
     "id": "mr-children-009",
@@ -10702,7 +10926,14 @@
     "summary": "サビの短い言葉が繰り返されるたび、足を止めていた人が一歩ずつ踏み出すように聞こえる。",
     "status": "published",
     "featured_order": 572,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "あと一度だけ、と願う言葉を何度も置くことで、時間の足りなさがこちらにも伝わります。花火が消えたあとの空を見るような、その繰り返しの切なさが選定の理由です。"
   },
   {
     "id": "fukuyama-masaharu-011",
@@ -10717,7 +10948,14 @@
     "summary": "弾むリズムに乗って言葉が次々と飛び出す。",
     "status": "published",
     "featured_order": 573,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    },
+    "rating_reason": "声が弾んでいるのに、恋の答えはまだ出ていません。挨拶ひとつに踏み出すまでのそわそわした時間を、跳ねる拍が楽しいものにしてくれる。最初の一歩に似合う曲です。"
   },
   {
     "id": "hirai-ken-004",
@@ -10732,7 +10970,14 @@
     "summary": "拍を刻む伴奏の上で、歌声だけが少し後ろへ揺れる。",
     "status": "published",
     "featured_order": 574,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    },
+    "rating_reason": "拍をきっちり取る伴奏の上で、平井堅の声はほんの少し遅れて滑り込みます。体で拍を取りながら聴くと、そのわずかなずれが生む色気がいっそう際立ちます。"
   },
   {
     "id": "southern-all-stars-009",
@@ -10747,7 +10992,14 @@
     "summary": "タイトルの「壮年」と「JUMP」を並べたときの可笑しさが、そのまま曲の弾みにもある。",
     "status": "published",
     "featured_order": 575,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "アイドルに夢中だった頃の気持ちを、今の自分の年齢ごと歌ってしまうのが楽しい。「壮年」の二文字に跳びはねる言葉を続けただけで、昔と今が同じ客席に並びます。"
   },
   {
     "id": "kuwata-keisuke-017",
@@ -10762,7 +11014,14 @@
     "summary": "細かく動く弦のフレーズが、歌い手をどこかへ連れていくように響く。",
     "status": "published",
     "featured_order": 576,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "弦の細かい動きには、華やかなのにどこか足元をすくわれるような響きがあります。歌を追う一回と、弦だけを追う一回で、ずいぶん違う星空が見える曲です。"
   },
   {
     "id": "bruno-mars-004",
@@ -10777,7 +11036,14 @@
     "summary": "短い音を刻む伴奏を背に、歌声だけがだんだん切迫していきます。",
     "status": "published",
     "featured_order": 577,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "ピアノを引いて先へ進むにつれ、報われない愛情に本当に重さがあるように見えてきます。目を閉じて重い拍を聴くときにもあの姿がよみがえる、映像の発想を選びました。"
   },
   {
     "id": "girls-generation-004",
@@ -10792,7 +11058,14 @@
     "summary": "低く刻むビートに、短く歯切れよく切った声が重なります。",
     "status": "published",
     "featured_order": 578,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "題名の短い三語をビートに合わせて口にすると、迷いを振り切る態度まで伝わります。一人の声から全員の声に変わるたびに意志が強くなる、その作りが鮮やかです。"
   },
   {
     "id": "aimer-003",
@@ -10807,7 +11080,14 @@
     "summary": "テレビアニメ『天久鷹央の推理カルテ』のオープニング曲。",
     "status": "published",
     "featured_order": 579,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "短く切っていた声が一点を射抜くように伸びる瞬間、曲名が耳から理解できます。謎に目を凝らしていた人が何かを見つけた、その視線の変化に似たフレーズです。"
   },
   {
     "id": "uru-004",
@@ -10822,7 +11102,14 @@
     "summary": "ドラマ『マイファミリー』の主題歌。",
     "status": "published",
     "featured_order": 580,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "うまくいかなかった時間も含めて、もう一度その人のほうを向けるか。説明の言葉を探してきた人がようやく題名に行き着くようで、最後の一節の重みが変わります。"
   },
   {
     "id": "lilas-004",
@@ -10837,7 +11124,14 @@
     "summary": "好きな人と過ごした何げない瞬間を、写真の一枚のように心に残したいと願う歌です。",
     "status": "published",
     "featured_order": 581,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "写真に残したいと思った時点で、もうその一瞬は過ぎかけています。好きな人を見る視線にカメラの仕組みを重ねると、何げない時間が取り替えのきかない一枚に見えてきます。"
   },
   {
     "id": "shiina-ringo-014",
@@ -10852,7 +11146,14 @@
     "summary": "歯切れのよいギターの向こうで、ひとりの相手にまっすぐ言葉を届ける。",
     "status": "published",
     "featured_order": 582,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "大きな哲学のような題を掲げて、歌がたどり着くのは目の前の人が生きていること。ざらつく声と軽快なギターのおかげで、その素朴な考えが借り物の格言に聞こえません。"
   },
   {
     "id": "tokyo-jihen-015",
@@ -10867,7 +11168,14 @@
     "summary": "危うい二人の関係を歌う声のすぐ後ろを、ベースと鍵盤がすり抜けていく。",
     "status": "published",
     "featured_order": 583,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "歌声が長く伸びるあいだもベースや鍵盤は別の道筋を進みます。二人が近づくほど足元は危うい。その感じを、詞と一緒にバンドの絡み方でも聞かせる曲です。"
   },
   {
     "id": "dreams-come-true-009",
@@ -10882,7 +11190,14 @@
     "summary": "遠距離恋愛の小さな食い違いが、関西の言葉に乗って弾む。",
     "status": "published",
     "featured_order": 584,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 5,
+      "selection": "lyrics"
+    },
+    "rating_reason": "好きな人のいる街の言葉を使ってみても、まだ少しよそゆきに響く。その小さなずれが、二人のあいだの距離をどんな説明よりよく伝えます。客席に届く関西弁の温度も聴きものです。"
   },
   {
     "id": "misia-021",
@@ -10897,7 +11212,14 @@
     "summary": "高く遠くへ向かう旋律を、小さな鳥の姿と重ねて聴くバラード。",
     "status": "published",
     "featured_order": 585,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "小さな鳥に託した頼りなさが、サビでは大きな弧を描く歌声に変わります。掲載した公式音源では、強く伸ばした声を一節の終わりでどれほど細くほどくかまで聴き取れます。"
   },
   {
     "id": "nakashima-mika-003",
@@ -10912,7 +11234,14 @@
     "summary": "冬の星を眺める二人の情景を、近くで話すような声が描く。",
     "status": "published",
     "featured_order": 586,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "冬の空に見つけた星を、隣の人も見ていたのか。夜空を描く言葉から二人の記憶へ無理なく移っていくので、次にオリオン座を見たとき、この歌の静けさまで思い出せます。"
   },
   {
     "id": "mai-kuraki-013",
@@ -10927,7 +11256,14 @@
     "summary": "英語と日本語がひとつながりの呼吸で歌われる。",
     "status": "published",
     "featured_order": 587,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    },
+    "rating_reason": "タイトルを伸ばす主旋律と、その後ろのコーラスを聴き分けると、ひとりで口にした願いにそっと返事が付くようです。声を張り上げずにサビを印象づける一曲です。"
   },
   {
     "id": "official-hige-dandism-017",
@@ -10942,7 +11278,14 @@
     "summary": "晴れやかな金管の音と、張り詰めた歌声が同時に鳴る。",
     "status": "published",
     "featured_order": 588,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "金管が高らかに鳴っても、歌声には本番を前にした緊張が残ります。応援する側の晴れやかさと、応援される側の張り詰めた呼吸が同時に聞こえる一曲です。"
   },
   {
     "id": "king-gnu-004",
@@ -10957,7 +11300,14 @@
     "summary": "足元で繰り返す重いリズムに乗って、サビでは声だけが先に空へ抜けていく。",
     "status": "published",
     "featured_order": 589,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "低音に合わせて足を踏むと、サビで声がせり上がる感覚がいっそう鮮明です。飛び立つ瞬間を、助走の重さごと体に覚えさせるアレンジに一票です。"
   },
   {
     "id": "vaundy-020",
@@ -10972,7 +11322,14 @@
     "summary": "他人の災難が次々に画面を流れていく。",
     "status": "published",
     "featured_order": 590,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "人の不幸を眺めている自分に気づいたころには、もう拍に乗っている。聴き手にも少し居心地の悪い役を渡してくる詞で、この軽快さにこそ棘があります。"
   },
   {
     "id": "back-number-006",
@@ -10987,7 +11344,14 @@
     "summary": "雪を目にしたとき、いちばん先に誰に知らせたいか。",
     "status": "published",
     "featured_order": 591,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "きれいな雪を見ても、頭に浮かぶのは「この景色をあの人はどう見るだろう」という問い。目の前にいない人の反応で冬景色が出来上がっていく、片思いの書き方が秀逸です。"
   },
   {
     "id": "utada-hikaru-006",
@@ -11002,7 +11366,14 @@
     "summary": "英語の問いかけが繰り返されるたび、秘密を打ち明けたい気持ちと、まだ胸にしまっておきたい気持ちが入れ替わるようです。",
     "status": "published",
     "featured_order": 592,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "問いかける主旋律の後ろにもう一つの声が浮かぶと、秘密を守りたい気持ちまで返事をしているようです。言葉と声の重ね方がぴたりとかみ合う、このサビを選びました。"
   },
   {
     "id": "hoshino-gen-012",
@@ -11017,7 +11388,14 @@
     "summary": "地下鉄の車内を舞台にした映像です。",
     "status": "published",
     "featured_order": 593,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "地下鉄に乗ったとき、隣の人がどんな音楽を聴いているかは普通分かりません。その人たちの体に同じ拍が伝わっていく映像がいい。帰りの電車でふと思い出す一曲です。"
   },
   {
     "id": "sakanaction-005",
@@ -11032,7 +11410,14 @@
     "summary": "歯切れよく刻まれる打楽器と、何度も戻ってくるタイトルの響きが耳に残ります。",
     "status": "published",
     "featured_order": 594,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "自分が何者かという難しい問いを、打楽器の一打で誰でも歌に参加できる形にしてしまう。ひとりで悩む言葉が大勢で鳴らせるリズムに変わる、その発明に惹かれます。"
   },
   {
     "id": "aiko-006",
@@ -11047,7 +11432,14 @@
     "summary": "言葉が勢いよく転がり、テトラポットという日常の会話では珍しい響きまで、自然に口ずさめる旋律になります。",
     "status": "published",
     "featured_order": 595,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    },
+    "rating_reason": "「テトラポット」という角ばった響きが、歌うと不思議なほど軽く跳びます。言葉を伸ばしたり詰めたりするだけで、会いたい人までの距離が変わるようなメロディーです。"
   },
   {
     "id": "mr-children-010",
@@ -11062,7 +11454,14 @@
     "summary": "最初に耳に残るのは、歌が入る前のギターのフレーズ。",
     "status": "published",
     "featured_order": 596,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    },
+    "rating_reason": "イントロのギターには、口笛を吹きたくなる明るさがあります。一曲聴いてそこへ戻ると、同じフレーズに帰り道の寂しさも混じる。二度目のイントロまで聴きたい曲です。"
   },
   {
     "id": "fukuyama-masaharu-012",
@@ -11077,7 +11476,14 @@
     "summary": "英語のタイトルを口にする瞬間と、日本語で気持ちをほどいていく部分。",
     "status": "published",
     "featured_order": 597,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "英語の題をひと息で歌った後、日本語の語尾には未練がゆっくり残ります。低い声の同じ響きが、平気な顔にも本音にも聞こえる。その往復を味わいたい一曲です。"
   },
   {
     "id": "hirai-ken-005",
@@ -11092,7 +11498,14 @@
     "summary": "歌に合わせて体を動かしたくなる映像の楽しさと、ひとりの相手を喜ばせたいまっすぐな歌心。",
     "status": "published",
     "featured_order": 598,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "一人を笑顔にしたいという大まじめな願いに、あの愉快な振り付けを付けたのがいい。まねをしているうちに照れくささが薄れて、気がつけば自分も応援する側に回っています。"
   },
   {
     "id": "southern-all-stars-010",
@@ -11107,7 +11520,14 @@
     "summary": "晴れた海辺のまぶしさと、そこにいる人の胸の痛さ。",
     "status": "published",
     "featured_order": 599,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "伸びやかな旋律に乗って海が開けるように感じたあと、桑田の声の端にふと痛みが残ります。晴天と別れの気配を一枚の夏景色にする、サビの運びを選びました。"
   },
   {
     "id": "kuwata-keisuke-018",
@@ -11122,7 +11542,14 @@
     "summary": "別れの歌なのに、リズムに乗ると自然に足が前へ出る。",
     "status": "published",
     "featured_order": 600,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "失恋の歌をこんなに軽く刻むと、足だけ先に明日へ向かって歩き出すようです。その歩幅についていけない声の切なさが残るから、軽快さがいっそう効いています。"
   },
   {
     "id": "bruno-mars-005",
@@ -11137,7 +11564,14 @@
     "summary": "裏拍で鳴るギターと、肩の力が抜けた歌い方を追ってみてください。",
     "status": "published",
     "featured_order": 601,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "何もしない日にしたい、と歌う人の後ろでダンサーたちが息を合わせている。その妙に手の込んだ脱力ぶりに笑ってしまいます。裏拍が耳だけでなく肩にも残る映像です。"
   },
   {
     "id": "girls-generation-005",
@@ -11152,7 +11586,14 @@
     "summary": "韓国語版のMVでは、短く打ち込まれるビートと、かけ声のようにそろう声がダンスの輪郭を作ります。",
     "status": "published",
     "featured_order": 602,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "足の踏み込みと掛け声が重なるところは、画面を見たほうが拍の強さが分かります。一人ずつ違う声を持つグループが、一瞬で一つの形を作る面白さを選びました。"
   },
   {
     "id": "aimer-004",
@@ -11167,7 +11608,14 @@
     "summary": "ギターの厚い響きに、息の混じった低い声が重なります。",
     "status": "published",
     "featured_order": 603,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "サビで力を増しても、声には息のかすれが残ります。決意を歌う人の中にまだある迷いまで聞こえるので、ギターの厚みと声を別々に追ってもう一度聴きたくなります。"
   },
   {
     "id": "uru-005",
@@ -11182,7 +11630,14 @@
     "summary": "花を思わせる造形や光が浮かぶ映像の中で、Uruはサビの一音をまっすぐ長く保ちます。",
     "status": "published",
     "featured_order": 604,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "長く保たれた一音を支える伴奏が、声の後ろで少しずつ厚くなります。強く言い直さなくても想いは深まる、と感じさせる呼吸の長さがこの曲の魅力です。"
   },
   {
     "id": "lilas-005",
@@ -11197,7 +11652,14 @@
     "summary": "ドラマ『大奥』の主題歌。",
     "status": "published",
     "featured_order": 605,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "身近な花を題に置いて、視線をその先へ飛んでいく種に移します。今ここにいる人が、まだ会ったことのない誰かへ何を渡せるか。世代を越える話が手のひらの大きさで伝わります。"
   },
   {
     "id": "shiina-ringo-015",
@@ -11212,7 +11674,14 @@
     "summary": "英語で静かに誘う歌い出しと、日本語で畳みかけるサビの落差が鮮烈だ。",
     "status": "published",
     "featured_order": 606,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "白い衣装と割れるガラスの硬い質感が、息を含んだ歌声に鋭い縁を付けます。音だけで聴いていたときに感じた欲求の強さが、画面を開くと体の動きとして見えてきます。"
   },
   {
     "id": "tokyo-jihen-016",
@@ -11227,7 +11696,14 @@
     "summary": "跳ねるピアノのフレーズに、歌とドラムが次々と応じる。",
     "status": "published",
     "featured_order": 607,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "ピアノの弾みを聴いていると、次は歌が、次はドラムが先へ出たくなるようです。音を詰めても身軽さを失わない合奏で、好きな楽器を替えるたびに主役が変わります。"
   },
   {
     "id": "dreams-come-true-010",
@@ -11242,7 +11718,14 @@
     "summary": "子どもの頃に連れていってもらった場所へ、今度は自分から誘う。",
     "status": "published",
     "featured_order": 608,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "昔は手を引いてもらった道を、今度は自分から歩こうと誘う。親子の役割がそっと入れ替わるのに、誘い文句の明るさは変わりません。久しぶりに実家へ帰る日に思い出したい曲です。"
   },
   {
     "id": "nakashima-mika-004",
@@ -11257,7 +11740,14 @@
     "summary": "桜の春を入り口に、季節が移るにつれて二人の立つ風景も変わる。",
     "status": "published",
     "featured_order": 609,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 1,
+      "selection": "lyrics"
+    },
+    "rating_reason": "桜の色から次の季節へ移っていく風景の中に、二人の関係の行方が見え隠れします。先に春の歌として聴き、季節を一巡してからもう一度、冒頭の桜を見たくなる詞です。"
   },
   {
     "id": "mai-kuraki-014",
@@ -11272,7 +11762,14 @@
     "summary": "京都の橋を思い浮かべながら、和楽器の響きと穏やかな歌声が重なるところを聴きたい。",
     "status": "published",
     "featured_order": 610,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 5,
+      "lyrics": 4,
+      "mv": 1,
+      "selection": "song"
+    },
+    "rating_reason": "和の音色が橋の向こうに風景を広げる一方、歌声はずっと一人に向いています。景色の広さと想いの近さを一緒に残す旋律が、この公式音源を選んだ理由です。"
   },
   {
     "id": "official-hige-dandism-018",
@@ -11287,7 +11784,14 @@
     "summary": "リンク先は2018年のアコースティック公演の映像。",
     "status": "published",
     "featured_order": 611,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "映画なら切ってしまうような日々の端々を、これからも一緒に撮っていこうとする。長さを誇る題名が、いつしか相手と年を重ねたいという慎ましい願いに聞こえるので、歌詞を選びました。"
   },
   {
     "id": "king-gnu-005",
@@ -11302,7 +11806,14 @@
     "summary": "走り出すような曲に乗せ、映像ではメンバーそれぞれが別の時間を過ごす。",
     "status": "published",
     "featured_order": 612,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "mv"
+    },
+    "rating_reason": "四人の別々の過ごし方を一つの曲が束ねる映像に惹かれます。年齢を重ねた人が自分の好きなことに夢中になる姿を見ていると、題名の若さがぐっと身近になります。"
   },
   {
     "id": "vaundy-021",
@@ -11317,7 +11828,14 @@
     "summary": "風の強さを音だけで思い描いてから、齋藤飛鳥が登場する公式映像を観てみたい。",
     "status": "published",
     "featured_order": 613,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "mv"
+    },
+    "rating_reason": "齋藤飛鳥の体の動きを見ていると、音の勢いがどの瞬間に指先や肩へ届くかが分かります。目に見えない風を、画面の中で人が受け止める面白さを選びました。"
   },
   {
     "id": "back-number-007",
@@ -11332,7 +11850,14 @@
     "summary": "二人の会話にそっと同席するような始まり方をする。",
     "status": "published",
     "featured_order": 614,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "先のことを聞かれて、立派な約束をすらすら返せない。その返事の不器用さまで残してあるから、二人の会話に信用がおけます。何かを贈る日の前に聴き返したい歌です。"
   },
   {
     "id": "utada-hikaru-007",
@@ -11347,7 +11872,14 @@
     "summary": "赤や青をただの景色として思い浮かべていると、いつのまにか色が歌い手の気持ちを代弁しているように聞こえます。",
     "status": "published",
     "featured_order": 615,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "同じ青でも、気持ちが変わればまるで違う色に見える。景色を描く言葉で、説明しにくい心の移り変わりまで伝える歌です。どの色が最後に残るかで、その日の自分にも気づきます。"
   },
   {
     "id": "hoshino-gen-013",
@@ -11362,7 +11894,14 @@
     "summary": "髪の匂いのような、よそ行きの言葉では拾いにくい感覚から始まるラブソング。",
     "status": "published",
     "featured_order": 616,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "人に話すほどでもない髪の匂いや癖が、後からその人をいちばんよく思い出させる。この歌は、そういう小さな記憶をちゃんとラブソングの真ん中に置いています。"
   },
   {
     "id": "sakanaction-006",
@@ -11377,7 +11916,14 @@
     "summary": "富士山を背にした演奏と、日本舞踊を思わせる踊りが同じ画面に収まります。",
     "status": "published",
     "featured_order": 617,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "富士山を背に動く袖の線を目で追うと、打ち込みの拍が手の動きにも見えてきます。日本舞踊とバンド演奏を同じ風景に置いた、この映像で出会いたい曲です。"
   },
   {
     "id": "aiko-007",
@@ -11392,7 +11938,14 @@
     "summary": "誰かを待つ時間を、明るい響きの中で描く一曲です。",
     "status": "published",
     "featured_order": 618,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "待つ人の時間はなかなか進まないのに、歌には明るい光が差しています。楽しみと心細さをいっぺんに抱えて誰かの帰りを待ったことがあると、題名の響きが少し変わります。"
   },
   {
     "id": "mr-children-011",
@@ -11407,7 +11960,14 @@
     "summary": "もう一度バンドを組む大人たちを追った映像。",
     "status": "published",
     "featured_order": 619,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "大人たちが楽器を手にして互いの顔を見るだけで、出会った頃と今との間に流れた時間が見えます。もう一度始める人たちの表情が、歌を聴くこちらの「これから」にまで届きます。"
   },
   {
     "id": "fukuyama-masaharu-013",
@@ -11422,7 +11982,14 @@
     "summary": "誰かに何かを尋ねるときの、ためらいを含んだ小さな間がある。",
     "status": "published",
     "featured_order": 620,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "相手の返事を待っているわずかな沈黙に、口にできた願いと、まだ言えない願いが両方あります。ためらいを抱えた人の速さに合わせて進む言葉を選びました。"
   },
   {
     "id": "hirai-ken-006",
@@ -11437,7 +12004,14 @@
     "summary": "時計が時を刻む音を歌うくだりと、止まってしまった後の静けさ。",
     "status": "published",
     "featured_order": 621,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "初めは働き者の時計の音だった刻みが、最後にはおじいさんと暮らした時間そのものに聞こえます。物の一生をたどることで、一人の人生まで思い出させる物語です。"
   },
   {
     "id": "southern-all-stars-011",
@@ -11452,7 +12026,14 @@
     "summary": "自然に口ずさめるサビが、人と人とが分かり合う難しさを運んでくる。",
     "status": "published",
     "featured_order": 622,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "意見が合わない相手にも同じメロディーなら口ずさめるかもしれない。そんな余地を聴き手に手渡しながら、人と人がすれ違う理由を問い続ける歌です。"
   },
   {
     "id": "kuwata-keisuke-019",
@@ -11467,7 +12048,14 @@
     "summary": "いろいろな音楽の名前や響きが飛び交い、歌声も身振りを変えるように表情を替える。",
     "status": "published",
     "featured_order": 623,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "言い回しが切り替わるたび、同じ声が違う楽器のように鳴ります。意味を全部つかむ前から体が拍を取ってしまう。桑田佳祐の言葉遊びを耳で楽しむ一曲です。"
   },
   {
     "id": "bruno-mars-006",
@@ -11482,7 +12070,14 @@
     "summary": "ほとんどピアノと声だけで、過ぎた恋を振り返ります。",
     "status": "published",
     "featured_order": 624,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "渡せばよかった花や、一緒に踊ればよかった時間。悔やんで数えていたことを、最後には別の人にかなえてほしいと願う。似た旋律をこの視点の変化でもう一度聴かせます。"
   },
   {
     "id": "girls-generation-006",
@@ -11497,7 +12092,14 @@
     "summary": "韓国語版の弾む電子音に乗って、歌い手が次々と入れ替わります。",
     "status": "published",
     "featured_order": 625,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 3,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "歌い手が一人ずつ走り出し、全員の掛け声がそれを受け止めます。応援する人とされる人が入れ替わるような楽しさで、初めてでも掛け声から仲間に入れる曲です。"
   },
   {
     "id": "aimer-005",
@@ -11512,7 +12114,14 @@
     "summary": "言葉をそっと置く歌い出しと、英語と日本語をつないで声を伸ばすサビとで、相手との距離が違って聞こえます。",
     "status": "published",
     "featured_order": 626,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "相手に届きそうで届かない気持ちが、言葉を言い終えたあとの間にも続きます。雨の日に誰かと交わした短い会話を、後になって何度も思い返す感覚に近い歌です。"
   },
   {
     "id": "uru-006",
@@ -11527,7 +12136,14 @@
     "summary": "映画『罪の声』のために書き下ろされた曲です。",
     "status": "published",
     "featured_order": 627,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "過去へ戻っては今へ帰る心を、同じ場所を行き来する振り子の姿で捉えています。一度は落ち着いた声にまた揺れが戻ると、忘れたつもりのことが自分にもあると気づきます。"
   },
   {
     "id": "lilas-006",
@@ -11542,7 +12158,14 @@
     "summary": "自分の選んだ道に答えがあるのか、立ち止まりながら考える歌です。",
     "status": "published",
     "featured_order": 628,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "mv"
+    },
+    "rating_reason": "子どもの頃を過ごした街に、今の歌声が重なります。答えを探す人と、まだ問いも知らなかった子どもが同じ場所に立つように見える。街を映した意味のある一本です。"
   },
   {
     "id": "shiina-ringo-016",
@@ -11557,7 +12180,14 @@
     "summary": "言いにくいことを相手にひとつずつ話すような歌い出し。",
     "status": "published",
     "featured_order": 629,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "好きな人との「今」をそのまま留めておきたいほど、次の瞬間が怖くなる。やわらかな歌い出しからギターが膨らむところで、その矛盾が痛みを伴って届きます。"
   },
   {
     "id": "tokyo-jihen-017",
@@ -11572,7 +12202,14 @@
     "summary": "切迫した題名から想像する激しさを、細く抑えた声と粘るベースが引き受ける。",
     "status": "published",
     "featured_order": 630,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "騒がしくなりそうな題なのに、ベースが粘り、声は細く、張り詰めたまま進みます。大声を出す手前のほうがかえって怖い。その緊張を音量に頼らず作った演奏です。"
   },
   {
     "id": "mai-kuraki-015",
@@ -11587,7 +12224,14 @@
     "summary": "波打ち際へ駆け出すようなテンポの中、英語の掛け声がリズムを一段と弾ませる。",
     "status": "published",
     "featured_order": 631,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "song"
+    },
+    "rating_reason": "勢いよく押し寄せるギターの上を、涼しげな声が軽く越えていきます。明るさ一色に塗らずに風の通る隙間を残したところに、何度も夏にかけたくなる理由があります。"
   },
   {
     "id": "official-hige-dandism-019",
@@ -11602,7 +12246,14 @@
     "summary": "言葉を手渡したいのに、口にした瞬間に温度が変わってしまう。",
     "status": "published",
     "featured_order": 632,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "伝えたい気持ちにぴったりの字幕を付けられたら、という発想に惹かれます。温かい言葉を探すほど雪の冷たさが思い浮かぶ。冬が来るたびに読み方の変わる歌です。"
   },
   {
     "id": "king-gnu-006",
@@ -11617,7 +12268,14 @@
     "summary": "歌い出しの高い声にまず耳を奪われる。",
     "status": "published",
     "featured_order": 633,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 5,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "歳月が相手の姿を変えても、隣にいる人の目には何が見えているか。高く澄んだ歌声に乗せて、年を取ることをこんなに親密な二人の話として聞かせる。その視線を選びました。"
   },
   {
     "id": "vaundy-022",
@@ -11632,7 +12290,14 @@
     "summary": "『映画ドラえもん のび太の地球交響楽』の主題歌。",
     "status": "published",
     "featured_order": 634,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 3,
+      "selection": "lyrics"
+    },
+    "rating_reason": "時間を越える力を想像した先で、いちばん気にかかるのは身近な人の明日。その願いの小ささがいい。映画を知る子どもと、その子を見守る大人とで違う相手を思い浮かべられます。"
   },
   {
     "id": "back-number-008",
@@ -11647,7 +12312,14 @@
     "summary": "若さへの憧れよりも、そのただ中にいて息が詰まる感じが先に来る。",
     "status": "published",
     "featured_order": 635,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "焦りを歌う声にギターの歪みが重なって、青春という二文字から汗のにおいがしてきます。とくに歌の切れ目でも演奏が前へ進み続けるところに、立ち止まれない年頃を感じます。"
   },
   {
     "id": "utada-hikaru-008",
@@ -11662,7 +12334,14 @@
     "summary": "草花や生き物がひしめく映像は伊藤若冲から着想を得ています。",
     "status": "published",
     "featured_order": 636,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 5,
+      "selection": "mv"
+    },
+    "rating_reason": "あふれるほど草花や生き物のいる画面で、一人の声が妙に寂しく響きます。春の華やかさを増すほど失った恋の輪郭がはっきりする、音と映像の取り合わせを選びました。"
   },
   {
     "id": "hoshino-gen-014",
@@ -11677,7 +12356,14 @@
     "summary": "思わず身構える曲名のあとに、弾むリズムと明るい声がやってきます。",
     "status": "published",
     "featured_order": 637,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "題名を声に出すと強烈なのに、演奏に乗せると口元が緩んでしまう。ひどい一日もこんな拍で歌えるのか、と思わせる明るさに救いがあります。"
   },
   {
     "id": "sakanaction-007",
@@ -11692,7 +12378,14 @@
     "summary": "横を通り過ぎる人の髪が風に持ち上がる、ほんの短い出来事。",
     "status": "published",
     "featured_order": 638,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "song"
+    },
+    "rating_reason": "すれ違った一瞬を何度も思い返すときの心の動きと、耳に戻ってくる旋律がよく似ています。題名に付いた読点ほどのわずかな間まで、風の通り道に聞こえます。"
   },
   {
     "id": "aiko-008",
@@ -11707,6 +12400,13 @@
     "summary": "好きな人の目がどこを向いているのか、たったそれだけで胸がざわつく場面が浮かびます。",
     "status": "published",
     "featured_order": 639,
-    "article_type": "official_video_note"
+    "article_type": "official_video_note",
+    "rating": {
+      "song": 4,
+      "lyrics": 4,
+      "mv": 4,
+      "selection": "lyrics"
+    },
+    "rating_reason": "相手の視線ひとつで、その場の空気が変わってしまう。題名は「二人」でも、語り手しか知らない胸の騒ぎがある。その片側からの描き方に恋の実感があります。"
   }
 ]
